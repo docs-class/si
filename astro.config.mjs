@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://docs-class.github.io/si',
-	//base: 'si',
+	base: 'si',
 	integrations: [
 		starlight({
 			title: 'Sistemas Informáticos',
