@@ -20,10 +20,18 @@ export default defineConfig({
             {
                 label: 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
                 items: [
-                    // Each item here is one entry in the navigation menu.
-                    { label: '1.1 Arquitectura y Componentes', slug: 'ut1/ut11' },
-                    { label: '1.2 Tipos de Redes y Componentes', slug: 'ut1/ut12' },
-                    { label: '1.3 Precauciones Básicas', slug: 'ut1/ut13' },
+                    { 
+                        label: '1.1 Arquitectura y Componentes', 
+                        items: [
+                            { label: 'Introdución', slug: 'ut1/ut11' },
+                            { label: 'Arquitectura', slug: 'ut1/ut11-arquitectura' },
+                            { label: 'Caja', slug: 'ut1/ut11-caja' },
+                            'ut1/ut12',
+                            'ut1/ut13',
+                          ],
+                    },
+                  //  { label: '1.2 Tipos de Redes y Componentes', slug: 'ut1/ut12' },
+                    //{ label: '1.3 Precauciones Básicas', slug: 'ut1/ut13' },
                 ],
             },
             {
