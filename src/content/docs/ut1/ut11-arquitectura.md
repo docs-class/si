@@ -3,9 +3,15 @@ title: "Arquitectura"
 description: "Von Neumman"
 ---
 
+
 ## Arquitectura
 
 La **arquitectura de von Neumann** es un modelo de diseño para computadores propuesto por el matemático John von Neumann en 1945. Se ha convertido en la base de casi todos los sistemas informáticos modernos. A continuación, te doy un resumen de sus elementos clave:
+
+<!-- Local image stored in src/assets/ -->
+<!-- Use a relative file path or import alias -->
+![Von Neumman Arquitecture](img/vonNeumman.png)
+
 
 ### Componentes principales:
 1. **Unidad Central de Procesamiento (CPU)**:
@@ -19,6 +25,9 @@ La **arquitectura de von Neumann** es un modelo de diseño para computadores pro
 
 4. **Bus de Datos**:
    - Un sistema de comunicación que transporta datos, direcciones y señales de control entre los diferentes componentes.
+
+
+
 
 ### Funcionamiento básico:
 - **Ciclo de búsqueda y ejecución**: 
