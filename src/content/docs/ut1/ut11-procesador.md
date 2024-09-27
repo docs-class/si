@@ -9,13 +9,28 @@ Al analizar un procesador (CPU), hay varios factores clave que debes tener en cu
    - **Descripción**: Es la velocidad a la que el procesador ejecuta instrucciones, medida en **gigahercios (GHz)**.
    - **Importancia**: A mayor frecuencia, más rápido puede ejecutar una tarea. Sin embargo, la frecuencia por sí sola no garantiza el rendimiento general, ya que otros factores como el número de núcleos también influyen.
 
+![Monitor CPU W11](../../../assets/ut1/cpuMonitor.png)
+Monitor CPU de Windows 11. (ctrl + mayusculas + esc)
+
 ### 2. **Número de Núcleos (Cores)**
    - **Descripción**: Un núcleo es una unidad de procesamiento independiente dentro del procesador.
    - **Importancia**: Cuantos más núcleos tenga un procesador, más tareas o hilos puede manejar simultáneamente. Procesadores con múltiples núcleos (dual-core, quad-core, octa-core, etc.) son mejores para multitarea y aplicaciones que requieren procesamiento paralelo.
+   
+   :::note
+   Con el lanzamiento de los procesadores Intel Core de 12ª Generación (Alder Lake), Intel dio un gran paso adelante en esta filosofía, presentando dos tipos diferentes de núcleos dentro de un mismo procesador.
+
+   - Los P-Cores se llaman así porque la P viene de Performance, rendimiento en inglés.
+   - Los E-Cores se llaman así porque la E viene de Efficiency, eficiencia en inglés.
+   - LP E-Core, que sería un núcleo de ultra-bajo consumo. Este diseño sería similar a los procesadores ARM, los cuales también tienen tres tipos de núcleos
+   :::
 
 ### 3. **Número de Hilos (Threads)**
    - **Descripción**: Los hilos son las unidades más pequeñas que gestionan las tareas dentro de un núcleo. Algunos procesadores tienen tecnología de **multithreading** (como **Hyper-Threading** de Intel) que permite a un núcleo manejar más de un hilo simultáneamente.
    - **Importancia**: Más hilos permiten un mejor rendimiento en aplicaciones multitarea y tareas que se benefician del paralelismo, como edición de video o renderizado 3D.
+
+:::danger[FYI]
+Solo los P-core tienen hilos
+:::
 
 ### 4. **Memoria Caché**
    - **Descripción**: La caché es una memoria muy rápida integrada en la CPU para almacenar datos e instrucciones de uso frecuente.
@@ -24,6 +39,8 @@ Al analizar un procesador (CPU), hay varios factores clave que debes tener en cu
      - **L2**: Un poco más grande y más lenta que L1.
      - **L3**: Compartida entre todos los núcleos, más lenta pero de mayor capacidad.
    - **Importancia**: La caché ayuda a acelerar el acceso a datos y reduce la necesidad de ir a la RAM para obtener información, mejorando el rendimiento general.
+
+   ![Caches L1, L2, L3](../../../assets/ut1/caches.png) 
 
 ### 5. **Arquitectura del Procesador**
    - **Descripción**: Se refiere al diseño y estructura interna del procesador. Las arquitecturas más comunes incluyen **x86** y **ARM**.
@@ -53,24 +70,13 @@ Al analizar un procesador (CPU), hay varios factores clave que debes tener en cu
    - **Descripción**: Algunos procesadores permiten **overclocking**, lo que significa que puedes aumentar manualmente su velocidad de reloj por encima de las especificaciones de fábrica.
    - **Importancia**: Si eres un usuario avanzado que busca exprimir el máximo rendimiento, el overclocking puede ser una opción. Sin embargo, genera más calor y puede requerir refrigeración adicional.
 
-### 12. **Rendimiento en Mononúcleo vs. Multinúcleo**
-   - **Mononúcleo**: Medida del rendimiento de un solo núcleo.
-   - **Multinúcleo**: Medida del rendimiento de todos los núcleos trabajando en conjunto.
-   - **Importancia**: Los programas antiguos o simples suelen usar solo uno o dos núcleos, por lo que el rendimiento de un solo núcleo sigue siendo relevante. Sin embargo, muchas aplicaciones modernas pueden aprovechar múltiples núcleos y hilos.
-
-### 13. **Generación del Procesador**
-   - **Descripción**: Los fabricantes como Intel y AMD lanzan nuevas generaciones de procesadores periódicamente, cada una con mejoras en eficiencia, rendimiento y tecnologías.
-   - **Importancia**: Las generaciones más nuevas suelen ofrecer mejor rendimiento y menor consumo energético que las anteriores, incluso a la misma frecuencia de reloj.
-
-### 14. **Fabricante (AMD vs Intel)**
+### 12. **Fabricante (AMD vs Intel)**
    - **Descripción**: Los dos principales fabricantes de procesadores para PCs de escritorio y portátiles son **Intel** y **AMD**.
    - **Importancia**: AMD ha ganado terreno en los últimos años con sus procesadores Ryzen, que ofrecen una excelente relación calidad-precio, mientras que Intel sigue siendo competitivo con sus procesadores de alto rendimiento, especialmente en tareas de mononúcleo.
 
----
+![Procesador AMD e Intel](../../../assets/ut1/procesador.jpg) 
 
-### En resumen:
-- Si vas a realizar **tareas ligeras** como navegación web o edición de documentos, un procesador con menos núcleos y frecuencia moderada puede ser suficiente.
-- Para **multitarea intensiva**, edición de video, o gaming, es importante considerar un procesador con múltiples núcleos, alta frecuencia y un buen número de hilos.
-- Para un **PC compacto** o de bajo consumo, una CPU con GPU integrada puede ser la mejor opción, pero para **gaming avanzado** o **diseño gráfico intensivo**, se recomienda una GPU dedicada.
+### 13. **Integración**
+   - **Descripción**: Desde la unión del North Bridge y South Bridge en lo que se conoce ahora el Chipset, el procesador ha integrado los controladores de Memoria Principal y PCI-express
+   - **Importancia**: Una evolución importante en la arquitectura de los sistemas informáticos que ha tenido un impacto significativo en el rendimiento y la eficiencia de los ordenadores modernos: **Reducción de la Latencia** y **Aumento del Ancho de Banda**
 
-Conocer estos factores te ayudará a elegir el procesador adecuado para tus necesidades, optimizando el rendimiento y asegurándote de que sea compatible con los demás componentes de tu sistema.
