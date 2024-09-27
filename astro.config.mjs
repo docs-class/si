@@ -30,8 +30,8 @@ export default defineConfig({
                             'ut1/ut11-placa',
                           ],
                     },
-                  //  { label: '1.2 Tipos de Redes y Componentes', slug: 'ut1/ut12' },
-                    //{ label: '1.3 Precauciones Básicas', slug: 'ut1/ut13' },
+                  //  { label: '1.2 Tipos de Redes y Componentes', slug: 'ut1/ut11' },
+                    //{ label: '1.3 Precauciones Básicas', slug: 'ut1/ut11' },
                 ],
             },
             {
