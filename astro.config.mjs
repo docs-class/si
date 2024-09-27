@@ -25,9 +25,9 @@ export default defineConfig({
                         items: [
                             { label: 'Introdución', slug: 'ut1/ut11' },
                             { label: 'Arquitectura', slug: 'ut1/ut11-arquitectura' },
+                            'ut1/ut11-procesador',
                             { label: 'Caja', slug: 'ut1/ut11-caja' },
-                            'ut1/ut12',
-                            'ut1/ut13',
+                            'ut1/ut11-placa',
                           ],
                     },
                   //  { label: '1.2 Tipos de Redes y Componentes', slug: 'ut1/ut12' },
