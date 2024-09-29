@@ -41,6 +41,18 @@ Cada procesador está diseñado para un tipo específico de socket.
 ![Conectores frontales](../../../assets/ut1/conectores-frontal.jpg)
 ![Conectores posteriores](../../../assets/ut1/conectores-placa-base-trasera.webp)
 
+### PCI-Express 
+**PCI-Express (PCIe)** es una interfaz de conexión de alta velocidad utilizada para conectar componentes como tarjetas gráficas, SSD y tarjetas de red a la placa base. 
+
+#### Características
+- **Arquitectura basada en carriles**: Cada carril tiene líneas para enviar y recibir datos. Las configuraciones más comunes son x1, x4, x8 y x16.
+- **Versiones y velocidad**: Con cada versión, aumenta el ancho de banda. PCIe 4.0 ofrece 2 GB/s por carril, mientras que PCIe 5.0 alcanza 4 GB/s.
+- **Compatibilidad**: PCIe es retrocompatible, aunque los dispositivos funcionarán a la velocidad de la versión más baja.
+- **Uso en GPUs y SSDs**: Tarjetas gráficas usan PCIe x16 para mayor ancho de banda, y los SSD NVMe aprovechan PCIe para alta velocidad.
+
+![PCIe](https://vishub.org/pictures/19103.jpeg?style=500)
+
+
 ### Otros compoentes
 
 - Pila botón para BIOS/UEFI

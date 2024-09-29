@@ -37,10 +37,27 @@ Existen varios tipos de **memoria gráfica** que se utilizan en las **tarjetas g
 4. **DDR/DDR2/DDR3/DDR4/DDR5/LPDDR(Low Power DDR)**:
    - En los procesadores que incorporan la unidad gráfica, se usa la del sistema.
 
-  
+### Conectores de alimentación para tarjetas gráficas
+
+1. **Conector PCIe de 6 pines**:
+   - Proporciona hasta **75W**.
+   - Usado en tarjetas gráficas de gama media.
+
+2. **Conector PCIe de 8 pines**:
+   - Proporciona hasta **150W**.
+   - Común en tarjetas gráficas de gama alta.
+
+3. **Conector PCIe de 12 pines**:
+   - Introducido por Nvidia para las RTX 3000.
+   - Proporciona hasta **300W**.
+
+4. **Conector PCIe de 16 pines (12+4 pines)**:
+   - Usado en GPUs recientes como las RTX 4000.
+   - Proporciona hasta **600W**.
 
 
 
+![cableado GPU](../../../assets/ut1/GPU-Power-Cables.jpg)
 
 :::tip
 Pràcticum I
