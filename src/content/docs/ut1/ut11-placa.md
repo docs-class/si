@@ -48,6 +48,8 @@ Cada procesador está diseñado para un tipo específico de socket.
 
 El BIOS (Basic Input/Output System) y UEFI (Unified Extensible Firmware Interface) son dos tipos de firmware que se encuentran en las placas base y se ejecutan cuando se enciende el ordenador para inicializar el hardware y arrancar el sistema operativo
 
+![Ejemplo de BIOS](../../../assets/ut1/bios.png)
+
 - **Limitaciones BIOS**:
   - Soporta solo discos de hasta **2 TB** de tamaño.
   - Trabaja en **modo de 16 bits**, lo que limita su velocidad y capacidades.

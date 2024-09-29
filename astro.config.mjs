@@ -26,8 +26,10 @@ export default defineConfig({
                             { label: 'Introdución', slug: 'ut1/ut11' },
                             { label: 'Arquitectura', slug: 'ut1/ut11-arquitectura' },
                             'ut1/ut11-procesador',
-                            { label: 'Caja', slug: 'ut1/ut11-caja' },
                             'ut1/ut11-placa',
+                            'ut1/ut11-caja',
+                            'ut1/ut11-ram',
+                            'ut1/ut11-gpu',
                           ],
                     },
                     { label: '1.2 Tipos de Redes y Componentes', 
@@ -37,10 +39,6 @@ export default defineConfig({
                     },
                     'ut1/ut13' 
                 ],
-            },
-            {
-                label: 'Reference',
-                autogenerate: { directory: 'reference' },
             },
         ],
 		}), markdoc()],
