@@ -11,5 +11,5 @@ description: "La caja"
 ![Caja1](../../../assets/ut1/pc3.webp)
 
 :::tip
-Pràcticum I
+Practicum I
 :::
