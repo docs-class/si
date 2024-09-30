@@ -1,82 +1,81 @@
 ---
-title: Procesador
-description: Procesador de un Sistema Informático
+title: Processador
+description: Processador d'un Sistema Informàtic
 ---
 
-Al analizar un procesador (CPU), hay varios factores clave que debes tener en cuenta para comprender su rendimiento y cómo se adapta a tus necesidades. Aquí te resumo los aspectos más importantes que debes saber:
+En analitzar un processador (CPU), hi ha diversos factors clau que has de tindre en compte per a comprendre el seu rendiment i com s'adapta a les teues necessitats. Ací et resumisc els aspectes més importants que has de saber:
 
-### 1. **Frecuencia de Reloj (Clock Speed)**
-   - **Descripción**: Es la velocidad a la que el procesador ejecuta instrucciones, medida en **gigahercios (GHz)**.
-   - **Importancia**: A mayor frecuencia, más rápido puede ejecutar una tarea. Sin embargo, la frecuencia por sí sola no garantiza el rendimiento general, ya que otros factores como el número de núcleos también influyen.
+### 1. **Freqüència de Rellotge (Clock Speed)**
+   - **Descripció**: És la velocitat a la qual el processador executa instruccions, mesurada en **gigahercios (GHz)**.
+   - **Importància**: A major freqüència, més ràpid pot executar una tasca. No obstant això, la freqüència per si sola no garanteix el rendiment general, ja que altres factors com el nombre de nuclis també influeixen.
 
 ![Monitor CPU W11](../../../../assets/ut1/cpuMonitor.png)
-Monitor CPU de Windows 11. (ctrl + mayusculas + esc)
+Monitor CPU de Windows 11. (ctrl + majúscules + esc)
 
-### 2. **Número de Núcleos (Cores)**
-   - **Descripción**: Un núcleo es una unidad de procesamiento independiente dentro del procesador.
-   - **Importancia**: Cuantos más núcleos tenga un procesador, más tareas o hilos puede manejar simultáneamente. Procesadores con múltiples núcleos (dual-core, quad-core, octa-core, etc.) son mejores para multitarea y aplicaciones que requieren procesamiento paralelo.
+### 2. **Nombre de Nuclis (Cores)**
+   - **Descripció**: Un nucli és una unitat de processament independent dins del processador.
+   - **Importància**: Com més nuclis tinga un processador, més tasques o fils pot manejar simultàniament. Processadors amb múltiples nuclis (dual-core, quad-core, octa-core, etc.) són millors per a la multitarea i aplicacions que requereixen processament paral·lel.
    
    :::note
-   Con el lanzamiento de los procesadores Intel Core de 12ª Generación (Alder Lake), Intel dio un gran paso adelante en esta filosofía, presentando dos tipos diferentes de núcleos dentro de un mismo procesador.
+   Amb el llançament dels processadors Intel Core de 12ª Generació (Alder Lake), Intel va fer un gran pas avant en aquesta filosofia, presentant dos tipus diferents de nuclis dins d'un mateix processador:
 
-   - Los P-Cores se llaman así porque la P viene de Performance, rendimiento en inglés.
-   - Los E-Cores se llaman así porque la E viene de Efficiency, eficiencia en inglés.
-   - LP E-Core, que sería un núcleo de ultra-bajo consumo. Este diseño sería similar a los procesadores ARM, los cuales también tienen tres tipos de núcleos
+   - Els P-Cores es diuen així perquè la P prové de Performance, rendiment en anglès.
+   - Els E-Cores es diuen així perquè la E prové de Efficiency, eficiència en anglès.
+   - LP E-Core, que seria un nucli d'ultra-baix consum. Aquest disseny seria similar als processadors ARM, els quals també tenen tres tipus de nuclis.
    :::
 
-### 3. **Número de Hilos (Threads)**
-   - **Descripción**: Los hilos son las unidades más pequeñas que gestionan las tareas dentro de un núcleo. Algunos procesadores tienen tecnología de **multithreading** (como **Hyper-Threading** de Intel) que permite a un núcleo manejar más de un hilo simultáneamente.
-   - **Importancia**: Más hilos permiten un mejor rendimiento en aplicaciones multitarea y tareas que se benefician del paralelismo, como edición de video o renderizado 3D.
+### 3. **Nombre de Fils (Threads)**
+   - **Descripció**: Els fils són les unitats més xicotetes que gestionen les tasques dins d'un nucli. Alguns processadors tenen tecnologia de **multithreading** (com **Hyper-Threading** d'Intel) que permet a un nucli manejar més d'un fil simultàniament.
+   - **Importància**: Més fils permeten un millor rendiment en aplicacions multitarea i tasques que es beneficien del paral·lelisme, com edició de vídeo o renderitzat 3D.
 
 :::danger[FYI]
-Solo los P-core tienen hilos
+Només els P-core tenen fils.
 :::
 
-### 4. **Memoria Caché**
-   - **Descripción**: La caché es una memoria muy rápida integrada en la CPU para almacenar datos e instrucciones de uso frecuente.
-   - **Tipos**: 
-     - **L1**: Pequeña y ultrarrápida, cercana a los núcleos.
-     - **L2**: Un poco más grande y más lenta que L1.
-     - **L3**: Compartida entre todos los núcleos, más lenta pero de mayor capacidad.
-   - **Importancia**: La caché ayuda a acelerar el acceso a datos y reduce la necesidad de ir a la RAM para obtener información, mejorando el rendimiento general.
+### 4. **Memòria Cau (Caché)**
+   - **Descripció**: La caché és una memòria molt ràpida integrada en la CPU per a emmagatzemar dades i instruccions d'ús freqüent.
+   - **Tipus**: 
+     - **L1**: Petita i ultraràpida, propera als nuclis.
+     - **L2**: Un poc més gran i més lenta que L1.
+     - **L3**: Compartida entre tots els nuclis, més lenta però de major capacitat.
+   - **Importància**: La caché ajuda a accelerar l'accés a dades i redueix la necessitat d'acudir a la RAM per a obtindre informació, millorant el rendiment general.
 
    ![Caches L1, L2, L3](../../../../assets/ut1/caches.png) 
 
-### 5. **Arquitectura del Procesador**
-   - **Descripción**: Se refiere al diseño y estructura interna del procesador. Las arquitecturas más comunes incluyen **x86** y **ARM**.
-   - **Importancia**: Las arquitecturas más modernas y eficientes (como **x86-64** o **ARMv8**) permiten un mejor rendimiento y menor consumo de energía.
+### 5. **Arquitectura del Processador**
+   - **Descripció**: Es refereix al disseny i estructura interna del processador. Les arquitectures més comunes inclouen **x86** i **ARM**.
+   - **Importància**: Les arquitectures més modernes i eficients (com **x86-64** o **ARMv8**) permeten un millor rendiment i menor consum d'energia.
 
-### 6. **Proceso de Fabricación (Tecnología de fabricación)**
-   - **Descripción**: El tamaño de los transistores dentro de un chip, medido en **nanómetros (nm)**.
-   - **Importancia**: A menor tamaño de los transistores (por ejemplo, 7 nm o 5 nm), mayor densidad de transistores, lo que significa un procesador más eficiente y de mejor rendimiento. Esto reduce el consumo energético y genera menos calor.
+### 6. **Procés de Fabricació (Tecnologia de fabricació)**
+   - **Descripció**: El tamany dels transistors dins d'un xip, mesurat en **nanòmetres (nm)**.
+   - **Importància**: A menor tamany dels transistors (per exemple, 7 nm o 5 nm), major densitat de transistors, la qual cosa significa un processador més eficient i de millor rendiment. Això redueix el consum energètic i genera menys calor.
 
-### 7. **Potencia Térmica de Diseño (TDP - Thermal Design Power)**
-   - **Descripción**: Medida en vatios, indica la cantidad de calor que el procesador disipa bajo carga máxima.
-   - **Importancia**: Un TDP más alto implica mayor consumo de energía y la necesidad de mejores soluciones de refrigeración. Es relevante para saber qué tipo de sistema de refrigeración necesitarás.
+### 7. **Potència Tèrmica de Disseny (TDP - Thermal Design Power)**
+   - **Descripció**: Mesurada en watts, indica la quantitat de calor que el processador dissipa sota càrrega màxima.
+   - **Importància**: Un TDP més alt implica major consum d'energia i la necessitat de millors solucions de refrigeració. És rellevant per a saber quin tipus de sistema de refrigeració necessitaràs.
 
-### 8. **Soporte de Instrucciones**
-   - **Descripción**: Los procesadores modernos soportan conjuntos de instrucciones especiales como **SSE**, **AVX**, **NEON** (en ARM), que aceleran tareas específicas, como gráficos, cálculos científicos o cifrado.
-   - **Importancia**: Esto puede mejorar considerablemente el rendimiento en aplicaciones que aprovechan estas instrucciones.
+### 8. **Suport d'Instruccions**
+   - **Descripció**: Els processadors moderns suporten conjunts d'instruccions especials com **SSE**, **AVX**, **NEON** (en ARM), que acceleren tasques específiques, com gràfics, càlculs científics o xifrat.
+   - **Importància**: Açò pot millorar considerablement el rendiment en aplicacions que aprofiten aquestes instruccions.
 
-### 9. **Compatibilidad con Memoria RAM**
-   - **Descripción**: Los procesadores están diseñados para trabajar con ciertos tipos y velocidades de memoria RAM (por ejemplo, **DDR4**, **DDR5**).
-   - **Importancia**: Cuanto más rápida y avanzada sea la memoria RAM que soporta, mejor será el rendimiento en tareas intensivas en memoria.
+### 9. **Compatibilitat amb Memòria RAM**
+   - **Descripció**: Els processadors estan dissenyats per a treballar amb certs tipus i velocitats de memòria RAM (per exemple, **DDR4**, **DDR5**).
+   - **Importància**: Com més ràpida i avançada siga la memòria RAM que suporta, millor serà el rendiment en tasques intensives en memòria.
 
 ### 10. **GPU Integrada (iGPU)**
-   - **Descripción**: Algunos procesadores tienen una **Unidad de Procesamiento Gráfico** integrada, lo que permite gestionar gráficos sin necesidad de una tarjeta gráfica dedicada.
-   - **Importancia**: Para tareas ligeras como la navegación web, ofimática y reproducción de video, una GPU integrada puede ser suficiente, pero para tareas intensivas como gaming o renderizado, una GPU dedicada es preferible.
+   - **Descripció**: Alguns processadors tenen una **Unitat de Processament Gràfic** integrada, cosa que permet gestionar gràfics sense necessitat d'una targeta gràfica dedicada.
+   - **Importància**: Per a tasques lleugeres com la navegació web, ofimàtica i reproducció de vídeo, una GPU integrada pot ser suficient, però per a tasques intensives com gaming o renderitzat, és preferible una GPU dedicada.
 
 ### 11. **Overclocking**
-   - **Descripción**: Algunos procesadores permiten **overclocking**, lo que significa que puedes aumentar manualmente su velocidad de reloj por encima de las especificaciones de fábrica.
-   - **Importancia**: Si eres un usuario avanzado que busca exprimir el máximo rendimiento, el overclocking puede ser una opción. Sin embargo, genera más calor y puede requerir refrigeración adicional.
+   - **Descripció**: Alguns processadors permeten **overclocking**, la qual cosa significa que pots augmentar manualment la seua velocitat de rellotge per damunt de les especificacions de fàbrica.
+   - **Importància**: Si eres un usuari avançat que busca exprimir el màxim rendiment, l'overclocking pot ser una opció. No obstant això, genera més calor i pot requerir refrigeració addicional.
 
-### 12. **Fabricante (AMD vs Intel)**
-   - **Descripción**: Los dos principales fabricantes de procesadores para PCs de escritorio y portátiles son **Intel** y **AMD**.
-   - **Importancia**: AMD ha ganado terreno en los últimos años con sus procesadores Ryzen, que ofrecen una excelente relación calidad-precio, mientras que Intel sigue siendo competitivo con sus procesadores de alto rendimiento, especialmente en tareas de mononúcleo.
+### 12. **Fabricant (AMD vs Intel)**
+   - **Descripció**: Els dos principals fabricants de processadors per a PCs d'escriptori i portàtils són **Intel** i **AMD**.
+   - **Importància**: AMD ha guanyat terreny en els últims anys amb els seus processadors Ryzen, que ofereixen una excel·lent relació qualitat-preu, mentre que Intel continua sent competitiu amb els seus processadors d'alt rendiment, especialment en tasques de mononucli.
 
-![Procesador AMD e Intel](../../../../assets/ut1/procesador.jpg) 
+![Processador AMD i Intel](../../../../assets/ut1/procesador.jpg) 
 
-### 13. **Integración**
-   - **Descripción**: Desde la unión del North Bridge y South Bridge en lo que se conoce ahora el Chipset, el procesador ha integrado los controladores de Memoria Principal y PCI-express
-   - **Importancia**: Una evolución importante en la arquitectura de los sistemas informáticos que ha tenido un impacto significativo en el rendimiento y la eficiencia de los ordenadores modernos: **Reducción de la Latencia** y **Aumento del Ancho de Banda**
-
+### 13. **Integració**
+   - **Descripció**: Des de la unió del North Bridge i South Bridge en el que es coneix ara com a Chipset, el processador ha integrat els controladors de Memòria Principal i PCI-express.
+   - **Importància**: Una evolució important en l'arquitectura dels sistemes informàtics que ha tingut un impacte significatiu en el rendiment i l'eficiència dels ordinadors moderns: **Reducció de la Latència** i **Augment de l'Ample de Banda**.

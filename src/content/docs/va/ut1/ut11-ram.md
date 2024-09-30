@@ -1,69 +1,67 @@
 ---
-title: "Memora RAM"
-description: "Memoria RAM"
+title: "Memòria RAM"
+description: "Memòria RAM"
 ---
 
-La **memoria RAM** (Random Access Memory) es una memoria de acceso rápido y volátil que almacena temporalmente datos e instrucciones que el procesador necesita mientras se ejecutan programas o aplicaciones.
+La **memòria RAM** (Random Access Memory) és una memòria d'accés ràpid i volàtil que emmagatzema temporalment dades i instruccions que el processador necessita mentre s'executen programes o aplicacions.
 
-## Características clave
-1. **Volátil**: Pierde su contenido al apagar el ordenador.
-2. **Acceso rápido**: Es mucho más rápida que las unidades de almacenamiento como discos duros o SSDs.
-3. **Función principal**: Almacena datos e instrucciones temporalmente para que el procesador acceda a ellos rápidamente, mejorando el rendimiento del sistema.
+## Característiques clau
+1. **Volàtil**: Perd el seu contingut en apagar l'ordinador.
+2. **Accés ràpid**: És molt més ràpida que les unitats d'emmagatzematge com discos durs o SSD.
+3. **Funció principal**: Emmagatzema dades i instruccions temporalment perquè el processador puga accedir a elles ràpidament, millorant el rendiment del sistema.
 
-## **Tipos de RAM**
+## **Tipus de RAM**
 
 ### **DRAM (Dynamic RAM)**
-   - **Descripción**: La memoria RAM dinámica almacena los datos en condensadores, que deben ser constantemente refrescados para mantener la información.
-   - **Uso**: Es el tipo de RAM más común en ordenadores y dispositivos móviles.
-   - **Tipos derivados**:
-     - **SDRAM (Synchronous DRAM)**: Sincronizada con el reloj del sistema, lo que mejora su eficiencia.
-     - **DDR (Double Data Rate SDRAM)**: Evolución de la SDRAM que transfiere datos en ambos flancos del ciclo de reloj, duplicando la tasa de transferencia.
+   - **Descripció**: La memòria RAM dinàmica emmagatzema les dades en condensadors, que han de ser constantment refrescats per a mantindre la informació.
+   - **Ús**: És el tipus de RAM més comú en ordinadors i dispositius mòbils.
+   - **Tipus derivats**:
+     - **SDRAM (Synchronous DRAM)**: Sincronitzada amb el rellotge del sistema, la qual cosa millora la seua eficiència.
+     - **DDR (Double Data Rate SDRAM)**: Evolució de la SDRAM que transfereix dades en ambdós flancs del cicle de rellotge, duplicant la taxa de transferència.
+
 #### 1.1. DDR (Double Data Rate)
-   - **DDR**: Primera versión de la memoria DDR, duplicaba la velocidad de la SDRAM.
-   - **DDR2**: Mayor velocidad de transferencia y menor consumo energético que DDR.
-   - **DDR3**: Aumenta la velocidad y reduce aún más el consumo de energía en comparación con DDR2.
-   - **DDR4**: Mayor rendimiento, capacidad y menor consumo energético, común en PCs modernos.
-   - **DDR5**: La versión más reciente, con mayor ancho de banda, capacidad, y eficiencia energética.
+   - **DDR**: Primera versió de la memòria DDR, duplicava la velocitat de la SDRAM.
+   - **DDR2**: Major velocitat de transferència i menor consum energètic que DDR.
+   - **DDR3**: Augmenta la velocitat i redueix encara més el consum d'energia en comparació amb DDR2.
+   - **DDR4**: Major rendiment, capacitat i menor consum energètic, comú en PCs moderns.
+   - **DDR5**: La versió més recent, amb major ample de banda, capacitat, i eficiència energètica.
 
 #### 1.2. LPDDR (Low Power DDR)
-   - **Descripción**: Es una variante de la memoria DDR diseñada para dispositivos móviles y portátiles.
-   - **Ventaja**: Optimizada para consumir menos energía, lo que es ideal para mejorar la duración de la batería en dispositivos móviles.
-   - **Versiones**: Similar a DDR, existen LPDDR2, LPDDR3, LPDDR4 y la más reciente **LPDDR5**, cada una mejorando en velocidad y eficiencia energética.
+   - **Descripció**: És una variant de la memòria DDR dissenyada per a dispositius mòbils i portàtils.
+   - **Avantatge**: Optimitzada per a consumir menys energia, la qual cosa és ideal per a millorar la durada de la bateria en dispositius mòbils.
+   - **Versions**: Similar a DDR, existeixen LPDDR2, LPDDR3, LPDDR4 i la més recent **LPDDR5**, cadascuna millorant en velocitat i eficiència energètica.
 
 #### 1.3. GDDR (Graphics DDR)
-   - **Descripción**: Es una versión especializada de DDR diseñada específicamente para **tarjetas gráficas**.
-   - **Uso**: Utilizada en GPUs (tarjetas gráficas) debido a sus altos requisitos de ancho de banda.
-   - **Versiones**: Similar a DDR, se actualiza con versiones como **GDDR5**, **GDDR6**, ofreciendo mayor rendimiento gráfico.
+   - **Descripció**: És una versió especialitzada de DDR dissenyada específicament per a **targetes gràfiques**.
+   - **Ús**: Utilitzada en GPUs (targetes gràfiques) a causa dels seus alts requisits d'ample de banda.
+   - **Versions**: Similar a DDR, s'actualitza amb versions com **GDDR5**, **GDDR6**, oferint major rendiment gràfic.
 
 ### **SRAM (Static RAM)**
-   - **Descripción**: No necesita refrescarse constantemente como la DRAM, por lo que es más rápida, pero también más cara y consume más espacio.
-   - **Uso**: Se utiliza principalmente en la CMOS de la BIOS y en las cachés de CPU y GPU.
+   - **Descripció**: No necessita ser refrescada constantment com la DRAM, per la qual cosa és més ràpida, però també més cara i consumeix més espai.
+   - **Ús**: S'utilitza principalment en la CMOS del BIOS i en les memòries cau (caché) de CPU i GPU.
 
-## Canales
+## Canals
 
-Los canales de memoria RAM son las "autopistas" que conectan el procesador con la memoria, permitiendo el intercambio de datos. Más canales significan más ancho de banda y, por lo tanto, un rendimiento más rápido, especialmente en tareas intensivas como juegos o edición de video.
+Els canals de memòria RAM són les "autopistes" que connecten el processador amb la memòria, permetent l'intercanvi de dades. Més canals signifiquen més ample de banda i, per tant, un rendiment més ràpid, especialment en tasques intensives com jocs o edició de vídeo.
 
-- Single Channel: Un módulo de RAM activo, menor rendimiento.
-- Dual Channel: Dos módulos trabajando en paralelo, duplicando el ancho de banda.
-- Quad Channel: Cuatro módulos, maximiza el ancho de banda, usado en servidores.
+- Single Channel: Un mòdul de RAM actiu, menor rendiment.
+- Dual Channel: Dos mòduls treballant en paral·lel, duplicant l'ample de banda.
+- Quad Channel: Quatre mòduls, maximitza l'ample de banda, usat en servidors.
 
-Más canales mejoran el rendimiento, especialmente en tareas que requieren mucho acceso a la memoria.
+Més canals milloren el rendiment, especialment en tasques que requereixen molt accés a la memòria.
 
-## Frecuencias
+## Freqüències
 
-Las **frecuencias de la RAM** se refieren a la velocidad a la que la memoria puede leer y escribir datos. Se mide en **MHz** (megahercios), y afecta directamente el rendimiento del sistema.
+Les **freqüències de la RAM** es refereixen a la velocitat a la qual la memòria pot llegir i escriure dades. Es mesuren en **MHz** (megahercios), i afecten directament el rendiment del sistema.
 
-#### Características
-1. **Frecuencia base**: Indica cuántos ciclos por segundo puede manejar la RAM. Por ejemplo, una RAM de **3200 MHz** puede realizar 3.2 mil millones de ciclos por segundo.
-2. **Rendimiento**: Cuanto mayor sea la frecuencia, más rápido puede transferir datos la RAM, lo que mejora el rendimiento en tareas intensivas, como juegos, edición de video y multitarea.
-3. **Latencia**: A mayor frecuencia, puede aumentar la latencia (el tiempo que tarda en acceder a los datos), pero en general, frecuencias más altas compensan con mayor ancho de banda.
-4. **Compatibilidad**: La velocidad máxima de la RAM está limitada por la **placa base** y el **procesador**. Es importante que estos componentes soporten la frecuencia de la RAM instalada.
-5. **Overclocking**: Algunas RAM permiten aumentar sus frecuencias por encima de las especificadas, mejorando el rendimiento (aunque puede requerir ajustes en la BIOS/UEFI).
+#### Característiques
+1. **Freqüència base**: Indica quants cicles per segon pot manejar la RAM. Per exemple, una RAM de **3200 MHz** pot realitzar 3,2 mil milions de cicles per segon.
+2. **Rendiment**: Com més alta siga la freqüència, més ràpid pot transferir dades la RAM, cosa que millora el rendiment en tasques intensives, com jocs, edició de vídeo i multitarea.
+3. **Latència**: A major freqüència, pot augmentar la latència (el temps que triga a accedir a les dades), però en general, freqüències més altes compensen amb major ample de banda.
+4. **Compatibilitat**: La velocitat màxima de la RAM està limitada per la **placa base** i el **processador**. És important que aquests components suporten la freqüència de la RAM instal·lada.
+5. **Overclocking**: Algunes RAM permeten augmentar les seues freqüències per damunt de les especificades, millorant el rendiment (encara que pot requerir ajustos en la BIOS/UEFI).
 
-
-
-:::tip[Videos]
+:::tip[Vídeos]
 - [Dual Channel](https://www.youtube.com/watch?v=BIZccTdh7jg)
-
-- [¿Cómo influye la latencia y la frecuencia en la memoria RAM?](https://www.youtube.com/watch?v=cKdAqnQL7mY)
+- [Com influeix la latència i la freqüència en la memòria RAM?](https://www.youtube.com/watch?v=cKdAqnQL7mY)
 :::

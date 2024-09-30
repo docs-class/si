@@ -12,7 +12,11 @@ export default defineConfig({
     base: '/si',
 
     integrations: [markdoc(), starlight({
-        title: 'Sistemas Informáticos',
+        title: {
+            es: 'Sistemas Informáticos',
+            va: 'Sistemes Informàtics',
+            en: 'IT Systems',
+          },
         social: {
             github: 'https://github.com/docs-class/si',
         },
@@ -30,8 +34,8 @@ export default defineConfig({
                     {
                         label: '1.1 Arquitectura y Componentes',
                         items: [
-                            { label: 'Introdución', slug: 'ut1/ut11' },
-                            { label: 'Arquitectura', slug: 'ut1/ut11-arquitectura' },
+                            'ut1/ut11',
+                            'ut1/ut11-arquitectura',
                             'ut1/ut11-procesador',
                             'ut1/ut11-placa',
                             'ut1/ut11-caja',
