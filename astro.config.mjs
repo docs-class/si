@@ -40,7 +40,7 @@ export default defineConfig({
                           'en': '1.1 Arquitecture and Components' ,
                         },
                         items: [
-                            'ut1/ut11',
+                            //'ut1/ut11',
                             'ut1/ut11-arquitectura',
                             'ut1/ut11-procesador',
                             'ut1/ut11-placa',
