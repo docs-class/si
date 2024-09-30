@@ -33,6 +33,7 @@ export default defineConfig({
                             'ut1/ut11-almacenamiento',
                             'ut1/ut11-interfaces',
                             'ut1/ut11-raid',
+                            'ut1/ut11-otros',
                           ],
                     },
                     { label: '1.2 Tipos de Redes y Componentes', 
