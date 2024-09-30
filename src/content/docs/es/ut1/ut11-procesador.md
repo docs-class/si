@@ -9,7 +9,7 @@ Al analizar un procesador (CPU), hay varios factores clave que debes tener en cu
    - **Descripción**: Es la velocidad a la que el procesador ejecuta instrucciones, medida en **gigahercios (GHz)**.
    - **Importancia**: A mayor frecuencia, más rápido puede ejecutar una tarea. Sin embargo, la frecuencia por sí sola no garantiza el rendimiento general, ya que otros factores como el número de núcleos también influyen.
 
-![Monitor CPU W11](../../../assets/ut1/cpuMonitor.png)
+![Monitor CPU W11](../../../../assets/ut1/cpuMonitor.png)
 Monitor CPU de Windows 11. (ctrl + mayusculas + esc)
 
 ### 2. **Número de Núcleos (Cores)**
@@ -40,7 +40,7 @@ Solo los P-core tienen hilos
      - **L3**: Compartida entre todos los núcleos, más lenta pero de mayor capacidad.
    - **Importancia**: La caché ayuda a acelerar el acceso a datos y reduce la necesidad de ir a la RAM para obtener información, mejorando el rendimiento general.
 
-   ![Caches L1, L2, L3](../../../assets/ut1/caches.png) 
+   ![Caches L1, L2, L3](../../../../assets/ut1/caches.png) 
 
 ### 5. **Arquitectura del Procesador**
    - **Descripción**: Se refiere al diseño y estructura interna del procesador. Las arquitecturas más comunes incluyen **x86** y **ARM**.
@@ -74,7 +74,7 @@ Solo los P-core tienen hilos
    - **Descripción**: Los dos principales fabricantes de procesadores para PCs de escritorio y portátiles son **Intel** y **AMD**.
    - **Importancia**: AMD ha ganado terreno en los últimos años con sus procesadores Ryzen, que ofrecen una excelente relación calidad-precio, mientras que Intel sigue siendo competitivo con sus procesadores de alto rendimiento, especialmente en tareas de mononúcleo.
 
-![Procesador AMD e Intel](../../../assets/ut1/procesador.jpg) 
+![Procesador AMD e Intel](../../../../assets/ut1/procesador.jpg) 
 
 ### 13. **Integración**
    - **Descripción**: Desde la unión del North Bridge y South Bridge en lo que se conoce ahora el Chipset, el procesador ha integrado los controladores de Memoria Principal y PCI-express

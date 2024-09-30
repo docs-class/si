@@ -11,17 +11,24 @@ export default defineConfig({
     site: 'https://docs-class.github.io/',
     base: '/si',
 
-    integrations: [markdoc(),starlight({
+    integrations: [markdoc(), starlight({
         title: 'Sistemas Informáticos',
         social: {
             github: 'https://github.com/docs-class/si',
         },
+        locales: {
+            'es': { lang: 'es', label: 'Español' },
+            'en': { lang: 'en', label: 'English' },
+            'va': { lang: 'va', label: 'Valencià' },
+        },
+        // Default locale
+        defaultLocale: 'es',
         sidebar: [
             {
                 label: 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
                 items: [
-                    { 
-                        label: '1.1 Arquitectura y Componentes', 
+                    {
+                        label: '1.1 Arquitectura y Componentes',
                         items: [
                             { label: 'Introdución', slug: 'ut1/ut11' },
                             { label: 'Arquitectura', slug: 'ut1/ut11-arquitectura' },
@@ -34,16 +41,17 @@ export default defineConfig({
                             'ut1/ut11-interfaces',
                             'ut1/ut11-raid',
                             'ut1/ut11-otros',
-                          ],
+                        ],
                     },
-                    { label: '1.2 Tipos de Redes y Componentes', 
+                    {
+                        label: '1.2 Tipos de Redes y Componentes',
                         items: [
                             'ut1/ut12',
-                          ],
+                        ],
                     },
-                    'ut1/ut13' 
+                    'ut1/ut13'
                 ],
             },
         ],
-		}), markdoc()],
+    }), markdoc()],
 });

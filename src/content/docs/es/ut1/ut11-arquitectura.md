@@ -10,7 +10,7 @@ La **arquitectura de von Neumann** es un modelo de diseño para computadores pro
 
 <!-- Local image stored in src/assets/ -->
 <!-- Use a relative file path or import alias -->
-![Von Neumman Arquitecture](../../../assets/ut1/vonNeumman.png)
+![Von Neumman Arquitecture](../../../../assets/ut1/vonNeumman.png)
 
 
 ### Componentes principales:
