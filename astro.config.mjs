@@ -31,6 +31,7 @@ export default defineConfig({
                             'ut1/ut11-ram',
                             'ut1/ut11-gpu',
                             'ut1/ut11-almacenamiento',
+                            'ut1/ut11-interfaces',
                           ],
                     },
                     { label: '1.2 Tipos de Redes y Componentes', 
