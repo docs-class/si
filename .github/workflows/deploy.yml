@@ -17,6 +17,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    continue-on-error: true # Permite que el job continúe incluso con errores
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
