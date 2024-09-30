@@ -22,7 +22,7 @@ export default defineConfig({
         },
         locales: {
             'es': { lang: 'es', label: 'Español' },
-            'en': { lang: 'en', label: 'English' },
+           // 'en': { lang: 'en', label: 'English' },
             'va': { lang: 'va', label: 'Valencià' },
         },
         // Default locale
@@ -30,16 +30,24 @@ export default defineConfig({
         sidebar: [
             {
                 label: 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
+                translations: { 
+                  'va': 'UT1 - SISTEMES INFORMÀTICOS: ARQUITECTURA Y COMPONENTS' ,
+                  'en': 'UT1 - IT SYSTEMS: ARQUITECTURE AND COMPONENTS' ,
+                },
                 items: [
                     {
                         label: '1.1 Arquitectura y Componentes',
+                        translations: { 
+                          'va': '1.1 Arquitectura i Components' ,
+                          'en': '1.1 Arquitecture and Components' ,
+                        },
                         items: [
                             'ut1/ut11',
                             'ut1/ut11-arquitectura',
                             'ut1/ut11-procesador',
                             'ut1/ut11-placa',
                             'ut1/ut11-caja',
-                            'ut1/ut11-ram',
+                            { slug: 'ut1/ut11-ram', badge: { text: 'Current', variant: 'success' }},
                             'ut1/ut11-gpu',
                             'ut1/ut11-almacenamiento',
                             'ut1/ut11-interfaces',
@@ -49,11 +57,24 @@ export default defineConfig({
                     },
                     {
                         label: '1.2 Tipos de Redes y Componentes',
+                        translations: { 
+                          'va': '1.2 Tipus de Xarxes i Components' ,
+                          'en': '1.2 Network Topologies and Components' ,
+                        },
                         items: [
                             'ut1/ut12',
                         ],
                     },
-                    'ut1/ut13'
+                    {
+                      label: '1.3 Precauciones Básicas',
+                      translations: { 
+                        'va': '1.3 Precaucions Bàsiques' ,
+                        'en': '1.3 Basic Precautions' ,
+                      },
+                      items: [
+                          'ut1/ut13',
+                      ],
+                  },
                 ],
             },
         ],
