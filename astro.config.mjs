@@ -22,7 +22,7 @@ export default defineConfig({
             'va': { lang: 'va', label: 'Valencià' },
         },
         // Default locale
-        defaultLocale: 'es',
+        defaultLocale: 'va',
         sidebar: [
             {
                 label: 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
