@@ -27,9 +27,9 @@ export default defineConfig({
         defaultLocale: 'va',
         sidebar: [
             {
-                label: 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
+                label: 'UT1 - SISTEMES INFORMÀTICOS: ARQUITECTURA Y COMPONENTS',
                 translations: { 
-                  'va': 'UT1 - SISTEMES INFORMÀTICOS: ARQUITECTURA Y COMPONENTS' ,
+                  'es': 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES' ,
                   'en': 'UT1 - IT SYSTEMS: ARQUITECTURE AND COMPONENTS' ,
                 },
                 items: [
@@ -76,5 +76,5 @@ export default defineConfig({
                 ],
             },
         ],
-    }), markdoc()],
+    }),],
 });
