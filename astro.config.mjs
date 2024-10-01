@@ -63,6 +63,7 @@ export default defineConfig({
                         },
                         items: [
                             'ut1/ut12',
+                            'ut1/ut12-componentes',
                         ],
                     },
                     {
