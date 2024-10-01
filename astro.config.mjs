@@ -8,9 +8,6 @@ import markdoc from '@astrojs/markdoc';
 export default defineConfig({
     site: 'https://docs-class.github.io/',
     base: '/si',
-    redirects: {
-        'https://docs-class.github.io/si/': 'https://docs-class.github.io/si/va'
-    },
     integrations: [markdoc(), starlight({
         title: {
             es: 'Sistemas Informáticos',
@@ -74,6 +71,35 @@ export default defineConfig({
                         },
                         items: [
                             'ut1/ut13',
+                        ],
+                    },
+                ],
+            },
+            {
+                label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
+                translations: {
+                    'es': 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
+                    'en': 'UT2 - OPERATING SYSTEMS. INTRODUCTION',
+                },
+                items: [
+                    {
+                        label: '2.1 Introducció als Sistemes Operatius',
+                        translations: {
+                            'es': '2.1 Introducción a los Sistemas Operativos',
+                            'en': '2.1 System Operating Introduction',
+                        },
+                        items: [
+                            'ut2/ut2',
+                        ],
+                    },
+                    {
+                        label: '2.2 Màquines virtuals, Instalació i Actualizació de SSOO',
+                        translations: {
+                            'es': '2.2 Máquinas virtuales, Instalación y actualización de SSOO',
+                            'en': '2.2 Virtual Machines, Installing & updating OS',
+                        },
+                        items: [
+                            'ut2/ut2',
                         ],
                     },
                 ],
