@@ -1,5 +1,5 @@
 ---
-title: "Memora RAM"
+title: "Memoria RAM"
 description: "Memoria RAM"
 ---
 
