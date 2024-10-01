@@ -89,7 +89,7 @@ export default defineConfig({
                             'en': '2.1 System Operating Introduction',
                         },
                         items: [
-                            'ut2/ut2',
+                            'ut2/ut21',
                         ],
                     },
                     {
