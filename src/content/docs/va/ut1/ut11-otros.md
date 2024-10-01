@@ -16,10 +16,10 @@ description: "Altres components"
    - Proporcionen colors més brillants i millor contrast.
    - Són més fins i eficients energèticament.
 
-3. **Monitors CRT (Cathode Ray Tube)**:
-   - Tecnologia més antiga, utilitzen tubs de raigs catòdics.
-   - Són més grans i pesats, i consumeixen més energia.
-   - La seua qualitat d'imatge pot ser excel·lent, però estan sent reemplaçats per monitors més moderns.
+3. **Monitors OLED (Organic Light Emitting Diode)**:
+   - Són un tipus de monitor que utilitza díodes orgànics emissors de llum en cada píxel, eliminant la necessitat d'una retroil·luminació.
+   - Ofereixen negres més profunds i un contrast infinit, ja que cada píxel pot apagar-se completament.
+   - Són més fins, lleugers i proporcionen colors més vius, mantenint la qualitat d'imatge des de qualsevol angle de visió.
 
 ### Resolució
 
