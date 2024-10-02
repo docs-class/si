@@ -5,6 +5,8 @@ description: "Interfaces de connexió"
 
 ## Interfaces d'emmagatzematge
 
+Una **interfície** és el punt de connexió i comunicació entre diferents components d'un sistema informàtic, com dispositius de maquinari o perifèrics, que permet l'intercanvi d'informació i la interoperabilitat. En un PC, les interfícies poden ser **físiques (ports USB, SATA, PCIe) o lògiques (controladors, protocols)** i faciliten la interacció i el funcionament conjunt dels diferents elements del sistema.
+
 1. **SATA (Serial ATA)**:
    - Utilitzada principalment per a connectar discos durs (HDD), unitats d'estat sòlid (SSD) i unitats òptiques (CD/DVD).
 

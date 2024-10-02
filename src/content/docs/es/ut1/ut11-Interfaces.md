@@ -5,6 +5,8 @@ description: "Interfaces de conexión"
 
 ## Interfaces de almacenamiento
 
+Una **interfaz** es el punto de conexión y comunicación entre diferentes componentes de un sistema informático, como dispositivos de hardware o periféricos, que permite el intercambio de información y la interoperabilidad. En un PC, las interfaces pueden ser **físicas (puertos USB, SATA, PCIe) o lógicas (drivers, protocolos)** y facilitan la interacción y el funcionamiento conjunto de los diferentes elementos del sistema.
+
 1. **SATA (Serial ATA)**:
    - Utilizada principalmente para conectar discos duros (HDD), unidades de estado sólido (SSD) y unidades ópticas (CD/DVD).
 
