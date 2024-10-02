@@ -82,6 +82,6 @@ Només els P-core tenen fils.
    - Des de la unió del North Bridge i South Bridge en el que es coneix ara com a Chipset, el processador ha integrat els controladors de Memòria Principal i PCI-express.
    - Una evolució important en l'arquitectura dels sistemes informàtics que ha tingut un impacte significatiu en el rendiment i l'eficiència dels ordinadors moderns: **Reducció de la Latència** i **Augment de l'Ample de Banda**.
 
-:::note[Enlaces]
+:::tip[Ampliació]
 [Hiper Threading](https://www.youtube.com/watch?v=lrT9Bl0MCXQ)
 :::
