@@ -5,24 +5,23 @@ description: "Almacenamiento"
 
 ## Local
 
-### **Disc Dur (HDD) vs Unitat d'Estat Sòlid (SSD)**
+### **Disco Duro (HDD) vs Unidad de Estado Sólido (SSD)**
 
-Els **discs durs (HDD)** i les **unitats d'estat sòlid (SSD)** són dos tipus d'emmagatzematge que compleixen la mateixa funció principal: **guardar i recuperar dades**. No obstant això, les seues característiques i el seu funcionament són molt diferents, fet que afecta directament el rendiment, la durabilitat i el cost. A continuació, es presenta una comparativa de les seues diferències més rellevants:
+Los **discos duros (HDD)** y las **unidades de estado sólido (SSD)** son dos tipos de almacenamiento que cumplen la misma función principal: **guardar y recuperar datos**. Sin embargo, sus características y funcionamiento son muy diferentes, lo que afecta directamente al rendimiento, la durabilidad y el coste. A continuación se presenta una comparativa de sus diferencias más relevantes:
 
-| **Característica**         | **Disc Dur (HDD)**                                       | **Unitat d'Estat Sòlid (SSD)**                                  |
-|----------------------------|---------------------------------------------------------|----------------------------------------------------------------|
-| **Tecnologia**             | Utilitza plats magnètics giratoris i un capçal lector/escriptor que es mou físicament per accedir a les dades. | Utilitza memòria flash NAND, que permet llegir i escriure dades de manera electrònica sense peces mòbils. |
-| **Velocitat de Lectura/Escriptura** | Menor velocitat de lectura i escriptura a causa de les limitacions mecàniques. | Velocitat significativament superior per l'absència de parts mòbils i temps d'accés més ràpids. |
-| **Temps d'Arrencada**      | Més lent (segons) a causa del temps necessari perquè els plats giren a la velocitat adequada. | Més ràpid (mil·lisegons), ideal per a temps d'arrencada gairebé instantanis. |
-| **Durabilitat i Resistència** | Major risc de danys físics per cops i vibracions a causa de les seues parts mòbils. | Resistent a cops i vibracions, ja que no té parts mòbils. |
-| **Sorra i Temperatura**   | Produeix soroll durant el seu funcionament i genera més calor. | Sense soroll i genera menys calor durant la seua operació. |
-| **Capacitat d'Emmagatzematge** | Disponible en majors capacitats (fins a 20 TB o més), ideal per a emmagatzemar grans quantitats de dades. | Menor capacitat a un preu assequible (generalment de 500 GB a 2 TB en el mercat comú). |
-| **Preu**                 | Més econòmic per GB d'emmagatzematge. | Més car per GB d'emmagatzematge a causa de la tecnologia avançada. |
-| **Consum d'Energia**     | Major consum d'energia a causa del motor i les peces mòbils. | Menor consum d'energia, ideal per a portàtils i dispositius mòbils. |
-| **Temps de Vida Útil**    | Llarga vida útil amb múltiples cicles de lectura i escriptura, però susceptible a l'ús mecànic. | Vida útil limitada pel nombre de cicles d'escriptura, encara que millora amb cada generació de NAND. |
-| **Ús Ideal**              | Emmagatzematge de dades grans a baix cost, com arxius multimèdia, còpies de seguretat o servidors d'arxius. | Sistemes operatius, aplicacions i jocs, on la velocitat i temps de càrrega són crucials. |
-| **Pes i Mida**          | Major mida i pes, especialment en discos d'alta capacitat. | Més lleuger i compacte, adequat per a equips portàtils i ultrabooks. |
-
+| **Característica**         | **Disco Duro (HDD)**                                       | **Unidad de Estado Sólido (SSD)**                                  |
+|----------------------------|-----------------------------------------------------------|-------------------------------------------------------------------|
+| **Tecnología**             | Utiliza platos magnéticos giratorios y un cabezal lector/escritor que se mueve físicamente para acceder a los datos. | Utiliza memoria flash NAND, lo que permite leer y escribir datos de forma electrónica sin piezas móviles. |
+| **Velocidad de Lectura/Escritura** | Menor velocidad de lectura y escritura debido a las limitaciones mecánicas. | Velocidad significativamente superior debido a la ausencia de partes móviles y tiempos de acceso más rápidos. |
+| **Tiempo de Arranque**     | Más lento (segundos) debido al tiempo necesario para que los platos giren a la velocidad adecuada. | Más rápido (milisegundos), ideal para tiempos de arranque casi instantáneos. |
+| **Durabilidad y Resistencia** | Mayor riesgo de daños físicos por golpes y vibraciones debido a sus partes móviles. | Resistente a golpes y vibraciones, ya que no tiene partes móviles. |
+| **Ruido y Temperatura**    | Produce ruido durante su funcionamiento y genera más calor. | Sin ruido y genera menos calor durante su operación. |
+| **Capacidad de Almacenamiento** | Disponible en mayores capacidades (hasta 20 TB o más), ideal para almacenar grandes cantidades de datos. | Menor capacidad a un precio accesible (generalmente de 500 GB a 2 TB en el mercado común). |
+| **Precio**                 | Más económico por GB de almacenamiento. | Más caro por GB de almacenamiento debido a la tecnología avanzada. |
+| **Consumo de Energía**     | Mayor consumo de energía debido al motor y a las piezas móviles. | Menor consumo de energía, ideal para portátiles y dispositivos móviles. |
+| **Tiempo de Vida Útil**    | Larga vida útil con múltiples ciclos de lectura y escritura, pero susceptible al desgaste mecánico. | Vida útil limitada por el número de ciclos de escritura, aunque mejora con cada generación de NAND. |
+| **Uso Ideal**              | Almacenamiento de datos grandes a bajo coste, como archivos multimedia, copias de seguridad o servidores de archivos. | Sistemas operativos, aplicaciones y juegos, donde la velocidad y tiempos de carga son cruciales. |
+| **Peso y Tamaño**          | Mayor tamaño y peso, especialmente en discos de alta capacidad. | Más ligero y compacto, adecuado para equipos portátiles y ultrabooks. |
 
 ## Red
 
