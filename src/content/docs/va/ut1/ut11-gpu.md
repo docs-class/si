@@ -59,6 +59,6 @@ Hi ha diversos tipus de **memòria gràfica** que s'utilitzen en les **targetes 
 
 ![cablejat GPU](../../../../assets/ut1/GPU-Power-Cables.jpg)
 
-:::tip
+:::caution[activitat]
 Practicum II
 :::

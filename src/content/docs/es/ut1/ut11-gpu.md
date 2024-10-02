@@ -59,6 +59,6 @@ Existen varios tipos de **memoria gráfica** que se utilizan en las **tarjetas g
 
 ![cableado GPU](../../../../assets/ut1/GPU-Power-Cables.jpg)
 
-:::tip
+:::caution[activitad]
 Practicum II
 :::
