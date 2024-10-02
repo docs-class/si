@@ -9,10 +9,10 @@ Una **interfície** és el punt de connexió i comunicació entre diferents comp
 
 1. **SATA (Serial ATA)**:
    - Utilitzada principalment per a connectar discos durs (HDD), unitats d'estat sòlid (SSD) i unitats òptiques (CD/DVD).
+   - SATA III: Fins a 6.0 Gbps (600 MB/s), que és l'estàndard més comú hui en dia.
 
 2. **PCI-Express (PCIe)**:
    - Interfície d'alta velocitat per a connectar targetes gràfiques (GPU), SSDs NVMe, targetes de xarxa i altres perifèrics d'alt rendiment.
-   - SATA III: Fins a 6.0 Gbps (600 MB/s), que és l'estàndard més comú hui en dia.
 
 *  **M.2**:
     - Els SSDs amb format NVMe (Non-Volatile Memory Express) que usen M.2 aconsegueixen velocitats de fins a 32 Gbps (4 GB/s) per PCIe.
@@ -28,25 +28,32 @@ Una **interfície** és el punt de connexió i comunicació entre diferents comp
 
 [![Conectors USB](https://i.blogs.es/050b2a/conectoresusb/1366_2000.jpg)](https://www.xataka.com/basics/tipos-usb-estandares-conectores-caracteristicas-cada-uno)
 
-## Interfaces de vídeo
+### Interfaces de vídeo amb les seues velocitats (últimes versions)
 
 1. **HDMI (High-Definition Multimedia Interface)**:
    - Interfície per a la transmissió d'àudio i vídeo d'alta definició, usada en monitors, televisors i projectors.
+   - **HDMI 2.1**: Suporta una amplada de banda de fins a **48 Gbps**, amb resolucions de fins a **8K a 60 Hz** o **4K a 120 Hz**.
 
 2. **DisplayPort**:
    - Similar a HDMI, però dissenyada específicament per a monitors d'alta resolució i freqüència de refresc.
+   - **DisplayPort 2.0**: Ofereix una amplada de banda de fins a **77,4 Gbps**, amb resolucions de fins a **16K a 60 Hz** o **8K a 120 Hz**.
 
 3. **Ethernet (RJ-45)**:
    - Port per a connectar-se a xarxes mitjançant cable Ethernet, proporcionant accés a Internet o a xarxes locals.
+   - **Ethernet 10G (10 Gigabit)**: Suporta velocitats de fins a **10 Gbps**.
 
 4. **Thunderbolt**:
    - Interfície d'alta velocitat que combina la tecnologia PCIe i DisplayPort, utilitzada per a la transferència de dades, vídeo i energia a través d'un sol cable.
+   - **Thunderbolt 4**: Ofereix una amplada de banda de fins a **40 Gbps**, suportant connexions de múltiples pantalles 4K o una sola pantalla 8K.
 
 5. **DVI (Digital Visual Interface)**:
    - Usada per a connectar monitors, especialment en equips més antics.
+   - **DVI Dual-Link**: Suporta resolucions de fins a **2560 x 1600 píxels** amb una velocitat màxima de **7,92 Gbps**.
 
 6. **VGA (Video Graphics Array)**:
    - Connector analògic utilitzat per a monitors en ordinadors més antics.
+   - Resolucions de fins a **2048 x 1536 píxels** a **85 Hz** en les seues versions més avançades.
+
 
 ## Altres
 
