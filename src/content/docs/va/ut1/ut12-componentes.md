@@ -62,3 +62,7 @@ Els protocols defineixen com es comuniquen els dispositius en una xarxa.
 2. **Mapes lògics:**
    - Representen com es comuniquen els dispositius entre si, incloent subxarxes, adreces IP i ruteig.
    - Exemple: Un diagrama amb les adreces IP de cada dispositiu i rutes de trànsit configurades.
+
+:::caution[activitat]
+Practicum III
+:::

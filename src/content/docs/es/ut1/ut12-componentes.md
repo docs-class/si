@@ -61,4 +61,8 @@ Los protocolos definen cómo se comunican los dispositivos en una red.
 2. **Mapas lógicos:**
    - Representan cómo se comunican los dispositivos entre sí, incluyendo subredes, direcciones IP y ruteo.
    - Ejemplo: Un diagrama con las direcciones IP de cada dispositivo y rutas de tráfico configuradas.
+
+:::caution[activitad]
+Practicum III
+::: 
    
