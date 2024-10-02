@@ -104,7 +104,7 @@ export default defineConfig({
                             'en': '2.2 Virtual Machines, Installing & updating OS',
                         },
                         items: [
-                            'ut2/ut2',
+                            'ut2/ut22',
                         ],
                     },
                 ],
