@@ -65,6 +65,18 @@ Las **frecuencias de la RAM** se refieren a la velocidad a la que la memoria pue
 5. **Overclocking**: Algunas RAM permiten aumentar sus frecuencias por encima de las especificadas, mejorando el rendimiento (aunque puede requerir ajustes en la BIOS/UEFI).
 
 
+#### **Ejemplo de Cálculo de transferencia**
+Supongamos una RAM DDR4 con las siguientes características:
+
+- **Frecuencia de Reloj**: 3200 MHz  
+- **Número de Bits**: 64 bits (bus de datos de la RAM)  
+- **Cantidad de Canales**: 2 (Dual Channel)  
+
+<div style="text-align: center; font-weight: bold;">
+Tasa de Transferencia (MB/s) = 3200 MHz × 64 bits × 2 canales / 8 = 51,200 MB/s = 51,2 GB/s
+</div>
+
+Esto significa que la tasa de transferencia de esta RAM es de **51,2 GB/s**.
 
 :::tip[Videos]
 - [Dual Channel](https://www.youtube.com/watch?v=BIZccTdh7jg)

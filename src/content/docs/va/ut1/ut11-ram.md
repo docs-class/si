@@ -65,6 +65,21 @@ Les **freqüències de la RAM** es refereixen a la velocitat a la qual la memòr
 4. **Compatibilitat**: La velocitat màxima de la RAM està limitada per la **placa base** i el **processador**. És important que aquests components suporten la freqüència de la RAM instal·lada.
 5. **Overclocking**: Algunes RAM permeten augmentar les seues freqüències per damunt de les especificades, millorant el rendiment (encara que pot requerir ajustos en la BIOS/UEFI).
 
+#### **Exemple de Càlcul de transferencia**
+Suposem una RAM DDR4 amb les següents característiques:
+
+- **Freqüència de Rellotge**: 3200 MHz  
+- **Nombre de Bits**: 64 bits (bus de dades de la RAM)  
+- **Quantitat de Canals**: 2 (Dual Channel)  
+
+
+<div style="text-align: center; font-weight: bold;">
+Tasa de Transferència (MB/s) = 3200 MHz × 64 bits × 2 canals / 8 = 51,200 MB/s = 51,2 GB/s
+</div>
+
+Això significa que la taxa de transferència d’aquesta RAM és de **51,2 GB/s**.
+
+
 :::tip[Vídeos]
 - [Dual Channel](https://www.youtube.com/watch?v=BIZccTdh7jg)
 - [Com influeix la latència i la freqüència en la memòria RAM?](https://www.youtube.com/watch?v=cKdAqnQL7mY)
