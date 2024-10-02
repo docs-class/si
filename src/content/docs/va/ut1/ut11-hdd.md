@@ -37,5 +37,11 @@ Els **discs durs (HDD)** i les **unitats d'estat sòlid (SSD)** són dos tipus d
 ### 3. Sistemes SAN (Storage Area Network):
    - Una SAN és una xarxa d'alta velocitat que connecta múltiples dispositius d'emmagatzematge amb servidors, proporcionant accés a blocs de dades. S'utilitza en entorns empresarials per a grans volums de dades.
 
+![NAS VS SAN](https://www.infordisa.com/wp-content/uploads/2016/12/nas-san-comparacion.jpg)
+
 ### 4. Dispositius òptics i cinta:
    - Inclou mitjans com CD, DVD, Blu-ray i cintes magnètiques, que s'utilitzen per a l'emmagatzematge de dades a llarg termini o còpies de seguretat. Encara que menys comuns hui en dia, continuen sent una opció viable per a emmagatzematge offline i segur.
+
+:::tip[Ampliació]
+[NAS VS SAN](https://www.infordisa.com/es/comparativa-san-vs-nas/)
+:::

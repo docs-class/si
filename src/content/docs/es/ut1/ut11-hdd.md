@@ -35,5 +35,12 @@ Los **discos duros (HDD)** y las **unidades de estado sólido (SSD)** son dos ti
 ### 3. Sistemas SAN (Storage Area Network):
    - Una SAN es una red de alta velocidad que conecta múltiples dispositivos de almacenamiento con servidores, proporcionando acceso a bloques de datos. Se utiliza en entornos empresariales para grandes volúmenes de datos.
 
+![NAS VS SAN](https://www.infordisa.com/wp-content/uploads/2016/12/nas-san-comparacion.jpg)
+
 ### 4. Dispositivos ópticos y cinta:
    - Incluye medios como CD, DVD, Blu-ray y cintas magnéticas, que se utilizan para almacenamiento de datos a largo plazo o copias de seguridad. Aunque menos comunes hoy en día, siguen siendo una opción viable para almacenamiento offline y seguro.
+
+
+:::tip[Ampliació]
+[NAS VS SAN](https://www.infordisa.com/es/comparativa-san-vs-nas/)
+:::
