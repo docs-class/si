@@ -66,3 +66,17 @@ RAID 10 combina les característiques de RAID 1 i RAID 0. Primer, les dades es d
 - **Ús típic**: Bases de dades transaccionals, aplicacions que requereixen alt rendiment i disponibilitat.
 
 ![RAID 10](https://www.prepressure.com/images/raid-level-1-and-0-striping-mirroring.svg)
+
+### **Càlcul de paridad en RAID 5**
+
+Suposem que tenim tres discs en un RAID 5 (Disc A, Disc B i Disc C). Les dades es distribueixen de la següent manera:
+
+- **Bloc de dades en Disc A:** 1010  
+- **Bloc de dades en Disc B:** 1100  
+- **Paritat emmagatzemada en Disc C:** 0110 (resultat de 1010 XOR 1100)
+
+Si el **Disc A** falla, es pot calcular el contingut perdut aplicant XOR als blocs del Disc B i la paritat en el Disc C:
+
+- **Recuperació de Disc A:** 1100 XOR 0110 = 1010 (dades originals del Disc A)
+
+![XOR Gate](https://www.analog.com/en/_/media/analog/en/design-center/glossary/xor-gate-symbol.jpg?rev=b3d6c2e239cd4f6eba77eacf0b65be9c)

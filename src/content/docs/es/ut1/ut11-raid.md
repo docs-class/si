@@ -65,3 +65,19 @@ RAID 10 combina las características de RAID 1 y RAID 0. Primero, los datos se d
 - **Uso típico**: Bases de datos transaccionales, aplicaciones que requieren alto rendimiento y disponibilidad.
 
 ![RAID 10](https://www.prepressure.com/images/raid-level-1-and-0-striping-mirroring.svg)
+
+
+### **Cálculo de paridad en RAID 5**
+
+Supongamos que tenemos tres discos en un RAID 5 (Disco A, Disco B y Disco C). Los datos se distribuyen de la siguiente manera:
+
+- **Bloque de datos en Disco A:** 1010  
+- **Bloque de datos en Disco B:** 1100  
+- **Paridad almacenada en Disco C:** 0110 (resultado de 1010 XOR 1100)
+
+Si el **Disco A** falla, se puede calcular el contenido perdido aplicando XOR a los bloques del Disco B y la paridad en el Disco C:
+
+- **Recuperación de Disco A:** 1100 XOR 0110 = 1010 (datos originales del Disco A)
+
+
+![XOR Gate](https://www.analog.com/en/_/media/analog/en/design-center/glossary/xor-gate-symbol.jpg?rev=b3d6c2e239cd4f6eba77eacf0b65be9c)
