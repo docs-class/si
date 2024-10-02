@@ -5,6 +5,9 @@ description: La placa base o motherboard
 
 
 La placa base es un circuito impreso con distintas formas estándar, que permiten que el resto de los componentes se conecten entre ellos
+:::tip[Ampliación]
+[Circuito impreso (es)](https://fadesaing.com/circuitos-impresos/)
+:::
 
 ## 1. Factor de forma de una placa base 
 Se refiere a sus dimensiones físicas, el diseño de sus conectores y la disposición de sus componentes. Determina qué tipo de carcasa o gabinete puede alojar la placa, así como el tipo de componentes que se pueden instalar. Los principales factores de forma para placas base son:

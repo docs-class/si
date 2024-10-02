@@ -3,8 +3,11 @@ title: Placa Base
 description: La placa base o motherboard
 ---
 
-
 La placa base és un circuit imprés amb diferents formes estàndard, que permet que la resta dels components es connecten entre ells.
+
+:::tip[Ampliació]
+[circuit imprès (es)](https://fadesaing.com/circuitos-impresos/)
+:::
 
 ## 1. Factor de forma d'una placa base 
 Es refereix a les seues dimensions físiques, el disseny dels seus connectors i la disposició dels seus components. Determina quin tipus de carcassa o gabinet pot allotjar la placa, així com el tipus de components que es poden instal·lar. Els principals factors de forma per a plaques base són:
