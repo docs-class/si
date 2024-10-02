@@ -3,7 +3,7 @@ title: "GPU"
 description: "La tarjeta gráfica"
 ---
 
-La **GPU** (Graphics Processing Unit) es el procesador dedicado a manejar y acelerar tareas gráficas, como el procesamiento de imágenes, videos y gráficos 3D. Aunque su función principal es renderizar gráficos, también se utiliza en otros tipos de procesamiento paralelo intensivo, como inteligencia artificial y computación científica.
+La GPU (**Graphics Processing Unit**) es el procesador dedicado a manejar y acelerar tareas gráficas, como el procesamiento de imágenes, videos y gráficos 3D. Aunque su función principal es renderizar gráficos, también se utiliza en otros tipos de procesamiento paralelo intensivo, como inteligencia artificial y computación científica.
 
 ![Tarjeta Gráfica](https://i.blogs.es/332cf8/screenshot_3638/1366_2000.webp)
 

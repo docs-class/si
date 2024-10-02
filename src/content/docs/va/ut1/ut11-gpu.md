@@ -3,7 +3,7 @@ title: "GPU"
 description: "La targeta gràfica"
 ---
 
-La **GPU** (Graphics Processing Unit) és el processador dedicat a gestionar i accelerar tasques gràfiques, com ara el processament d'imatges, vídeos i gràfics 3D. Tot i que la seua funció principal és renderitzar gràfics, també s'utilitza en altres tipus de processament paral·lel intensiu, com ara la intel·ligència artificial i la computació científica.
+La GPU (**Graphics Processing Unit**) és el processador dedicat a gestionar i accelerar tasques gràfiques, com ara el processament d'imatges, vídeos i gràfics 3D. Tot i que la seua funció principal és renderitzar gràfics, també s'utilitza en altres tipus de processament paral·lel intensiu, com ara la intel·ligència artificial i la computació científica.
 
 ![Targeta Gràfica](https://i.blogs.es/332cf8/screenshot_3638/1366_2000.webp)
 

@@ -20,11 +20,15 @@ La **memòria RAM** (Random Access Memory) és una memòria d'accés ràpid i vo
      - **DDR (Double Data Rate SDRAM)**: Evolució de la SDRAM que transfereix dades en ambdós flancs del cicle de rellotge, duplicant la taxa de transferència.
 
 #### 1.1. DDR (Double Data Rate)
-   - **DDR**: Primera versió de la memòria DDR, duplicava la velocitat de la SDRAM.
-   - **DDR2**: Major velocitat de transferència i menor consum energètic que DDR.
-   - **DDR3**: Augmenta la velocitat i redueix encara més el consum d'energia en comparació amb DDR2.
-   - **DDR4**: Major rendiment, capacitat i menor consum energètic, comú en PCs moderns.
-   - **DDR5**: La versió més recent, amb major ample de banda, capacitat, i eficiència energètica.
+
+| Tipo de RAM  | Año de Lanzamiento | Velocidad de Reloj | Transferencia de Datos (MT/s) | Velocidad de Transferencia | Voltaje  | Pines |
+|--------------|-------------------|-------------------|------------------------------|---------------------------|----------|-------|
+| **DDR**      | 2000              | 100 - 200 MHz     | 200 - 400 MT/s               | 1,6 - 3,2 GB/s            | 2,5V     | 184   |
+| **DDR2**     | 2003              | 200 - 533 MHz     | 400 - 1066 MT/s              | 3,2 - 8,5 GB/s            | 1,8V     | 240   |
+| **DDR3**     | 2007              | 400 - 1066 MHz    | 800 - 2133 MT/s              | 6,4 - 17 GB/s             | 1,5V     | 240   |
+| **DDR4**     | 2014              | 800 - 1600 MHz    | 1600 - 3200 MT/s             | 12,8 - 25,6 GB/s          | 1,2V     | 288   |
+| **DDR5**     | 2020              | 1600 - 3200 MHz   | 3200 - 6400 MT/s             | 25,6 - 51,2 GB/s          | 1,1V     | 288   |
+
 
 #### 1.2. LPDDR (Low Power DDR)
    - **Descripció**: És una variant de la memòria DDR dissenyada per a dispositius mòbils i portàtils.
