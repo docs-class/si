@@ -31,6 +31,8 @@ export default defineConfig({
                     'es': 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
                     'en': 'UT1 - IT SYSTEMS: ARQUITECTURE AND COMPONENTS',
                 },
+                // Collapsa el grupo de forma predeterminada.
+                collapsed: true,
                 items: [
                     {
                         label: '1.1 Arquitectura i Components',
@@ -69,6 +71,7 @@ export default defineConfig({
                             'es': '1.3 Precauciones Básicas',
                             'en': '1.3 Basic Precautions',
                         },
+
                         items: [
                             'ut1/ut13',
                         ],
@@ -81,6 +84,8 @@ export default defineConfig({
                     'es': 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
                     'en': 'UT2 - OPERATING SYSTEMS. INTRODUCTION',
                 },
+                // Collapsa el grupo de forma predeterminada.
+                 collapsed: true,
                 items: [
                     {
                         label: '2.1 Introducció als Sistemes Operatius',
