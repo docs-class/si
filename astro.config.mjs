@@ -48,7 +48,7 @@ export default defineConfig({
                             'ut1/ut11-caja',
                             'ut1/ut11-ram',
                             'ut1/ut11-gpu',
-                            'ut1/ut11-almacenamiento',
+                            'ut1/ut11-hdd',
                             'ut1/ut11-interfaces',
                             'ut1/ut11-raid',
                             'ut1/ut11-otros',
