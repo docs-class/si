@@ -80,3 +80,6 @@ Solo los P-core tienen hilos
    - **Descripción**: Desde la unión del North Bridge y South Bridge en lo que se conoce ahora el Chipset, el procesador ha integrado los controladores de Memoria Principal y PCI-express
    - **Importancia**: Una evolución importante en la arquitectura de los sistemas informáticos que ha tenido un impacto significativo en el rendimiento y la eficiencia de los ordenadores modernos: **Reducción de la Latencia** y **Aumento del Ancho de Banda**
 
+:::note[Enlaces]
+[Hiper Threading](https://www.youtube.com/watch?v=lrT9Bl0MCXQ)
+:::

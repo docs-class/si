@@ -41,7 +41,7 @@ export default defineConfig({
                         items: [
                             'ut1/ut11',
                             'ut1/ut11-arquitectura',
-                            'ut1/ut11-procesador',
+                            'ut1/ut11-cpu',
                             'ut1/ut11-placa',
                             'ut1/ut11-caja',
                             'ut1/ut11-ram',
