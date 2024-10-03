@@ -42,16 +42,16 @@ export default defineConfig({
                         },
                         items: [
                             'ut1/ut11',
-                            'ut1/ut11-arquitectura',
+                            'ut1/ut11-arch',
                             'ut1/ut11-cpu',
-                            'ut1/ut11-placa',
-                            'ut1/ut11-caja',
+                            'ut1/ut11-mb',
+                            'ut1/ut11-box',
                             'ut1/ut11-ram',
                             'ut1/ut11-gpu',
                             'ut1/ut11-hdd',
                             'ut1/ut11-interfaces',
                             'ut1/ut11-raid',
-                            'ut1/ut11-otros',
+                            'ut1/ut11-other',
                         ],
                     },
                     {
@@ -62,7 +62,7 @@ export default defineConfig({
                         },
                         items: [
                             'ut1/ut12',
-                            'ut1/ut12-componentes',
+                            'ut1/ut12-comp',
                         ],
                     },
                     {
