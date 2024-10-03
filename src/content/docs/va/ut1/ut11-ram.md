@@ -10,6 +10,12 @@ La **memòria RAM** (Random Access Memory) és una memòria d'accés ràpid i vo
 2. **Accés ràpid**: És molt més ràpida que les unitats d'emmagatzematge com discos durs o SSD.
 3. **Funció principal**: Emmagatzema dades i instruccions temporalment perquè el processador puga accedir a elles ràpidament, millorant el rendiment del sistema.
 
+## Factor forma
+
+El factor de forma de la RAM DDR es refereix a la seua grandària física i disposició de pins, sent comunament **DIMM** per a ordinadors de sobretaula i **SO-DIMM** per a portàtils i dispositius compactes.
+
+![Factor Form](https://hardzone.es/app/uploads-hardzone.es/2022/11/formato-memoria-ram-dimm-sodimm.jpg)
+
 ## **Tipus de RAM**
 
 ### **DRAM (Dynamic RAM)**
@@ -29,6 +35,7 @@ La **memòria RAM** (Random Access Memory) és una memòria d'accés ràpid i vo
 | **DDR4**     | 2014              | 800 - 1600 MHz    | 1600 - 3200 MT/s             | 12,8 - 25,6 GB/s          | 1,2V     | 288   |
 | **DDR5**     | 2020              | 1600 - 3200 MHz   | 3200 - 6400 MT/s             | 25,6 - 51,2 GB/s          | 1,1V     | 288   |
 
+![DDR Family](https://hardzone.es/app/uploads-hardzone.es/2019/12/ddr3-ddr4-ddr5-esquema.jpg)
 
 #### 1.2. LPDDR (Low Power DDR)
    - **Descripció**: És una variant de la memòria DDR dissenyada per a dispositius mòbils i portàtils.
