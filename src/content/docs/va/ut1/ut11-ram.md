@@ -87,6 +87,31 @@ Tasa de Transferència (MB/s) = 3200 MHz × 64 bits × 2 canals / 8 = 51,200 MB/
 Això significa que la taxa de transferència d’aquesta RAM és de **51,2 GB/s**.
 
 
+## Ampliació
+
+### Característiques Principals de CUDIMM
+
+1. **Integritat de Senyal Millorada**: Afegeix un controlador de rellotge (CKD) per regenerar la senyal de rellotge i garantir estabilitat.
+2. **Compatibilitat**: Compatible amb plataformes DDR5 actuals.
+3. **Velocitats de Transferència**: Permet aconseguir velocitats superiors a DDR5-6400, arribant fins a 9.200 MT/s.
+4. **Aplicació**: Ideal per a equips d’escriptori d’alt rendiment.
+5. **Primers Mòduls**: Fabricats per V-Color, amb kits de fins a 48 GB i velocitats des de 6.400 MT/s a 9.200 MT/s.
+
+### Característiques Principals de CAMM2 i LPCAMM2
+
+1. **CAMM2**:
+   - Dissenyat per a sistemes d’escriptori i servidors.
+   - Ocupa fins a un 60% menys d’espai que l’estàndard anterior.
+   - Suporta configuració Dual Channel en un únic mòdul.
+   - Reducció del consum d'energia fins a un 40% i millora de latències.
+
+2. **LPCAMM2**:
+   - Orientat a portàtils, amb un disseny compacte.
+   - Capacitats de 64 GB, 96 GB i 128 GB segons densitat de la DRAM.
+   - Compatible amb els requisits d'eficiència energètica de la Unió Europea.
+
+   Per a més detalls, visita [este enllaç](https://hardzone.es/tutoriales/componentes/memoria-ram-camm2-lpcamm2/).
+
 :::tip[Vídeos]
 - [Dual Channel](https://www.youtube.com/watch?v=BIZccTdh7jg)
 - [Com influeix la latència i la freqüència en la memòria RAM?](https://www.youtube.com/watch?v=cKdAqnQL7mY)

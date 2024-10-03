@@ -85,6 +85,33 @@ Tasa de Transferencia (MB/s) = 3200 MHz × 64 bits × 2 canales / 8 = 51,200 MB/
 
 Esto significa que la tasa de transferencia de esta RAM es de **51,2 GB/s**.
 
+## Ampliación
+
+### Características Principales de CUDIMM
+
+1. **Integridad de Señal Mejorada**: Añade un controlador de reloj (CKD) para regenerar la señal de reloj y garantizar estabilidad.
+2. **Compatibilidad**: Compatible con plataformas DDR5 actuales.
+3. **Velocidades de Transferencia**: Permite alcanzar velocidades superiores a DDR5-6400, llegando hasta 9.200 MT/s.
+4. **Aplicación**: Ideal para equipos de sobremesa de alto rendimiento.
+5. **Primeros Módulos**: Fabricados por V-Color, con kits de hasta 48 GB y velocidades desde 6.400 MT/s a 9.200 MT/s.
+
+Para más detalles, visita el artículo [aquí](https://hardzone.es/noticias/componentes/funcionamiento-caracteristicas-memorias-ram-cudimm/).
+
+### Características Principales de CAMM2 y LPCAMM2
+
+1. **CAMM2**:
+   - Diseñado para sistemas de sobremesa y servidores.
+   - Ocupa hasta un 60% menos de espacio que el estándar anterior.
+   - Soporta configuración Dual Channel en un único módulo.
+   - Reducción del consumo de energía hasta un 40% y mejora de latencias.
+
+2. **LPCAMM2**:
+   - Orientado a portátiles, con un diseño compacto.
+   - Capacidades de 64 GB, 96 GB y 128 GB según densidad de la DRAM.
+   - Compatible con los requisitos de eficiencia energética de la Unión Europea.
+
+Para más detalles, visita [este enlace](https://hardzone.es/tutoriales/componentes/memoria-ram-camm2-lpcamm2/).
+
 :::tip[Videos]
 - [Dual Channel](https://www.youtube.com/watch?v=BIZccTdh7jg)
 
