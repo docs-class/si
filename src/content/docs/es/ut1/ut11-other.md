@@ -84,3 +84,7 @@ El monitoreo se puede realizar mediante software especializado, como **HWMonitor
 | AIDA64                    | [https://www.aida64.com/](https://www.aida64.com/) |
 | HWiNFO                    | [https://www.hwinfo.com/](https://www.hwinfo.com/) |
 | NETDATA                   | [https://www.netdata.cloud](https://www.netdata.cloud) |
+
+:::tip[Ampliación]
+[¿Cóm funciona un PC y qué fa cada peça? | Components del ordinador explicats (Nate Gentile)](https://www.youtube.com/watch?v=0zkX6nlpiSk)
+:::

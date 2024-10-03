@@ -83,6 +83,9 @@ Només els P-core tenen fils.
    - Una evolució important en l'arquitectura dels sistemes informàtics que ha tingut un impacte significatiu en el rendiment i l'eficiència dels ordinadors moderns: **Reducció de la Latència** i **Augment de l'Ample de Banda**.
 
 :::tip[Ampliació]
+- [Understanding Intel Processor Names - URL](https://www.intel.com/content/www/us/en/processors/processor-numbers.html)
+- [Understanding AMD Processor Names - URL](https://medium.com/@meCreator/01-understanding-amd-processor-names-3a89261dcd99)
+
 - [AMD and Intel processors naming](https://www.youtube.com/watch?v=ELJxau5qaQI)
 - [Hiper Threading](https://www.youtube.com/watch?v=lrT9Bl0MCXQ)
 :::

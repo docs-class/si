@@ -83,3 +83,7 @@ El monitoratge es pot realitzar mitjançant programari especialitzat, com **HWMo
 | AIDA64                      | [https://www.aida64.com/](https://www.aida64.com/) |
 | HWiNFO                      | [https://www.hwinfo.com/](https://www.hwinfo.com/) |
 | NETDATA                     | [https://www.netdata.cloud](https://www.netdata.cloud) |
+
+:::tip[Ampliació]
+[¿Cóm funciona un PC y qué fa cada peça? | Components del ordinador explicats (Nate Gentile) - es](https://www.youtube.com/watch?v=0zkX6nlpiSk)
+:::

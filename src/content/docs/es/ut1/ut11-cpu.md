@@ -81,6 +81,9 @@ Solo los P-core tienen hilos
    - Una evolución importante en la arquitectura de los sistemas informáticos que ha tenido un impacto significativo en el rendimiento y la eficiencia de los ordenadores modernos: **Reducción de la Latencia** y **Aumento del Ancho de Banda**
 
 :::tip[Ampliación]
+- [Understanding Intel Processor Names - URL](https://www.intel.com/content/www/us/en/processors/processor-numbers.html)
+- [Understanding AMD Processor Names - URL](https://medium.com/@meCreator/01-understanding-amd-processor-names-3a89261dcd99)
+
 - [AMD and Intel processors naming](https://www.youtube.com/watch?v=ELJxau5qaQI)
 - [Hiper Threading](https://www.youtube.com/watch?v=lrT9Bl0MCXQ)
 :::
