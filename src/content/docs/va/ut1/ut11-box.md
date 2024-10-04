@@ -63,5 +63,5 @@ Les fonts d'alimentació modernes inclouen diversos mecanismes de protecció per
 :::
 
 :::caution[activitat]
-Pràcticum II
+Pràcticum I
 :::

@@ -87,3 +87,7 @@ El monitoratge es pot realitzar mitjançant programari especialitzat, com **HWMo
 :::tip[Ampliació]
 [¿Cóm funciona un PC y qué fa cada peça? | Components del ordinador explicats (Nate Gentile) - es](https://www.youtube.com/watch?v=0zkX6nlpiSk)
 :::
+
+:::caution[activitat]
+Pràcticum III
+:::
