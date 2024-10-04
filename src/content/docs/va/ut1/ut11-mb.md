@@ -77,3 +77,6 @@ El BIOS (Basic Input/Output System) i UEFI (Unified Extensible Firmware Interfac
   - Pot arrancar des de discos amb **GPT** (GUID Partition Table).
   - Ofereix millors característiques de seguretat, com **Secure Boot**, que impedeix l'execució de programari maliciós durant l'arrancada.
   - Té una interfície gràfica, sovint amb suport per a ratolí i més opcions configurables.
+
+
+  ![bios-uefi](https://i.blogs.es/a68699/bios-vs-uefi/1366_2000.jpg)
