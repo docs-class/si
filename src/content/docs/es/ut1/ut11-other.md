@@ -86,7 +86,7 @@ El monitoreo se puede realizar mediante software especializado, como **HWMonitor
 | NETDATA                   | [https://www.netdata.cloud](https://www.netdata.cloud) |
 
 :::tip[Ampliación]
-[¿Cómo funciona un PC y que hace cada pieza? | Componentes del ordenador explicados (Nate Gentile)](https://www.youtube.com/watch?v=0zkX6nlpiSk)
+[¿Cómo funciona un PC y qué hace cada pieza? | Componentes del ordenador explicados (Nate Gentile)](https://www.youtube.com/watch?v=0zkX6nlpiSk)
 :::
 
 :::caution[activitad]
