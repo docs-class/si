@@ -27,3 +27,7 @@ El **POST** (Power-On Self Test) es la primera fase del arranque de un ordenador
    - El bootloader comienza el proceso de carga del sistema operativo desde el disco duro u otro medio de arranque.
 
 ![POST](https://estudiotecnosoft.wordpress.com/wp-content/uploads/2018/09/1200px-post_p5kpl.jpg)
+
+:::tip[Ampliación]
+[WHY POST - EN](https://scot-comp.co.uk/understanding-computer-post-codes-guide/)
+:::

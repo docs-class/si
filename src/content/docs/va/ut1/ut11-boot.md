@@ -28,3 +28,6 @@ El **POST** (Power-On Self Test) és la primera fase de l'arrancada d'un ordinad
 
 ![POST](https://estudiotecnosoft.wordpress.com/wp-content/uploads/2018/09/1200px-post_p5kpl.jpg)
 
+:::tip[Ampliació]
+[WHY POST - EN](https://scot-comp.co.uk/understanding-computer-post-codes-guide/)
+:::
