@@ -1,7 +1,9 @@
 ---
-title: "POST"
-description: "POST - Arranque"
+title: "BOOT"
+description: "BOOT - Arranque"
 ---
+
+![Boot Sequence](https://miro.medium.com/v2/resize:fit:753/1*wjWc0sSBV1VWRr374WHm7g.jpeg)
 
 ## Arranque de un Ordenador: POST (Power-On Self Test)
 

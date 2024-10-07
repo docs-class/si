@@ -1,7 +1,9 @@
 ---
-title: "POST - Arrancada"
-description: "POST - Arrancada"
+title: "BOOT"
+description: "Arrancada"
 ---
+
+![Boot Sequence](https://miro.medium.com/v2/resize:fit:753/1*wjWc0sSBV1VWRr374WHm7g.jpeg)
 
 ## Arrancada d'un Ordinador: POST (Power-On Self Test)
 
