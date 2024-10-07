@@ -97,6 +97,7 @@ export default defineConfig({
             //             },
             //             items: [
             //                 'ut2/ut21',
+            //                 'ut2/ut21-boot',
             //             ],
             //         },
             //         {
