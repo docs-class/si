@@ -48,6 +48,7 @@ export default defineConfig({
                             'ut1/ut11-mb',
                             'ut1/ut11-box',
                             'ut1/ut11-ram',
+                            'ut1/ut11-post',
                             'ut1/ut11-gpu',
                             'ut1/ut11-hdd',
                             'ut1/ut11-interfaces',
