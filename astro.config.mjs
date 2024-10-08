@@ -43,7 +43,7 @@ export default defineConfig({
                         items: [
                             'ut1/ut11',
                             'ut1/ut11-info',
-                            'ut1/ut11-boot',
+                            'ut1/ut11-post',
                             'ut1/ut11-arch',
                             'ut1/ut11-cpu',
                             'ut1/ut11-mb',
