@@ -1,6 +1,6 @@
 ---
-title: "BOOT"
-description: "Arrancada"
+title: "POST"
+description: "POST - Arrancada"
 ---
 
 ![Boot Sequence](https://miro.medium.com/v2/resize:fit:753/1*wjWc0sSBV1VWRr374WHm7g.jpeg)
