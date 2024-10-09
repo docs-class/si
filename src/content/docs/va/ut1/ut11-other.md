@@ -89,5 +89,5 @@ El monitoratge es pot realitzar mitjançant programari especialitzat, com **HWMo
 :::
 
 :::caution[activitat]
-Pràcticum III
+Practicum III
 :::

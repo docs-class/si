@@ -90,5 +90,5 @@ El monitoreo se puede realizar mediante software especializado, como **HWMonitor
 :::
 
 :::caution[activitad]
-Pràcticum III
+Practicum III
 :::
