@@ -82,5 +82,5 @@ Si el **Disc A** falla, es pot calcular el contingut perdut aplicant XOR als blo
 ![XOR Gate](https://www.analog.com/en/_/media/analog/en/design-center/glossary/xor-gate-symbol.jpg?rev=b3d6c2e239cd4f6eba77eacf0b65be9c)
 
 :::note[exercici]
-[exercici RAID I](./ut11-raid1)
+[exercici RAID I](../ut11-raid1)
 :::
