@@ -1,6 +1,6 @@
 ---
 title: "RAID 5 - ejercicios"
-description: "RAID 5 - ejercicios. Cálculo de paradid"
+description: "RAID 5 - ejercicios. Cálculo de paridad"
 ---
 
 Imagina un sistema RAID 5 con 4 discos (Disco 0, Disco 1, Disco 2, Disco 3). Cada disco almacena un bloque de datos (A, B, C, etc.). La paridad se calcula mediante la operación XOR (OR exclusivo) y se distribuye entre los discos.
