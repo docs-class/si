@@ -12,5 +12,5 @@ description: "RAID 5 - exercicis. Càlcul de paritat II"
 
 **2. Simulació de fallada de disc:**
 
-- 1A2 XOR 5E6 XOR 6C4 = **3C4** (1A2 XOR 5E6 XOR 6C4 = 3C4)
-- F00 XOR C3D XOR A1B = **A1B** (F00 XOR C3D XOR A1B = A1B)
+- 1A2 XOR 5E6 XOR 780 = **3C4** (1A2 XOR 5E6 XOR 780 = 3C4)
+- F00 XOR C3D XOR 926 = **A1B** (F00 XOR C3D XOR 926 = A1B)
