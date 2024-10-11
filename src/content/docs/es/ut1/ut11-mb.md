@@ -79,3 +79,9 @@ El BIOS (Basic Input/Output System) y UEFI (Unified Extensible Firmware Interfac
   - Tiene una interfaz gráfica, a menudo con soporte para ratón y más opciones configurables.
 
   ![bios-uefi](https://i.blogs.es/a68699/bios-vs-uefi/1366_2000.jpg)
+
+  #### Diferencias entre BIOS y UEFI en cuanto a tipos de memoria
+
+- **BIOS:** Utiliza ROM o EEPROM para el código y RAM CMOS para las configuraciones. La memoria limitada restringe la cantidad de funciones disponibles.
+
+- **UEFI:** Se almacena en memoria flash, con mayor capacidad para actualizaciones rápidas, funciones avanzadas e interfaz gráfica. Además, soporta sistemas de archivos, facilitando el acceso a discos durante el arranque.

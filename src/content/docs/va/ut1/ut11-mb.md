@@ -80,3 +80,9 @@ El BIOS (Basic Input/Output System) i UEFI (Unified Extensible Firmware Interfac
 
 
   ![bios-uefi](https://i.blogs.es/a68699/bios-vs-uefi/1366_2000.jpg)
+
+#### Diferències entre BIOS i UEFI pel que fa a tipus de memòria
+
+- **BIOS:** Utilitza ROM o EEPROM per al codi i RAM CMOS per a les configuracions. La memòria limitada restringeix la quantitat de funcions disponibles.
+
+- **UEFI:** S'emmagatzema en memòria flash, amb més capacitat per a actualitzacions ràpides, funcions avançades i interfície gràfica. A més, suporta sistemes de fitxers, facilitant l'accés als discs durant l'arrencada.
