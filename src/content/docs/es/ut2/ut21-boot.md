@@ -8,7 +8,7 @@ description: "SSOO BOOT"
 #### El proceso de arranque de la BIOS:
 
 1. Se enciende.
-2. Autocomprobación de encendido ([POST](../../ut1/ut11-post.md)).
+2. Autocomprobación de encendido ([POST](../../../ut1/ut11-post.md)).
 3. Carga el BIOS.
 4. Identifica el dispositivo de arranque.
 5. La BIOS detecta el código almacenado en el sector MBR.
