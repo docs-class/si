@@ -8,7 +8,7 @@ description: "ARRENCADA"
 #### El procés d'arrencada de la BIOS:
 
 1. S'encén.
-2. Autocomprovació d'encés ([POST](../../va/ut1/ut11-post.md)).
+2. Autocomprovació d'encés ([POST](../../ut1/ut11-post.md)).
 3. Carrega el BIOS.
 4. Identifica el dispositiu d'arrencada.
 5. El BIOS detecta el codi emmagatzemat al sector MBR.
