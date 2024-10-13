@@ -64,5 +64,5 @@ Els protocols defineixen com es comuniquen els dispositius en una xarxa.
    - Exemple: Un diagrama amb les adreces IP de cada dispositiu i rutes de trànsit configurades.
 
 :::caution[activitat]
-Practicum III
+Practicum IV
 :::

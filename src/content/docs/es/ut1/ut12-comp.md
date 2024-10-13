@@ -63,6 +63,6 @@ Los protocolos definen cómo se comunican los dispositivos en una red.
    - Ejemplo: Un diagrama con las direcciones IP de cada dispositivo y rutas de tráfico configuradas.
 
 :::caution[activitad]
-Practicum III
+Practicum IV
 ::: 
    
