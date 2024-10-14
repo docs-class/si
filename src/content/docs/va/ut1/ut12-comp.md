@@ -21,7 +21,8 @@ description: "Components i Protocols"
 
 4. **Mitjans de transmissió:**
    - **Cablejat de coure (UTP, FTP, STP, SFTP):** Utilitzat en xarxes LAN.
-![tipus de cable](https://www.vhngroup.com/wp-content/uploads/2017/09/Tipos-De-Cables.jpg)
+![cables](../../../../assets/ut1/ut12-cables.png)
+
    - **Fibra òptica (monomode, multimode):** Transmissió de dades a alta velocitat i llargues distàncies.
    - **Sense fils (Wi-Fi, Bluetooth, WiMAX):** Comunicacions sense cables per a LAN i MAN.
 

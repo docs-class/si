@@ -21,10 +21,11 @@ description: "Componentes y Protocolos"
 
 4. **Medios de transmisión:**
    - **Cableado de cobre (UTP, FTP, STP, SFTP):** Utilizado en redes LAN.
-![tipos de cable](https://www.vhngroup.com/wp-content/uploads/2017/09/Tipos-De-Cables.jpg)
+![cables](../../../../assets/ut1/ut12-cables.png)
+
    - **Fibra óptica (monomodo, multimodo):** Transmisión de datos a alta velocidad y largas distancias.
    - **Inalámbricos (Wi-Fi, Bluetooth, WiMAX):** Comunicaciones sin cables para LAN y MAN.
-5. **Periféricos de red:**
+1. **Periféricos de red:**
    - Dispositivos como impresoras en red, escáneres y unidades de almacenamiento en red (NAS).
 
 ---
