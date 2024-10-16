@@ -19,7 +19,7 @@ export default defineConfig({
         },
         locales: {
             'es': { lang: 'es', label: 'Español' },
-            //'en': { lang: 'en', label: 'English' },
+            'en': { lang: 'en', label: 'English' },
             'va': { lang: 'va', label: 'Valencià' },
         },
         // Default locale
@@ -80,38 +80,38 @@ export default defineConfig({
                     },
                 ],
             },
-            // {
-            //     label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
-            //     translations: {
-            //         'es': 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
-            //         'en': 'UT2 - OPERATING SYSTEMS. INTRODUCTION',
-            //     },
-            //     // Collapsa el grupo de forma predeterminada.
-            //      collapsed: true,
-            //     items: [
-            //         {
-            //             label: '2.1 Introducció als Sistemes Operatius',
-            //             translations: {
-            //                 'es': '2.1 Introducción a los Sistemas Operativos',
-            //                 'en': '2.1 System Operating Introduction',
-            //             },
-            //             items: [
-            //                 'ut2/ut21',
-            //                 'ut2/ut21-boot',
-            //             ],
-            //         },
-            //         {
-            //             label: '2.2 Màquines virtuals, Instalació i Actualizació de SSOO',
-            //             translations: {
-            //                 'es': '2.2 Máquinas virtuales, Instalación y actualización de SSOO',
-            //                 'en': '2.2 Virtual Machines, Installing & updating OS',
-            //             },
-            //             items: [
-            //                 'ut2/ut22',
-            //             ],
-            //         },
-            //     ],
-            // },
+            {
+                label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
+                translations: {
+                    'es': 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
+                    'en': 'UT2 - OPERATING SYSTEMS. INTRODUCTION',
+                },
+                // Collapsa el grupo de forma predeterminada.
+                 collapsed: true,
+                items: [
+                    {
+                        label: '2.1 Introducció als Sistemes Operatius',
+                        translations: {
+                            'es': '2.1 Introducción a los Sistemas Operativos',
+                            'en': '2.1 System Operating Introduction',
+                        },
+                        items: [
+                            'ut2/ut21',
+                            'ut2/ut21-boot',
+                        ],
+                    },
+                    {
+                        label: '2.2 Màquines virtuals, Instalació i Actualizació de SSOO',
+                        translations: {
+                            'es': '2.2 Máquinas virtuales, Instalación y actualización de SSOO',
+                            'en': '2.2 Virtual Machines, Installing & updating OS',
+                        },
+                        items: [
+                            'ut2/ut22',
+                        ],
+                    },
+                ],
+            },
         ],
     }),],
 });
