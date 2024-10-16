@@ -1,46 +1,41 @@
 ---
 title: "Actividad 2.1"
 description: "Instal·lacions I"
+pagefind: false
 ---
 
 {% card title="Instal·lacions I" icon="pen" %}
 L'objectiu de la següent pràctica és crear màquines virtuals i instal·lar sistemes operatius gratuïts i propietaris amb diferents configuracions. Per avaluar-lo, cal enviar un informe (format PDF) que conté diferents passos realitzats en cada tasca. Recordeu que també cal capturar el procés de crear una màquina virtual. **Aquest document ha de permetre que les persones sense coneixement realitzin tot el procés de crear una màquina i instal·lar un sistema operatiu.**
 {% /card %}
 
-### Tasca 1. Instal·leu LINUX amb partició manual 
-
+### Tasca 1. Instal·leu LINUX amb partició manual
 
 1. Crea una màquina virtual anomenada **T1Linux**. La màquina tindrà **20GB** de disc dur i **1500 MB** de RAM s'utilitzarà per instal·lar Linux, com ara **lubuntu**. El particionat serà:
-   
-
 
 - **1GB** per a l'intercanvi (lògica)
   - La **swap** també s'anomena àrea d'intercanvi de memòria
 - **5GB** per **/home** (lògica)
 - **5GB** per **/var** (lògica)
 - La resta s'utilitza per a l'arrel **/** (principal)
+  
+```md
+Dades d'usuari: 
+- usuari: admin
+- contrasenya: admin
+```
 
-- Dades d'usuari: `admin/admin`
-
-
-# A2.2 Instal·lacions I
-
-
-
-
-
-
-
-
-
-
-
-## Tasca 2. Instal·lar WINDOWS amb partició manual
+### Tasca 2. Instal·lar WINDOWS amb partició manual
 
 Crea una màquina virtual anomenada **T2Windows**. Configuració de **25GB** de disc dur i **1500MB** de RAM. Instal·lareu el sistema operatiu **Windows 7/10/11**. La partició manual s'utilitzarà a la següent partició:
 
 - **18 GB** per al SO.
-- Una partició de **2 GB**. Dona format a aquesta partició.
+- Una partició de **2 GB**. (Dona format a aquesta partició)
 - La resta per a una altra partició. No formateu aquesta partició.
 
-Les dades i contrasenyes de l'usuari seran `admin/admin`. Després d'instal·lar el sistema operatiu, recordeu comprovar tot. **Quina partició no es pot accedir?**
+```mdoc
+Dades d'usuari: 
+- usuari: admin
+- contrasenya: admin
+```
+
+Després d'instal·lar el sistema operatiu, recordeu comprovar tot. **Quina partició no es pot accedir?**
