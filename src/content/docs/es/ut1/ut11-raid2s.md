@@ -1,6 +1,7 @@
 ---
 title: "RAID 5 - ejercicios con solución II"
 description: "RAID 5 - ejercicios. Cálculo de paridad II"
+pagefind: false
 ---
 
 **1. Calcula los bloques de paridad**
