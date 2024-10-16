@@ -51,6 +51,8 @@ El **POST** (Power-On Self Test) es la primera fase del arranque de un ordenador
 #### Comparativa GPT vs MBR
 
 :::note[particiones]
+**Conexión con el currículo: RA: 3 - CE: d**
+
 Las **particiones de disco** dividen un disco duro en secciones lógicas para organizar y gestionar el almacenamiento de manera eficiente. 
 
 **Tipos de particiones**:  
