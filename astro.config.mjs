@@ -14,9 +14,6 @@ export default defineConfig({
             va: 'Sistemes Informàtics',
             en: 'IT Systems',
         },
-        social: {
-            github: 'https://github.com/docs-class/si',
-        },
         locales: {
             'es': { lang: 'es', label: 'Español' },
             'en': { lang: 'en', label: 'English' },
@@ -87,7 +84,7 @@ export default defineConfig({
             //         'en': 'UT2 - OPERATING SYSTEMS. INTRODUCTION',
             //     },
             //     // Collapsa el grupo de forma predeterminada.
-            //      collapsed: true,
+            //     collapsed: true,
             //     items: [
             //         {
             //             label: '2.1 Introducció als Sistemes Operatius',
@@ -108,6 +105,18 @@ export default defineConfig({
             //             },
             //             items: [
             //                 'ut2/ut22',
+            //             ],
+            //         },
+            //         {
+            //             label: 'Exercicis',
+            //             translations: {
+            //                 'es': 'Ejercicios',
+            //                 'en': 'exercises',
+            //             },
+            //             items: [
+            //                 'ut2/a20-m56gfhh',
+            //                 'ut2/a21-mj686lvd',
+            //                 'ut2/a22-m8262cd',
             //             ],
             //         },
             //     ],
