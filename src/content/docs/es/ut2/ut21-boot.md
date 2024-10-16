@@ -50,15 +50,25 @@ El **POST** (Power-On Self Test) es la primera fase del arranque de un ordenador
 
 #### Comparativa GPT vs MBR
 
-| Característica                      | **GPT (Guid Partition Table)**             | **MBR (Master Boot Record)**              |
-|-------------------------------------|-------------------------------------------|------------------------------------------|
-| **Número máximo de particions**      | Fins a 128 particions                      | Màxim de 4 particions primàries          |
-| **Capacitat màxima de particions**   | Fins a 18 ExaBytes (EB)                    | Fins a 2 TeraBytes (TB)                  |
-| **Compatibilitat amb BIOS/UEFI**     | Compatible amb UEFI i BIOS                 | Principalment compatible amb BIOS        |
-| **Recuperació d’arxius**             | Informació de particions duplicada per a la recuperació | MBR guarda la informació de particions en un sol lloc |
-| **Sistemes Operatius compatibles**   | Windows 7 i posteriors, Linux, macOS       | Windows XP i anteriors, Linux, alguns sistemes antics de macOS |
-| **Estructura de particions**         | Utilitza CRC32 per a la verificació d’errors | Sense verificació d’errors  
+:::note[particiones]
+Las **particiones de disco** dividen un disco duro en secciones lógicas para organizar y gestionar el almacenamiento de manera eficiente. 
 
+**Tipos de particiones**:  
+1. **Primaria**: Hasta 4 particiones principales.
+2. **Extendida**: Permite crear particiones lógicas adicionales.
+3. **Lógica**: Almacenamiento de datos o sistemas operativos adicionales.
+
+**Propósitos**: Organización de datos, multiboot, seguridad y recuperación de información, y optimización del rendimiento del sistema.
+:::
+
+| Característica                      | **GPT (Guid Partition Table)**               | **MBR (Master Boot Record)**              |
+|-------------------------------------|---------------------------------------------|------------------------------------------|
+| **Número máximo de particiones**    | Hasta 128 particiones                       | Máximo de 4 particiones primarias        |
+| **Capacidad máxima de particiones** | Hasta 18 ExaBytes (EB)                      | Hasta 2 TeraBytes (TB)                   |
+| **Compatibilidad con BIOS/UEFI**    | Compatible con UEFI y BIOS                  | Principalmente compatible con BIOS       |
+| **Recuperación de archivos**        | Información de particiones duplicada para recuperación | MBR guarda la información de particiones en un solo lugar |
+| **Sistemas Operativos compatibles** | Windows 7 y posteriores, Linux, macOS       | Windows XP y anteriores, Linux, algunos sistemas antiguos de macOS |
+| **Estructura de particiones**       | Utiliza CRC32 para la verificación de errores | Sin verificación de errores              |
 ## Gestores de arranque
 Tienen la función de gestionar y seleccionar el sistema operativo que el usuario desea iniciar.
 
