@@ -1,6 +1,6 @@
 ---
-title: "SS.OO. Boot"
-description: "SSOO BOOT"
+title: "Boot"
+description: "BOOT"
 ---
 
 ## Proceso de arranque de un PC
