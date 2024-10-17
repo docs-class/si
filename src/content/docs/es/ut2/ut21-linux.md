@@ -44,7 +44,22 @@ Cada distribución tiene su propia filosofía y enfoque, haciendo que Linux sea 
     ```sh frame="none"
     sudo pacman -Syu
     ```
-    
+#### Tipos de repositorios
+- **Main**: Software oficial respaldado por Canonical.
+- **Restricted**: Software cerrado, drivers con soporte limitado.
+- **Universe**: Mantenido por la comunidad, sin soporte oficial.
+- **Multiverse**: Software con licencias restrictivas, sin soporte.
+  
+El repositorio **Main** respaldado por **Canonical** es específico de las distribuciones **basadas en Ubuntu**, ya que **Canonical** es la empresa que desarrolla y respalda **Ubuntu**. 
+
+:::danger[aclaración]
+Cada distribución tiene su propio sistema de gestión de repositorios y su política de respaldo, que puede variar significativamente según la filosofía y objetivos de la distribución.
+
+- En **Debian**, por ejemplo, existen repositorios como **Main**, **Contrib** y **Non-Free**, pero la mayoría del software en **Main** es mantenido por la comunidad sin el respaldo de una empresa como Canonical.
+- En **Fedora**, los repositorios oficiales son respaldados y mantenidos por la **comunidad Fedora** con el soporte de **Red Hat**.
+- En **openSUSE**, el repositorio **OSS (Open Source Software)** contiene software libre, mientras que la comunidad mantiene otros repositorios adicionales.
+:::
+  
 :::caution[actividad]  
 - Busca información sobre cómo gestionar actualizaciones en tu distribución Linux de manera gráfica.
 - Busca información para la relación GNU/Linux

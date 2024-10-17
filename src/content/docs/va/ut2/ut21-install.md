@@ -84,13 +84,6 @@ Aquí tienes la traducción al valenciano:
 ### Configuració d'Usuaris
 El sistema Linux compta, almenys, amb l'usuari **root**, però en instal·lar la versió **desktop**, es demana la configuració d'un usuari que estarà activat per a tasques d'ús i configuració.
 
-Per executar programari que necessiti permisos d'administració, s'utilitza el comandament **sudo**, afegit abans del comandament a executar. Si no es poden executar ordres amb `sudo`, cal comprovar l'arxiu `/etc/sudoers`.
-
-Comandament per editar sudoers:
-```sh frame="none"
-sudo visudo /etc/sudoers
-```
-
 :::caution[Activitat]
 A2.1 - Prerequisits i obtenció de mitjans
 :::

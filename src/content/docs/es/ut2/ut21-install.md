@@ -80,13 +80,6 @@ El sistema sol·licita el nombre i la disposició de les particions a configurar
 ### Configuració d'Usuaris
 El sistema Linux compta, almenys, amb l'usuari **root**, però en instal·lar la versió **desktop**, es demana la configuració d'un usuari que estarà activat per a tasques d'ús i configuració.
 
-Per a executar programari que necessite permisos d'administració, s'utilitza el comando **sudo**, afegit abans del comando a executar. Si no es poden executar ordres amb `sudo`, cal comprovar el fitxer `/etc/sudoers`.
-
-Comando per editar sudoers:
-```sh frame="none"
-sudo visudo /etc/sudoers
-```
-
 :::caution[Activitat]
 A2.1 - Prerequisitos y obtención de medios
 :::

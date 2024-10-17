@@ -45,7 +45,21 @@ Cada distribució té la seua pròpia filosofia i enfocament, fent que Linux sig
     ```sh frame="none"
     sudo pacman -Syu
     ```
+#### Tipus de repositoris
+- **Main**: Programari oficial recolzat per Canonical.
+- **Restricted**: Programari tancat, drivers amb suport limitat.
+- **Universe**: Mantingut per la comunitat, sense suport oficial.
+- **Multiverse**: Programari amb llicències restrictives, sense suport.
 
+El repositori **Main** recolzat per **Canonical** és específic de les distribucions **basades en Ubuntu**, ja que **Canonical** és l'empresa que desenvolupa i recolza **Ubuntu**.
+
+:::danger[aclariment]
+Cada distribució té el seu propi sistema de gestió de repositoris i la seua política de suport, que pot variar significativament segons la filosofia i els objectius de la distribució.
+
+- En **Debian**, per exemple, existeixen repositoris com **Main**, **Contrib** i **Non-Free**, però la majoria del programari en **Main** és mantingut per la comunitat sense el suport d'una empresa com Canonical.
+- En **Fedora**, els repositoris oficials són recolzats i mantinguts per la **comunitat Fedora** amb el suport de **Red Hat**.
+- En **openSUSE**, el repositori **OSS (Open Source Software)** conté programari lliure, mentre que la comunitat manté altres repositoris addicionals.
+:::
 
 :::caution[activitat]  
 - Busca informació sobre com gestionar actualitzacions en la teua distribució Linux de manera gràfica.
