@@ -50,20 +50,6 @@ El **POST** (Power-On Self Test) és la primera fase de l'arrancada d'un ordinad
 
 #### Comparativa GPT vs MBR
 
-:::note[particions]
-**Conexió amb el currículum: RA: 3 - CE: d**
-
-
-Les **particions de disc** divideixen un disc dur en seccions lògiques per organitzar i gestionar l'emmagatzematge de manera eficient.
-
-**Tipus de particions**:  
-1. **Primària**: Fins a 4 particions principals.
-2. **Estesa**: Permet crear particions lògiques addicionals.
-3. **Lògica**: Emmagatzematge de dades o sistemes operatius addicionals.
-
-**Propòsits**: Organització de dades, multiboot, seguretat i recuperació d'informació, i optimització del rendiment del sistema.
-:::
-
 | Característica                      | **GPT (Guid Partition Table)**             | **MBR (Master Boot Record)**              |
 |-------------------------------------|-------------------------------------------|------------------------------------------|
 | **Nombre màxim de [particions](ut21-part.md)**      | Fins a 128 particions                      | Màxim de 4 particions primàries          |

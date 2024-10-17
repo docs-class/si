@@ -50,19 +50,6 @@ El **POST** (Power-On Self Test) es la primera fase del arranque de un ordenador
 
 #### Comparativa GPT vs MBR
 
-:::note[particiones]
-**Conexión con el currículo: RA: 3 - CE: d**
-
-Las **particiones de disco** dividen un disco duro en secciones lógicas para organizar y gestionar el almacenamiento de manera eficiente. 
-
-**Tipos de particiones**:  
-1. **Primaria**: Hasta 4 particiones principales.
-2. **Extendida**: Permite crear particiones lógicas adicionales.
-3. **Lógica**: Almacenamiento de datos o sistemas operativos adicionales.
-
-**Propósitos**: Organización de datos, multiboot, seguridad y recuperación de información, y optimización del rendimiento del sistema.
-:::
-
 | Característica                      | **GPT (Guid Partition Table)**               | **MBR (Master Boot Record)**              |
 |-------------------------------------|---------------------------------------------|------------------------------------------|
 | **Número máximo de particiones**    | Hasta 128 particiones                       | Máximo de 4 particiones primarias        |
