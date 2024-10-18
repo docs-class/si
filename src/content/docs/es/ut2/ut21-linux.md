@@ -63,3 +63,7 @@ Cada distribución tiene su propio sistema de gestión de repositorios y su pol�
 :::tip[Enlaces]  
   - [Vídeo introductorio Linux - en](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
 :::
+
+:::caution[Actividad]
+A2.2 - Controladores
+:::
