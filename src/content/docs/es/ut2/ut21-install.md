@@ -21,8 +21,10 @@ description: "SSOO - Instalación"
 ## Parametrización Inicial
 - **Tareas Iniciales**: Configuración de usuario administrador, actualizaciones, revisión de drivers, conexión a red y cambios estéticos.
 
-:::note[particiones]
-**Conexión con el currículo: RA: 3 - CE: d**
+:::note[sistemas de archivos y particiones]
+**Conexión con el currículo: RA: 3 - CE: a, d**
+
+> Un **sistema de ficheros** es la estructura que permite organizar, almacenar y gestionar los archivos en un dispositivo de almacenamiento. En **Windows**, el sistema de ficheros principal es **NTFS**, mientras que en **Linux** se usa principalmente **ext4**.
 
 Las **particiones de disco** dividen un disco duro en secciones lógicas para organizar y gestionar el almacenamiento de manera eficiente.
 
