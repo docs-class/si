@@ -95,5 +95,5 @@ Esto permite ejecutar múltiples sistemas operativos o aplicaciones en un solo s
 - **Azure Virtualization**: Posibilidad de implementar máquinas virtuales en la nube, con acceso mediante RDP.
 
 :::caution[Actividad]
-A2.2 - Instalaciones I
+A2.3 - Instalaciones I
 :::
