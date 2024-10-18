@@ -21,10 +21,6 @@ description: "SSOO - Instal·lació"
 ## Parametrització Inicial
 - **Tasques Inicials**: Configuració d'usuari administrador, actualitzacions, revisió de drivers, connexió a xarxa i canvis estètics.
 
-Aquí tens la versió adaptada per a Windows:
-
----
-
 :::note[particions]
 **Connexió amb el currículum: RA: 3 - CE: d**
 
@@ -37,8 +33,6 @@ Les **particions de disc** divideixen un disc dur en seccions lògiques per orga
 
 **Propòsits**: Organització de dades, multiboot, seguretat i recuperació d'informació, i optimització del rendiment del sistema.
 :::
-
----
 
 ## Procés d'Instal·lació - Windows
 
@@ -73,7 +67,6 @@ El sistema sol·licita el nombre i la disposició de les particions a configurar
 | /home                  | 50 GB             | Espai per als usuaris             |
 | /                      | Resta             | Espai per a la resta de l'equip   |
 
-Aquí tienes la traducción al valenciano:
 
 :::tip[Glossari]
 - La partició **EFI** s'utilitza per emmagatzemar els fitxers del carregador d'arrencada necessaris per iniciar el sistema operatiu, especialment en sistemes moderns que utilitzen _UEFI_ (Unified Extensible Firmware Interface). Aquesta partició s'encarrega de gestionar l'arrencada segura i proporciona una capa addicional de seguretat i flexibilitat comparada amb l'antic BIOS.
