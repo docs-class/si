@@ -1,7 +1,3 @@
-Aquí tienes la traducción al español:
-
----
-
 ---
 
 title: "Instalación"  
