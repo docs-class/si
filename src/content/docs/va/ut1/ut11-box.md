@@ -29,6 +29,7 @@ La **font d'alimentació** és un component essencial en un sistema informàtic 
 4. **Connectors:**
    - Inclou diversos connectors per a alimentar la placa base, la CPU, els discos durs, les targetes gràfiques, els ventiladors i altres perifèrics.
    - Els connectors més comuns són l'ATX de 24 pins, EPS de 8 pins per a la CPU, SATA per a discos durs i PCIe per a targetes gràfiques.
+  ![atx energy connectors](https://onubaelectronica.es/wp-content/uploads/2020/04/Power_conector_placabase.jpg.webp)
 
 5. **Eficiència Energètica:**
    - L'eficiència d'una font d'alimentació es mesura per la quantitat d'energia convertida en corrent útil enfront de l'energia que es perd en forma de calor.

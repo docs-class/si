@@ -42,7 +42,10 @@ Cada processador està dissenyat per a un tipus específic de socket.
 ### Connectors frontals i posteriors
 
 ![Connectors frontals](../../../../assets/ut1/conectores-frontal.jpg)
+
+![Connectors posteriors old](https://onubaelectronica.es/wp-content/uploads/2020/04/conectores_mainboard.jpg.webp)
 ![Connectors posteriors](../../../../assets/ut1/conectores-placa-base-trasera.webp)
+![Connectors posteriors top](https://acf.geeknetic.es/imgw/imagenes/auto/2022/1/27/l8m-conectoresplacasbase.jpg?f=webp)
 
 ### PCI-Express 
 **PCI-Express (PCIe)** és una interfície de connexió d'alta velocitat utilitzada per a connectar components com targetes gràfiques, SSD i targetes de xarxa a la placa base.
@@ -60,6 +63,8 @@ Cada processador està dissenyat per a un tipus específic de socket.
 
 - Pila botó per a BIOS/UEFI
 - BIOS/UEFI
+
+![switch bios](https://www.biostar.com.tw/picture/Faq/764/_3.PNG)
 
 El BIOS (Basic Input/Output System) i UEFI (Unified Extensible Firmware Interface) són dos tipus de firmware que es troben en les plaques base i s'executen quan s'encén l'ordinador per a inicialitzar el maquinari i arrancar el sistema operatiu.
 

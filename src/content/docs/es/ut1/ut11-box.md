@@ -30,8 +30,10 @@ La **fuente de alimentación** es un componente esencial en un sistema informát
 4. **Conectores:**
    - Incluye diversos conectores para alimentar la placa base, CPU, discos duros, tarjetas gráficas, ventiladores y otros periféricos.
    - Los conectores más comunes son el ATX de 24 pines, EPS de 8 pines para la CPU, SATA para discos duros y PCIe para tarjetas gráficas.
+  ![atx energy connectors](https://onubaelectronica.es/wp-content/uploads/2020/04/Power_conector_placabase.jpg.webp)
+  
 
-5. **Eficiencia Energética:**
+1. **Eficiencia Energética:**
    - La eficiencia de una fuente de alimentación se mide por la cantidad de energía convertida en corriente útil frente a la energía que se pierde en forma de calor.
    - Las certificaciones como **80 PLUS** garantizan que la fuente tiene un mínimo de eficiencia (del 80% o superior) en diferentes niveles de carga.
 

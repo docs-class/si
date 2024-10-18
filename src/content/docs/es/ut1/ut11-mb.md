@@ -42,7 +42,10 @@ Cada procesador está diseñado para un tipo específico de socket.
 ### Conectores frontales y posteriores
 
 ![Conectores frontales](../../../../assets/ut1/conectores-frontal.jpg)
+
+![Conectores posteriores old](https://onubaelectronica.es/wp-content/uploads/2020/04/conectores_mainboard.jpg.webp)
 ![Conectores posteriores](../../../../assets/ut1/conectores-placa-base-trasera.webp)
+![Conectores posteriores top](https://acf.geeknetic.es/imgw/imagenes/auto/2022/1/27/l8m-conectoresplacasbase.jpg?f=webp)
 
 ### PCI-Express 
 **PCI-Express (PCIe)** es una interfaz de conexión de alta velocidad utilizada para conectar componentes como tarjetas gráficas, SSD y tarjetas de red a la placa base. 
@@ -60,6 +63,8 @@ Cada procesador está diseñado para un tipo específico de socket.
 
 - Pila botón para BIOS/UEFI
 - BIOS/UEFI
+
+![switch bios](https://www.biostar.com.tw/picture/Faq/764/_3.PNG)
 
 El BIOS (Basic Input/Output System) y UEFI (Unified Extensible Firmware Interface) son dos tipos de firmware que se encuentran en las placas base y se ejecutan cuando se enciende el ordenador para inicializar el hardware y arrancar el sistema operativo
 
