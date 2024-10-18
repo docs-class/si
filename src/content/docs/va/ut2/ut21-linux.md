@@ -61,8 +61,6 @@ Cada distribució té el seu propi sistema de gestió de repositoris i la seua p
 - En **openSUSE**, el repositori **OSS (Open Source Software)** conté programari lliure, mentre que la comunitat manté altres repositoris addicionals.
 :::
 
-:::caution[activitat]  
-- Busca informació sobre com gestionar actualitzacions en la teua distribució Linux de manera gràfica.
-- Busca informació per a la relació GNU/Linux.
-  - [Enllaç a vídeo introductori a Linux- en](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
+:::tip[Enllaços]  
+  - [vídeo introductori a Linux- en](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
 :::

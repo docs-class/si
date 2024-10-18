@@ -60,8 +60,6 @@ Cada distribución tiene su propio sistema de gestión de repositorios y su pol�
 - En **openSUSE**, el repositorio **OSS (Open Source Software)** contiene software libre, mientras que la comunidad mantiene otros repositorios adicionales.
 :::
   
-:::caution[actividad]  
-- Busca información sobre cómo gestionar actualizaciones en tu distribución Linux de manera gráfica.
-- Busca información para la relación GNU/Linux
-  - [Enlace a vídeo introductorio Linux - en](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
+:::tip[Enlaces]  
+  - [Vídeo introductorio Linux - en](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
 :::
