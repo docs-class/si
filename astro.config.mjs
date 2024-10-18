@@ -94,7 +94,10 @@ export default defineConfig({
             //             },
             //             items: [
             //                 'ut2/ut21',
+            //                 'ut2/ut21-install',
             //                 'ut2/ut21-boot',
+            //                 'ut2/ut21-win',
+            //                 'ut2/ut21-linux',
             //             ],
             //         },
             //         {
@@ -104,7 +107,8 @@ export default defineConfig({
             //                 'en': '2.2 Virtual Machines, Installing & updating OS',
             //             },
             //             items: [
-            //                 'ut2/ut22',
+            //                 'ut2/ut22-virtualization',
+            //                 'ut2/ut22-virtualbox-advanced',
             //             ],
             //         },
             //         {
@@ -116,7 +120,8 @@ export default defineConfig({
             //             items: [
             //                 'ut2/a20-m56gfhh',
             //                 'ut2/a21-mj686lvd',
-            //                 'ut2/a22-m8262cd',
+            //                 'ut2/a22-m4567dw',
+            //                 'ut2/a23-m8262cd',
             //             ],
             //         },
             //     ],
