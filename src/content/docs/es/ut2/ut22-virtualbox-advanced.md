@@ -87,3 +87,6 @@ Una vez que las máquinas están agrupadas, se pueden realizar diversas acciones
 ![Grupos en virtualbox](../../../../assets/ut2/grupos.png)
 
 
+:::caution[actividad]
+A2.4 - Virtualbox Advanced
+:::

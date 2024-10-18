@@ -85,3 +85,7 @@ Una vegada les màquines estan agrupades, es poden realitzar diverses accions en
 - **Configurar Grup**: Pots modificar configuracions compartides per les màquines del grup.
 
 ![Grups en VirtualBox](../../../../assets/ut2/grupos.png)
+
+:::caution[activitat]
+A2.4 - Virtualbox Advanced
+:::
