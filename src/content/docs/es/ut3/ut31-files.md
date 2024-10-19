@@ -3,6 +3,10 @@ title: "Sistemas de ficheros"
 description: "Sistemas de ficheros"
 ---
 
+:::note[Connexión con el currículum]
+RA: 3 - CE: a, b, c
+:::
+
 ## Sistemas de archivos
 
 Un sistema de archivos es como un índice o catálogo que un sistema operativo utiliza para organizar y almacenar datos en un dispositivo de almacenamiento, como un disco duro, una unidad de estado sólido (SSD) o una memoria USB.
