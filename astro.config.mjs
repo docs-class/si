@@ -24,6 +24,7 @@ export default defineConfig({
         sidebar: [
             {
                 label: 'UT1 - SISTEMES INFORMÀTICS: ARQUITECTURA Y COMPONENTS',
+                badge: { text: '<--', variant: 'success' },
                 translations: {
                     'es': 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
                     'en': 'UT1 - IT SYSTEMS: ARQUITECTURE AND COMPONENTS',
@@ -118,6 +119,7 @@ export default defineConfig({
             //     translations: {
             //         'es': 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL LINUX',
             //         'en': 'UT3 - FILE MANAGEMENT AND STORAGE. INTRODUCTION TO LINUX TERMINAL',
+                    
             //     },
             //     // Collapsa el grupo de forma predeterminada.
             //     collapsed: true,
@@ -129,7 +131,8 @@ export default defineConfig({
             //                 'en': '3.1 Directory structure',
             //             },
             //             items: [
-            //                 'ut2/ut21',
+            //                 'ut3/ut31-files',
+            //                 'ut3/ut31-directories',
             //             ],
             //         },
             //         {
