@@ -113,6 +113,38 @@ export default defineConfig({
             //         },
             //     ],
             // },
+            // {
+            //     label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL LINUX",
+            //     translations: {
+            //         'es': 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL LINUX',
+            //         'en': 'UT3 - FILE MANAGEMENT AND STORAGE. INTRODUCTION TO LINUX TERMINAL',
+            //     },
+            //     // Collapsa el grupo de forma predeterminada.
+            //     collapsed: true,
+            //     items: [
+            //         {
+            //             label: '3.1 Estructura de directoris',
+            //             translations: {
+            //                 'es': '3.1 Estructura de directorios',
+            //                 'en': '3.1 Directory structure',
+            //             },
+            //             items: [
+            //                 'ut2/ut21',
+            //             ],
+            //         },
+            //         {
+            //             label: '3.2 Particions y backup',
+            //             translations: {
+            //                 'es': '3.2 Particiones y backup',
+            //                 'en': '3.2 Partitions and backup',
+            //             },
+            //             items: [
+            //                 'ut2/ut22-virtualization',
+            //                 'ut2/ut22-virtualbox-advanced',
+            //             ],
+            //         },
+            //     ],
+            // },
         ],
     }),],
 });
