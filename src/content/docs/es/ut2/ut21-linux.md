@@ -65,5 +65,5 @@ Cada distribución tiene su propio sistema de gestión de repositorios y su pol�
 :::
 
 :::caution[Actividad]
-A2.2 - Controladores
+2.1.3 - Controladores
 :::

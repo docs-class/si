@@ -31,5 +31,7 @@ Segons la importància de l'actualització, es cataloguen com:
 - **CRÍTIQUES**: Relatives a problemes de seguretat. Molt recomanable la seua instal·lació.
 
 :::caution[activitat]  
-Busca informació sobre l'actualització de W11 24H2.
+2.1.2 Busca informació sobre l'actualització de W11 24H2.
+    - URL a la font
+    - Canvis principials
 :::

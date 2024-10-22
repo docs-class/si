@@ -66,5 +66,5 @@ Cada distribució té el seu propi sistema de gestió de repositoris i la seua p
 :::
 
 :::caution[Activitat]
-A2.2 - Controladors
+2.1.3 - Controladors
 :::
