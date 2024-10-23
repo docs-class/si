@@ -24,7 +24,7 @@ export default defineConfig({
         sidebar: [
             {
                 label: 'UT1 - SISTEMES INFORMÀTICS: ARQUITECTURA Y COMPONENTS',
-                badge: { text: '<--', variant: 'success' },
+                badge: { text: '\*', variant: 'success' },
                 translations: {
                     'es': 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
                     'en': 'UT1 - IT SYSTEMS: ARQUITECTURE AND COMPONENTS',
@@ -66,10 +66,10 @@ export default defineConfig({
                         ],
                     },
                     {
-                        label: '1.3 Precaucions Bàsiques',
+                        label: '1.3 Precaucions Bàsiques i muntatge',
                         translations: {
-                            'es': '1.3 Precauciones Básicas',
-                            'en': '1.3 Basic Precautions',
+                            'es': '1.3 Precauciones Básicas y monteje',
+                            'en': '1.3 Basic Precautions and mounting',
                         },
 
                         items: [
@@ -78,42 +78,42 @@ export default defineConfig({
                     },
                 ],
             },
-            // {
-            //     label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
-            //     translations: {
-            //         'es': 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
-            //         'en': 'UT2 - OPERATING SYSTEMS. INTRODUCTION',
-            //     },
-            //     // Collapsa el grupo de forma predeterminada.
-            //     collapsed: true,
-            //     items: [
-            //         {
-            //             label: '2.1 Introducció als Sistemes Operatius',
-            //             translations: {
-            //                 'es': '2.1 Introducción a los Sistemas Operativos',
-            //                 'en': '2.1 System Operating Introduction',
-            //             },
-            //             items: [
-            //                 'ut2/ut21',
-            //                 'ut2/ut21-install',
-            //                 'ut2/ut21-boot',
-            //                 'ut2/ut21-win',
-            //                 'ut2/ut21-linux',
-            //             ],
-            //         },
-            //         {
-            //             label: '2.2 Màquines virtuals, Instalació i Actualizació de SSOO',
-            //             translations: {
-            //                 'es': '2.2 Máquinas virtuales, Instalación y actualización de SSOO',
-            //                 'en': '2.2 Virtual Machines, Installing & updating OS',
-            //             },
-            //             items: [
-            //                 'ut2/ut22-virtualization',
-            //                 'ut2/ut22-virtualbox-advanced',
-            //             ],
-            //         },
-            //     ],
-            // },
+            {
+                label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
+                translations: {
+                    'es': 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
+                    'en': 'UT2 - OPERATING SYSTEMS. INTRODUCTION',
+                },
+                // Collapsa el grupo de forma predeterminada.
+                collapsed: true,
+                items: [
+                    {
+                        label: '2.1 Introducció als Sistemes Operatius',
+                        translations: {
+                            'es': '2.1 Introducción a los Sistemas Operativos',
+                            'en': '2.1 System Operating Introduction',
+                        },
+                        items: [
+                            'ut2/ut21',
+                            'ut2/ut21-install',
+                            'ut2/ut21-boot',
+                            'ut2/ut21-win',
+                            'ut2/ut21-linux',
+                        ],
+                    },
+                    // {
+                    //     label: '2.2 Màquines virtuals, Instalació i Actualizació de SSOO',
+                    //     translations: {
+                    //         'es': '2.2 Máquinas virtuales, Instalación y actualización de SSOO',
+                    //         'en': '2.2 Virtual Machines, Installing & updating OS',
+                    //     },
+                    //     items: [
+                    //         'ut2/ut22-virtualization',
+                    //         'ut2/ut22-virtualbox-advanced',
+                    //     ],
+                    // },
+                ],
+            },
             // {
             //     label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL LINUX",
             //     translations: {
