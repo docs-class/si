@@ -29,9 +29,3 @@ Segons la importància de l'actualització, es cataloguen com:
 - **OPCIONALS**: Relatives a controladors i altres característiques no influents.
 - **IMPORTANTS**: Relatives a modificacions o ampliacions de característiques que milloraran el rendiment.
 - **CRÍTIQUES**: Relatives a problemes de seguretat. Molt recomanable la seua instal·lació.
-
-:::caution[activitat]  
-2.1.2 Busca informació sobre l'actualització de W11 24H2.
-    - URL a la font
-    - Canvis principials
-:::

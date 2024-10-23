@@ -80,5 +80,5 @@ El sistema solicita el número y la disposición de las particiones a configurar
 El sistema Linux cuenta, al menos, con el usuario **root**, pero al instalar la versión **desktop**, se solicita la configuración de un usuario que estará habilitado para tareas de uso y configuración.
 
 :::caution[Actividad]
-2.1.1 - Prerrequisitos y obtención de medios
+Prerrequisitos y obtención de medios
 :::

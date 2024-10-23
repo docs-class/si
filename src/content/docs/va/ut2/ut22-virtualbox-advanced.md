@@ -87,5 +87,5 @@ Una vegada les màquines estan agrupades, es poden realitzar diverses accions en
 ![Grups en VirtualBox](../../../../assets/ut2/grupos.png)
 
 :::caution[activitat]
-A2.4 - Virtualbox Advanced
+Virtualbox Advanced
 :::

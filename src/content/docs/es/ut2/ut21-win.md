@@ -28,9 +28,3 @@ Según la importancia de la actualización se catalogan como:
 - **IMPORTANTES:** Relativas a modificaciones o ampliaciones de características que mejorarán el rendimiento.
 - **CRÍTICAS:** Relativas a problemas de seguridad. Muy recomendable su instalación.
 
-:::caution[actividad]
-2.1.2 Busca información sobre la actualización de W11 24H2.
-  - URL a la fuente
-  - Cambios Principales 
-:::
-

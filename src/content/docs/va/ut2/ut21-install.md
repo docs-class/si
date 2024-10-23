@@ -78,5 +78,5 @@ El sistema sol·licita el nombre i la disposició de les particions a configurar
 El sistema Linux compta, almenys, amb l'usuari **root**, però en instal·lar la versió **desktop**, es demana la configuració d'un usuari que estarà activat per a tasques d'ús i configuració.
 
 :::caution[Activitat]
-2.1.1 - Prerequisits i obtenció de mitjans
+Prerequisits i obtenció de mitjans
 :::
