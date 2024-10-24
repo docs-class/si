@@ -7,12 +7,18 @@ description: "Directorios"
 
 La estructura de directorios en Windows está organizada jerárquicamente y empieza por unidades de almacenamiento (por ejemplo, **C:**, **D:**). Estas unidades contienen todos los archivos y carpetas. A continuación, algunos de los directorios principales:
 
-- **C:\\**: Es la unidad de disco principal donde generalmente se instala el sistema operativo.
-- **C:\Windows**: Contiene los archivos necesarios para el funcionamiento del sistema operativo.
-- **C:\Program Files**: Directorio donde se instalan los programas y aplicaciones del sistema. Las versiones de 64 bits también incluyen una carpeta llamada **C:\Program Files (x86)**.
-- **C:\Users**: Almacena las carpetas personales de cada usuario, como documentos, imágenes, y configuraciones de cada perfil.
-- **C:\Temp**: Directorio temporal donde se almacenan archivos de uso temporal, útil para ciertas operaciones del sistema.
-- **C:\System32**: Es una subcarpeta de **C:\Windows** que contiene archivos del sistema y bibliotecas esenciales para el funcionamiento del sistema operativo.
+| **Directorio**   | **Función**                                                        |
+|------------------|--------------------------------------------------------------------|
+| `C:\`            | Directorio raíz del sistema, donde se encuentran todos los archivos principales. |
+| `C:\Program Files` | Contiene programas instalados (aplicaciones de 64 bits).         |
+| `C:\Program Files (x86)` | Contiene programas de 32 bits en sistemas de 64 bits.      |
+| `C:\Windows`     | Archivos del sistema operativo, como el kernel y bibliotecas del sistema. |
+| `C:\Users`       | Carpetas personales de cada usuario.                              |
+| `C:\Windows\System32` | Archivos esenciales del sistema, incluyendo comandos y utilidades. |
+| `C:\Temp`        | Archivos temporales del sistema.                                  |
+| `C:\Windows\Temp` | Archivos temporales utilizados por el sistema y programas.        |
+| `C:\ProgramData` | Archivos de configuración de programas accesibles a todos los usuarios. |
+| `C:\Users\<Usuario>\AppData` | Configuraciones locales de aplicaciones para cada usuario. |
 
 ![windows folder estructure](https://www.aulaclic.es/googledrive/graficos/guardar_desplegado.gif)
 
@@ -20,14 +26,43 @@ La estructura de directorios en Windows está organizada jerárquicamente y empi
 
 En Linux, la estructura de directorios sigue el estándar **Filesystem Hierarchy Standard (FHS)** y todos los directorios parten de la raíz representada por **/**. Algunos de los directorios principales son:
 
-- **/** (Raíz): Directorio raíz que contiene todos los demás directorios del sistema.
-- **/bin**: Contiene archivos ejecutables esenciales para el funcionamiento del sistema, como comandos básicos (`ls`, `cp`, etc.).
-- **/boot**: Almacena los archivos necesarios para el arranque del sistema, como el kernel.
-- **/etc**: Contiene archivos de configuración del sistema y de los programas instalados.
-- **/home**: Directorio de los usuarios. Cada usuario tiene una subcarpeta donde guarda sus archivos personales, como **/home/usuario**.
-- **/usr**: Contiene aplicaciones y utilidades del sistema que no son fundamentales para el arranque, incluyendo ejecutables, bibliotecas y archivos de documentación.
-- **/var**: Almacena archivos que cambian con frecuencia, como registros del sistema (**/var/log**) y colas de impresión.
-- **/tmp**: Directorio temporal donde se almacenan archivos que solo son necesarios por un corto periodo de tiempo.
-- **/root**: Carpeta del superusuario (root). Es similar a **/home**, pero específicamente para el usuario root.
-- **/dev**: Contiene los archivos de dispositivos, que permiten al sistema interactuar con hardware, como discos o periféricos.
+### Jerarquía de Ficheros
 
+| **Directorio** | **Función** |
+|----------------|-------------|
+| `/`            | Directorio raíz, contiene todos los demás directorios. |
+| `/bin`         | Programas esenciales del sistema (binarios), como comandos básicos (`ls`, `cp`). |
+| `/boot`        | Archivos necesarios para el arranque del sistema (núcleo de Linux, GRUB). |
+| `/dev`         | Archivos de dispositivos de hardware (discos duros, impresoras, etc.). |
+| `/etc`         | Archivos de configuración del sistema y programas instalados (configuración de red, usuarios). |
+| `/home`        | Directorios personales de los usuarios. |
+| `/lib`         | Bibliotecas compartidas y módulos necesarios para el sistema y el núcleo. |
+| `/media`       | Punto de montaje para medios extraíbles (discos externos, USB, CD). |
+| `/mnt`         | Directorio para montar temporalmente sistemas de archivos o discos. |
+| `/opt`         | Directorio para software adicional instalado opcionalmente. |
+| `/proc`        | Sistema de archivos virtual con información sobre procesos en ejecución y hardware. |
+| `/root`        | Directorio personal del usuario root (superusuario). |
+| `/sbin`        | Programas esenciales para la administración del sistema (solo para administradores). |
+| `/tmp`         | Directorio para archivos temporales. |
+| `/usr`         | Contiene aplicaciones y utilidades del usuario (subdirectorios como `/usr/bin`, `/usr/lib`, `/usr/share`). |
+| `/var`         | Archivos variables, como registros del sistema, colas de correo, etc. (`/var/log`). |
+
+
+### Rutas absolutas y relativas
+
+#### **Ruta Absoluta:**
+- Es la ruta completa desde el directorio raíz (`/`).
+  
+  **Ejemplo:**
+  ```bash frame="none"
+  /home/usuario/Documentos/proyecto.txt
+  ```
+  Comienza desde la raíz (`/`) y lleva hasta `proyecto.txt`.
+
+#### **Ruta Relativa:**
+- Es la ruta desde tu ubicación actual.
+
+  **Ejemplo:**
+  Si estás en `/home/usuario` y quieres acceder a `proyecto.txt` en `Documentos`:
+  ```bash frame="none"
+  Documentos/proyecto.txt
