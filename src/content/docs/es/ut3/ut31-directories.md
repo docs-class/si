@@ -51,18 +51,33 @@ En Linux, la estructura de directorios sigue el estándar **Filesystem Hierarchy
 ### Rutas absolutas y relativas
 
 #### **Ruta Absoluta:**
-- Es la ruta completa desde el directorio raíz (`/`).
-  
-  **Ejemplo:**
-  ```bash frame="none"
-  /home/usuario/Documentos/proyecto.txt
-  ```
-  Comienza desde la raíz (`/`) y lleva hasta `proyecto.txt`.
+- Es la ruta completa desde el directorio raíz (`/` en Linux o `C:\` en Windows).
+
+  **Ejemplos:**
+  - **Linux:**  
+    ```bash frame="none"
+    /home/usuario/Documentos/proyecto.txt
+    ```
+    Comienza desde la raíz (`/`) y llega hasta `proyecto.txt`.
+
+  - **Windows:**  
+    ```cmd frame="none"
+    C:\Users\Usuario\Documents\proyecto.txt
+    ```
+    Comienza desde el disco (`C:\`) y llega hasta `proyecto.txt`.
 
 #### **Ruta Relativa:**
-- Es la ruta desde tu ubicación actual.
+- Es la ruta desde la ubicación actual.
 
-  **Ejemplo:**
-  Si estás en `/home/usuario` y quieres acceder a `proyecto.txt` en `Documentos`:
-  ```bash frame="none"
-  Documentos/proyecto.txt
+  **Ejemplos:**
+  - **Linux:**  
+    Si estás en `/home/usuario` y quieres acceder a `proyecto.txt` en `Documentos`:
+    ```bash frame="none"
+    Documentos/proyecto.txt
+    ```
+
+  - **Windows:**  
+    Si estás en `C:\Users\Usuario` y quieres acceder a `proyecto.txt` en `Documents`:
+    ```cmd frame="none"
+    Documents\proyecto.txt
+    ```
