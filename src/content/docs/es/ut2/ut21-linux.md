@@ -26,7 +26,23 @@ Cada distribución tiene su propia filosofía y enfoque, haciendo que Linux sea 
 
 [Dsitribuciones](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg)
 
-## Ejemplos de gestores de actualizaciones
+## Métodos de Instalación/actualizaciones
+
+1. **Tienda gráfica online** (varía según la distro) Ej: Ubuntu Software en Ubuntu o Discover en KDE
+2. **Repositorios**: Servidores de paquetes, accedidos a través de un gestor de paquetes como `apt` para Debian.
+3. **Descarga directa**: Desde el sitio web del fabricante, normalmente en formatos `.tgz`, `.deb` o `.rpm`.
+
+#### Comandos de APT
+
+APT es el sistema de gestión de paquetes para distribuciones basadas en Debian, y facilita la instalación y administración de software.
+
+- `apt update`: Actualiza la lista de paquetes de los repositorios configurados en el sistema para que el gestor tenga la información más reciente.
+- `apt install <paquete>`: Instala el paquete especificado y sus dependencias.
+- `apt upgrade`: Actualiza todos los paquetes del sistema a las versiones más recientes.
+- `apt show <paquete>`: Muestra información detallada sobre un paquete, como su versión, descripción y dependencias.
+- `apt list --installed`: Lista los paquetes que están instalados en el sistema.
+- `apt edit-sources`: Permite editar el archivo de fuentes de los repositorios para añadir o modificar repositorios.
+- `apt-get --purge remove <paquete>`: Elimina un paquete junto con sus archivos de configuración.
 
 - **APT** (Advanced Package Tool) para distribuciones basadas en Debian/Ubuntu.
     ```sh frame="none"
