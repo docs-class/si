@@ -71,9 +71,11 @@ Juntament amb els arxius ISO, sol haver-hi uns codis MD5, SHA1/256/512
 | **SHA512** Secure Hash Algorithm 512   | 512 bits              | Molt segur                | Instal·lació de sistemes operatius, arxius crítics |
 
 :::tip[Ampliació]
-[Generar i comprovar codi hash](https://geekland.eu/como-generar-y-verificar-el-hash-de-archivos-en-linux/)
+- [Generar i comprovar codi hash](https://geekland.eu/como-generar-y-verificar-el-hash-de-archivos-en-linux/)
+- [Testing on-line distros](https://distrosea.com/es/)
+
 :::
 
 :::caution[Activitat]
-Creació de Boot USB
+Creació de `USB Bootable`
 :::
