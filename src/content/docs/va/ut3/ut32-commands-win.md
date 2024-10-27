@@ -1,52 +1,9 @@
 ---
-title: "Sistemas de ficheros"
-description: "Sistemas de ficheros"
+title: "Introducción al terminal Windows"
+description: "Introducción al terminal Windows"
 ---
 
-# UT3. Introducción al Terminal en GNU/Linux I
-
-## Índice
-- Introducción a Linux
-- Características
-- Interfaz
-- Jerarquía de directorios
-- Gestión de ficheros
-
----
-
-## 1. Historia
-
-- **1969**: AT&T desarrolla el sistema operativo **UNIX**.
-- **1983**: Richard Stallman inicia el proyecto **GNU** para crear un sistema operativo tipo UNIX de software libre.
-- **1985**: Microsoft publica **Windows** con interfaz gráfica (GUI).
-- **1991**: Linus Torvalds comienza a programar **Linux** (Linus + UNIX).
-- **1992**: Se fusionan **Linux** y **GNU** para crear **GNU/Linux**.
-- **2001**: Se lanza el primer sistema operativo **MAC OS X**, basado en UNIX.
-
----
-
-## 2. ¿Por qué Linux?
-
-- **Software Libre**: Puede ser usado, copiado, modificado y redistribuido.
-- **Licencias GPL**: Aseguran que el software siga siendo libre.
-- **Código Abierto**: Cualquiera puede ver y modificar el código.
-
-### Distribuciones
-- **Gratuitas**: Ubuntu, CentOS, Mint, Fedora, OpenSUSE.
-- **De Pago**: RedHat, SUSE (se paga por el soporte, no por el software).
-
----
-
-## 3. Características de Linux
-
-- **Robusto**: Menos sensible a errores.
-- **Seguro**: Menos vulnerable a virus comparado con otros sistemas.
-- **Kernel**: Interactúa con el hardware, está programado en C.
-- **Shell**: Ejecuta comandos (bash, sh).
-
----
-
-## 4. Prompt de Linux
+## 1. Prompt de windows
 
 - El **prompt** muestra información útil como el usuario, la máquina y el directorio actual.
   - Ejemplo: `jose@ubuntu:~$`
