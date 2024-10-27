@@ -110,15 +110,17 @@ export default defineConfig({
                     //     items: [
                     //         'ut2/ut22-virtualization',
                     //         'ut2/ut22-virtualbox-advanced',
+                    //         'ut2/ut22-backup',
+                    //         'ut2/ut22-usb',
                     //     ],
                     // },
                 ],
             },
             // {
-            //     label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL LINUX",
+            //     label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL",
             //     translations: {
-            //         'es': 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL LINUX',
-            //         'en': 'UT3 - FILE MANAGEMENT AND STORAGE. INTRODUCTION TO LINUX TERMINAL',
+            //         'es': 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL ',
+            //         'en': 'UT3 - FILE MANAGEMENT AND STORAGE. INTRODUCTION TO THE TERMINAL',
                     
             //     },
             //     // Collapsa el grupo de forma predeterminada.
@@ -136,14 +138,25 @@ export default defineConfig({
             //             ],
             //         },
             //         {
-            //             label: '3.2 Particions y backup',
+            //             label: '3.2 Particions, Automatizacions i backups',
             //             translations: {
-            //                 'es': '3.2 Particiones y backup',
-            //                 'en': '3.2 Partitions and backup',
+            //                 'es': '3.2 Particiones, Automatizaciones y backups',
+            //                 'en': '3.2 Partitions, Automations & backups',
             //             },
             //             items: [
-            //                 'ut2/ut22-virtualization',
-            //                 'ut2/ut22-virtualbox-advanced',
+            //                 'ut3/ut33-commands-win',
+            //                 'ut3/ut33-commands-linux',
+            //             ],
+            //         },
+            //         {
+            //             label: '3.3 Gestió de la informació',
+            //             translations: {
+            //                 'es': '3.3 Gestión de la información',
+            //                 'en': '3.3 Information Management',
+            //             },
+            //             items: [
+            //                 'ut3/ut33-commands-win',
+            //                 'ut3/ut33-commands-linux',
             //             ],
             //         },
             //     ],
