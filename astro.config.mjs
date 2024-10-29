@@ -10,21 +10,6 @@ export default defineConfig({
     site: 'https://docs-class.github.io/',
     base: '/si',
     integrations: [markdoc(), 
-        starlightViewModes({
-            // https://starlight-view-modes.trueberryless.org/getting-started/
-            zenModeEnabled: true,
-            zenModeCloseButtonPosition: "top-right",
-            zenModeShowHeader: true,
-            // zenModeShowSidebar: true,
-            // zenModeShowTableOfContents: true,
-            // zenModeShowFooter: true,
-            zenModeShowSwitchInHeader: true,
-            // zenModeShowSwitchInHeaderMobile: true,
-            // zenModeShowSwitchInTableOfContents: true,
-
-            //presentationModeEnabled: true, // not supported yet
-            //presentationModeShowSwitchInTableOfContents: true, // not supported yet
-        }),
         starlight({
         title: {
             es: 'Sistemas Informáticos',
@@ -36,6 +21,27 @@ export default defineConfig({
             'en': { lang: 'en', label: 'English' },
             'va': { lang: 'va', label: 'Valencià' },
         },
+        customCss: [
+            // Relative path to your custom CSS file
+            './src/styles/custom.css',
+          ],
+          plugins: [
+            // starlightViewModes({
+            //     // zenModeEnabled: true,
+            //     // zenModeCloseButtonPosition: "top-right",
+            //     // zenModeShowHeader: false,
+            //     // zenModeShowSidebar: false,
+            //     // zenModeShowTableOfContents: true,
+            //     // zenModeShowFooter: true,
+            //     // zenModeShowSwitchInHeader: true,
+            //     // zenModeShowSwitchInHeaderMobile: true,
+            //     // zenModeShowSwitchInTableOfContents: true,
+
+            //     // presentationModeEnabled: true, // not supported yet
+            //     // presentationModeControlButtonPosition: "middle-right", // not supported yet
+            //     // presentationModeShowSwitchInTableOfContents: true, // not supported yet
+            // }),
+        ],
         // Default locale
         defaultLocale: 'va',
         sidebar: [

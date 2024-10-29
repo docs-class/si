@@ -1,0 +1,11 @@
+:root {
+    h1{
+        color: salmon;
+    }
+
+    /* media (width >= 68px) {
+        --sl-sidebar-pad-x: 1rem;
+        --sl-sidebar-width: 8.75rem;
+    } */
+    
+  }
