@@ -2,13 +2,29 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import markdoc from '@astrojs/markdoc';
+import starlightViewModes from 'starlight-view-modes';
 
 
 // https://astro.build/config
 export default defineConfig({
     site: 'https://docs-class.github.io/',
     base: '/si',
-    integrations: [markdoc(), starlight({
+    integrations: [markdoc(), 
+        starlightViewModes({
+            zenModeEnabled: true,
+            zenModeCloseButtonPosition: "top-right",
+            zenModeShowHeader: true,
+            // zenModeShowSidebar: true,
+            // zenModeShowTableOfContents: true,
+            // zenModeShowFooter: true,
+            zenModeShowSwitchInHeader: true,
+            // zenModeShowSwitchInHeaderMobile: true,
+            // zenModeShowSwitchInTableOfContents: true,
+
+            //presentationModeEnabled: true, // not supported yet
+            //presentationModeShowSwitchInTableOfContents: true, // not supported yet
+        }),
+        starlight({
         title: {
             es: 'Sistemas Informáticos',
             va: 'Sistemes Informàtics',

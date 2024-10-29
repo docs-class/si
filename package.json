@@ -16,6 +16,7 @@
     "@astrojs/starlight-markdoc": "^0.1.0",
     "astro": "^4.16.7",
     "sharp": "^0.32.5",
+    "starlight-view-modes": "https://gitpkg.vercel.app/WindMillCode/starlight-view-modes/packages/starlight-view-modes?conform",
     "typescript": "^5.6.2"
   }
 }
