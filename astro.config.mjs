@@ -24,7 +24,6 @@ export default defineConfig({
         sidebar: [
             {
                 label: 'UT1 - SISTEMES INFORMÀTICS: ARQUITECTURA Y COMPONENTS',
-                badge: { text: '\*', variant: 'success' },
                 translations: {
                     'es': 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
                     'en': 'UT1 - IT SYSTEMS: ARQUITECTURE AND COMPONENTS',
@@ -80,6 +79,7 @@ export default defineConfig({
             },
             {
                 label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
+                badge: { text: '\*', variant: 'success' },
                 translations: {
                     'es': 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
                     'en': 'UT2 - OPERATING SYSTEMS. INTRODUCTION',
@@ -144,8 +144,7 @@ export default defineConfig({
             //                 'en': '3.2 Partitions, Automations & backups',
             //             },
             //             items: [
-            //                 'ut3/ut33-commands-win',
-            //                 'ut3/ut33-commands-linux',
+            //                 'ut3/ut32-partitions',
             //             ],
             //         },
             //         {
