@@ -11,6 +11,7 @@ export default defineConfig({
     base: '/si',
     integrations: [markdoc(), 
         starlightViewModes({
+            // https://starlight-view-modes.trueberryless.org/getting-started/
             zenModeEnabled: true,
             zenModeCloseButtonPosition: "top-right",
             zenModeShowHeader: true,
