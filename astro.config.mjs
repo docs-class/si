@@ -27,19 +27,19 @@ export default defineConfig({
           ],
           plugins: [
             // starlightViewModes({
-            //     // zenModeEnabled: true,
-            //     // zenModeCloseButtonPosition: "top-right",
-            //     // zenModeShowHeader: false,
-            //     // zenModeShowSidebar: false,
-            //     // zenModeShowTableOfContents: true,
-            //     // zenModeShowFooter: true,
-            //     // zenModeShowSwitchInHeader: true,
-            //     // zenModeShowSwitchInHeaderMobile: true,
-            //     // zenModeShowSwitchInTableOfContents: true,
+            //     zenModeEnabled: false,
+            //     zenModeCloseButtonPosition: "top-right",
+            //     zenModeShowHeader: false,
+            //     zenModeShowSidebar: false,
+            //     zenModeShowTableOfContents: true,
+            //     zenModeShowFooter: true,
+            //     zenModeShowSwitchInHeader: true,
+            //     zenModeShowSwitchInHeaderMobile: true,
+            //     zenModeShowSwitchInTableOfContents: true,
 
-            //     // presentationModeEnabled: true, // not supported yet
-            //     // presentationModeControlButtonPosition: "middle-right", // not supported yet
-            //     // presentationModeShowSwitchInTableOfContents: true, // not supported yet
+            //     presentationModeEnabled: true, // not supported yet
+            //     presentationModeControlButtonPosition: "middle-right", // not supported yet
+            //     presentationModeShowSwitchInTableOfContents: true, // not supported yet
             // }),
         ],
         // Default locale
@@ -102,7 +102,7 @@ export default defineConfig({
             },
             {
                 label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
-                badge: { text: '\*', variant: 'success' },
+                badge: { text: '28-OCT', variant: 'success' },
                 translations: {
                     'es': 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
                     'en': 'UT2 - OPERATING SYSTEMS. INTRODUCTION',
