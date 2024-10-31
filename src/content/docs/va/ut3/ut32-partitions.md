@@ -3,6 +3,10 @@ title: "Particions"
 description: "Particions"  
 ---
 
+:::note[Connexió amb el currículum]
+RA: 3 - CE: d, g
+:::
+
 ## Accions Comunes  
 1. **Crear particions**: Dividir el disc en diferents seccions lògiques, cosa que permet organitzar l'emmagatzematge de dades i, en alguns casos, instal·lar diversos sistemes operatius.  
 2. **Eliminar particions**: Alliberar l'espai ocupat per una partició per al seu ús futur. Això és útil si ja no es necessita una partició específica.  

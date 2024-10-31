@@ -3,6 +3,10 @@ title: "Particiones"
 description: "Particiones"
 ---
 
+:::note[Connexión con el currículum]
+RA: 3 - CE: d, g
+:::
+
 ## Acciones Comunes
 1. **Crear Particiones**: Dividir el disco en diferentes secciones lógicas, lo cual permite organizar el almacenamiento de datos y, en algunos casos, instalar varios sistemas operativos.
 2. **Eliminar Particiones**: Liberar el espacio ocupado por una partición para su uso futuro. Esto es útil si ya no se necesita una partición específica.
