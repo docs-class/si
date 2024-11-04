@@ -30,7 +30,7 @@ El sòcol on es col·loca el processador, permetent que la CPU es comunique amb 
 
 Cada processador està dissenyat per a un tipus específic de socket.
 
-- Intel: LGA 1200, LGA 1700, etc.
+- Intel: LGA 1200, LGA 1700, etc. (el número representa la quantitat de pins del socket)
 - AMD: AM4 (PGA), AM5 (PGA), TR4 (LGA), etc.
 
 ### Refrigeració de la CPU
