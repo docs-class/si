@@ -39,7 +39,7 @@ RA: 3 - CE: e, f, g
 ### Programación de tareas en el sistema operativo
 
 - **Windows**: El "**[Programador de tareas](../ut32-wintasks)**" permite automatizar tareas como la ejecución de programas, el envío de correos electrónicos o la realización de copias de seguridad.
-- **Linux**: **Cron** es una herramienta que permite programar la ejecución de comandos o scripts en momentos específicos.
+- **Linux**: **Cron** es una herramienta que permite programar la ejecución de comandos o scripts en momentos específicos. Para inicio de sesión existe la automatización del propio sistema con [aplicaciones de inicio](../ut32-linuxtasks)
 
 ### Scripts
 
@@ -50,6 +50,3 @@ RA: 3 - CE: e, f, g
 :::caution[Actividad]
 Backups y automatización
 :::
-
-     - **Windows**: Crear una tarea programada que ejecute una copia de seguridad cada semana.
-     - **Linux**: Configurar un cron job que realice una copia de seguridad incremental diaria y una completa cada mes.
