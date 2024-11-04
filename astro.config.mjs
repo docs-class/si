@@ -124,66 +124,66 @@ export default defineConfig({
                             'ut2/ut21-linux',
                         ],
                     },
-                    {
-                        label: '2.2 Màquines virtuals, Instalació i Actualizació de SSOO',
-                        translations: {
-                            'es': '2.2 Máquinas virtuales, Instalación y actualización de SSOO',
-                            'en': '2.2 Virtual Machines, Installing & updating OS',
-                        },
-                        items: [
-                            'ut2/ut22-virtualization',
-                            'ut2/ut22-virtualbox-advanced',
-                            'ut2/ut22-backup',
-                            'ut2/ut22-usb',
-                        ],
-                    },
+                    // {
+                    //     label: '2.2 Màquines virtuals, Instalació i Actualizació de SSOO',
+                    //     translations: {
+                    //         'es': '2.2 Máquinas virtuales, Instalación y actualización de SSOO',
+                    //         'en': '2.2 Virtual Machines, Installing & updating OS',
+                    //     },
+                    //     items: [
+                    //         'ut2/ut22-virtualization',
+                    //         'ut2/ut22-virtualbox-advanced',
+                    //         'ut2/ut22-backup',
+                    //         'ut2/ut22-usb',
+                    //     ],
+                    // },
                 ],
             },
-            {
-                label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL",
-                translations: {
-                    'es': 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL ',
-                    'en': 'UT3 - FILE MANAGEMENT AND STORAGE. INTRODUCTION TO THE TERMINAL',
+            // {
+            //     label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL",
+            //     translations: {
+            //         'es': 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL ',
+            //         'en': 'UT3 - FILE MANAGEMENT AND STORAGE. INTRODUCTION TO THE TERMINAL',
                     
-                },
-                // Collapsa el grupo de forma predeterminada.
-                collapsed: true,
-                items: [
-                    {
-                        label: '3.1 Estructura de directoris',
-                        translations: {
-                            'es': '3.1 Estructura de directorios',
-                            'en': '3.1 Directory structure',
-                        },
-                        items: [
-                            'ut3/ut31-files',
-                            'ut3/ut31-directories',
-                        ],
-                    },
-                    {
-                        label: '3.2 Particions, Automatizacions i backups',
-                        translations: {
-                            'es': '3.2 Particiones, Automatizaciones y backups',
-                            'en': '3.2 Partitions, Automations & backups',
-                        },
-                        items: [
-                            'ut3/ut32-partitions',
-                            'ut3/ut32-backup-auto',
-                        ],
-                    },
-                    {
-                        label: '3.3 Gestió de la informació',
-                        translations: {
-                            'es': '3.3 Gestión de la información',
-                            'en': '3.3 Information Management',
-                        },
-                        items: [
-                            'ut3/ut33-commands-win',
-                            'ut3/ut33-commands-linux',
-                        ],
-                    },
-                ],
-            },
+            //     },
+            //     // Collapsa el grupo de forma predeterminada.
+            //     collapsed: true,
+            //     items: [
+            //         {
+            //             label: '3.1 Estructura de directoris',
+            //             translations: {
+            //                 'es': '3.1 Estructura de directorios',
+            //                 'en': '3.1 Directory structure',
+            //             },
+            //             items: [
+            //                 'ut3/ut31-files',
+            //                 'ut3/ut31-directories',
+            //             ],
+            //         },
+            //         {
+            //             label: '3.2 Particions, Automatizacions i backups',
+            //             translations: {
+            //                 'es': '3.2 Particiones, Automatizaciones y backups',
+            //                 'en': '3.2 Partitions, Automations & backups',
+            //             },
+            //             items: [
+            //                 'ut3/ut32-partitions',
+            //                 'ut3/ut32-backup-auto',
+            //             ],
+            //         },
+            //         {
+            //             label: '3.3 Gestió de la informació',
+            //             translations: {
+            //                 'es': '3.3 Gestión de la información',
+            //                 'en': '3.3 Information Management',
+            //             },
+            //             items: [
+            //                 'ut3/ut33-commands-win',
+            //                 'ut3/ut33-commands-linux',
+            //             ],
+            //         },
+            //     ],
+            // },
         ],
     }),],
 });

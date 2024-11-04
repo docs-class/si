@@ -3,18 +3,26 @@ title: "Automatización Linux"
 description: "Automatización Linux"
 ---
 
-1. **Crea un script** que abra la carpeta y hazlo ejecutable:
-   - Abre un editor de texto (como **Gedit**, **nano**, etc.) y escribe el siguiente script:
+1. Crea una carpeta **TAREAS_DEL_DIA**
+2. **Crea un script** que abra la carpeta y hazlo ejecutable:
+   - Abre un editor de texto (como **Gedit**, **nano**, etc.) 
+   - Puedes usar botón derecho sobre el escritorio y ejecutar "abrir en un terminal" 
+       ```bash title="Terminal"
+     nano ~/Desktop/TAREAS_DEL_DÍA
+     ```
+   - y escribe el siguiente script:
      ```bash title="LXQt"
      #!/bin/bash
      pcmanfm-qt ~/Desktop/TAREAS_DEL_DÍA
      ```
    - Guarda el archivo con el nombre `abrir_tareas.sh` en una ubicación de tu preferencia y hazlo ejecutable:
      ```bash
-     chmod +x /ruta/donde/guardaste/abrir_tareas.sh
+     1. Para salir en nano: ctrl+x
+     2. Para confirmar en nano:`s o S`
+     3. Para hacer ejecutable: chmod +x /ruta/donde/guardaste/abrir_tareas.sh
      ```
 
-2. **Agrega el script a las aplicaciones de inicio**:
+1. **Agrega el script a las aplicaciones de inicio**:
    - En el menú de aplicaciones de tu sistema, busca "Aplicaciones al inicio" o "Aplicaciones de inicio".
   ![linux boot apps](../../../../assets/ut3/linuxTask1.png)
    - Haz clic en **Añadir**.
