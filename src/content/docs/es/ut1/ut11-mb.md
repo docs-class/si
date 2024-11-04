@@ -30,7 +30,7 @@ El zócalo donde se coloca el procesador, permitiendo que la CPU se comunique co
 
 Cada procesador está diseñado para un tipo específico de socket.
 
-- Intel: LGA 1200, LGA 1700, etc.
+- Intel: LGA 1200, LGA 1700, etc. (el número representa la cantidad de pines del socket)
 - AMD : AM4(PGA), AM5(PGA), TR4(LGA), etc.
 
 ### Refrigeración de la CPU
