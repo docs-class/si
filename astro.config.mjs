@@ -156,7 +156,7 @@ export default defineConfig({
             //                 'en': '3.1 Directory structure',
             //             },
             //             items: [
-            //                 'ut3/ut31-files',
+            //                 'ut3/ut31',
             //                 'ut3/ut31-directories',
             //             ],
             //         },
