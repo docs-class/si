@@ -9,6 +9,10 @@ RA: 2 - CE: d, e, f, g, h, i
 
 ## **INTRODUCCIÓ A LA VIRTUALITZACIÓ DE SISTEMES**
 
+:::tip
+[Virtualization](https://www.youtube.com/watch?v=UBVVq-xz5i0)
+:::
+
 **¿Qué significa Virtualització?**  
 És una tecnologia que permet crear una versió virtual d'un component de hardware o software, com un servidor, un sistema operatiu, un dispositiu d'emmagatzematge o una xarxa. 
 
