@@ -10,16 +10,15 @@ description: "SSOO - Instalación"
 - **Fase 2**: Configuración de parámetros principales (particionado y arranque).
 - **Fase 3**: Configuración de parámetros importantes.
 
-## Prerrequisitos de Plataforma
+## Fase 0 - Prerrequisitos de Plataforma
 - **Compatibilidad de hardware y SO**: Comprobar que el SO es compatible con el hardware y los requisitos de las aplicaciones.
 - **Manual del fabricante**: Utilizar manuales de fabricante y de responsables del SO para la instalación.
 
-## Obtención del Sistema Operativo
+## Fase 1 - Obtención del Sistema Operativo
 - **Formatos**: Los sistemas operativos se pueden obtener en formato ISO o incluso DVD.
 - **Herramientas**: Microsoft utiliza la herramienta "Media Creation Tool" para generar los medios de instalación.
 
-## Parametrización Inicial
-- **Tareas Iniciales**: Configuración de usuario administrador, actualizaciones, revisión de drivers, conexión a red y cambios estéticos.
+## Fase 2 - Proceso de Instalación
 
 :::note[sistemas de archivos y particiones]
 **Conexión con el currículo: RA: 3 - CE: a, d**
@@ -36,12 +35,9 @@ Las **particiones de disco** dividen un disco duro en secciones lógicas para or
 **Propósitos**: Organización de datos, multiboot, seguridad y recuperación de información, y optimización del rendimiento del sistema.
 :::
 
-## Proceso de Instalación - Windows
+### Creación de Particiones - Windows
 
-En el caso de Windows, analizaremos las fases de requisitos previos, obtención de medios (generalmente en formato **ISO** o con herramientas oficiales) y configuración de particiones.
-
-### Creación de Particiones
-El sistema solicita el número y la disposición de las particiones a configurar. **Windows** suele recomendar las siguientes:
+**Windows** suele recomendar las siguientes particiones:
 
 | Nombre o Punto de Montaje  | Tamaño          | Descripción                            |
 |----------------------------|-----------------|----------------------------------------|
@@ -49,17 +45,10 @@ El sistema solicita el número y la disposición de las particiones a configurar
 | Recuperación               | 450 MB          | Partición de recuperación del sistema  |
 | Unidad C:                  | Espacio restante| Espacio principal para el sistema operativo y los archivos del usuario |
 
-### Configuración de Usuarios
-El sistema Windows requiere, al menos, la creación de una cuenta de usuario durante la instalación. Esta cuenta puede ser una cuenta local o asociada a una cuenta de Microsoft. Por defecto, se recomienda crear una **cuenta de administrador** para tener permisos completos en el sistema.
 
-Para ejecutar software que necesite permisos de administración, se utiliza la opción de "Ejecutar como administrador".
+### Creación de Particiones - Linux
 
-## Proceso de Instalación - Linux
-
-En el caso de Linux, analizaremos las fases de prerequisitos, obtención de medios (generalmente en formato **ISO**) y configuración de particiones.
-
-### Creación de Particiones   
-El sistema solicita el número y la disposición de las particiones a configurar. **Linux** recomienda las siguientes:
+**Linux** recomienda las siguientes particiones:
 
 | Nombre o Punto de Montaje | Tamaño          | Descripción                           |
 |---------------------------|-----------------|---------------------------------------|
@@ -76,8 +65,12 @@ El sistema solicita el número y la disposición de las particiones a configurar
 - La **swap** es una partición del disco duro dedicada a actuar como una extensión de la memoria RAM física del sistema. Cuando la RAM se llena, el sistema operativo utiliza la swap para almacenar temporalmente datos que de otro modo estarían en la memoria principal, permitiendo que el sistema funcione de manera más eficiente en situaciones de _alta demanda_.
 :::
 
-### Configuración de Usuarios
-El sistema Linux cuenta, al menos, con el usuario **root**, pero al instalar la versión **desktop**, se solicita la configuración de un usuario que estará habilitado para tareas de uso y configuración.
+## Fase 3 - Parametrización Inicial
+- Configuración de usuario administrador
+- Actualizaciones
+- Revisión de drivers
+- Conexión a red
+- Cambios estéticos.
 
 :::caution[Actividad]
 Prerrequisitos y obtención de medios
