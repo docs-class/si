@@ -1,6 +1,6 @@
 ---
-title: "MS Windows - Actualitzacions"  
-description: "Configuració bàsica MS Windows"  
+title: "MS Windows"  
+description: "Windows"  
 ---
 
 ## Gestió d'actualitzacions
@@ -11,24 +11,6 @@ description: "Configuració bàsica MS Windows"
 ## Arbre de versions MS Windows
 
 ![Arbre de versions MS Windows](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Windows_Version_History.svg/1280px-Windows_Version_History.svg.png "Arbre de versions MS Windows")
-
-## Gestió d'actualitzacions
-
-#### Tipus d'actualitzacions segons temps
-
-Microsoft llança actualitzacions de manera periòdica:
-
-- Actualitzacions de característiques (24H2).
-- Actualitzacions de qualitat. Mensuals.
-- Actualitzacions de controladors.
-
-#### Tipus d'actualitzacions segons importància
-
-Segons la importància de l'actualització, es cataloguen com:
-
-- **OPCIONALS**: Relatives a controladors i altres característiques no influents.
-- **IMPORTANTS**: Relatives a modificacions o ampliacions de característiques que milloraran el rendiment.
-- **CRÍTIQUES**: Relatives a problemes de seguretat. Molt recomanable la seua instal·lació.
 
 ## Windows 10 Editions
 ![Windows´s editions](../../../../assets/ut2/window%20editions.png)
