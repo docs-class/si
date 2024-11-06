@@ -45,6 +45,30 @@ Cada distribució té la seua pròpia filosofia i enfocament, fent que Linux sig
 2. **Repositoris**: Servidors de paquets, accessibles a través d'un gestor de paquets com `apt` per a Debian.
 3. **Descàrrega directa**: Des del lloc web del fabricant, normalment en formats `.tgz`, `.deb` o `.rpm`.
 
+## Mètodes d'instal·lació de programari en Linux
+
+En els sistemes operatius Linux, existeixen diversos mètodes per a instal·lar programari, cadascun adaptat a diferents necessitats i preferències. A continuació, es detallen els principals mètodes:
+
+1. **Gestors de paquets tradicionals:**
+    - **APT (Advanced Package Tool):** Utilitzat en distribucions basades en Debian, com Ubuntu i Linux Mint. Permet instal·lar paquets `.deb` des dels repositoris oficials mitjançant comandes com `sudo apt install nom-del-paquet`.
+    - **YUM/DNF:** Emprats en distribucions basades en Red Hat, com Fedora i CentOS. Faciliten la instal·lació de paquets `.rpm` amb comandes com `sudo dnf install nom-del-paquet`.
+    - **Pacman:** Propi d'Arch Linux i les seues derivades, gestiona paquets amb comandes com `sudo pacman -S nom-del-paquet`.
+
+2. **Gestors de paquets universals:**
+    - **Snap:** Desenvolupat per Canonical, permet instal·lar aplicacions empaquetades amb totes les seues dependències, funcionant en múltiples distribucions. S'instal·la amb `sudo snap install nom-del-paquet`.
+    - **Flatpak:** Ofereix una plataforma per a distribuir aplicacions en diverses distribucions, executant-les en entorns aïllats. S'utilitza amb `flatpak install nom-del-paquet`.
+    - **AppImage:** Proporciona aplicacions portàtils que no requereixen instal·lació; basta amb descarregar l'arxiu `.AppImage`, atorgar-li permisos d'execució i executar-lo directament.
+
+3. **Compilació des del codi font:**
+    - Algunes aplicacions es distribueixen en forma de codi font. Per a instal·lar-les, es descarreguen els arxius font, es descomprimeixen i es compilen utilitzant comandes com `./configure`, `make` i `sudo make install`. Este mètode ofereix flexibilitat, però requereix coneixements tècnics i pot ser més complex.
+
+4. **Tendes d'aplicacions gràfiques:**
+    - **Centre de Programari d'Ubuntu:** Proporciona una interfície gràfica per a buscar i instal·lar aplicacions en Ubuntu.
+    - **GNOME Software:** Disponible en entorns d'escriptori GNOME, permet gestionar aplicacions de manera visual.
+    - **Discover:** Utilitzat en entorns KDE Plasma, facilita la instal·lació de programari mitjançant una interfície amigable.
+
+Cada mètode té els seus avantatges i desavantatges. Els gestors de paquets tradicionals ofereixen una integració més estreta amb el sistema, mentre que els gestors universals proporcionen aplicacions aïllades i actualitzades. L'elecció del mètode dependrà de les necessitats específiques i de l'entorn de treball de l'usuari.
+
 #### Comandos d'APT
 
 APT és el sistema de gestió de paquets per a distribucions basades en Debian, i facilita la instal·lació i administració de programari.
@@ -57,22 +81,6 @@ APT és el sistema de gestió de paquets per a distribucions basades en Debian, 
 - `apt edit-sources`: Permet editar el fitxer de fonts dels repositoris per a afegir o modificar repositoris.
 - `apt-get --purge remove <paquet>`: Elimina un paquet junt amb els seus fitxers de configuració.
 
-- **APT** (Advanced Package Tool) per a distribucions basades en Debian/Ubuntu.
-    ```sh frame="none"
-    sudo apt update && sudo apt upgrade
-    ```
-- **DNF** per a Fedora.
-    ```sh frame="none"
-    sudo dnf update
-    ```
-- **YUM** per a CentOS/RHEL.
-    ```sh frame="none"
-    sudo yum update
-    ```
-- **Pacman** per a Arch Linux.
-    ```sh frame="none"
-    sudo pacman -Syu
-    ```
 #### Tipus de repositoris
 - **Main**: Programari oficial recolzat per Canonical.
 - **Restricted**: Programari tancat, drivers amb suport limitat.

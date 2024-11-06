@@ -34,6 +34,28 @@ Cada distribución tiene su propia filosofía y enfoque, haciendo que Linux sea 
 2. **Repositorios**: Servidores de paquetes, accedidos a través de un gestor de paquetes como `apt` para Debian.
 3. **Descarga directa**: Desde el sitio web del fabricante, normalmente en formatos `.tgz`, `.deb` o `.rpm`.
 
+## Métodos de instalación de software en Linux
+
+En los sistemas operativos Linux, existen diversos métodos para instalar software, cada uno adaptado a diferentes necesidades y preferencias. A continuación, se detallan los principales métodos:
+
+1. **Gestores de paquetes tradicionales:**
+    - **APT (Advanced Package Tool):** Utilizado en distribuciones basadas en Debian, como Ubuntu y Linux Mint. Permite instalar paquetes `.deb` desde los repositorios oficiales mediante comandos como `sudo apt install nombre-del-paquete`.
+    - **YUM/DNF:** Empleados en distribuciones basadas en Red Hat, como Fedora y CentOS. Facilitan la instalación de paquetes `.rpm` con comandos como `sudo dnf install nombre-del-paquete`.
+    - **Pacman:** Propio de Arch Linux y sus derivadas, gestiona paquetes con comandos como `sudo pacman -S nombre-del-paquete`.
+
+2. **Gestores de paquetes universales:**
+    - **Snap:** Desarrollado por Canonical, permite instalar aplicaciones empaquetadas con todas sus dependencias, funcionando en múltiples distribuciones. Se instala con `sudo snap install nombre-del-paquete`.
+    - **Flatpak:** Ofrece una plataforma para distribuir aplicaciones en diversas distribuciones, ejecutándolas en entornos aislados. Se utiliza con `flatpak install nombre-del-paquete`.
+    - **AppImage:** Proporciona aplicaciones portátiles que no requieren instalación; basta con descargar el archivo `.AppImage`, otorgarle permisos de ejecución y ejecutarlo directamente.
+
+3. **Compilación desde el código fuente:**
+    - Algunas aplicaciones se distribuyen en forma de código fuente. Para instalarlas, se descargan los archivos fuente, se descomprimen y se compilan utilizando comandos como `./configure`, `make` y `sudo make install`. Este método ofrece flexibilidad, pero requiere conocimientos técnicos y puede ser más complejo.
+
+4. **Tiendas de aplicaciones gráficas:**
+    - **Centro de Software de Ubuntu:** Proporciona una interfaz gráfica para buscar e instalar aplicaciones en Ubuntu.
+    - **GNOME Software:** Disponible en entornos de escritorio GNOME, permite gestionar aplicaciones de manera visual.
+    - **Discover:** Utilizado en entornos KDE Plasma, facilita la instalación de software mediante una interfaz amigable.
+
 #### Comandos de APT
 
 APT es el sistema de gestión de paquetes para distribuciones basadas en Debian, y facilita la instalación y administración de software.
@@ -46,22 +68,6 @@ APT es el sistema de gestión de paquetes para distribuciones basadas en Debian,
 - `apt edit-sources`: Permite editar el archivo de fuentes de los repositorios para añadir o modificar repositorios.
 - `apt-get --purge remove <paquete>`: Elimina un paquete junto con sus archivos de configuración.
 
-- **APT** (Advanced Package Tool) para distribuciones basadas en Debian/Ubuntu.
-    ```sh frame="none"
-    sudo apt update && sudo apt upgrade
-    ```
-- **DNF** para Fedora.
-    ```sh frame="none"
-    sudo dnf update
-    ```
-- **YUM** para CentOS/RHEL.
-    ```sh frame="none"
-    sudo yum update
-    ```
-- **Pacman** para Arch Linux.
-    ```sh frame="none"
-    sudo pacman -Syu
-    ```
 #### Tipos de repositorios
 - **Main**: Software oficial respaldado por Canonical.
 - **Restricted**: Software cerrado, drivers con soporte limitado.
