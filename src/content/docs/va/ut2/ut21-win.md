@@ -29,3 +29,10 @@ Segons la importància de l'actualització, es cataloguen com:
 - **OPCIONALS**: Relatives a controladors i altres característiques no influents.
 - **IMPORTANTS**: Relatives a modificacions o ampliacions de característiques que milloraran el rendiment.
 - **CRÍTIQUES**: Relatives a problemes de seguretat. Molt recomanable la seua instal·lació.
+
+## Windows 10 Editions
+![Windows´s editions](../../../../assets/ut2/window%20editions.png)
+
+## Windows 10 Versions
+
+![Windows´s versions](../../../../assets/ut2/window%20versions.png)

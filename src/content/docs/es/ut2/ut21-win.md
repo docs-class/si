@@ -28,3 +28,9 @@ Según la importancia de la actualización se catalogan como:
 - **IMPORTANTES:** Relativas a modificaciones o ampliaciones de características que mejorarán el rendimiento.
 - **CRÍTICAS:** Relativas a problemas de seguridad. Muy recomendable su instalación.
 
+## Windows 10 Editions
+![Windows´s editions](../../../../assets/ut2/window%20editions.png)
+
+## Windows 10 Versions
+
+![Windows´s versions](../../../../assets/ut2/window%20versions.png)
