@@ -40,6 +40,10 @@ RA: 3 - CE: e, f, g
 
 - **Windows**: El "**[Programador de tareas](../ut32-wintasks)**" permite automatizar tareas como la ejecución de programas, el envío de correos electrónicos o la realización de copias de seguridad.
 - **Linux**: **Cron** es una herramienta que permite programar la ejecución de comandos o scripts en momentos específicos. Para inicio de sesión existe la automatización del propio sistema con [aplicaciones de inicio](../ut32-linuxtasks)
+  
+:::tip
+[crontab guru](https://crontab.guru)
+:::
 
 ### Scripts
 

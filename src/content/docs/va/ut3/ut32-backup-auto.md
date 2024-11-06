@@ -43,6 +43,10 @@ RA: 3 - CE: e, f, g
 - **Windows**: El "**[Programador de tasques](../ut32-wintasks)**" permet automatitzar tasques com l'execució de programes, l'enviament de correus electrònics o la realització de còpies de seguretat.
 - **Linux**: **Cron** és una eina que permet programar l'execució de comandes o scripts en moments específics. Per a inici de sessió existeix l'automatització del propi sistema amb [aplicacions d'inici](../ut32-linuxtasks)
 
+:::tip
+[crontab guru](https://crontab.guru)
+:::
+
 ### Scripts
 
 - **Bash** (Linux): Permet automatitzar tasques en sistemes Linux, com la gestió d'arxius, la configuració del sistema o l'execució de programes.
