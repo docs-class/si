@@ -1,7 +1,18 @@
 ---
-title: "Linux - Actualitzacions"  
-description: "Configuració bàsica Linux"  
+title: "GNU/Linux"  
+description: "GNU/Linux" 
 ---
+
+**GNU** y **Linux** son componentes esenciales en muchos sistemas operativos de código abierto, pero desempeñan roles distintos:
+
+- **GNU**: Es un proyecto iniciado en 1983 por Richard Stallman con el objetivo de desarrollar un sistema operativo libre similar a Unix. GNU proporciona herramientas y aplicaciones fundamentales, como compiladores, editores de texto y utilidades del sistema, que permiten la interacción del usuario con el sistema operativo.
+
+- **Linux**: Es el núcleo (kernel) del sistema operativo, desarrollado por Linus Torvalds en 1991. El núcleo gestiona los recursos del hardware y permite la comunicación entre el software y el hardware, siendo responsable de tareas como la gestión de procesos, memoria y dispositivos. 
+
+> La combinación del núcleo Linux con las herramientas y aplicaciones de GNU da lugar a un sistema operativo completo, comúnmente denominado **GNU/Linux**. Este término reconoce la contribución de ambos proyectos en la creación de un sistema operativo funcional y libre.
+
+Es importante destacar que, aunque el término "Linux" se utiliza frecuentemente para referirse al sistema operativo completo, técnicamente se refiere solo al núcleo. Por ello, el uso de "GNU/Linux" es más preciso al referirse al sistema operativo en su totalidad.
+
 
 ## Gestió d'actualitzacions
 
@@ -24,7 +35,9 @@ Les distros de Linux són desenvolupades, empaquetades i mantingudes per emprese
 
 Cada distribució té la seua pròpia filosofia i enfocament, fent que Linux siga una plataforma altament versàtil i adaptativa segons les necessitats de l'usuari o del projecte.
 
+:::tip
 [Distribucions](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg)
+:::
 
 ## Mètodes d'Instal·lació/actualitzacions
 

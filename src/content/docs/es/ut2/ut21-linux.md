@@ -1,6 +1,6 @@
 ---
-title: "Linux - Actualizaciones"  
-description: "Configuración básica Linux"  
+title: "GNU/Linux"  
+description: "GNU/Linux"
 ---
 
 ## Gestión de actualizaciones
@@ -24,7 +24,9 @@ Las distros de Linux son desarrolladas, empaquetadas y mantenidas por empresas o
 
 Cada distribución tiene su propia filosofía y enfoque, haciendo que Linux sea una plataforma altamente versátil y adaptativa según las necesidades del usuario o del proyecto.
 
+:::tip
 [Dsitribuciones](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg)
+:::
 
 ## Métodos de Instalación/actualizaciones
 
