@@ -36,25 +36,10 @@ Los puntos de restauración son como "fotos" del estado de tu sistema en un mome
 3. Sigue las instrucciones en pantalla. Puedes elegir un punto de restauración recomendado o uno diferente.
 4. Confirma la restauración. El equipo se reiniciará para completar el proceso.
 
-**Recuerda:**
-
+:::note[Recuerda]
 - Restaurar un punto no afecta a tus archivos personales, como documentos, fotos o música.
 - Es recomendable crear puntos de restauración antes de realizar cambios importantes en el sistema.
-
-
-### 2. Copias de seguridad del sistema Linux (Imágenes del sistema):
-
-En Linux no existe una herramienta de "puntos de restauración" exactamente igual a la de Windows.
-
-Herramientas como **dd**, **Clonezilla** o **Timeshift** te permiten crear una imagen completa del sistema, incluyendo el sistema operativo, las aplicaciones y tus archivos.
-
-* **dd:** Una utilidad de línea de comandos muy potente que permite crear una copia exacta de un disco o partición. Es muy versátil, pero requiere conocimientos técnicos para usarla correctamente. Ideal para clonar discos o crear imágenes de respaldo completas.
-
-* **Clonezilla:** Una herramienta de código abierto basada en `dd` que simplifica el proceso de clonación de discos y creación de imágenes del sistema. Ofrece una interfaz más amigable que `dd` y varias opciones para personalizar el proceso de copia de seguridad.
-
-* **Timeshift:** Una herramienta diseñada para crear instantáneas incrementales del sistema. Esto significa que solo guarda los cambios realizados desde la última instantánea, ahorrando espacio de almacenamiento. Es ideal para revertir el sistema a un estado anterior después de una actualización o instalación problemática.
-
-![Timeshift App](https://www.redeszone.net/app/uploads-redeszone.net/2017/10/TimeShift-Linux.png)
+:::
 
 :::caution[actividad]
 Punto de restauración
