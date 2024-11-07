@@ -32,7 +32,7 @@ RA: 3 - CE: e, f, g
      - **Time Machine** (MacOS): Sistema de còpia de seguretat automàtic.
      - **Duplicati** i **Veeam Backup**: Programari de còpies de seguretat per a Windows, Linux i MacOS.
      - **rsync**: Comanda per a fer còpies de seguretat en Linux.
-
+![Timeshift App](https://www.redeszone.net/app/uploads-redeszone.net/2017/10/TimeShift-Linux.png)
 ---
 
 ## 2. Planificació i Automatització de Tasques
