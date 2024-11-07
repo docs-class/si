@@ -75,7 +75,7 @@ Junto a los archivos ISO, suele haber unos códicos MD5, SHA1/256/512
 
 :::tip[Ampliación]
 - [Generar y comprobar codigo hash](https://geekland.eu/como-generar-y-verificar-el-hash-de-archivos-en-linux/)
-- [Testing on-line distros](https://distrosea.com/es/)
+- [Testing distros on-line](https://distrosea.com/es/)
 :::
 
 :::caution[Actividad]

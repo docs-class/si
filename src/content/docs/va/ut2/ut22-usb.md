@@ -72,7 +72,7 @@ Juntament amb els arxius ISO, sol haver-hi uns codis MD5, SHA1/256/512
 
 :::tip[Ampliació]
 - [Generar i comprovar codi hash](https://geekland.eu/como-generar-y-verificar-el-hash-de-archivos-en-linux/)
-- [Testing on-line distros](https://distrosea.com/es/)
+- [Testing distros on-line](https://distrosea.com/es/)
 
 :::
 
