@@ -16,8 +16,6 @@ RA: 2 - CE: d, e, f, g, h, i
 **¿Qué significa Virtualització?**  
 És una tecnologia que permet crear una versió virtual d'un component de hardware o software, com un servidor, un sistema operatiu, un dispositiu d'emmagatzematge o una xarxa. 
 
-Això permet executar múltiples sistemes operatius o aplicacions en un sol servidor físic, proporcionant un ús més eficient dels recursos, independència del maquinari i flexibilitat per a gestionar i distribuir aquests recursos segons les necessitats.
-
 **Usos de la Virtualització**
 
 - Per a entorns formatius.
@@ -48,21 +46,9 @@ Això permet executar múltiples sistemes operatius o aplicacions en un sol serv
 - **Docker**: Eina de creació i gestió de contenidors d'aplicació.
 - **Kubernetes**: Eina de coordinació de contenidors Docker.
 
-###### **Màquines Virtuals vs Contenidors**
-
-![VM vs Contenedores](https://wac-cdn.atlassian.com/dam/jcr:92adde69-f728-4cfc-8bab-ba391c25ae58/SWTM-2060_Diagram_Containers_VirtualMachines_v03.png?cdnVersion=2314)
-
-| Característica           | Máquinas Virtuales                          | Contenedores                                    |
-|--------------------------|--------------------------------------------|-------------------------------------------------|
-| **Aislamiento**          | Ofrecen un fuerte aislamiento, ya que cada VM incluye un sistema operativo completo. | Menor aislamiento, comparten el kernel del sistema operativo host. |
-| **Consumo de Recursos**  | Requieren más recursos, ya que incluyen un sistema operativo completo. | Son más ligeros, solo contienen las aplicaciones y sus dependencias. |
-| **Velocidad de Inicio**  | Más lentas al arrancar debido a la necesidad de iniciar un sistema operativo completo. | Muy rápidas de iniciar, ya que se comparten muchas funcionalidades del sistema operativo. |
-| **Flexibilidad**         | Compatibles con una amplia variedad de sistemas operativos, diferentes entre sí. | Limitados al sistema operativo del host (aunque se pueden ejecutar aplicaciones distintas). |
-| **Eficiencia**           | Menos eficientes en el uso de recursos por el sistema operativo completo que requieren. | Muy eficientes, ya que utilizan menos recursos al compartir el sistema operativo. |
-| **Seguridad**            | Aislamiento completo entre VM, proporciona más seguridad contra vulnerabilidades. | Menor seguridad debido al uso del mismo kernel, posibles ataques que afecten a todos los contenedores. |
-| **Escalabilidad**        | Menos escalables debido a la cantidad de recursos que se necesitan por cada instancia. | Más escalables, perfectos para un entorno donde se necesitan desplegar rápidamente muchas instancias. |
-| **Portabilidad**         | Portables, pero dependen de la compatibilidad del hipervisor. | Alta portabilidad, los contenedores se pueden mover fácilmente a diferentes hosts compatibles con Docker o similar. |
-| **Casos de Uso**         | Buena opción para entornos con múltiples sistemas operativos. | Ideal para microservicios y entornos de desarrollo rápidos. |
+:::tip
+[Docker?](https://www.youtube.com/shorts/EyXYFlYIs3w)
+:::
 
 ### 3. Microsoft Hyper-V vs WSL vs Azure
 
