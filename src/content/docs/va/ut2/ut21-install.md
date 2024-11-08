@@ -28,20 +28,11 @@ description: "SSOO - Instal·lació"
 
 > Un **sistema de fitxers** és l'estructura que permet organitzar, emmagatzemar i gestionar els arxius en un dispositiu d'emmagatzematge. En **Windows**, el sistema de fitxers principal és **NTFS**, mentre que en **Linux** s'usa principalment **ext4**.
 
-Les **particions de disc** divideixen un disc dur en seccions lògiques per a organitzar i gestionar l'emmagatzematge de manera eficient.
+> Les **particions de disc** divideixen un disc dur en seccions lògiques per a organitzar i gestionar l'emmagatzematge de manera eficient.
 
-**Tipus de particions**:
-
-1.  **Primària**: Fins a 4 particions principals.
-2.  **Estesa**: Permet crear particions lògiques addicionals.
-3.  **Lògica**: Emmagatzematge de dades o sistemes operatius addicionals.
-
-**Propòsits**: Organització de dades, multiboot, seguretat i recuperació d'informació, i optimització del rendiment del sistema.
 :::
 
 ### Creació de particions - Windows
-
-**Windows** sol recomanar les següents particions:
 
 | Nom o punt de muntatge | Grandària        | Descripció                                 |
 | ----------------------- | --------------- | ------------------------------------------- |
@@ -51,14 +42,10 @@ Les **particions de disc** divideixen un disc dur en seccions lògiques per a or
 
 ### Creació de particions - Linux
 
-**Linux** recomana les següents particions:
-
 | Nom o punt de muntatge | Grandària        | Descripció                                 |
 | ----------------------- | --------------- | ------------------------------------------- |
 | efi                     | 1 GB            | Partició per a informació EFI              |
 | swap                    | Memòria RAM x2  | Partició d'intercanvi de memòria           |
-| /boot                   | 1 GB            | Partició d'arrencada                        |
-| /home                   | 50 GB           | Espai per als usuaris                      |
 | /                       | Resta           | Espai per a la resta de l'equip            |
 
 :::tip[Glossari]

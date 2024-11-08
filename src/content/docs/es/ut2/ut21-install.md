@@ -25,19 +25,10 @@ description: "SSOO - Instalación"
 
 > Un **sistema de ficheros** es la estructura que permite organizar, almacenar y gestionar los archivos en un dispositivo de almacenamiento. En **Windows**, el sistema de ficheros principal es **NTFS**, mientras que en **Linux** se usa principalmente **ext4**.
 
-Las **particiones de disco** dividen un disco duro en secciones lógicas para organizar y gestionar el almacenamiento de manera eficiente.
-
-**Tipos de particiones**:  
-1. **Primaria**: Hasta 4 particiones principales.
-2. **Extendida**: Permite crear particiones lógicas adicionales.
-3. **Lógica**: Almacenamiento de datos o sistemas operativos adicionales.
-
-**Propósitos**: Organización de datos, multiboot, seguridad y recuperación de información, y optimización del rendimiento del sistema.
+> Las **particiones de disco** dividen un disco duro en secciones lógicas para organizar y gestionar el almacenamiento de manera eficiente.
 :::
 
 ### Creación de Particiones - Windows
-
-**Windows** suele recomendar las siguientes particiones:
 
 | Nombre o Punto de Montaje  | Tamaño          | Descripción                            |
 |----------------------------|-----------------|----------------------------------------|
@@ -45,17 +36,12 @@ Las **particiones de disco** dividen un disco duro en secciones lógicas para or
 | Recuperación               | 450 MB          | Partición de recuperación del sistema  |
 | Unidad C:                  | Espacio restante| Espacio principal para el sistema operativo y los archivos del usuario |
 
-
 ### Creación de Particiones - Linux
-
-**Linux** recomienda las siguientes particiones:
 
 | Nombre o Punto de Montaje | Tamaño          | Descripción                           |
 |---------------------------|-----------------|---------------------------------------|
 | efi                       | 1 GB            | Partición para información EFI        |
 | swap                      | Memoria RAM x2  | Partición de intercambio de memoria   |
-| /boot                     | 1 GB            | Partición de arranque                 |
-| /home                     | 50 GB           | Espacio para los usuarios             |
 | /                         | Resto           | Espacio para el resto del equipo      |
 
 
