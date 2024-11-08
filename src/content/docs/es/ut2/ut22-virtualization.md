@@ -19,7 +19,7 @@ Es una tecnología que permite crear una versión virtual de un componente de ha
 - **Virtualización de Aplicaciones**: Ofrece un entorno virtual para aplicaciones, independientemente del hardware y sistema operativo.
 
 :::tip
-[Virtualization](https://www.youtube.com/watch?v=UBVVq-xz5i0)
+[Virtualization - EN](https://www.youtube.com/watch?v=UBVVq-xz5i0)
 :::
 
 ### 1.1 Virtualización de Plataforma
@@ -35,7 +35,7 @@ Es una tecnología que permite crear una versión virtual de un componente de ha
 - **Kubernetes**: Herramienta de coordinación de contenedores Docker.
 
 :::tip
-[Docker?](https://www.youtube.com/shorts/EyXYFlYIs3w)
+[Docker?](https://m.youtube.com/watch?v=Uu49ID0NBRQ)
 :::
 
 ## 2. Microsoft Hyper-V vs WSL vs Azure

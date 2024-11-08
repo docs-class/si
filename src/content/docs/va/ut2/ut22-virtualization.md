@@ -17,7 +17,7 @@ RA: 2 - CE: d, e, f, g, h, i
 - **Virtualització d'Aplicacions**: Ofereix un entorn virtual per a aplicacions, independentment del hardware i sistema operatiu.
 
 :::tip
-[Virtualization](https://www.youtube.com/watch?v=UBVVq-xz5i0)
+[Virtualization - EN](https://www.youtube.com/watch?v=UBVVq-xz5i0)
 :::
 
 
@@ -34,7 +34,7 @@ RA: 2 - CE: d, e, f, g, h, i
 - **Kubernetes**: Eina de coordinació de contenidors Docker.
 
 :::tip
-[Docker?](https://www.youtube.com/shorts/EyXYFlYIs3w)
+[Docker?](https://m.youtube.com/watch?v=Uu49ID0NBRQ)
 :::
 
 ## 3. Microsoft Hyper-V vs WSL vs Azure
