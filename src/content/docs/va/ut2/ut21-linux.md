@@ -26,10 +26,6 @@ Les **distribucions Linux** són versions del sistema operatiu Linux adaptades i
 Les distros de Linux són desenvolupades, empaquetades i mantingudes per empreses o per entusiastes amb un objectiu concret. En general, es mantenen baix llicència GNU, amb opcions de pagament.
 
 ### Tipus d'usuaris vs distribucions:
-- **Usuaris Principiants**: Ubuntu, Linux Mint.
-- **Usuaris Avançats**: Arch Linux, Gentoo.
-- **Entorns Empresarials**: CentOS, RHEL, SUSE.
-- **Entorns Experimentals**: Fedora, OpenSUSE Tumbleweed.
 
 ![distros](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hxY05AVCBHC5wqXi2q81Qg.png)
 

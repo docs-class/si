@@ -15,10 +15,6 @@ Las **distribuciones Linux** son versiones del sistema operativo Linux adaptadas
 Las distros de Linux son desarrolladas, empaquetadas y mantenidas por empresas o por entusiastas con un objetivo concreto. Por lo general, se mantienen bajo licencia GNU, con opciones de pago.
 
 ### Tipos de usuarios vs distribuciones:
-- **Usuarios Principiantes**: Ubuntu, Linux Mint.
-- **Usuarios Avanzados**: Arch Linux, Gentoo.
-- **Entornos Empresariales**: CentOS, RHEL, SUSE.
-- **Entornos Experimentales**: Fedora, OpenSUSE Tumbleweed.
 
 ![distros](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hxY05AVCBHC5wqXi2q81Qg.png)
 
