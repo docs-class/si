@@ -12,11 +12,6 @@
 | UT6    | GESTIÓN DE RECURSOS EN RED                                                    | 3          | 20       | 4       |
 | UT7    | APLICACIONES INFORMÁTICAS                                                     | 3          | 10       | 2       |
 
-### Acceso a la Unidad UT1
-
-| [Acceder a la UT1 en Castellano](https://docs-class.github.io/si/es/ut1/ut11/) | [Accedir a la UT1 en Valencià](https://docs-class.github.io/si/va/ut1/ut11/) |
-|-------------------------------------------------------------|-----------------------------------------------------------|
-
 ---
 
 # Planificació del Mòdul de Sistemes Informàtics
@@ -33,7 +28,11 @@
 | UT6    | GESTIÓ DE RECURSOS EN XARXA                                                    | 3           | 20       | 4        |
 | UT7    | APLICACIONS INFORMÀTIQUES                                                      | 3           | 10       | 2        |
 
-### Accés a la Unitat UT1
+---
 
-| [Accedir a la UT1 en Castellano](https://docs-class.github.io/si/es/ut1/ut11/) | [Accedir a la UT1 en Valencià](https://docs-class.github.io/si/va/ut1/ut11/) |
+### Acceso a las unidades
+
+| [Acceder a la UT1 en Castellano](https://docs-class.github.io/si/es/ut1/ut11/) | [Accedir a la UT1 en Valencià](https://docs-class.github.io/si/va/ut1/ut11/) |
+|-------------------------------------------------------------|-----------------------------------------------------------|
+| [Acceder a la UT2 en Castellano](https://docs-class.github.io/si/es/ut2/ut21/) | [Accedir a la UT2 en Valencià](https://docs-class.github.io/si/va/ut2/ut21/) |
 |-------------------------------------------------------------|-----------------------------------------------------------|
