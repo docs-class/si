@@ -34,7 +34,7 @@ RA: 2 - CE: d, e, f, g, h, i
 - **Kubernetes**: Eina de coordinació de contenidors Docker.
 
 :::tip
-[Docker?](https://m.youtube.com/watch?v=Uu49ID0NBRQ)
+[Docker? - ES](https://m.youtube.com/watch?v=Uu49ID0NBRQ)
 :::
 
 ## 3. Microsoft Hyper-V vs WSL vs Azure
