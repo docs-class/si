@@ -35,7 +35,7 @@ Es una tecnología que permite crear una versión virtual de un componente de ha
 - **Kubernetes**: Herramienta de coordinación de contenedores Docker.
 
 :::tip
-[Docker?](https://m.youtube.com/watch?v=Uu49ID0NBRQ)
+[¿Docker?](https://m.youtube.com/watch?v=Uu49ID0NBRQ)
 :::
 
 ## 2. Microsoft Hyper-V vs WSL vs Azure
