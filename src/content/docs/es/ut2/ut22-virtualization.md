@@ -15,15 +15,7 @@ RA: 2 - CE: d, e, f, g, h, i
 [Virtualization](https://www.youtube.com/watch?v=UBVVq-xz5i0)
 :::
 
-**¿Qué significa Virtualización?**  
 Es una tecnología que permite crear una versión virtual de un componente de hardware o software, como un servidor, un sistema operativo, un dispositivo de almacenamiento o una red. 
-
-**Usos de la Virtualización**
-
-- Para entornos formativos.
-- Para entornos de pruebas.
-- Para economizar.
-  - Instalaciones complejas o puntuales.
 
 ### 1. Tipos de Virtualización
 
