@@ -64,37 +64,7 @@ Això permet executar múltiples sistemes operatius o aplicacions en un sol serv
 | **Portabilidad**         | Portables, pero dependen de la compatibilidad del hipervisor. | Alta portabilidad, los contenedores se pueden mover fácilmente a diferentes hosts compatibles con Docker o similar. |
 | **Casos de Uso**         | Buena opción para entornos con múltiples sistemas operativos. | Ideal para microservicios y entornos de desarrollo rápidos. |
 
-
-
-
-### 3. VirtualBox
-
-#### On aconseguir VirtualBox
-
-- Solució disponible de manera gratuïta del fabricant Oracle en la llicència més bàsica.  
-  [VirtualBox](https://www.virtualbox.org)
-
-#### Avantatges de VirtualBox
-
-- Ús molt senzill i intuïtiu.
-- Rendiment adequat en la majoria de dispositius actuals.
-- És multiplataforma.
-- Opció de llicència lliure, sense cost.
-
-#### Conceptes Particulars
-
-- **Guest Additions**: Conjunt de drivers que milloren la interacció.
-  - **Instal·lació**
-    - **1.**: Obtenció de l'arxiu ISO en el web del fabricant.
-    - **2.**: Inserció en el dispositiu òptic.
-    - **3.**: Executar l'opció "Inserir guest additions" des del menú "Dispositius".
-    - **4.**: Reiniciar.
-    - **5.**: Activar serveis com l'ús del Portapapers o la funció "Arrossegar i Soltar".
-- **Disco VDI**: Format específic per a màquines virtuals VirtualBox amb funcions avançades.
-- **Carpetes Compartides**: Possibilitat de crear una carpeta compartida amb el sistema operatiu amfitrió.
-- **Snapshots**: Captures d'estat i exportació de màquines virtuals en format OVA.
-
-### 4. Microsoft Hyper-V vs WSL vs Azure
+### 3. Microsoft Hyper-V vs WSL vs Azure
 
 - **Microsoft Hyper-V**: Eina de virtualització integrada en sistemes Pro de Microsoft.
 - **WSL (Windows Subsystem Linux)**: Permet instal·lar i executar aplicacions Linux.

@@ -65,34 +65,7 @@ Esto permite ejecutar múltiples sistemas operativos o aplicaciones en un solo s
 | **Portabilidad**         | Portables, pero dependen de la compatibilidad del hipervisor. | Alta portabilidad, los contenedores se pueden mover fácilmente a diferentes hosts compatibles con Docker o similar. |
 | **Casos de Uso**         | Buena opción para entornos con múltiples sistemas operativos. | Ideal para microservicios y entornos de desarrollo rápidos. |
 
-### 3. VirtualBox
-
-#### Dónde conseguir VirtualBox
-
-- Solución disponible de manera gratuita del fabricante Oracle en la licencia más básica.  
-  [VirtualBox](https://www.virtualbox.org)
-
-#### Ventajas de VirtualBox
-
-- Uso muy sencillo e intuitivo.
-- Rendimiento adecuado en la mayoría de dispositivos actuales.
-- Es multiplataforma.
-- Opción de licencia libre, sin costo.
-
-#### Conceptos Particulares
-
-- **Guest Additions**: Conjunto de drivers que mejoran la interacción.
-  - **Instalación**
-    - **1.**: Obtención del archivo ISO en la web del fabricante.
-    - **2.**: Inserción en el dispositivo óptico.
-    - **3.**: Ejecutar la opción "Insertar guest additions" desde el menú "Dispositivos".
-    - **4.**: Reiniciar.
-    - **5.**: Activar servicios como el uso del Portapapeles o la función "Arrastrar y Soltar".
-- **Disco VDI**: Formato específico para máquinas virtuales VirtualBox con funciones avanzadas.
-- **Carpetas Compartidas**: Posibilidad de crear una carpeta compartida con el sistema operativo anfitrión.
-- **Snapshots**: Capturas de estado y exportación de máquinas virtuales en formato OVA.
-
-### 4. Microsoft Hyper-V vs WSL vs Azure
+### 3. Microsoft Hyper-V vs WSL vs Azure
 
 - **Microsoft Hyper-V**: Herramienta de virtualización integrada en sistemas Pro de Microsoft.
 - **WSL (Windows Subsystem Linux)**: Permite instalar y ejecutar aplicaciones Linux.

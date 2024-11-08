@@ -100,7 +100,3 @@ Cada distribució té el seu propi sistema de gestió de repositoris i la seua p
 :::tip[Enllaços]  
   - [Vídeo introductori Linux - en](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
 :::
-
-:::caution[Activitat]
-Controladors
-:::
