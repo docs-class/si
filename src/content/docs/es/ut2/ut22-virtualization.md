@@ -9,32 +9,27 @@ description: "Virtualización e Instalación de Sistemas Operativos"
 RA: 2 - CE: d, e, f, g, h, i
 :::
 
-## **INTRODUCCIÓN A LA VIRTUALIZACIÓN DE SISTEMAS**
-
-:::tip
-[Virtualization](https://www.youtube.com/watch?v=UBVVq-xz5i0)
-:::
-
 Es una tecnología que permite crear una versión virtual de un componente de hardware o software, como un servidor, un sistema operativo, un dispositivo de almacenamiento o una red. 
 
-### 1. Tipos de Virtualización
+## 1. Tipos de Virtualización
 
 - **Virtualización de Plataforma**: Su objetivo es ofrecer un sistema informático virtual.
   - **Hipervisor Tipo 1**: Se instala directamente sobre el hardware, también conocido como "bare metal".
   - **Hipervisor Tipo 2**: Se instala como una aplicación en el sistema operativo anfitrión, también conocido como hipervisor alojado.
 - **Virtualización de Aplicaciones**: Ofrece un entorno virtual para aplicaciones, independientemente del hardware y sistema operativo.
-- **Virtualización de Recursos**: Ofrece un recurso con características virtuales de cara al servicio (ejemplo: RAM/RAID).
 
-### 2. Soluciones de Virtualización
+:::tip
+[Virtualization](https://www.youtube.com/watch?v=UBVVq-xz5i0)
+:::
 
-###### **Plataformas Comerciales**
+### 1.1 Virtualización de Plataforma
 
 - **VMWARE**: La más utilizada en entornos empresariales.
 - **Microsoft Hyper-V**: [Hyper-V](https://learn.microsoft.com/es-es/virtualization/hyper-v-on-windows/about/)
 - **Oracle VirtualBox**: Más utilizado en entornos educativos.
 - **QEMU**: Herramienta libre.
 
-###### **Virtualización de Entornos de Aplicaciones**
+### 1.2 Virtualización de Entornos de Aplicaciones
 
 - **Docker**: Herramienta de creación y gestión de contenedores de aplicación.
 - **Kubernetes**: Herramienta de coordinación de contenedores Docker.
@@ -43,7 +38,7 @@ Es una tecnología que permite crear una versión virtual de un componente de ha
 [Docker?](https://www.youtube.com/shorts/EyXYFlYIs3w)
 :::
 
-### 3. Microsoft Hyper-V vs WSL vs Azure
+## 2. Microsoft Hyper-V vs WSL vs Azure
 
 - **Microsoft Hyper-V**: Herramienta de virtualización integrada en sistemas Pro de Microsoft.
 - **WSL (Windows Subsystem Linux)**: Permite instalar y ejecutar aplicaciones Linux.
