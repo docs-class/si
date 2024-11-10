@@ -7,15 +7,6 @@ description: "Particiones"
 RA: 3 - CE: d, g
 :::
 
-## Acciones Comunes
-1. **Crear Particiones**: Dividir el disco en diferentes secciones lógicas, lo cual permite organizar el almacenamiento de datos y, en algunos casos, instalar varios sistemas operativos.
-2. **Eliminar Particiones**: Liberar el espacio ocupado por una partición para su uso futuro. Esto es útil si ya no se necesita una partición específica.
-3. **Redimensionar Particiones**: Aumentar o reducir el tamaño de una partición sin perder datos (depende de las herramientas y precauciones). Es común cuando se necesita más espacio en una partición específica.
-4. **Formatear Particiones**: Aplicar un sistema de archivos como NTFS, FAT32, EXT4, etc., para preparar la partición para almacenar datos.
-5. **Convertir Tipos de Partición**: Cambiar entre particiones primarias, extendidas o lógicas.
-6. **Montar/Desmontar Particiones**: Asignar una letra de unidad o punto de montaje para acceder a la partición, o desmontar para evitar acceso.
-7. **Verificar la Integridad**: Escanear una partición para comprobar y corregir errores en el sistema de archivos.
-
 ## Herramientas en Windows
 
 1. **Administrador de Discos (Disk Management)**
@@ -38,10 +29,7 @@ RA: 3 - CE: d, g
    ```
 
 4. **Herramientas de Terceros**
-   - **EaseUS Partition Master**, **MiniTool Partition Wizard**, y **AOMEI Partition Assistant** son herramientas que ofrecen una interfaz amigable y funciones avanzadas, como:
-     - **Redimensionar particiones sin pérdida de datos**.
-     - **Clonar particiones** para respaldar información.
-     - **Migrar el sistema operativo** a otro disco.
+   - **EaseUS Partition Master**, **MiniTool Partition Wizard**, y **AOMEI Partition Assistant**
 ![MiniTool Partition Wizard](https://img.utdstc.com/screen/7c5/17c/7c517ce8feff600036e33c8aaba9fd2f0d38bcdfb56aed1f6ed54617f0b0e7e8:600)
 ## Herramientas en Linux
 

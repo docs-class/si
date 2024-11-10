@@ -7,15 +7,6 @@ description: "Particions"
 RA: 3 - CE: d, g
 :::
 
-## Accions Comunes  
-1. **Crear particions**: Dividir el disc en diferents seccions lògiques, cosa que permet organitzar l'emmagatzematge de dades i, en alguns casos, instal·lar diversos sistemes operatius.  
-2. **Eliminar particions**: Alliberar l'espai ocupat per una partició per al seu ús futur. Això és útil si ja no es necessita una partició específica.  
-3. **Redimensionar particions**: Augmentar o reduir la mida d'una partició sense perdre dades (depèn de les eines i precaucions). És comú quan es necessita més espai en una partició específica.  
-4. **Formatar particions**: Aplicar un sistema de fitxers com NTFS, FAT32, EXT4, etc., per preparar la partició per emmagatzemar dades.  
-5. **Convertir tipus de partició**: Canviar entre particions primàries, esteses o lògiques.  
-6. **Muntar/Desmuntar particions**: Assignar una lletra d'unitat o punt de muntatge per accedir a la partició, o desmuntar-la per evitar l'accés.  
-7. **Verificar la integritat**: Escanejar una partició per comprovar i corregir errors en el sistema de fitxers.  
-
 ## Eines en Windows  
 
 1. **Administrador de Discos (Disk Management)**  
