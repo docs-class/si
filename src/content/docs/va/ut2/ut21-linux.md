@@ -3,16 +3,15 @@ title: "GNU/Linux"
 description: "GNU/Linux" 
 ---
 
-**GNU** y **Linux** son componentes esenciales en muchos sistemas operativos de código abierto, pero desempeñan roles distintos:
+**GNU** i **Linux** són components essencials en molts sistemes operatius de codi obert, però tenen rols diferents:
 
-- **GNU**: Es un proyecto iniciado en 1983 por Richard Stallman con el objetivo de desarrollar un sistema operativo libre similar a Unix. GNU proporciona herramientas y aplicaciones fundamentales, como compiladores, editores de texto y utilidades del sistema, que permiten la interacción del usuario con el sistema operativo.
+- **GNU**: És un projecte iniciat el 1983 per Richard Stallman amb l'objectiu de desenvolupar un sistema operatiu lliure semblant a Unix. GNU proporciona eines i aplicacions fonamentals, com compiladors, editors de text i utilitats del sistema, que permeten la interacció de l'usuari amb el sistema operatiu.
 
-- **Linux**: Es el núcleo (kernel) del sistema operativo, desarrollado por Linus Torvalds en 1991. El núcleo gestiona los recursos del hardware y permite la comunicación entre el software y el hardware, siendo responsable de tareas como la gestión de procesos, memoria y dispositivos. 
+- **Linux**: És el nucli (kernel) del sistema operatiu, desenvolupat per Linus Torvalds el 1991. El nucli gestiona els recursos del maquinari i permet la comunicació entre el programari i el maquinari, essent responsable de tasques com la gestió de processos, memòria i dispositius.
 
-> La combinación del núcleo Linux con las herramientas y aplicaciones de GNU da lugar a un sistema operativo completo, comúnmente denominado **GNU/Linux**. Este término reconoce la contribución de ambos proyectos en la creación de un sistema operativo funcional y libre.
+> La combinació del nucli Linux amb les eines i aplicacions de GNU dóna lloc a un sistema operatiu complet, comunament anomenat **GNU/Linux**. Aquest terme reconeix la contribució d'ambdós projectes en la creació d'un sistema operatiu funcional i lliure.
 
-Es importante destacar que, aunque el término "Linux" se utiliza frecuentemente para referirse al sistema operativo completo, técnicamente se refiere solo al núcleo. Por ello, el uso de "GNU/Linux" es más preciso al referirse al sistema operativo en su totalidad.
-
+És important destacar que, encara que el terme "Linux" s'utilitza freqüentment per referir-se al sistema operatiu complet, tècnicament es refereix només al nucli. Per això, l'ús de "GNU/Linux" és més precís a l'hora de referir-se al sistema operatiu en la seua totalitat.
 
 ## Gestió d'actualitzacions
 
@@ -37,7 +36,12 @@ Cada distribució té la seua pròpia filosofia i enfocament, fent que Linux sig
 
 ## Mètodes d'Instal·lació/actualitzacions
 
-1. **Repositoris**: Servidors de paquets, accessibles a través d'un gestor de paquets.
+1. **Tendes d'aplicacions gràfiques:**
+    - **Centre de Programari d'Ubuntu:** Proporciona una interfície gràfica per a buscar i instal·lar aplicacions en Ubuntu.
+    - **GNOME Software:** Disponible en entorns d'escriptori GNOME, permet gestionar aplicacions de manera visual.
+    - **Discover:** Utilitzat en entorns KDE Plasma, facilita la instal·lació de programari mitjançant una interfície amigable.
+  
+2. **Repositoris**: Servidors de paquets, accessibles a través d'un gestor de paquets.
    1. **Gestors de paquets tradicionals** 
     - **APT (Advanced Package Tool):** Utilitzat en distribucions basades en Debian, com Ubuntu i Linux Mint. Permet instal·lar paquets `.deb` des dels repositoris oficials mitjançant comandes com `sudo apt install nom-del-paquet`.
     - **YUM/DNF:** Emprats en distribucions basades en Red Hat, com Fedora i CentOS. Faciliten la instal·lació de paquets `.rpm` amb comandes com `sudo dnf install nom-del-paquet`.
@@ -48,13 +52,10 @@ Cada distribució té la seua pròpia filosofia i enfocament, fent que Linux sig
     - **Flatpak:** Ofereix una plataforma per a distribuir aplicacions en diverses distribucions, executant-les en entorns aïllats. S'utilitza amb `flatpak install nom-del-paquet`.
     - **AppImage:** Proporciona aplicacions portàtils que no requereixen instal·lació; basta amb descarregar l'arxiu `.AppImage`, atorgar-li permisos d'execució i executar-lo directament.
 
-2. **Compilació des del codi font:**
+3. **Compilació des del codi font:**
     - Algunes aplicacions es distribueixen en forma de codi font. Per a instal·lar-les, es descarreguen els arxius font, es descomprimeixen i es compilen utilitzant comandes com `./configure`, `make` i `sudo make install`. Este mètode ofereix flexibilitat, però requereix coneixements tècnics i pot ser més complex.
 
-3. **Tendes d'aplicacions gràfiques:**
-    - **Centre de Programari d'Ubuntu:** Proporciona una interfície gràfica per a buscar i instal·lar aplicacions en Ubuntu.
-    - **GNOME Software:** Disponible en entorns d'escriptori GNOME, permet gestionar aplicacions de manera visual.
-    - **Discover:** Utilitzat en entorns KDE Plasma, facilita la instal·lació de programari mitjançant una interfície amigable.
+
 
 #### Comandos d'APT
 
@@ -85,5 +86,5 @@ Cada distribució té el seu propi sistema de gestió de repositoris i la seua p
 :::
   
 :::tip[Enllaços]  
-  - [Vídeo introductori Linux - en](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
+  - [Vídeo introductori Linux - es](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
 :::

@@ -3,10 +3,15 @@ title: "GNU/Linux"
 description: "GNU/Linux"
 ---
 
-## Gestión de actualizaciones
+**GNU** y **Linux** son componentes esenciales en muchos sistemas operativos de código abierto, pero desempeñan roles distintos:
 
-- En Linux, la gestión de actualizaciones se realiza utilizando gestores de paquetes específicos según la distribución.
-- Es recomendable mantener el sistema al día instalando actualizaciones de tipo crítico para mejorar la seguridad y el rendimiento.
+- **GNU**: Es un proyecto iniciado en 1983 por Richard Stallman con el objetivo de desarrollar un sistema operativo libre similar a Unix. GNU proporciona herramientas y aplicaciones fundamentales, como compiladores, editores de texto y utilidades del sistema, que permiten la interacción del usuario con el sistema operativo.
+
+- **Linux**: Es el núcleo (kernel) del sistema operativo, desarrollado por Linus Torvalds en 1991. El núcleo gestiona los recursos del hardware y permite la comunicación entre el software y el hardware, siendo responsable de tareas como la gestión de procesos, memoria y dispositivos. 
+
+> La combinación del núcleo Linux con las herramientas y aplicaciones de GNU da lugar a un sistema operativo completo, comúnmente denominado **GNU/Linux**. Este término reconoce la contribución de ambos proyectos en la creación de un sistema operativo funcional y libre.
+
+Es importante destacar que, aunque el término "Linux" se utiliza frecuentemente para referirse al sistema operativo completo, técnicamente se refiere solo al núcleo. Por ello, el uso de "GNU/Linux" es más preciso al referirse al sistema operativo en su totalidad.
 
 ## Distribuciones - "Distros"
 
@@ -26,7 +31,12 @@ Cada distribución tiene su propia filosofía y enfoque, haciendo que Linux sea 
 
 ## Métodos de Instalación/actualizaciones
 
-1. **Repositorios**: Servidores de paquetes, accedidos a través de un gestor de paquetes.
+1. **Tiendas de aplicaciones gráficas:**
+    - **Centro de Software de Ubuntu:** Proporciona una interfaz gráfica para buscar e instalar aplicaciones en Ubuntu.
+    - **GNOME Software:** Disponible en entornos de escritorio GNOME, permite gestionar aplicaciones de manera visual.
+    - **Discover:** Utilizado en entornos KDE Plasma, facilita la instalación de software mediante una interfaz amigable.
+
+2. **Repositorios**: Servidores de paquetes, accedidos a través de un gestor de paquetes.
    1. **Gestores de paquetes tradicionales**
     - **APT (Advanced Package Tool):** Utilizado en distribuciones basadas en Debian, como Ubuntu y Linux Mint. Permite instalar paquetes `.deb` desde los repositorios oficiales mediante comandos como `sudo apt install nombre-del-paquete`.
     - **YUM/DNF:** Empleados en distribuciones basadas en Red Hat, como Fedora y CentOS. Facilitan la instalación de paquetes `.rpm` con comandos como `sudo dnf install nombre-del-paquete`.
@@ -37,13 +47,9 @@ Cada distribución tiene su propia filosofía y enfoque, haciendo que Linux sea 
     - **Flatpak:** Ofrece una plataforma para distribuir aplicaciones en diversas distribuciones, ejecutándolas en entornos aislados. Se utiliza con `flatpak install nombre-del-paquete`.
     - **AppImage:** Proporciona aplicaciones portátiles que no requieren instalación; basta con descargar el archivo `.AppImage`, otorgarle permisos de ejecución y ejecutarlo directamente.
 
-2. **Compilación desde el código fuente:**
+3. **Compilación desde el código fuente:**
     - Algunas aplicaciones se distribuyen en forma de código fuente. Para instalarlas, se descargan los archivos fuente, se descomprimen y se compilan utilizando comandos como `./configure`, `make` y `sudo make install`. Este método ofrece flexibilidad, pero requiere conocimientos técnicos y puede ser más complejo.
 
-3. **Tiendas de aplicaciones gráficas:**
-    - **Centro de Software de Ubuntu:** Proporciona una interfaz gráfica para buscar e instalar aplicaciones en Ubuntu.
-    - **GNOME Software:** Disponible en entornos de escritorio GNOME, permite gestionar aplicaciones de manera visual.
-    - **Discover:** Utilizado en entornos KDE Plasma, facilita la instalación de software mediante una interfaz amigable.
 
 #### Comandos de APT
 
@@ -74,5 +80,5 @@ Cada distribución tiene su propio sistema de gestión de repositorios y su pol�
 :::
   
 :::tip[Enlaces]  
-  - [Vídeo introductorio Linux - en](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
+  - [Vídeo introductorio Linux - es](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
 :::
