@@ -37,7 +37,7 @@ RA: 2 - CE: d, e, f, g, h, i
 [Docker? - ES](https://m.youtube.com/watch?v=Uu49ID0NBRQ)
 :::
 
-## 3. Microsoft Hyper-V vs WSL vs Azure
+## 2. Microsoft Hyper-V vs WSL vs Azure
 
 - **Microsoft Hyper-V**: Eina de virtualització integrada en sistemes Pro de Microsoft.
 - **WSL (Windows Subsystem Linux)**: Permet instal·lar i executar aplicacions Linux.
