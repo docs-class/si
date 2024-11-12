@@ -18,3 +18,14 @@ description: "Windows"
 ## Windows 10 Versions
 
 ![Windows´s versions](../../../../assets/ut2/window%20versions.png)
+
+
+## Actualizació de Controladors
+
+1. Obri el **Administrador de Dispositius** (clic dret en Inici).
+2. Localitza i fes clic dret en el dispositiu, selecciona **Actualitzar controlador**.
+3. Tria una de les opcions:
+   - **Buscar controladors automàticament**: Windows buscarà l'última versió disponible.
+   - **Buscar en el meu equip**: Descarrega primer els controladors des de la pàgina web del fabricant i després selecciona aquesta opció per a instal·lar-los manualment des del teu equip.
+4. Reinicia si és necessari.
+![Administrador de Dispositius](https://www.softzone.es/app/uploads-softzone.es/2019/09/Men%C3%BA-contextual-propiedades-dispositivo-Windows-10.png)
