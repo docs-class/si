@@ -2,89 +2,149 @@
 title: "Introducción al terminal Windows"
 description: "Introducción al terminal Windows"
 ---
+## 1.Cómo abrir el terminal de PowerShell
 
-## 1. Prompt de windows
+1. **Desde el Menú de Inicio**:
+   - Haz clic en el botón de Inicio o presiona la tecla de Windows.
+   - Escribe "PowerShell" y selecciona **Windows PowerShell** o **PowerShell** (también puedes elegir **PowerShell (x86)** si necesitas la versión de 32 bits).
 
-- El **prompt** muestra información útil como el usuario, la máquina y el directorio actual.
-  - Ejemplo: `jose@ubuntu:~$`
-  - `$`: Usuario sin privilegios.
-  - `#`: Usuario con privilegios root.
+2. **Desde el Explorador de Archivos**:
+   - Navega a cualquier carpeta.
+   - Haz clic en la barra de direcciones, escribe `powershell` y presiona **Enter**.
 
----
+3. **Con acceso rápido (Windows 10 y Windows 11)**:
+   - Presiona **Win + X** y selecciona **Windows PowerShell** o **Windows Terminal** (que incluye PowerShell y otros shells como el símbolo del sistema o WSL).
 
-## 5. Interfaz Gráfica
+### Cómo actualizar PowerShell a la última versión
 
-- **Entornos gráficos**: Gnome, KDE Plasma, Xfce, Cinnamon, Mate, LXQt.
-- Puedes cambiar entre interfaz gráfica y terminal textual (instrucción `startx`).
+1. **Instalación a través de Microsoft Store**
+2. **Uso de Winget**:
+   - Abre **PowerShell** con permisos de administrador.
+   - Ejecuta el siguiente comando:
+     ```powershell
+     winget install --id Microsoft.Powershell --source winget
+     ```
+   - Esto descargará e instalará la última versión disponible de PowerShell.
 
----
+### Verificar la Versión de PowerShell
 
-## 6. Jerarquía de Ficheros
+Para confirmar la versión actual, ejecuta el siguiente comando en PowerShell:
+```powershell
+$PSVersionTable.PSVersion
+```
 
-- **Rutas absolutas**: Van desde la raíz `/` hasta el directorio destino. Ejemplo: `/home/jose/Escritorio`
-- **Rutas relativas**: Se basan en el directorio actual.
+## 2. **Navegación y Exploración de Directorios**
 
----
+- **Ver el directorio actual**:  
+  ```powershell
+  Get-Location  # Alias: pwd (equivalente en Linux: pwd)
+  ```
 
-## 7. Gestión de Ficheros
+- **Cambiar de directorio**:  
+  ```powershell
+  Set-Location -Path "C:\Ruta\Directorio"  # Alias: cd (equivalente en Linux: cd)
+  ```
 
-### Entrada/Salida Estándar
+- **Listar archivos y directorios**:  
+  ```powershell
+  Get-ChildItem  # Alias: ls, dir (equivalente en Linux: ls)
+  ```
 
-- Los comandos siguen la estructura: `orden [-opciones] argumento1 argumento2`.
-- **Entrada estándar** (stdin): Teclado.
-- **Salida estándar** (stdout): Pantalla.
-- **Salida de error** (stderr): Pantalla.
+### 2. **Gestión de Directorios**
 
-### Redirección
+- **Crear un nuevo directorio**:  
+  ```powershell
+  New-Item -Path "C:\Ruta\NuevoDirectorio" -ItemType Directory  # Alias: mkdir (equivalente en Linux: mkdir)
+  ```
 
-- `>` y `>>`: Redirigen la salida a un archivo.
-  - Ejemplo: `ls -a > fichero.txt`
-- `<`: Redirige la entrada desde un archivo.
-  - Ejemplo: `wc < fichero.txt`
-- **Tuberías**: Permiten que la salida de un comando se convierta en la entrada de otro.
-  - Ejemplo: `cat /etc/passwd | wc -l`
+- **Eliminar un directorio**:  
+  ```powershell
+  Remove-Item -Path "C:\Ruta\Directorio" -Recurse  # Alias: rm (equivalente en Linux: rm -r)
+  ```
 
----
+- **Copiar un directorio**:  
+  ```powershell
+  Copy-Item -Path "C:\Ruta\DirectorioOrigen" -Destination "C:\Ruta\DirectorioDestino" -Recurse  # Alias: cp (equivalente en Linux: cp -r)
+  ```
 
-## 8. Comandos Básicos
+- **Mover o renombrar un directorio**:  
+  ```powershell
+  Move-Item -Path "C:\Ruta\DirectorioOrigen" -Destination "C:\Ruta\NuevoNombre"  # Alias: mv (equivalente en Linux: mv)
+  ```
 
-- `pwd`: Muestra la ruta actual.
-- `cd`: Cambia de directorio.
-- `ls`: Lista archivos.
-- `mkdir`: Crea directorios.
-- `rm`: Borra ficheros o directorios.
-- `mv`: Mueve ficheros o directorios.
-- `cp`: Copia ficheros o directorios.
-- `uname`: Muestra información del sistema.
+### 3. **Gestión de Archivos**
 
----
+- **Crear un archivo**:  
+  ```powershell
+  New-Item -Path "C:\Ruta\Archivo.txt" -ItemType File  # Sin alias directo, equivalente en Linux: touch
+  ```
 
-## 9. Terminal Avanzado
+- **Escribir en un archivo**:  
+  ```powershell
+  Set-Content -Path "C:\Ruta\Archivo.txt" -Value "Texto a escribir en el archivo"  # Sin alias directo, equivalente en Linux: echo "Texto" > archivo.txt
+  ```
 
-### grep
-- Busca patrones en ficheros.
-  - Ejemplo: `grep root /etc/passwd`
+- **Añadir texto a un archivo**:  
+  ```powershell
+  Add-Content -Path "C:\Ruta\Archivo.txt" -Value "Texto adicional"  # Sin alias directo, equivalente en Linux: echo "Texto" >> archivo.txt
+  ```
 
-### sort
-- Ordena las líneas de un fichero.
-  - Ejemplo: `sort -f /etc/passwd`
+- **Leer el contenido de un archivo**:  
+  ```powershell
+  Get-Content -Path "C:\Ruta\Archivo.txt"  # Alias: cat (equivalente en Linux: cat)
+  ```
 
-### wc (Word Count)
-- Cuenta líneas, palabras o caracteres en un fichero.
-  - Ejemplo: `wc /etc/passwd`
+- **Copiar un archivo**:  
+  ```powershell
+  Copy-Item -Path "C:\Ruta\Archivo.txt" -Destination "C:\Ruta\CopiaArchivo.txt"  # Alias: cp (equivalente en Linux: cp)
+  ```
 
----
+- **Mover o renombrar un archivo**:  
+  ```powershell
+  Move-Item -Path "C:\Ruta\Archivo.txt" -Destination "C:\Ruta\NuevoNombre.txt"  # Alias: mv (equivalente en Linux: mv)
+  ```
 
-## 10. Variables de Entorno
+- **Eliminar un archivo**:  
+  ```powershell
+  Remove-Item -Path "C:\Ruta\Archivo.txt"  # Alias: rm (equivalente en Linux: rm)
+  ```
 
-- **env**: Lista las variables de entorno.
-- Ejemplo: `echo $PATH` muestra las rutas de los ejecutables del sistema.
+### 4. **Buscar Archivos**
 
----
+- **Buscar archivos por nombre**:  
+  ```powershell
+  Get-ChildItem -Path "C:\Ruta" -Filter "*.txt" -Recurse  # Alias: ls -r *.txt (equivalente en Linux: find o ls -R *.txt)
+  ```
 
-## Actividades
+- **Buscar archivos por palabra clave en el contenido**:  
+  ```powershell
+  Select-String -Path "C:\Ruta\*.txt" -Pattern "palabraClave"  # Sin alias directo, equivalente en Linux: grep "palabraClave" *.txt
+  ```
 
-1. ¿Qué hace el comando `uname -a`?
-2. Prueba los siguientes comandos:
-   - `cat /etc/passwd | wc -l`
-   - `ls -l | sort -k 5n`
+### 5. **Comprimir y Descomprimir Archivos**
+
+- **Comprimir un directorio o archivo**:  
+  ```powershell
+  Compress-Archive -Path "C:\Ruta\Directorio" -DestinationPath "C:\Ruta\Archivo.zip"  # Sin alias directo, equivalente en Linux: zip
+  ```
+
+- **Descomprimir un archivo**:  
+  ```powershell
+  Expand-Archive -Path "C:\Ruta\Archivo.zip" -DestinationPath "C:\Ruta\Directorio"  # Sin alias directo, equivalente en Linux: unzip
+  ```
+
+### 6. **Permisos y Propiedades de Archivos**
+
+- **Ver propiedades de un archivo o directorio**:  
+  ```powershell
+  Get-Item -Path "C:\Ruta\Archivo.txt" | Format-List *  # Sin alias directo, equivalente en Linux: ls -l o stat
+  ```
+
+- **Cambiar permisos** (no es un alias directo, pero puedes usar `icacls`):  
+  ```powershell
+  icacls "C:\Ruta\Archivo.txt" /grant Usuario:(R)  # Equivalente en Linux: chmod
+  ```
+
+:::caution[Actividad]
+Directorios
+:::
