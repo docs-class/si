@@ -87,4 +87,5 @@ Cada distribució té el seu propi sistema de gestió de repositoris i la seua p
   
 :::tip[Enllaços]  
   - [Vídeo introductori Linux - es](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
+  - [Testing distros on-line](https://distrosea.com/es/)
 :::

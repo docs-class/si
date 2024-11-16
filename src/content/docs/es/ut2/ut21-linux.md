@@ -81,4 +81,5 @@ Cada distribución tiene su propio sistema de gestión de repositorios y su pol�
   
 :::tip[Enlaces]  
   - [Vídeo introductorio Linux - es](https://www.youtube.com/watch?v=UUJ0dFpj1-M&t=19s)
+  - [Testing distros on-line](https://distrosea.com/es/)
 :::
