@@ -1,6 +1,6 @@
 ---
-title: "Introducció al terminal Linux"
-description: "Introducció al terminal Linux"
+title: "Introducció al terminal"
+description: "Introducció al terminal"
 ---
 
 ## Conceptes bàsics

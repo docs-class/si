@@ -1,6 +1,6 @@
 ---
-title: "Introducción al terminal Linux"
-description: "Introducción al terminal Linux"
+title: "Introducción al terminal"
+description: "Introducción al terminal"
 ---
 ## Conceptos básicos
 ### Prompt de Linux
