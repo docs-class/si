@@ -1,6 +1,6 @@
 ---
-title: "Linux - Comandos avanzados"
-description: "Linux - Comandos avanzados"
+title: "Comandos avanzados"
+description: "Comandos avanzados"
 ---
 
 ## ls -l
@@ -79,6 +79,24 @@ description: "Linux - Comandos avanzados"
 - **`-c`**: Cuenta solo el número de bytes (tamaño del archivo).
 - **`-m`**: Cuenta el número de caracteres (incluyendo espacios).
 - **`-L`**: Muestra la longitud de la línea más larga.
+
+## **Cortar partes de un archivo: `cut`**
+
+`cut [opciones] [ficheros]`
+
+#### **Opciones más comunes:**
+- **`-b [rango]`**: Selecciona un rango de bytes (ejemplo: `1-10` para los primeros 10 bytes).
+- **`-c [rango]`**: Selecciona un rango de caracteres (ejemplo: `1-5` para los primeros 5 caracteres).
+- **`-f [campos]`**: Selecciona campos específicos basados en un delimitador.
+- **`-d [delimitador]`**: Define el delimitador que separa los campos (por defecto es el tabulador).
+
+:::note[Ejemplos]
+- `cut -b 1-10 archivo.txt`: Muestra los primeros 10 bytes de cada línea del archivo `archivo.txt`.
+- `cut -c 1-5 texto.txt`: Muestra los primeros 5 caracteres de cada línea del archivo `texto.txt`.
+- `cut -f 2 -d, datos.csv`: Extrae el segundo campo de cada línea del archivo `datos.csv`, usando `,` como delimitador.
+- `cut -f 1 usuarios.txt`: Muestra el primer campo de cada línea en el archivo `usuarios.txt` (usando tabuladores como delimitador por defecto).
+:::
+
 
 :::note[Ejemplos]
 - `wc archivo.txt`: Muestra el número total de líneas, palabras y bytes del archivo `archivo.txt`.

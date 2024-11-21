@@ -1,12 +1,12 @@
 ---
-title: "Linux - Comandaments avançats"
-description: "Linux - Comandaments avançats"
+title: "Comandaments avançats"
+description: "Comandaments avançats"
 ---
 
 ## ls -l
 ![ls command](https://detailed.wordpress.com/wp-content/uploads/2017/10/ls-command3.jpg)
 
-## **Cerca de patrons: `grep`**
+## **`grep`: Cerca de patrons**
 
 `grep [opcions] <patró> [fitxers]`
 
@@ -27,7 +27,7 @@ description: "Linux - Comandaments avançats"
 - `grep -n "usuario" usuarios.txt`: Cerca el patró `usuario` en el fitxer `usuarios.txt` i imprimeix el número de les línies coincidents.
 :::
 
-## **Ordenar dades: `sort`**
+## **`sort`: Ordenar dades**
 
 `sort [opcions] [fitxers]`
 
@@ -47,7 +47,7 @@ description: "Linux - Comandaments avançats"
 - `sort -t: -k 1 usuarios.csv`: Ordena el fitxer `usuarios.csv` per la **primera columna**, utilitzant `:` com a delimitador de camps.
 :::
 
-## **Visualitzar parts d'un fitxer: `head` i `tail`**
+## **`head` i `tail`: Visualitzar parts d'un fitxer**
 
 `head [opcions] [fitxers]`  
 `tail [opcions] [fitxers]`
@@ -69,7 +69,7 @@ description: "Linux - Comandaments avançats"
 - `tail -f log.txt`: Continua mostrant en temps real les noves línies que s'afegeixin al fitxer `log.txt`.
 :::
 
-## **Comptar línies, paraules i caràcters: `wc`**
+## **`wc`: Comptar línies, paraules i caràcters**
 
 `wc [opcions] [fitxers]`
 
@@ -86,6 +86,23 @@ description: "Linux - Comandaments avançats"
 - `wc -w texto.txt`: Compta les paraules contingudes en el fitxer `texto.txt`.
 - `wc -c datos.csv`: Mostra la mida en bytes del fitxer `datos.csv`.
 - `wc -L script.sh`: Mostra la longitud de la línia més llarga al fitxer `script.sh`.
+:::
+
+## **`cut`: Retallar parts d'un fitxer**
+
+`cut [opcions] [fitxers]`
+
+#### **Opcions més comunes:**
+- **`-b [rang]`**: Selecciona un rang de bytes (exemple: `1-10` per als primers 10 bytes).
+- **`-c [rang]`**: Selecciona un rang de caràcters (exemple: `1-5` per als primers 5 caràcters).
+- **`-f [camps]`**: Selecciona camps específics basats en un delimitador.
+- **`-d [delimitador]`**: Defineix el delimitador que separa els camps (per defecte és el tabulador).
+
+:::note[Exemples]
+- `cut -b 1-10 archivo.txt`: Mostra els primers 10 bytes de cada línia del fitxer `archivo.txt`.
+- `cut -c 1-5 texto.txt`: Mostra els primers 5 caràcters de cada línia del fitxer `texto.txt`.
+- `cut -f 2 -d, dades.csv`: Extreu el segon camp de cada línia del fitxer `dades.csv`, utilitzant `,` com a delimitador.
+- `cut -f 1 usuaris.txt`: Mostra el primer camp de cada línia al fitxer `usuaris.txt` (utilitzant tabuladors com a delimitador per defecte).
 :::
 
 :::caution[Activitat]
