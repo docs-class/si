@@ -3,6 +3,15 @@ title: "Directoris"
 description: "Directoris"
 ---
 
+### **Nomenclatura i ubicació de les unitats**
+
+| **Característica**    | **Linux**                                   | **Windows**            | **macOS**                   |
+|------------------------|---------------------------------------------|------------------------|-----------------------------|
+| **Nomenclatura**       | `/dev/sdXZ`, `/dev/nvmeXnYpZ`    | Lletres: `C:`, `D:`, etc. | `/dev/diskX`, `/dev/diskXsY` |
+| **Sistema de fitxers** | Ext4, XFS, Btrfs, NTFS, FAT32               | NTFS, FAT32, exFAT     | APFS, HFS+, FAT32, exFAT    |
+| **Ubicació**           | Muntatge en directoris                     | Lletres assignades     | Muntatge automàtic en `/Volumes` |
+| **Gestió**             | Eines com `lsblk`, `fdisk`, GParted         | "Administrador de discos", `diskpart` | Utilitat de Discos, `diskutil` CLI |
+
 ### **Estructura de Directoris en Windows**
 
 L'estructura de directoris en Windows està organitzada jeràrquicament i comença per unitats d'emmagatzematge (per exemple, **C:**, **D:**). Aquestes unitats contenen tots els fitxers i carpetes. A continuació, alguns dels directoris principals:

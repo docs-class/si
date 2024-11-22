@@ -3,6 +3,15 @@ title: "Directorios"
 description: "Directorios"
 ---
 
+### **Nomenclatura y ubicación de las unidades de disco**
+
+| **Característica**    | **Linux**                                   | **Windows**            | **macOS**                   |
+|------------------------|---------------------------------------------|------------------------|-----------------------------|
+| **Nomenclatura**       | `/dev/sdXZ`, `/dev/nvmeXnYpZ`   | Letras: `C:`, `D:`, etc. | `/dev/diskX`, `/dev/diskXsY` |
+| **Sistema de archivos**| Ext4, XFS, Btrfs, NTFS, FAT32               | NTFS, FAT32, exFAT     | APFS, HFS+, FAT32, exFAT    |
+| **Ubicación**          | Montaje en directorios                     | Letras asignadas       | Montaje automático en `/Volumes` |
+| **Gestión**            | Herramientas como `lsblk`, `fdisk`, GParted | "Administrador de discos", `diskpart` | Utilidad de Discos, `diskutil` CLI |
+
 ### **Estructura de Directorios en Windows**
 
 La estructura de directorios en Windows está organizada jerárquicamente y empieza por unidades de almacenamiento (por ejemplo, **C:**, **D:**). Estas unidades contienen todos los archivos y carpetas. A continuación, algunos de los directorios principales:
