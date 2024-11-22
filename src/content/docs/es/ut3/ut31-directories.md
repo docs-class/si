@@ -12,6 +12,17 @@ description: "Directorios"
 | **Ubicación**          | Montaje en directorios                     | Letras asignadas       | Montaje automático en `/Volumes` |
 | **Gestión**            | Herramientas como `lsblk`, `fdisk`, GParted | "Administrador de discos", `diskpart` | Utilidad de Discos, `diskutil` CLI |
 
+
+:::tip[¿Sabías que...?]
+| **Característica**    | **Discos SATA (`/dev/sdX`)**                | **Discos NVMe (`/dev/nvmeXnY`)**        |
+|------------------------|---------------------------------------------|-----------------------------------------|
+| **Namespaces**         | No existen                                 | Posibles, dividen el disco a nivel físico |
+| **Particiones**        | Gestionan el disco completo                | Gestionan espacio dentro de un namespace |
+| **Rendimiento**        | Limitado a una cola de comandos            | Alta velocidad con colas separadas por namespace |
+| **Aplicaciones**       | Sistemas personales y estándar             | Sistemas empresariales y de alto rendimiento |
+:::
+
+
 ### **Estructura de Directorios en Windows**
 
 La estructura de directorios en Windows está organizada jerárquicamente y empieza por unidades de almacenamiento (por ejemplo, **C:**, **D:**). Estas unidades contienen todos los archivos y carpetas. A continuación, algunos de los directorios principales:

@@ -12,6 +12,16 @@ description: "Directoris"
 | **Ubicació**           | Muntatge en directoris                     | Lletres assignades     | Muntatge automàtic en `/Volumes` |
 | **Gestió**             | Eines com `lsblk`, `fdisk`, GParted         | "Administrador de discos", `diskpart` | Utilitat de Discos, `diskutil` CLI |
 
+:::tip[Sabies que...?]
+| **Característica**    | **Discos SATA (`/dev/sdX`)**                | **Discos NVMe (`/dev/nvmeXnY`)**        |
+|------------------------|---------------------------------------------|-----------------------------------------|
+| **Namespaces**         | No existeixen                              | Possibles, divideixen el disc a nivell físic |
+| **Particions**         | Gestionen tot el disc                      | Gestionen l'espai dins d'un namespace   |
+| **Rendiment**          | Limitat a una cua de comandaments          | Alta velocitat amb cues separades per namespace |
+| **Aplicacions**        | Sistemes personals i estàndard             | Sistemes empresarials i d'alt rendiment |
+:::
+
+
 ### **Estructura de Directoris en Windows**
 
 L'estructura de directoris en Windows està organitzada jeràrquicament i comença per unitats d'emmagatzematge (per exemple, **C:**, **D:**). Aquestes unitats contenen tots els fitxers i carpetes. A continuació, alguns dels directoris principals:
