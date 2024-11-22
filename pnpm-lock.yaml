@@ -20,6 +20,9 @@ importers:
       '@astrojs/starlight-markdoc':
         specifier: ^0.1.0
         version: 0.1.0(@astrojs/markdoc@0.11.5(astro@4.16.7(rollup@4.22.2)(typescript@5.6.2)))(@astrojs/starlight@0.28.4(astro@4.16.7(rollup@4.22.2)(typescript@5.6.2)))
+      '@iconify-json/mdi':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@iconify/json':
         specifier: ^2.2.265
         version: 2.2.265
@@ -36,6 +39,9 @@ importers:
         specifier: ^5.6.2
         version: 5.6.2
     devDependencies:
+      '@iconify-json/mdi-light':
+        specifier: ^1.2.1
+        version: 1.2.1
       astro-icon:
         specifier: https://gitpkg.now.sh/stramel/astro-icon/packages/core?main
         version: https://gitpkg.now.sh/stramel/astro-icon/packages/core?main
@@ -388,6 +394,9 @@ packages:
 
   '@expressive-code/plugin-text-markers@0.35.6':
     resolution: {integrity: sha512-/k9eWVZSCs+uEKHR++22Uu6eIbHWEciVHbIuD8frT8DlqTtHYaaiwHPncO6KFWnGDz5i/gL7oyl6XmOi/E6GVg==}
+
+  '@iconify-json/mdi-light@1.2.1':
+    resolution: {integrity: sha512-kTs9efbpF5GDcevR9PWCDJQrV1Vfr6RS8KJyGIPM6zxd8AGGAtNCxyACrJ+zeq6K99ZmcTIPr8tlymmPFAxwnw==}
 
   '@iconify-json/mdi@1.2.1':
     resolution: {integrity: sha512-dSkQU78gsZV6Yxnq78+LuX7jzeFC/5NAmz7O3rh558GimGFcwMVY/OtqRowIzjqJBmMmWZft7wkFV4TrwRXjlg==}
@@ -3098,6 +3107,10 @@ snapshots:
   '@expressive-code/plugin-text-markers@0.35.6':
     dependencies:
       '@expressive-code/core': 0.35.6
+
+  '@iconify-json/mdi-light@1.2.1':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify-json/mdi@1.2.1':
     dependencies:

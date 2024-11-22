@@ -26,21 +26,21 @@ export default defineConfig({
             './src/styles/custom.css',
         ],
         plugins: [
-            // starlightViewModes({
-            //     zenModeEnabled: false,
-            //     zenModeCloseButtonPosition: "top-right",
-            //     zenModeShowHeader: false,
-            //     zenModeShowSidebar: false,
-            //     zenModeShowTableOfContents: true,
-            //     zenModeShowFooter: true,
-            //     zenModeShowSwitchInHeader: true,
-            //     zenModeShowSwitchInHeaderMobile: true,
-            //     zenModeShowSwitchInTableOfContents: true,
+            starlightViewModes({
+                zenModeEnabled: true,
+                zenModeCloseButtonPosition: "top-right",
+                zenModeShowHeader: true,
+                //zenModeShowSidebar: false,
+                //zenModeShowTableOfContents: true,
+                //zenModeShowFooter: true,
+                zenModeShowSwitchInHeader: true,
+                zenModeShowSwitchInHeaderMobile: false,
+                zenModeShowSwitchInTableOfContents: true,
 
-            //     presentationModeEnabled: true, // not supported yet
-            //     presentationModeControlButtonPosition: "middle-right", // not supported yet
-            //     presentationModeShowSwitchInTableOfContents: true, // not supported yet
-            // }),
+                presentationModeEnabled: false, // not supported yet
+                //presentationModeControlButtonPosition: "middle-right", // not supported yet
+                //presentationModeShowSwitchInTableOfContents: true, // not supported yet
+            }),
         ],
         // Default locale
         defaultLocale: 'va',
