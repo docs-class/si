@@ -29,17 +29,17 @@ export default defineConfig({
             starlightViewModes({
                 zenModeEnabled: true,
                 zenModeCloseButtonPosition: "top-right",
-                zenModeShowHeader: true,
-                //zenModeShowSidebar: false,
-                //zenModeShowTableOfContents: true,
-                //zenModeShowFooter: true,
+                zenModeShowHeader: false,
+                zenModeShowSidebar: false,
+                zenModeShowTableOfContents: false,
+                zenModeShowFooter: false,
                 zenModeShowSwitchInHeader: true,
-                zenModeShowSwitchInHeaderMobile: false,
-                zenModeShowSwitchInTableOfContents: true,
+                zenModeShowSwitchInHeaderMobile: true,
+                zenModeShowSwitchInTableOfContents: false,
 
                 presentationModeEnabled: false, // not supported yet
-                //presentationModeControlButtonPosition: "middle-right", // not supported yet
-                //presentationModeShowSwitchInTableOfContents: true, // not supported yet
+                // presentationModeControlButtonPosition: "middle-right", // not supported yet
+                // presentationModeShowSwitchInTableOfContents: true, // not supported yet
             }),
         ],
         // Default locale
