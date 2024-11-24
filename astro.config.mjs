@@ -102,7 +102,7 @@ export default defineConfig({
             },
             {
                 label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
-                badge: { text: '28-OCT', variant: 'success' },
+               // badge: { text: '28-OCT', variant: 'success' },
                 translations: {
                     'es': 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
                     'en': 'UT2 - OPERATING SYSTEMS. INTRODUCTION',
@@ -141,6 +141,7 @@ export default defineConfig({
             },
             {
                 label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL",
+               // badge: { text: '25-NOV', variant: 'success' },
                 translations: {
                     'es': 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL ',
                     'en': 'UT3 - FILE MANAGEMENT AND STORAGE. INTRODUCTION TO THE TERMINAL',
