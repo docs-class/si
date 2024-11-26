@@ -139,101 +139,101 @@ export default defineConfig({
                     },
                 ],
             },
-            // {
-            //     label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL",
-            //    // badge: { text: '25-NOV', variant: 'success' },
-            //     translations: {
-            //         'es': 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL ',
-            //         'en': 'UT3 - FILE MANAGEMENT AND STORAGE. INTRODUCTION TO THE TERMINAL',
-
-            //     },
-            //     // Collapsa el grupo de forma predeterminada.
-            //     collapsed: true,
-            //     items: [
-            //         {
-            //             label: '3.1 Estructura de directoris',
-            //             translations: {
-            //                 'es': '3.1 Estructura de directorios',
-            //                 'en': '3.1 Directory structure',
-            //             },
-            //             items: [
-            //                 'ut3/ut31',
-            //                 'ut3/ut31-directories',
-            //             ],
-            //         },
-            //         {
-            //             label: '3.2 Particions, Automatizacions i backups',
-            //             translations: {
-            //                 'es': '3.2 Particiones, Automatizaciones y backups',
-            //                 'en': '3.2 Partitions, Automations & backups',
-            //             },
-            //             items: [
-            //                 'ut3/ut32-partitions',
-            //                 'ut3/ut32-backup-auto',
-            //                 {
-            //                     label: 'Automatització',
-            //                     translations: {
-            //                         'es': 'Automatización',
-            //                         'en': 'Automation',
-            //                     },
-            //                     items: [
-            //                         'ut3/ut32-wintasks',
-            //                         'ut3/ut32-linuxtasks',
-            //                     ],
-            //                 },
-            //             ],
-            //         },
-            //         {
-            //             label: '3.3 Gestió de la informació',
-            //             translations: {
-            //                 'es': '3.3 Gestión de la información',
-            //                 'en': '3.3 Information Management',
-            //             },
-            //             items: [
-            //                 'ut3/ut33-commands-win',
-            //                 {
-            //                     label: 'GNU/Linux',
-            //                     items: [
-            //                         'ut3/ut33-commands-linux',
-            //                         'ut3/ut33-commands-linux-advanced',
-            //                     ],
-            //                 },
-
-            //             ],
-            //         },
-            //     ],
-            // },
             {
-                label: "UT4 - GESTIÓ USUARIS I PROCESSOS. SCRIPTING",
+                label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL",
                // badge: { text: '25-NOV', variant: 'success' },
                 translations: {
-                    'es': 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
-                    'en': 'UT4 - USERS AND PROCESSES. SCRIPTING',
+                    'es': 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL ',
+                    'en': 'UT3 - FILE MANAGEMENT AND STORAGE. INTRODUCTION TO THE TERMINAL',
 
                 },
                 // Collapsa el grupo de forma predeterminada.
                 collapsed: true,
                 items: [
                     {
-                        label: '4.1 Gestió de usuaris',
+                        label: '3.1 Estructura de directoris',
                         translations: {
-                            'es': '4.1 Gestión de usuarios',
-                            'en': '4.1 User management',
+                            'es': '3.1 Estructura de directorios',
+                            'en': '3.1 Directory structure',
                         },
                         items: [
-                            'ut4/ut41',
-                            'ut4/ut41-win',
+                            'ut3/ut31',
+                            'ut3/ut31-directories',
                         ],
-                    },
-                    // {
-                    //     label: '4.2 Scripting',
-                    //     translations: {
-                    //         'es': '4.2 Scripting',
-                    //         'en': '4.2 Scripting',
-                    //     },
                     // },
+                    // {
+                    //     label: '3.2 Particions, Automatizacions i backups',
+                    //     translations: {
+                    //         'es': '3.2 Particiones, Automatizaciones y backups',
+                    //         'en': '3.2 Partitions, Automations & backups',
+                    //     },
+                    //     items: [
+                    //         'ut3/ut32-partitions',
+                    //         'ut3/ut32-backup-auto',
+                    //         {
+                    //             label: 'Automatització',
+                    //             translations: {
+                    //                 'es': 'Automatización',
+                    //                 'en': 'Automation',
+                    //             },
+                    //             items: [
+                    //                 'ut3/ut32-wintasks',
+                    //                 'ut3/ut32-linuxtasks',
+                    //             ],
+                    //         },
+                    //     ],
+                    // },
+                    // {
+                    //     label: '3.3 Gestió de la informació',
+                    //     translations: {
+                    //         'es': '3.3 Gestión de la información',
+                    //         'en': '3.3 Information Management',
+                    //     },
+                    //     items: [
+                    //         'ut3/ut33-commands-win',
+                    //         {
+                    //             label: 'GNU/Linux',
+                    //             items: [
+                    //                 'ut3/ut33-commands-linux',
+                    //                 'ut3/ut33-commands-linux-advanced',
+                    //             ],
+                    //         },
+
+                    //     ],
+                    },
                 ],
             },
+            // {
+            //     label: "UT4 - GESTIÓ USUARIS I PROCESSOS. SCRIPTING",
+            //    // badge: { text: '25-NOV', variant: 'success' },
+            //     translations: {
+            //         'es': 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
+            //         'en': 'UT4 - USERS AND PROCESSES. SCRIPTING',
+
+            //     },
+            //     // Collapsa el grupo de forma predeterminada.
+            //     collapsed: true,
+            //     items: [
+            //         {
+            //             label: '4.1 Gestió de usuaris',
+            //             translations: {
+            //                 'es': '4.1 Gestión de usuarios',
+            //                 'en': '4.1 User management',
+            //             },
+            //             items: [
+            //                 'ut4/ut41',
+            //                 'ut4/ut41-win',
+            //             ],
+            //         },
+            //         // {
+            //         //     label: '4.2 Scripting',
+            //         //     translations: {
+            //         //         'es': '4.2 Scripting',
+            //         //         'en': '4.2 Scripting',
+            //         //     },
+            //         // },
+            //     ],
+            // },
         ],
     }),],
 });

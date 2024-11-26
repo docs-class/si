@@ -16,7 +16,7 @@
     "@astrojs/starlight-markdoc": "^0.1.0",
     "@iconify-json/mdi": "^1.2.1",
     "@iconify/json": "^2.2.276",
-    "astro": "^4.16.14",
+    "astro": "^4.16.15",
     "sharp": "^0.32.6",
     "starlight-view-modes": "^0.7.0",
     "typescript": "^5.7.2"
