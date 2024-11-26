@@ -207,8 +207,8 @@ export default defineConfig({
                 label: "UT4 - GESTIÓ USUARIS I PROCESSOS. SCRIPTING",
                // badge: { text: '25-NOV', variant: 'success' },
                 translations: {
-                    'es': 'GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
-                    'en': 'USERS AND PROCESSES. SCRIPTING',
+                    'es': 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
+                    'en': 'UT4 - USERS AND PROCESSES. SCRIPTING',
 
                 },
                 // Collapsa el grupo de forma predeterminada.
@@ -222,7 +222,7 @@ export default defineConfig({
                         },
                         items: [
                             'ut4/ut41',
-                            //'ut3/ut41-win',
+                            'ut4/ut41-win',
                         ],
                     },
                     // {
