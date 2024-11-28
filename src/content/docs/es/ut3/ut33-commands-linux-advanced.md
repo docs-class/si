@@ -3,6 +3,10 @@ title: "Comandos avanzados"
 description: "Comandos avanzados"
 ---
 
+:::tip[Terminal]
+[Terminal Linux](https://terminaldelinux.com/terminal/)
+:::
+
 ## ls -l
 ![ls command](https://detailed.wordpress.com/wp-content/uploads/2017/10/ls-command3.jpg)
 
