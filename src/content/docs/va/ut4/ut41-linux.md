@@ -1,6 +1,6 @@
 ---
-title: "Gestión de usuarios - Linux"
-description: "Gestión de usuarios- Linux"
+title: "Gestió d'usuaris - Linux"
+description: "Gestió d'usuaris - Linux"
 ---
 
 ## Permisos d'usuaris per a arxius i directoris en Linux
