@@ -160,29 +160,29 @@ export default defineConfig({
                             'ut3/ut31',
                             'ut3/ut31-directories',
                         ],
-                    // },
-                    // {
-                    //     label: '3.2 Particions, Automatizacions i backups',
-                    //     translations: {
-                    //         'es': '3.2 Particiones, Automatizaciones y backups',
-                    //         'en': '3.2 Partitions, Automations & backups',
-                    //     },
-                    //     items: [
-                    //         'ut3/ut32-partitions',
-                    //         'ut3/ut32-backup-auto',
-                    //         {
-                    //             label: 'Automatització',
-                    //             translations: {
-                    //                 'es': 'Automatización',
-                    //                 'en': 'Automation',
-                    //             },
-                    //             items: [
-                    //                 'ut3/ut32-wintasks',
-                    //                 'ut3/ut32-linuxtasks',
-                    //             ],
-                    //         },
-                    //     ],
-                    // },
+                    },
+                    {
+                        label: '3.2 Particions, Automatizacions i backups',
+                        translations: {
+                            'es': '3.2 Particiones, Automatizaciones y backups',
+                            'en': '3.2 Partitions, Automations & backups',
+                        },
+                        items: [
+                            'ut3/ut32-partitions',
+                            'ut3/ut32-backup-auto',
+                            {
+                                label: 'Automatització',
+                                translations: {
+                                    'es': 'Automatización',
+                                    'en': 'Automation',
+                                },
+                                items: [
+                                    'ut3/ut32-wintasks',
+                                    'ut3/ut32-linuxtasks',
+                                ],
+                            },
+                        ],
+                    },
                     // {
                     //     label: '3.3 Gestió de la informació',
                     //     translations: {
@@ -200,7 +200,7 @@ export default defineConfig({
                     //         },
 
                     //     ],
-                    },
+                    // },
                 ],
             },
             // {
@@ -223,6 +223,7 @@ export default defineConfig({
             //             items: [
             //                 'ut4/ut41',
             //                 'ut4/ut41-win',
+            //                 'ut4/ut41-linux',
             //             ],
             //         },
             //         // {
