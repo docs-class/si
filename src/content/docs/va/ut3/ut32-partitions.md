@@ -7,6 +7,15 @@ description: "Particions"
 RA: 3 - CE: d, g
 :::
 
+## Particionament de discos
+
+El **particionament de discos** és el procés de dividir un dispositiu d'emmagatzematge físic, com un disc dur o SSD, en múltiples seccions lògiques o particions. Cada partició es comporta com una unitat independent amb el seu propi sistema de fitxers, la qual cosa permet una millor organització i gestió de les dades.
+
+### Usos comuns del particionament de discos:
+- **Instal·lació de sistemes operatius:** Permet instal·lar múltiples sistemes operatius en un únic disc físic, dedicant una partició a cadascun.
+- **Còpia de seguretat i recuperació:** Facilita la creació de particions per a còpies de seguretat, simplificant la restauració en cas de fallades del sistema.
+- **Seguretat i xifratge:** Millora la seguretat en aïllar dades sensibles en particions separades i permet aplicar xifratge en particions específiques.
+
 ## Eines en Windows  
 
 1. **Administrador de Discos (Disk Management)**  

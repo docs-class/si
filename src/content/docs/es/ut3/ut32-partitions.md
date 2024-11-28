@@ -7,6 +7,16 @@ description: "Particiones"
 RA: 3 - CE: d, g
 :::
 
+##  Particionamiento de discos
+
+El **particionamiento de discos** es el proceso de dividir un dispositivo de almacenamiento físico, como un disco duro o SSD, en múltiples secciones lógicas o particiones. Cada partición se comporta como una unidad independiente con su propio sistema de archivos, lo que permite una mejor organización y gestión de los datos.
+
+### Usos comunes del particionamiento de discos:
+- **Instalación de sistemas operativos:** Permite instalar múltiples sistemas operativos en un solo disco físico, dedicando una partición a cada uno.
+- **Copia de seguridad y recuperación:** Facilita la creación de particiones para copias de seguridad, simplificando la restauración en caso de fallos del sistema.
+- **Seguridad y cifrado:** Mejora la seguridad al aislar datos sensibles en particiones separadas y permite aplicar cifrado en particiones específicas.
+
+
 ## Herramientas en Windows
 
 1. **Administrador de Discos (Disk Management)**

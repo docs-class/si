@@ -223,6 +223,7 @@ export default defineConfig({
             //             items: [
             //                 'ut4/ut41',
             //                 'ut4/ut41-win',
+            //                 'ut4/ut41-linux',
             //             ],
             //         },
             //         // {
