@@ -37,6 +37,8 @@ El **POST** (Power-On Self Test) es la primera fase del arranque de un ordenador
 | **Número máximo de particiones**    | Hasta 128 particiones                       | Máximo de 4 particiones primarias        |
 | **Capacidad máxima de particiones** | Hasta 18 ExaBytes (EB)                      | Hasta 2 TeraBytes (TB)                   |
 
+![MBR vs GPT](https://www.qilingtech.com/img/others/mbr-vs-gpt.png)
+
 ## Gestores de arranque
 Tienen la función de gestionar y seleccionar el sistema operativo que el usuario desea iniciar.
 

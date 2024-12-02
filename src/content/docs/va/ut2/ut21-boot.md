@@ -37,6 +37,8 @@ El **POST** (Power-On Self Test) és la primera fase de l'arrancada d'un ordinad
 | **Nombre màxim de particions**      | Fins a 128 particions                      | Màxim de 4 particions primàries          |
 | **Capacitat màxima de particions**   | Fins a 18 ExaBytes (EB)                    | Fins a 2 TeraBytes (TB)                  |
 
+![MBR vs GPT](https://www.qilingtech.com/img/others/mbr-vs-gpt.png)
+
 ## Gestors d'arrencada  
 Tenen la funció de gestionar i seleccionar el sistema operatiu que l'usuari desitja iniciar.
 
