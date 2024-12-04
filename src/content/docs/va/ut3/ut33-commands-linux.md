@@ -141,7 +141,3 @@ Tot programa en Linux treballa amb tres tipus de fluxos principals:
    - `cat /etc/passwd \| wc -l`
    - `ls -l \| sort -k 5n`
 :::
-
-:::caution[Activitat]
-- Linux avançat
-:::

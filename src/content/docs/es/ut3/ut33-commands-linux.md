@@ -138,7 +138,3 @@ Todo programa en Linux trabaja con tres tipos de flujos principales:
    - `cat /etc/passwd | wc -l`
    - `ls -l | sort -k 5n`
 :::
-
-:::caution[Actividad]
-- Linux avanzado
-:::
