@@ -2,35 +2,37 @@
 title: "Introducción al terminal Windows"
 description: "Introducción al terminal Windows"
 ---
-## 1.Cómo abrir el terminal de PowerShell
 
-1. **Desde el Menú de Inicio**:
-   - Haz clic en el botón de Inicio o presiona la tecla de Windows.
-   - Escribe "PowerShell" y selecciona **Windows PowerShell** o **PowerShell** (también puedes elegir **PowerShell (x86)** si necesitas la versión de 32 bits).
+## Introducción al terminal de PowerShell
+### Cómo abrir el terminal de PowerShell 
 
-2. **Desde el Explorador de Archivos**:
-   - Navega a cualquier carpeta.
-   - Haz clic en la barra de direcciones, escribe `powershell` y presiona **Enter**.
-
-3. **Con acceso rápido (Windows 10 y Windows 11)**:
-   - Presiona **Win + X** y selecciona **Windows PowerShell** o **Windows Terminal** (que incluye PowerShell y otros shells como el símbolo del sistema o WSL).
-
+1. Desde el Menú de Inicio
+2. Desde el Explorador de Archivos
+3. Con acceso rápido (Presiona **Win + X**)
 ### Cómo actualizar PowerShell a la última versión
-
-1. **Instalación a través de Microsoft Store**
-2. **Uso de Winget**:
-   - Abre **PowerShell** con permisos de administrador.
-   - Ejecuta el siguiente comando:
-     ```powershell frame="none"
-     winget install --id Microsoft.Powershell --source winget
-     ```
-   - Esto descargará e instalará la última versión disponible de PowerShell.
-
+```Powershell frame="none"
+winget install --id Microsoft.Powershell --source winget
+```
 ### Verificar la Versión de PowerShell
-
-Para confirmar la versión actual, ejecuta el siguiente comando en PowerShell:
 ```powershell frame="none"
 $PSVersionTable.PSVersion
+```
+### Estructura y uso de cmdlets
+Los comandos de PowerShell, conocidos como **cmdlets**, tienen una estructura específica que facilita su uso y comprensión. Aquí te explico cómo se estructuran:
+
+1. **Verbo-Sustantivo**: Cada cmdlet sigue la convención de nombre `Verbo-Sustantivo`. Por ejemplo, `Get-Process` (obtener proceso) o `Stop-Service` (detener servicio). Esto ayuda a entender rápidamente qué hace el cmdlet.
+
+2. **Parámetros**: Los cmdlets pueden aceptar parámetros que modifican su comportamiento. Los parámetros se añaden después del cmdlet, separados por espacios. Por ejemplo, `Get-Process -Name "notepad"` obtiene información sobre el proceso de Notepad.
+
+3. **Pipelines**: PowerShell permite encadenar cmdlets usando el operador `|` (pipe). Esto pasa la salida de un cmdlet como entrada a otro. Por ejemplo, `Get-Process | Where-Object {$_.CPU -gt 100}` filtra los procesos que usan más de 100 unidades de CPU.
+
+4. **Alias**: PowerShell también soporta alias, que son nombres cortos para cmdlets. Por ejemplo, `ls` es un alias para `Get-ChildItem`.
+
+5. **Ayuda**: Puedes obtener ayuda sobre cualquier cmdlet usando `Get-Help`. Por ejemplo, `Get-Help Get-Process` muestra información detallada sobre el cmdlet `Get-Process`.
+
+```powershell
+Get-Process -Name "notepad" | Stop-Process
+#Este comando obtiene el proceso de Notepad y luego lo detiene.
 ```
 
 ## 2. **Navegación y Exploración de Directorios**
