@@ -20,42 +20,52 @@ Para modificar los permisos, utiliza el comando `chmod`:
 chmod [SET][ACTION][PERMISSIONS] archivo
 ```
 
-- **SET**: Selecciona el objetivo del cambio:
-  - `u`: Usuario propietario.
-  - `g`: Grupo propietario.
-  - `o`: Otros usuarios.
-  - `a`: Todos los usuarios.
+| **SET**       | **Acción**          | **Permisos** |
+|---------------|---------------------|--------------|
+| **u**: Usuario propietario | **+**: Añade permisos | **r**: Leer |
+| **g**: Grupo propietario   | **=**: Establece permisos | **w**: Escribir |
+| **o**: Otros usuarios      | **-**: Elimina permisos | **x**: Ejecutar |
+| **a**: Todos los usuarios  |                     |              |
 
-- **ACTION**:
-  - `+`: Añade permisos.
-  - `=`: Establece permisos.
-  - `-`: Elimina permisos.
 
-- **PERMISSIONS**:
-  - `r`: Leer.
-  - `w`: Escribir.
-  - `x`: Ejecutar.
-
-#### Ejemplo:
-Añadir permisos de ejecución al usuario para un archivo:
 ```bash frame="none"
-sysadmin@localhost:/Documents$ chmod u+x hello.sh
+# Añadir permisos (+)
+chmod u+x archivo.txt  # Añade el permiso de ejecución para el usuario
+chmod ug+r archivo.txt  # Añade el permiso de lectura para el usuario y el grupo
+
+# Establecer permisos (=)
+chmod u=rw archivo.txt  # Establece los permisos de lectura y escritura para el usuario
+chmod uo=r archivo.txt  # Establece el permiso de lectura para el usuario y otros usuarios
+
+# Eliminar permisos (-)
+chmod u-w archivo.txt  # Elimina el permiso de escritura para el usuario
+chmod go-w archivo.txt  # Elimina el permiso de escritura para el grupo y otros usuarios
 ```
 
-### Cambiar la propiedad de archivos y directorios
-Utiliza el comando `chown` para cambiar el propietario de un archivo o directorio:
-
+### Cambiar la propietario/grupo de archivos y directorios
+#### Propietario
 ```bash frame="none"
 chown [OPTIONS] [OWNER] archivo
 ```
-
-#### Ejemplo:
 Cambiar el propietario de un archivo a `root`:
 ```bash frame="none" ins="root"
 sysadmin@localhost:/Documents$ sudo chown root hello.sh
 sysadmin@localhost:/Documents$ ls -l hello.sh
 -rw-rw-r-- 1 root sysadmin 112 Aug  1 02:35 hello.sh
 ```
+
+#### Grupo
+  ```bash frame="none"
+  chgrp grupo o GID fich1 [fich2 fich3 …..]
+  ```
+- No se modificarán los permisos para los ficheros ni su ubicación.
+- El parámetro `-R` cambia la propiedad de forma recursiva.
+
+#### Propietario y Grupo
+- Podemos cambiar usuario y grupo con la misma orden:
+  ```bash frame="none"
+  chown usuario:grupo fich1 [fich2 fich3 …]
+  ```
 
 :::caution[actividad]
 Gestión de permisos de archivos y carpetas
