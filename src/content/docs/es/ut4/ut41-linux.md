@@ -67,10 +67,6 @@ sysadmin@localhost:/Documents$ ls -l hello.sh
   chown usuario:grupo fich1 [fich2 fich3 …]
   ```
 
-:::caution[actividad]
-Gestión de permisos de archivos y carpetas
-:::
-
 ### Umask
 
 El comando **umask** en Linux se utiliza para establecer los permisos predeterminados para los archivos y directorios recién creados. Aquí tienes un resumen:
@@ -109,3 +105,7 @@ Para que los cambios surtan efecto, asegúrate de recargar el archivo `.bashrc` 
 ```bash frame="none"
 source ~/.bashrc
 ```
+
+:::caution[actividad]
+Gestión de permisos de archivos y carpetas
+:::

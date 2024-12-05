@@ -67,10 +67,6 @@ sysadmin@localhost:/Documents$ ls -l hello.sh
   chown usuari:grup fitx1 [fitx2 fitx3 …]
   ```
 
-:::caution[activitat]
-Gestió de permisos de fitxers i carpetes
-:::
-
 ### Umask
 
 El comandament **umask** en Linux s'utilitza per a establir els permisos predeterminats per als fitxers i directoris acabats de crear. Ací tens un resum:
@@ -109,3 +105,7 @@ Perquè els canvis tinguen efecte, assegura't de recarregar el fitxer `.bashrc` 
 ```bash frame="none"
 source ~/.bashrc
 ```
+
+:::caution[activitat]
+Gestió de permisos de fitxers i carpetes
+:::
