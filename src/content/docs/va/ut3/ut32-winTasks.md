@@ -1,33 +1,53 @@
+--- 
+title: "Automatització Windows"
+description: "Automatització Windows"
 ---
-title: "Backup y automatización"
-description: "Backup y automatización"
----
 
-## Gestión de Tareas Programadas en Windows
+## Gestió de Tasques Programades en Windows
 
-Una tarea programada es una acción que el sistema operativo realizará en alguna de las siguientes circunstancias:
+Una tasca programada és una acció que el sistema operatiu realitzarà en alguna de les següents circumstàncies:
 
-- Cuando llegue un momento determinado en el futuro.
-- Cuando se produzca un determinado evento.
-- Con una frecuencia determinada.
+- Quan arribe un moment determinat en el futur.
+- Quan es produïsca un determinat esdeveniment.
+- Amb una freqüència determinada.
 
-De esta manera, podremos planificar y programar aquellas acciones que deseamos que se realicen, evitando posibles olvidos. Para ello, utilizaremos el programador de tareas. Para acceder a él entraremos en **Panel de control > Herramientas administrativas > Programador de tareas** o también podemos hacerlo mediante el comando `taskschd.msc`.
+D’aquesta manera, podrem planificar i programar aquelles accions que desitgem que es realitzen, evitant possibles oblits. Per a això, utilitzarem el programador de tasques. Per a accedir-hi entrarem en **Panell de control > Eines administratives > Programador de tasques** o també podem fer-ho mitjançant l’ordre `taskschd.msc`.
+
 ![win Task name](../../../../assets/ut3/winTask1.png)
-La forma más sencilla de programar una tarea es hacer clic en **Crear tarea básica** (situado en el menú de acciones a la derecha). A continuación, aparecerá un asistente que nos ayudará a crear la tarea planificada.
 
-Indicaremos cuándo o debido a qué queremos que se ejecute la tarea. En esta pantalla, seleccionaremos una de las opciones dependiendo de cómo o cuándo queremos que se ejecute la tarea (diariamente, semanalmente, mensualmente, una vez, inicio de sesión, fin de sesión, o vinculado a un evento particular).
+La manera més senzilla de programar una tasca és fer clic en **Crear tasca bàsica** (situat en el menú d’accions a la dreta). A continuació, apareixerà un assistent que ens ajudarà a crear la tasca planificada.
 
-Por ejemplo, vamos a establecer que la tarea se ejecute diariamente a una hora determinada.
+Indicarem quan o degut a què volem que s’execute la tasca. En aquesta pantalla, seleccionarem una de les opcions depenent de com o quan volem que s’execute la tasca (diàriament, setmanalment, mensualment, una vegada, inici de sessió, final de sessió o vinculat a un esdeveniment particular).
 
-A continuación, indicaremos la **acción a realizar**. En este caso podremos indicar la ejecución de un programa, enviar un correo electrónico, mostrar un mensaje, etc. Como ejemplo, vamos a crear una tarea sencilla: abrir la calculadora de Windows a una hora determinada todos los días.
+Per exemple, establirem que la tasca s’execute diàriament a una hora determinada.
 
-Accediendo a la tarea creada podemos modificarla y añadir acciones o condiciones. También es posible consultar las ejecuciones (o intentos fallidos) de cada tarea. Para ello, primero debemos habilitar la opción de historial (en Windows 11).
+![win Task Frequency](../../../../assets/ut3/winTask2.png)
+![win Task date](../../../../assets/ut3/winTask3.png)
 
-Las opciones que se encuentran en las pestañas **General**, **Desencadenadores**, **Acciones**, **Condiciones** y **Configuración** se pueden configurar directamente si creamos una tarea desde la opción **Crear Tarea** (no utilizando "Crear tarea básica").
+A continuació, indicarem la **acció a realitzar**. En aquest cas, podrem indicar l’execució d’un programa, enviar un correu electrònic, mostrar un missatge, etc.
 
-- En la pestaña **General**, podemos modificar la descripción de la tarea y establecer las opciones de seguridad adecuadas.
-- En la pestaña **Desencadenadores**, podemos ver y modificar los datos relativos a los criterios que deben cumplirse para iniciar la ejecución de la tarea.
-- La siguiente pestaña contiene las **acciones** asociadas a la tarea programada. Si hubiese más de una, se ejecutarían en orden secuencial.
-- En la pestaña **Condiciones**, se indican los criterios que deben cumplirse para que el desencadenador se active (por ejemplo, que el equipo esté conectado a corriente alterna).
-- En la pestaña **Configuración**, se indican algunas cuestiones complementarias sobre cómo debe comportarse el sistema en relación con la tarea (por ejemplo, que la tarea se detenga si se ejecuta durante más de 3 días).
+![win Task action](../../../../assets/ut3/winTask4.png)
 
+Com a exemple, crearem una tasca senzilla: obrir la calculadora de Windows a una hora determinada tots els dies.  
+![win Task app](../../../../assets/ut3/winTask5.png)  
+![win Task review](../../../../assets/ut3/winTask6.png)
+
+Accedint a la tasca creada podem modificar-la i afegir accions o condicions. També és possible consultar les execucions (o intents fallits) de cada tasca. Per a això, primer hem d’habilitar l’opció d’historial (en Windows 11).
+
+![win Task enabling history](../../../../assets/ut3/winTask7.png)
+
+Les opcions que es troben en les pestanyes **General**, **Desencadenadors**, **Accions**, **Condicions** i **Configuració** es poden configurar directament si creem una tasca des de l’opció **Crear Tasca** (no utilitzant "Crear tasca bàsica").  
+![win Task windws](../../../../assets/ut3/winTask8.png)
+
+- En la pestanya **General**, podem modificar la descripció de la tasca i establir les opcions de seguretat adequades.
+- En la pestanya **Desencadenadors**, podem veure i modificar les dades relatives als criteris que s’han de complir per a iniciar l’execució de la tasca.  
+![win Task triggers](../../../../assets/ut3/winTask9.png)
+  
+- La següent pestanya conté les **accions** associades a la tasca programada. Si n’hi haguera més d’una, s’executarien en ordre seqüencial.  
+![win Task action](../../../../assets/ut3/winTask10.png)
+  
+- En la pestanya **Condicions**, s’indiquen els criteris que s’han de complir perquè el desencadenador s’active (per exemple, que l’equip estiga connectat a corrent altern).  
+![win Task conditions](../../../../assets/ut3/winTask11.png)
+  
+- En la pestanya **Configuració**, s’indiquen algunes qüestions complementàries sobre com ha de comportar-se el sistema en relació amb la tasca (per exemple, que la tasca es detinga si s’executa durant més de 3 dies).  
+![win Task action](../../../../assets/ut3/winTask12.png)
