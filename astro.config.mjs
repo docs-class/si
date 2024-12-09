@@ -183,24 +183,24 @@ export default defineConfig({
                             },
                         ],
                     },
-                    // {
-                    //     label: '3.3 Gestió de la informació',
-                    //     translations: {
-                    //         'es': '3.3 Gestión de la información',
-                    //         'en': '3.3 Information Management',
-                    //     },
-                    //     items: [
-                    //         'ut3/ut33-commands-win',
-                    //         {
-                    //             label: 'GNU/Linux',
-                    //             items: [
-                    //                 'ut3/ut33-commands-linux',
-                    //                 'ut3/ut33-commands-linux-advanced',
-                    //             ],
-                    //         },
+                    {
+                        label: '3.3 Gestió de la informació',
+                        translations: {
+                            'es': '3.3 Gestión de la información',
+                            'en': '3.3 Information Management',
+                        },
+                        items: [
+                            'ut3/ut33-commands-win',
+                            {
+                                label: 'GNU/Linux',
+                                items: [
+                                    'ut3/ut33-commands-linux',
+                                    'ut3/ut33-commands-linux-advanced',
+                                ],
+                            },
 
-                    //     ],
-                    // },
+                        ],
+                    },
                 ],
             },
             // {
@@ -226,13 +226,16 @@ export default defineConfig({
             //                 'ut4/ut41-linux',
             //             ],
             //         },
-            //         // {
-            //         //     label: '4.2 Scripting',
-            //         //     translations: {
-            //         //         'es': '4.2 Scripting',
-            //         //         'en': '4.2 Scripting',
-            //         //     },
-            //         // },
+            //         {
+            //             label: '4.2 Scripting',
+            //             translations: {
+            //                 'es': '4.2 Scripting',
+            //                 'en': '4.2 Scripting',
+            //             },
+            //             items: [
+            //                 'ut4/ut41',
+            //             ],
+            //         },
             //     ],
             // },
         ],
