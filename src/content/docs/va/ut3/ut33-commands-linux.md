@@ -140,4 +140,6 @@ Tot programa en Linux treballa amb tres tipus de fluxos principals:
 2. Prova les ordres següents:
    - `cat /etc/passwd \| wc -l`
    - `ls -l \| sort -k 5n`
+
+ [Cheatshet - Terminal](https://terminaldelinux.com/terminal/cheatsheets/#chuleta-de-la-terminal-en-formato-pdf-gratis)
 :::

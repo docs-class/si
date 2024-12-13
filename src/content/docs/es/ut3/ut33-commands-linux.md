@@ -137,4 +137,7 @@ Todo programa en Linux trabaja con tres tipos de flujos principales:
 2. Prueba los siguientes comandos:
    - `cat /etc/passwd | wc -l`
    - `ls -l | sort -k 5n`
+  
+
+  [Cheatshet - Terminal](https://terminaldelinux.com/terminal/cheatsheets/#chuleta-de-la-terminal-en-formato-pdf-gratis)
 :::
