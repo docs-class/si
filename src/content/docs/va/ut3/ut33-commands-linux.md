@@ -105,6 +105,9 @@ Tot programa en Linux treballa amb tres tipus de fluxos principals:
 | **sed**     | edita text en línia.                   | `sed 's/root/admin/g' /etc/passwd` |
 | **tar**     | comprimeix o descomprimeix fitxers.    | `tar -czvf fitxer.tar.gz carpeta/` |
 
+:::tip[TAR]
+[tar](https://www.hostinger.es/tutoriales/como-usar-comando-tar-linux)
+:::
 
 ### Variables d'Entorn
 

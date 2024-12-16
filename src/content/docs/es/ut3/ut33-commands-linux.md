@@ -102,6 +102,10 @@ Todo programa en Linux trabaja con tres tipos de flujos principales:
 | **sed**     | edita texto en línea.                  | `sed 's/root/admin/g' /etc/passwd` |
 | **tar**     | comprime o descomprime archivos.       | `tar -czvf archivo.tar.gz carpeta/` |
 
+:::tip[TAR]
+[tar](https://www.hostinger.es/tutoriales/como-usar-comando-tar-linux)
+:::
+
 ### Variables de Entorno
 
 | **Comando** | **Descripción**                              | **Ejemplo**                              |
