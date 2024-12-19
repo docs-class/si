@@ -24,6 +24,7 @@ description: "Introducció al terminal"
      ``` frame="none"
      ls -l -a = ls -la
      ```
+![ls command](../../../../assets/ut3/ls-command.png)
 
 2. **Diferenciació entre majúscules i minúscules:**
    En Linux, **les majúscules i minúscules són diferents**, per la qual cosa has de parar atenció en escriure les ordres.

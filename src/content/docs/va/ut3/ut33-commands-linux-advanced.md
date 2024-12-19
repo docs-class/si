@@ -7,9 +7,6 @@ description: "Comandaments avançats"
 [Terminal Linux](https://terminaldelinux.com/terminal/)
 :::
 
-## ls -l
-![ls command](https://detailed.wordpress.com/wp-content/uploads/2017/10/ls-command3.jpg)
-
 ## **`grep`: Cerca de patrons**
 
 `grep [opcions] <patró> [fitxers]`
