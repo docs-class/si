@@ -67,6 +67,11 @@ Los permisos son esenciales para autorizar usuarios a acceder a recursos en un e
 
 Evita el uso de denegaciones explícitas, ya que aumenta la complejidad y puede causar errores.
 
+![Folder Permissions](../../../../assets/ut4/perm.png)
+
+#### Opcions Avançades
+![Folder Permissions](../../../../assets/ut4/perm2.png)
+
 :::caution[actividad]
 Gestión de permisos de archivos y carpetas
 :::
