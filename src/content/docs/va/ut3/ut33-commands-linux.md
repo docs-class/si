@@ -1,5 +1,5 @@
 ---
-title: "Introducció al terminal"
+title: "Terminal Linux"
 description: "Introducció al terminal"
 ---
 

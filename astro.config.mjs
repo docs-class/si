@@ -191,14 +191,7 @@ export default defineConfig({
                         },
                         items: [
                             'ut3/ut33-commands-win',
-                            {
-                                label: 'GNU/Linux',
-                                items: [
-                                    'ut3/ut33-commands-linux',
-                                    'ut3/ut33-commands-linux-advanced',
-                                ],
-                            },
-
+                            'ut3/ut33-commands-linux',
                         ],
                     },
                 ],

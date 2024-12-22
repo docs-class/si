@@ -1,5 +1,5 @@
 ---
-title: "Introducción al terminal Windows"
+title: "Terminal Windows"
 description: "Introducción al terminal Windows"
 ---
 
