@@ -4,6 +4,11 @@ description: "Introducció al terminal"
 ---
 
 ## Conceptes bàsics
+:::tip[WSL]
+> **/home/USUARIO-LINUX/** # Carpeta personal en Linux
+>
+> **/mnt/c/Users/USUARIO-HOST/** # Carpeta personal en HOST (Windows)
+:::
 
 ### Prompt de Linux
 
@@ -55,14 +60,6 @@ Tot programa en Linux treballa amb tres tipus de fluxos principals:
     - `man pwd`  
   - **help**: Proporciona ajuda ràpida.  
     - `pwd --help`  
-
-:::tip[Prova]
-- **Què fa aquesta ordre?**  
-   - cat /etc/passwd \| wc -l  
-
-- **Prova:**  
-   - cat /etc/passwd \| wc -l && man ls  
-:::
 
 ## **Ordres**
 

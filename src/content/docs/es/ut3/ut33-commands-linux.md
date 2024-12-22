@@ -3,6 +3,12 @@ title: "Introducción al terminal"
 description: "Introducción al terminal"
 ---
 ## Conceptos básicos
+:::tip[WSL]
+> **/home/USUARIO-LINUX/** # Carpeta personal en Linux
+>
+> **/mnt/c/Users/USUARIO-HOST/** # Carpeta personal en HOST (Windows)
+:::
+
 ### Prompt de Linux
 
 - El **prompt** muestra información útil como el usuario, la máquina y el directorio actual.
@@ -54,13 +60,6 @@ Todo programa en Linux trabaja con tres tipos de flujos principales:
   - **help**: Proporciona ayuda rápida.  
     - `pwd --help`  
 
-:::tip[Prueba]
-- **¿Qué hace este comando?**  
-   - cat /etc/passwd | wc -l  
-
-- **Prueba:**  
-   - cat /etc/passwd | wc -l && man ls  
-:::
 
 ## **Comandos**
 ### **Comandos Básicos**
