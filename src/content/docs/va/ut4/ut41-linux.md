@@ -1,111 +1,67 @@
 ---
-title: "Gestió d'usuaris - Linux"
-description: "Gestió d'usuaris - Linux"
+title: "Usuaris i fitxers de configuració"
+description: "Usuaris i fitxers de configuració"
 ---
 
-## Permisos d'usuaris per a fitxers i directoris en Linux
+## Tipus d'usuaris i fitxers de configuració
 
-### Com veure els permisos
-Utilitza el comandament `ls -l` per a llistar els fitxers i veure els permisos:
+### Tipus d'usuaris
+- **Root**: (0). Usuari amb tots els permisos.
+- **Sistema**: (1-999). Usuaris ocults associats a aplicacions o kernel.
+- **Normals**: (>1000). Resta d’usuaris.
 
-```bash frame="none" ins="-rw-rw-r-- 1 sysadmin sysadmin 24 Aug 1 02:35 hello.sh"
-sysadmin@localhost:~$ ls -l
--rw-rw-r-- 1 sysadmin sysadmin 24 Aug 1 02:35 hello.sh
-```
+### Fitxers de configuració
+- **/etc/passwd**. Fitxer principal.
+- **/etc/shadow**. Fitxer on es mantenen les contrasenyes.
+- **/etc/group**. Fitxer on s’associen usuaris i grups.
 
-### Canviar permisos de fitxers i directoris
-Per a modificar els permisos, utilitza el comandament `chmod`:
-
-```bash frame="none"
-chmod [SET][ACCIÓ][PERMISOS] fitxer
-```
-
-| **SET**       | **Acció**          | **Permisos** |
-|---------------|---------------------|--------------|
-| **u**: Usuari propietari | **+**: Afegeix permisos | **r**: Llegir |
-| **g**: Grup propietari   | **=**: Estableix permisos | **w**: Escriure |
-| **o**: Altres usuaris    | **-**: Elimina permisos | **x**: Executar |
-| **a**: Tots els usuaris  |                     |              |
-
-
-```bash frame="none"
-# Afegeix permisos (+)
-chmod u+x fitxer.txt  # Afegeix el permís d'execució per a l'usuari
-chmod ug+r fitxer.txt  # Afegeix el permís de lectura per a l'usuari i el grup
-
-# Estableix permisos (=)
-chmod u=rw fitxer.txt  # Estableix els permisos de lectura i escriptura per a l'usuari
-chmod uo=r fitxer.txt  # Estableix el permís de lectura per a l'usuari i altres usuaris
-
-# Elimina permisos (-)
-chmod u-w fitxer.txt  # Elimina el permís d'escriptura per a l'usuari
-chmod go-w fitxer.txt  # Elimina el permís d'escriptura per al grup i altres usuaris
-```
-
-### Canviar el propietari/grup de fitxers i directoris
-#### Propietari
-```bash frame="none"
-chown [OPTIONS] [OWNER] fitxer
-```
-Canviar el propietari d'un fitxer a `root`:
-```bash frame="none" ins="root"
-sysadmin@localhost:/Documents$ sudo chown root hello.sh
-sysadmin@localhost:/Documents$ ls -l hello.sh
--rw-rw-r-- 1 root sysadmin 112 Aug  1 02:35 hello.sh
-```
-
-#### Grup
-  ```bash frame="none"
-  chgrp grup o GID fitx1 [fitx2 fitx3 …..]
-  ```
-- No es modificaran els permisos per als fitxers ni la seua ubicació.
-- El paràmetre `-R` canvia la propietat de forma recursiva.
-
-#### Propietari i Grup
-- Podem canviar usuari i grup amb la mateixa ordre:
-  ```bash frame="none"
-  chown usuari:grup fitx1 [fitx2 fitx3 …]
-  ```
-
-### Umask
-
-El comandament **umask** en Linux s'utilitza per a establir els permisos predeterminats per als fitxers i directoris acabats de crear. Ací tens un resum:
-
-- **Permisos Predeterminats**: Per defecte, els fitxers es creen amb permisos 666 (lectura i escriptura per a tots) i els directoris amb permisos 777 (lectura, escriptura i execució per a tots).
-
-- **Màscara de Creació de Fitxers**: La umask defineix quins permisos s'han d'eliminar d'aquests valors predeterminats. Per exemple, una umask de 022 elimina els permisos d'escriptura per al grup i altres, resultant en permisos 644 per a fitxers i 755 per a directoris.
-
-  -  **Càlcul de Permisos**: Per a calcular els permisos finals, es resta la umask dels permisos predeterminats. Per exemple:
-   - Permisos predeterminats per a fitxers: 666
-   - Umask: 022
-   - Permisos finals: 644 (666 - 022)
-
--  **Persistència**: Per a fer que la umask siga persistent, pots afegir el comandament `umask valor` en fitxers de configuració com `.bashrc` o `.profile`.
-
-#### Exemple de fitxer `.bashrc`
-
-```bash
-# .bashrc
-
-# Configuració de la umask
-umask 027
-
-# Altres configuracions i àlies
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+```bash  title="/etc/passwd"
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
 ...
+polkitd:x:990:990:User for polkitd:/:/usr/sbin/nologin
+profesor:x:1000:1000:,,,:/home/profesor:/bin/bash
+
 ```
 
-- Els fitxers nous tindran permisos 640 i els directoris nous tindran permisos 750. 
-- Aquesta configuració s'aplicarà cada vegada que òbrigues una nova sessió de terminal.
+1. **Nom d'usuari**: El nom del compte d'usuari.
+2. **Contrasenya**: Històricament, aquí s'emmagatzemava la contrasenya encriptada, però ara generalment conté una `x` i les contrasenyes s'emmagatzemen a `/etc/shadow`.
+3. **UID (User ID)**: L'identificador únic de l'usuari.
+4. **GID (Group ID)**: L'identificador del grup principal al qual pertany l'usuari.
+5. **GECOS**: Un camp que sol contenir informació addicional sobre l'usuari, com el nom complet, número de telèfon, etc.
+6. **Directori d'inici**: La ruta al directori d'inici de l'usuari.
+7. **Shell**: L'intèrpret de comandes que s'executa quan l'usuari inicia sessió.
 
-Perquè els canvis tinguen efecte, assegura't de recarregar el fitxer `.bashrc` amb el següent comandament:
-
-```bash frame="none"
-source ~/.bashrc
+```bash  title="/etc/shadow"
+root:*:19993:0:99999:7:::
+daemon:*:19993:0:99999:7:::
+bin:*:19993:0:99999:7:::
+sys:*:19993:0:99999:7:::
+...
+polkitd:!*:19993::::::
+profesor:$y$j9T$TpmOAfr8WB8605QUHuH.1/$dtMUrLIFbC.ft1eYR8hhxAgFNSb.brMXOFxMCXecrqY2:20034:0:99999:7:::
 ```
 
-:::caution[activitat]
-Gestió de permisos de fitxers i carpetes
-:::
+1. **Nom d'usuari**: El nom del compte d'usuari.
+2. **Contrasenya encriptada**: La contrasenya de l'usuari encriptada. Si el camp conté un asterisc (`*`) o una exclamació (`!`), el compte està deshabilitat.
+3. **Data de l'últim canvi de contrasenya**: El nombre de dies des de l'1 de gener de 1970 fins a l'última vegada que es va canviar la contrasenya.
+4. **Dies per canviar la contrasenya**: El nombre mínim de dies que han de passar abans que l'usuari pugui canviar la seva contrasenya novament.
+5. **Dies abans que es requereixi un canvi de contrasenya**: El nombre màxim de dies que pot passar abans que es requereixi un canvi de contrasenya.
+6. **Dies d'advertència abans de l'expiració**: El nombre de dies abans que la contrasenya expiri en els quals l'usuari rebrà una advertència.
+7. **Dies de gràcia després de l'expiració**: El nombre de dies després que la contrasenya hagi expirat durant els quals l'usuari encara pot iniciar sessió.
+8. **Data d'expiració del compte**: El nombre de dies des de l'1 de gener de 1970 després del qual el compte es deshabilitarà.
+9. **Camp reservat**: Actualment no s'utilitza, però està reservat per a ús futur.
+
+```bash  title="/etc/group"
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+...
+profesor:x:1000:
+```
+1. **Nom del grup**: El nom del grup.
+2. **Contrasenya**: Generalment conté una `x`, indicant que les contrasenyes dels grups s'emmagatzemen a `/etc/gshadow`.
+3. **GID (Group ID)**: L'identificador únic del grup.
+4. **Llista de membres**: Una llista de noms d'usuaris que pertanyen al grup, separats per comes.

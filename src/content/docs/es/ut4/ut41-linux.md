@@ -1,111 +1,68 @@
 ---
-title: "Gestión de usuarios - Linux"
-description: "Gestión de usuarios- Linux"
+title: "Usuarios y ficheros de configuración"
+description: "Usuarios y ficheros de configuración"
 ---
 
-## Permisos de usuarios para archivos y directorios en Linux
+## Tipo de usuarios y ficehros de configuración
 
-### Cómo ver los permisos
-Utiliza el comando `ls -l` para listar los archivos y ver los permisos:
+### Tipus de usuaris
+- **Root**: (0). Usuari amb tots els permisos.
+- **Sistema**: (1-999). Usuaris ocults associats a aplicacions o kernel.
+- **Normals**: (>1000). Resta d’usuaris.
 
-```bash frame="none" ins="-rw-rw-r-- 1 sysadmin sysadmin 24 Aug 1 02:35 hello.sh"
-sysadmin@localhost:~$ ls -l
--rw-rw-r-- 1 sysadmin sysadmin 24 Aug 1 02:35 hello.sh
-```
+### Archivos de configuración
+- **/etc/passwd**. Archivo principal.
+- **/etc/shadow**. Archivo donde se mantienen las contraseñas.
+- **/etc/group**. Archivo donde se asocian usuarios y grupos.
 
-### Cambiar permisos de archivos y directorios
-Para modificar los permisos, utiliza el comando `chmod`:
-
-```bash frame="none"
-chmod [SET][ACTION][PERMISSIONS] archivo
-```
-
-| **SET**       | **Acción**          | **Permisos** |
-|---------------|---------------------|--------------|
-| **u**: Usuario propietario | **+**: Añade permisos | **r**: Leer |
-| **g**: Grupo propietario   | **=**: Establece permisos | **w**: Escribir |
-| **o**: Otros usuarios      | **-**: Elimina permisos | **x**: Ejecutar |
-| **a**: Todos los usuarios  |                     |              |
-
-
-```bash frame="none"
-# Añadir permisos (+)
-chmod u+x archivo.txt  # Añade el permiso de ejecución para el usuario
-chmod ug+r archivo.txt  # Añade el permiso de lectura para el usuario y el grupo
-
-# Establecer permisos (=)
-chmod u=rw archivo.txt  # Establece los permisos de lectura y escritura para el usuario
-chmod uo=r archivo.txt  # Establece el permiso de lectura para el usuario y otros usuarios
-
-# Eliminar permisos (-)
-chmod u-w archivo.txt  # Elimina el permiso de escritura para el usuario
-chmod go-w archivo.txt  # Elimina el permiso de escritura para el grupo y otros usuarios
-```
-
-### Cambiar la propietario/grupo de archivos y directorios
-#### Propietario
-```bash frame="none"
-chown [OPTIONS] [OWNER] archivo
-```
-Cambiar el propietario de un archivo a `root`:
-```bash frame="none" ins="root"
-sysadmin@localhost:/Documents$ sudo chown root hello.sh
-sysadmin@localhost:/Documents$ ls -l hello.sh
--rw-rw-r-- 1 root sysadmin 112 Aug  1 02:35 hello.sh
-```
-
-#### Grupo
-  ```bash frame="none"
-  chgrp grupo o GID fich1 [fich2 fich3 …..]
-  ```
-- No se modificarán los permisos para los ficheros ni su ubicación.
-- El parámetro `-R` cambia la propiedad de forma recursiva.
-
-#### Propietario y Grupo
-- Podemos cambiar usuario y grupo con la misma orden:
-  ```bash frame="none"
-  chown usuario:grupo fich1 [fich2 fich3 …]
-  ```
-
-### Umask
-
-El comando **umask** en Linux se utiliza para establecer los permisos predeterminados para los archivos y directorios recién creados. Aquí tienes un resumen:
-
-- **Permisos Predeterminados**: Por defecto, los archivos se crean con permisos 666 (lectura y escritura para todos) y los directorios con permisos 777 (lectura, escritura y ejecución para todos).
-
-- **Máscara de Creación de Archivos**: La umask define qué permisos se deben eliminar de estos valores predeterminados. Por ejemplo, una umask de 022 elimina los permisos de escritura para el grupo y otros, resultando en permisos 644 para archivos y 755 para directorios.
-
-  -  **Cálculo de Permisos**: Para calcular los permisos finales, se resta la umask de los permisos predeterminados. Por ejemplo:
-   - Permisos predeterminados para archivos: 666
-   - Umask: 022
-   - Permisos finales: 644 (666 - 022)
-
--  **Persistencia**: Para hacer que la umask sea persistente, puedes agregar el comando `umask valor` en archivos de configuración como `.bashrc` o `.profile`.
-
-#### Ejemplo de archivo `.bashrc`
-
-```bash
-# .bashrc
-
-# Configuración de la umask
-umask 027
-
-# Otras configuraciones y alias
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+```bash  title="/etc/passwd"
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
 ...
+polkitd:x:990:990:User for polkitd:/:/usr/sbin/nologin
+profesor:x:1000:1000:,,,:/home/profesor:/bin/bash
+
 ```
 
-- Los archivos nuevos tendrán permisos 640 y los directorios nuevos tendrán permisos 750. 
-- Esta configuración se aplicará cada vez que abras una nueva sesión de terminal.
+1. **Nombre de usuario**: El nombre de la cuenta de usuario.
+2. **Contraseña**: Históricamente, aquí se almacenaba la contraseña encriptada, pero ahora generalmente contiene una `x` y las contraseñas se almacenan en `/etc/shadow`.
+3. **UID (User ID)**: El identificador único del usuario.
+4. **GID (Group ID)**: El identificador del grupo principal al que pertenece el usuario.
+5. **GECOS**: Un campo que suele contener información adicional sobre el usuario, como el nombre completo, número de teléfono, etc.
+6. **Directorio de inicio**: La ruta al directorio de inicio del usuario.
+7. **Shell**: El intérprete de comandos que se ejecuta cuando el usuario inicia sesión.
 
-Para que los cambios surtan efecto, asegúrate de recargar el archivo `.bashrc` con el siguiente comando:
 
-```bash frame="none"
-source ~/.bashrc
+```bash  title="/etc/shadow"
+root:*:19993:0:99999:7:::
+daemon:*:19993:0:99999:7:::
+bin:*:19993:0:99999:7:::
+sys:*:19993:0:99999:7:::
+...
+polkitd:!*:19993::::::
+profesor:$y$j9T$TpmOAfr8WB8605QUHuH.1/$dtMUrLIFbC.ft1eYR8hhxAgFNSb.brMXOFxMCXecrqY2:20034:0:99999:7:::
 ```
 
-:::caution[actividad]
-Gestión de permisos de archivos y carpetas
-:::
+1. **Nombre de usuario**: El nombre de la cuenta de usuario.
+2. **Contraseña encriptada**: La contraseña del usuario encriptada. Si el campo contiene un asterisco (`*`) o una exclamación (`!`), la cuenta está deshabilitada.
+3. **Fecha del último cambio de contraseña**: El número de días desde el 1 de enero de 1970 hasta la última vez que se cambió la contraseña.
+4. **Días para cambiar la contraseña**: El número mínimo de días que deben pasar antes de que el usuario pueda cambiar su contraseña nuevamente.
+5. **Días antes de que se requiera un cambio de contraseña**: El número máximo de días que puede pasar antes de que se requiera un cambio de contraseña.
+6. **Días de advertencia antes de la expiración**: El número de días antes de que la contraseña expire en los que el usuario recibirá una advertencia.
+7. **Días de gracia después de la expiración**: El número de días después de que la contraseña haya expirado durante los cuales el usuario aún puede iniciar sesión.
+8. **Fecha de expiración de la cuenta**: El número de días desde el 1 de enero de 1970 después del cual la cuenta se deshabilitará.
+9. **Campo reservado**: Actualmente no se utiliza, pero está reservado para uso futuro.
+
+```bash  title="/etc/group"
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+...
+profesor:x:1000:
+```
+1. **Nombre del grupo**: El nombre del grupo.
+2. **Contraseña**: Generalmente contiene una `x`, indicando que las contraseñas de los grupos se almacenan en `/etc/gshadow`.
+3. **GID (Group ID)**: El identificador único del grupo.
+4. **Lista de miembros**: Una lista de nombres de usuarios que pertenecen al grupo, separados por comas.
