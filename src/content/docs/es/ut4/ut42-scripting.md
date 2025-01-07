@@ -34,3 +34,12 @@ Si no funciona, asegúrate de darle permisos de ejecución:
 ```sh  frame="none"
 chmod u+x mi_primer_script.sh
 ```
+
+:::tip[Consideraciones]
+- El script se tiene que ejecutar desde la misma carpeta donde está el fichero, si no tendremos que poner la ruta absoluta.
+- El script se sigue ejecutando aunque haya un error.
+- Si ponemos un exit en el script, éste se saldrá de la ejecución aunque haya más comandos detrás. La orden exit permite finalizar un script especificando el código de  salida. Si no hacemos uso de exit, el resultado de un script será el de la última orden que se ejecutó en el script.
+- $? muestra el valor del resultado de lo último que he ejecutado, indicando si ha sido correcto o no. Por convenio, el valor 0 indicará que ha finalizado correctamente y un  valor distinto a 0 que no ha finalizado correctamente.
+  - Si OK $? = 0
+  - Si NOK $? != 0
+:::

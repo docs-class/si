@@ -36,3 +36,12 @@ Si no funciona, assegura't de donar-li permisos d'execució:
 ```sh  frame="none"
 chmod u+x mi_primer_script.sh
 ```
+
+:::tip[Consideracions]
+- El script s'ha d'executar des de la mateixa carpeta on està el fitxer, si no haurem de posar la ruta absoluta.
+- El script continua executant-se encara que hi hagi un error.
+- Si posem un `exit` en el script, aquest sortirà de l'execució encara que hi hagi més comandes darrere. L'ordre `exit` permet finalitzar un script especificant el codi de sortida. Si no fem ús de `exit`, el resultat d'un script serà el de l'última ordre que s'ha executat en el script.
+- `$?` mostra el valor del resultat de l'últim que he executat, indicant si ha estat correcte o no. Per conveni, el valor 0 indicarà que ha finalitzat correctament i un valor diferent de 0 que no ha finalitzat correctament.
+  - Si OK `$? = 0`
+  - Si NOK `$? != 0`
+:::
