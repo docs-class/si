@@ -20,7 +20,7 @@ chmod [SET][ACTION][PERMISSIONS] fitxer
 
 ### Sistema Octal
 
-Els permisos en Linux es representen mitjançant tres dígits octals, cadascun dels quals pot tenir un valor de 0 a 7. Cada dígit representa els permisos per al propietari del fitxer, el grup i altres usuaris, respectivament (UGO). Els valors octals es calculen sumant els següents permisos:
+Els permisos en Linux es representen mitjançant tres dígits octals, cadascun dels quals pot tenir un valor de 0 a 7. Cada dígit representa els permisos per al propietari del fitxer, el grup i altres usuaris, respectivament (UGO). Els valors octals es calculen **sumant** els següents permisos:
 
 - **4**: Lectura (r)
 - **2**: Escriptura (w)

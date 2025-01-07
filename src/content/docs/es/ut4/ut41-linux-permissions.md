@@ -21,7 +21,7 @@ chmod [SET][ACTION][PERMISSIONS] archivo
 
 ### Sistema Octal
 
-Los permisos en Linux se representan mediante tres dígitos octales, cada uno de los cuales puede tener un valor de 0 a 7. Cada dígito representa los permisos para el propietario del archivo, el grupo y otros usuarios, respectivamente (UGO). Los valores octales se calculan sumando los siguientes permisos:
+Los permisos en Linux se representan mediante tres dígitos octales, cada uno de los cuales puede tener un valor de 0 a 7. Cada dígito representa los permisos para el propietario del archivo, el grupo y otros usuarios, respectivamente (UGO). Los valores octales se calculan **sumando** los siguientes permisos:
 
 - **4**: Lectura (r)
 - **2**: Escritura (w)
