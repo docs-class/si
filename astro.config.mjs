@@ -193,6 +193,8 @@ export default defineConfig({
                             'ut3/ut33-cli',
                             'ut3/ut33-cli-win',
                             'ut3/ut33-cli-linux',
+                            'ut3/ut33-cli-linux-advanced',
+                            
                         ],
                     },
                 ],
