@@ -80,6 +80,7 @@ Tot programa en Linux treballa amb tres tipus de fluxos principals:
 | **date**    | mostra la data i hora del sistema.                | `date`                          |
 | **cal**     | mostra el calendari del mes o any indicat.        | `cal 2024`                      |
 | **who**     | mostra qui està connectat al sistema.             | `who`                           |
+| **type**    | Per saber si un comandament existeix.             | `type ls`                       |
 
 :::caution[Activitat]
 - Estructura de directoris en Linux

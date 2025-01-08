@@ -79,6 +79,7 @@ Todo programa en Linux trabaja con tres tipos de flujos principales:
 | **date**     | muestra la fecha y hora del sistema.               | `date`                          |
 | **cal**      | muestra el calendario del mes o año indicado.      | `cal 2024`                      |
 | **who**      | muestra quién está conectado al sistema.           | `who`                           |
+| **type**     | Para saber si un comando existe.                   | `type ls`                       |
 
 :::caution[Actividad]
 - Estructura de directorios en Linux
