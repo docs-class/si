@@ -84,6 +84,37 @@ Todo programa en Linux trabaja con tres tipos de flujos principales:
 - Estructura de directorios en Linux
 :::
 
+### Wildcards (Comodines)
+
+Las **wildcards o comodines** son caracteres especiales.
+En una baraja de cartas, un comodín es una carta especial que puede representar a cualquier otra carta.
+De manera similar, en informática, una wildcard es un carácter especial que puede sustituir a cualquier otro carácter.
+
+1. **Asterisco (*)**: Representa cero o más caracteres. Es útil para buscar archivos que coincidan con un patrón específico.
+   ```bash
+   ls *.txt  # Lista todos los archivos que terminan en .txt
+   ```
+
+2. **Signo de interrogación (?)**: Representa un solo carácter. Es útil cuando se busca un archivo con un nombre específico pero con un carácter variable.
+   ```bash
+   ls file?.txt  # Lista archivos como file1.txt, file2.txt, etc.
+   ```
+
+3. **Corchetes ([ ])**: Representan un rango de caracteres. Se utiliza para buscar archivos que contengan cualquiera de los caracteres especificados dentro de los corchetes.
+   ```bash
+   ls file[1-3].txt  # Lista archivos como file1.txt, file2.txt, file3.txt
+   ```
+
+4. **Negación ([! ])**: Representa cualquier carácter que no esté dentro de los corchetes.
+   ```bash
+   ls file[!1-3].txt  # Lista archivos que no sean file1.txt, file2.txt, file3.txt
+   ```
+
+5. **Rangos de caracteres**: Puedes especificar rangos de caracteres dentro de los corchetes.
+   ```bash
+   ls file[a-c].txt  # Lista archivos como filea.txt, fileb.txt, filec.txt
+   ```
+
 ### **Comandos Avanzados**
 
 | **Comando** | **Descripción**                         | **Ejemplo**               |
@@ -105,16 +136,6 @@ Todo programa en Linux trabaja con tres tipos de flujos principales:
 :::tip[TAR]
 [tar](https://www.hostinger.es/tutoriales/como-usar-comando-tar-linux)
 :::
-
-### Variables de Entorno
-
-| **Comando** | **Descripción**                              | **Ejemplo**                              |
-|-------------|----------------------------------------------|------------------------------------------|
-| **env**     | lista todas las variables de entorno.        | `env`                                    |
-| **echo**    | muestra el valor de una variable de entorno. | `echo $PATH` (muestra rutas de ejecutables) |
-| **export**  | define o modifica una variable de entorno.   | `export MI_VARIABLE="valor"`             |
-| **unset**   | elimina una variable de entorno.             | `unset MI_VARIABLE`                      |
-| **printenv**| muestra el valor de una variable específica. | `printenv HOME`                          |
 
 ## **Comandos de Gestión**
 

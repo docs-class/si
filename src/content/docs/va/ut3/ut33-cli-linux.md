@@ -85,6 +85,37 @@ Tot programa en Linux treballa amb tres tipus de fluxos principals:
 - Estructura de directoris en Linux
 :::
 
+### Wildcards (Comodins)
+
+Les **wildcards o comodins** són caràcters especials.
+En una baralla de cartes, un comodí és una carta especial que pot representar qualsevol altra carta.
+De manera similar, en informàtica, una wildcard és un caràcter especial que pot substituir qualsevol altre caràcter.
+
+1. **Asterisc (*)**: Representa zero o més caràcters. És útil per a buscar fitxers que coincidisquen amb un patró específic.
+   ```bash
+   ls *.txt  # Llista tots els fitxers que acaben en .txt
+   ```
+
+2. **Signe d'interrogació (?)**: Representa un sol caràcter. És útil quan es busca un fitxer amb un nom específic però amb un caràcter variable.
+   ```bash
+   ls file?.txt  # Llista fitxers com file1.txt, file2.txt, etc.
+   ```
+
+3. **Claudàtors ([ ])**: Representen un rang de caràcters. S'utilitza per a buscar fitxers que continguen qualsevol dels caràcters especificats dins dels claudàtors.
+   ```bash
+   ls file[1-3].txt  # Llista fitxers com file1.txt, file2.txt, file3.txt
+   ```
+
+4. **Negació ([! ])**: Representa qualsevol caràcter que no estiga dins dels claudàtors.
+   ```bash
+   ls file[!1-3].txt  # Llista fitxers que no siguen file1.txt, file2.txt, file3.txt
+   ```
+
+5. **Rangs de caràcters**: Pots especificar rangs de caràcters dins dels claudàtors.
+   ```bash
+   ls file[a-c].txt  # Llista fitxers com filea.txt, fileb.txt, filec.txt
+   ```
+
 ### **Ordres Avançades**
 
 | **Ordre**   | **Descripció**                          | **Exemple**                 |
@@ -107,15 +138,6 @@ Tot programa en Linux treballa amb tres tipus de fluxos principals:
 [tar](https://www.hostinger.es/tutoriales/como-usar-comando-tar-linux)
 :::
 
-### Variables d'Entorn
-
-| **Ordre**   | **Descripció**                              | **Exemple**                  |
-|-------------|---------------------------------------------|------------------------------|
-| **env**     | llista totes les variables d'entorn.        | `env`                        |
-| **echo**    | mostra el valor d'una variable d'entorn.    | `echo $PATH` (rutes d'executables) |
-| **export**  | defineix o modifica una variable d'entorn.  | `export MEVA_VARIABLE="valor"` |
-| **unset**   | elimina una variable d'entorn.              | `unset MEVA_VARIABLE`        |
-| **printenv**| mostra el valor d'una variable específica.  | `printenv HOME`              |
 
 
 ### **Ordres de Gestió**
