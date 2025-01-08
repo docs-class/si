@@ -1,6 +1,6 @@
 ---
-title: "Scripting - Comas y contrabarra"
-description: "Scripting - Comas y contrabarra"
+title: "Comas y contrabarra"
+description: "Comas y contrabarra"
 ---
 
 - La contrabarra sirve para escapar (quitar la función especial) un carácter especial. Ej: \*, \(, \)

@@ -1,4 +1,4 @@
 ---
-title: "Scripting - OPERACIONES ARITMÉTICAS"
-description: "Scripting - OPERACIONES ARITMÉTICAS EN LA SHELL"
+title: "Operacions Aritmètiques"
+description: "Operacions Aritmètiques"
 ---

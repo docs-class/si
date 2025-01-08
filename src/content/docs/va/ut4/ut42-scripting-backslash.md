@@ -1,6 +1,6 @@
 ---
-title: "Scripting - Cometes i contrabarra"
-description: "Scripting - Cometes i contrabarra"
+title: "Cometes i contrabarra"
+description: "Cometes i contrabarra"
 ---
 
 - La contrabarra serveix per a escapar (llevar la funció especial) un caràcter especial. Ex: \*, \(, \)

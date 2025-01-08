@@ -1,6 +1,6 @@
 ---
-title: "Scripting - variables"
-description: "Scripting"
+title: "Variables"
+description: "Variables"
 ---
 
 ## VARIABLES

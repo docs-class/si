@@ -1,5 +1,5 @@
 ---
-title: "Scripting - operaciones Aritméticas"
-description: "Scripting - OPERACIONES ARITMÉTICAS EN LA SHELL"
+title: "Operaciones Aritméticas"
+description: "Operaciones Aritméticas"
 ---
 
