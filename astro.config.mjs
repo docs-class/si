@@ -194,7 +194,7 @@ export default defineConfig({
                             'ut3/ut33-cli-win',
                             'ut3/ut33-cli-linux',
                             'ut3/ut33-cli-linux-advanced',
-                            
+
                         ],
                     },
                 ],
@@ -234,18 +234,18 @@ export default defineConfig({
                             },
                         ],
                     },
-                    {
-                        label: '4.2 Scripting',
-                        translations: {
-                            'es': '4.2 Scripting',
-                            'en': '4.2 Scripting',
-                        },
-                        items: [
-                            'ut4/ut42-scripting',
-                            'ut4/ut42-scripting-variables',
-                            'ut4/ut42-scripting-backslash',
-                        ],
-                    },
+                    // {
+                    //     label: '4.2 Scripting',
+                    //     translations: {
+                    //         'es': '4.2 Scripting',
+                    //         'en': '4.2 Scripting',
+                    //     },
+                    //     items: [
+                    //         'ut4/ut42-scripting',
+                    //         'ut4/ut42-scripting-variables',
+                    //         'ut4/ut42-scripting-backslash',
+                    //     ],
+                    // },
                 ],
             },
         ],
