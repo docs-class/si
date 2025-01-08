@@ -14,15 +14,15 @@
     "@astrojs/markdoc": "^0.11.5",
     "@astrojs/starlight": "^0.28.6",
     "@astrojs/starlight-markdoc": "^0.1.0",
-    "@iconify-json/mdi": "^1.2.1",
-    "@iconify/json": "^2.2.279",
-    "astro": "^4.16.16",
+    "@iconify-json/mdi": "^1.2.2",
+    "@iconify/json": "^2.2.293",
+    "astro": "^4.16.18",
     "sharp": "^0.32.6",
     "starlight-view-modes": "^0.7.0",
     "typescript": "^5.7.2"
   },
   "devDependencies": {
-    "@iconify-json/mdi-light": "^1.2.1",
+    "@iconify-json/mdi-light": "^1.2.2",
     "astro-icon": "https://gitpkg.now.sh/stramel/astro-icon/packages/core?main"
   }
 }
