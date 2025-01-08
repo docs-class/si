@@ -1,5 +1,5 @@
 ---
-title: "Cometes i contrabarra"
+title: "Bàsics"
 description: "Cometes i contrabarra"
 ---
 
@@ -22,3 +22,5 @@ echo hola $name, això és un *  #hola pepito, això és un *
 echo 'hola $name, això és un *'  #hola $name, això és un * (no expandeix la variable)
 echo "hola $name, això és un *"  #hola pepito, això és un *
 ```
+
+## ECHO

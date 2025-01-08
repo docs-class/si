@@ -1,7 +1,9 @@
 ---
-title: "Comas y contrabarra"
-description: "Comas y contrabarra"
+title: "básicos"
+description: "Comas, contrabarra, echo y read"
 ---
+
+### Comas y contrabarra
 
 - La contrabarra sirve para escapar (quitar la función especial) un carácter especial. Ej: \*, \(, \)
 - El texto siempre irá entre comillas simples o dobles.
