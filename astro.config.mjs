@@ -244,6 +244,8 @@ export default defineConfig({
             //                 'ut4/ut42-scripting',
             //                 'ut4/ut42-scripting-variables',
             //                 'ut4/ut42-scripting-backslash',
+            //                 'ut4/ut42-scripting-arithmetics',
+
             //             ],
             //         },
             //     ],
