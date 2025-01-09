@@ -1,6 +1,6 @@
 ---
-title: "Comparadores"
-description: "Scripting - Comparadores"
+title: "Operadores"
+description: "Scripting - Operadores"
 ---
 
 ### Cadenas De Texto/ Variables
@@ -67,6 +67,8 @@ fi
 | -a, &&       | Operador AND (sólo es verdadero si las 2 opciones son verdaderas. Si hay muchas opciones dejamos de comprobar en cuanto una sea falsa) |
 | -o, \|\|     | Operador OR (es verdadero si una de las 2 opciones es verdadera. Si hay muchas opciones dejamos de comprobar en cuanto una sea true) |
 
+
+#### Combinar varios operadores
 - **num1 -eq num2 && num1 -gt num3 :** Comprueba si num1 es igual a num2 y además mayor que num3.
 - **-r arch1 || -x arch1 :** Comprueba si arch1 tiene permisos de lectura o de ejecución. 
 - **! -s arch1 :** Comprueba que el fichero arch1 no contiene nada
