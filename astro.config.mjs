@@ -253,7 +253,7 @@ export default defineConfig({
             //                     },
             //                     items: [
             //                         'ut4/ut42-scripting-if-else',
-            //                         'ut4/ut42-scripting-comparators',
+            //                         'ut4/ut42-scripting-operators',
             //                     ],
             //                 },
             //             ],
