@@ -9,29 +9,40 @@ Les **wildcards o comodins** són caràcters especials.
 En una baralla de cartes, un comodí és una carta especial que pot representar qualsevol altra carta.
 De manera similar, en informàtica, una wildcard és un caràcter especial que pot substituir qualsevol altre caràcter.
 
-1. **Asterisc (*)**: Representa zero o més caràcters. És útil per a buscar fitxers que coincidisquen amb un patró específic.
+1. **Múltiple**: creació o manipulació de diversos fitxers
+   ```bash
+   touch file{1..100}.txt  # Crea fitxers file1.txt fins a file100.txt
+   cp {hola.txt, adios.txt} ~
+   ```
+
+2. **Asterisc (*)**: Representa zero o més caràcters. És útil per a buscar fitxers que coincidisquen amb un patró específic.
    ```bash
    ls *.txt  # Llista tots els fitxers que acaben en .txt
    ```
 
-2. **Signe d'interrogació (?)**: Representa un sol caràcter. És útil quan es busca un fitxer amb un nom específic però amb un caràcter variable.
+3. **Signe d'interrogació (?)**: Representa un sol caràcter. És útil quan es busca un fitxer amb un nom específic però amb un caràcter variable.
    ```bash
    ls file?.txt  # Llista fitxers com file1.txt, file2.txt, etc.
    ```
 
-3. **Claudàtors ([ ])**: Representen un rang de caràcters. S'utilitza per a buscar fitxers que continguen qualsevol dels caràcters especificats dins dels claudàtors.
+4. **Claudàtors ([ ])**: Representen un rang de caràcters. S'utilitza per a buscar fitxers que continguen qualsevol dels caràcters especificats dins dels claudàtors.
    ```bash
    ls file[1-3].txt  # Llista fitxers com file1.txt, file2.txt, file3.txt
    ```
 
-4. **Negació ([! ])**: Representa qualsevol caràcter que no estiga dins dels claudàtors.
+5. **Negació ([! ])**: Representa qualsevol caràcter que no estiga dins dels claudàtors.
    ```bash
    ls file[!1-3].txt  # Llista fitxers que no siguen file1.txt, file2.txt, file3.txt
    ```
 
-5. **Rangs de caràcters**: Pots especificar rangs de caràcters dins dels claudàtors.
+6. **Rangs de caràcters**: Pots especificar rangs de caràcters dins dels claudàtors.
    ```bash
    ls file[a-c].txt  # Llista fitxers com filea.txt, fileb.txt, filec.txt
+   ```
+
+7. **Combinació**: combina diverses opcions
+   ```bash
+   ls file[a-c,a-C,1-3]?.txt  # Llista fitxers com filea1.txt, fileBc.txt, filecc.txt
    ```
 
 ### **Comandes Avançades**

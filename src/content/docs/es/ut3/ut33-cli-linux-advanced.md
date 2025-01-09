@@ -9,29 +9,39 @@ Las **wildcards o comodines** son caracteres especiales.
 En una baraja de cartas, un comodín es una carta especial que puede representar a cualquier otra carta.
 De manera similar, en informática, una wildcard es un carácter especial que puede sustituir a cualquier otro carácter.
 
-1. **Asterisco (*)**: Representa cero o más caracteres. Es útil para buscar archivos que coincidan con un patrón específico.
+1. **Múltiple**: creación o manipulación de varios ficheros
+   ```bash
+   touch file{1..100}.txt  # Crea ficheros file1.txt hasta file100.txt
+   cp {hola.txt, adios.txt} ~
+   ```
+
+2. **Asterisco (*)**: Representa cero o más caracteres. Es útil para buscar archivos que coincidan con un patrón específico.
    ```bash
    ls *.txt  # Lista todos los archivos que terminan en .txt
    ```
 
-2. **Signo de interrogación (?)**: Representa un solo carácter. Es útil cuando se busca un archivo con un nombre específico pero con un carácter variable.
+3. **Signo de interrogación (?)**: Representa un solo carácter. Es útil cuando se busca un archivo con un nombre específico pero con un carácter variable.
    ```bash
    ls file?.txt  # Lista archivos como file1.txt, file2.txt, etc.
    ```
 
-3. **Corchetes ([ ])**: Representan un rango de caracteres. Se utiliza para buscar archivos que contengan cualquiera de los caracteres especificados dentro de los corchetes.
+4. **Corchetes ([ ])**: Representan un rango de caracteres. Se utiliza para buscar archivos que contengan cualquiera de los caracteres especificados dentro de los corchetes.
    ```bash
    ls file[1-3].txt  # Lista archivos como file1.txt, file2.txt, file3.txt
    ```
 
-4. **Negación ([! ])**: Representa cualquier carácter que no esté dentro de los corchetes.
+5. **Negación ([! ])**: Representa cualquier carácter que no esté dentro de los corchetes.
    ```bash
    ls file[!1-3].txt  # Lista archivos que no sean file1.txt, file2.txt, file3.txt
    ```
 
-5. **Rangos de caracteres**: Puedes especificar rangos de caracteres dentro de los corchetes.
+6. **Rangos de caracteres**: Puedes especificar rangos de caracteres dentro de los corchetes.
    ```bash
    ls file[a-c].txt  # Lista archivos como filea.txt, fileb.txt, filec.txt
+   ```
+7. **Combinación**: combina diversas opciones
+   ```bash
+   ls file[a-c,a-C,1-3]?.txt  # Lista ficheros como filea1.txt, fileBc.txt, filecc.txt
    ```
 
 ### **Comandos Avanzados**
