@@ -75,6 +75,7 @@ Todo programa en Linux trabaja con tres tipos de flujos principales:
 | **cp**      | copia ficheros o directorios.          | `cp archivo.txt copia.txt`|
 | **uname**   | muestra información del sistema.       | `uname -a`                |
 | **shutdown** | apaga o reinicia el equipo.                        | `shutdown now` o `shutdown -r`  |
+| **reboot**   | reinicia el equipo.                                | `reboot`                        |
 | **clear**    | limpia la pantalla del terminal.                   | `clear`                         |
 | **date**     | muestra la fecha y hora del sistema.               | `date`                          |
 | **cal**      | muestra el calendario del mes o año indicado.      | `cal 2024`                      |

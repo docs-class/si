@@ -76,6 +76,7 @@ Tot programa en Linux treballa amb tres tipus de fluxos principals:
 | **cp**      | copia fitxers o directoris.                       | `cp fitxer.txt copia.txt`       |
 | **uname**   | mostra informació del sistema.                    | `uname -a`                      |
 | **shutdown**| apaga o reinicia l'equip.                         | `shutdown now` o `shutdown -r`  |
+| **reboot**  | reinicia l'equip.                                | `reboot`                        |
 | **clear**   | neteja la pantalla del terminal.                  | `clear`                         |
 | **date**    | mostra la data i hora del sistema.                | `date`                          |
 | **cal**     | mostra el calendari del mes o any indicat.        | `cal 2024`                      |
