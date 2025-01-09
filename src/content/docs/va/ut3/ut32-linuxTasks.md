@@ -5,7 +5,6 @@ description: "Automatització Linux"
 
 1. Crea una carpeta **TASQUES_DEL_DIA**  
 2. **Crea un script** que òbriga la carpeta i fes-lo executable:
-   - Obri un editor de text (com **Gedit**, **nano**, etc.)
    - Pots fer clic dret sobre l'escriptori i executar "obre en un terminal"  
       ```bash title="Terminal"  
       nano ~/Escriptori/TASQUES_DEL_DIA  
