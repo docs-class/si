@@ -81,6 +81,8 @@ Todo programa en Linux trabaja con tres tipos de flujos principales:
 | **cal**      | muestra el calendario del mes o año indicado.      | `cal 2024`                      |
 | **who**      | muestra quién está conectado al sistema.           | `who`                           |
 | **type**     | Para saber si un comando existe.                   | `type ls`                       |
+| **touch**   | Para crear un archivo vacío o actualizar la marca de tiempo de un archivo. | `touch archivo.txt` |
+
 
 :::caution[Actividad]
 - Estructura de directorios en Linux

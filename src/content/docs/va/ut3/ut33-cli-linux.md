@@ -82,6 +82,7 @@ Tot programa en Linux treballa amb tres tipus de fluxos principals:
 | **cal**     | mostra el calendari del mes o any indicat.        | `cal 2024`                      |
 | **who**     | mostra qui està connectat al sistema.             | `who`                           |
 | **type**    | Per saber si un comandament existeix.             | `type ls`                       |
+| **touch**   | Per a crear un fitxer buit o actualitzar la marca de temps d'un fitxer. | `touch fitxer.txt` |
 
 :::caution[Activitat]
 - Estructura de directoris en Linux
