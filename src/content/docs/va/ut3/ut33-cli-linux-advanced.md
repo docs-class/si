@@ -42,7 +42,7 @@ De manera similar, en informàtica, una wildcard és un caràcter especial que p
 
 7. **Combinació**: combina diverses opcions
    ```bash
-   ls file[a-c,a-C,1-3]?.txt  # Llista fitxers com filea1.txt, fileBc.txt, filecc.txt
+   ls file[a-c,A-C,1-3]?.txt  # Llista fitxers com filea1.txt, fileBc.txt, filecc.txt
    ```
 
 ### **Comandes Avançades**
