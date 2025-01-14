@@ -5,6 +5,10 @@ description: "Scripting"
 
 ---
 
+:::note[Connexió amb el currículum]
+RA: 4 - CE: e, f, g, h
+:::
+
 ### Què és un script?
 
 Un script en Linux és una llista d'ordres (comandes) que s'executen seqüencialment. Encara que no necessiten una extensió específica, és comú usar `.sh` per identificar-los fàcilment. Els scripts permeten automatitzar tasques, com comprimir logs i esborrar arxius antics.
