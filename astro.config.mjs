@@ -199,69 +199,71 @@ export default defineConfig({
                     },
                 ],
             },
-            // {
-            //     label: "UT4 - GESTIÓ USUARIS I PROCESSOS. SCRIPTING",
-            //     // badge: { text: '25-NOV', variant: 'success' },
-            //     translations: {
-            //         'es': 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
-            //         'en': 'UT4 - USERS AND PROCESSES. SCRIPTING',
+            {
+                label: "UT4 - GESTIÓ USUARIS I PROCESSOS. SCRIPTING",
+                // badge: { text: '25-NOV', variant: 'success' },
+                translations: {
+                    'es': 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
+                    'en': 'UT4 - USERS AND PROCESSES. SCRIPTING',
 
-            //     },
-            //     // Collapsa el grupo de forma predeterminada.
-            //     collapsed: true,
-            //     items: [
-            //         {
-            //             label: '4.1 Gestió de usuaris',
-            //             translations: {
-            //                 'es': '4.1 Gestión de usuarios',
-            //                 'en': '4.1 User management',
-            //             },
-            //             items: [
-            //                 'ut4/ut41',
-            //                 'ut4/ut41-win',
-            //                 {
-            //                     label: 'Gestió d\'usuaris - Linux',
-            //                     translations: {
-            //                         'es': 'Gestión de usuarios - Linux',
-            //                         'en': 'Gestión de usuarios - Linux',
-            //                     },
-            //                     items: [
-            //                         'ut4/ut41-linux',
-            //                         'ut4/ut41-linux-permissions',
-            //                         'ut4/ut41-linux-groups',
-            //                         'ut4/ut41-linux-users',
-            //                     ],
-            //                 },
-            //             ],
-            //         },
-            //         {
-            //             label: '4.2 Scripting',
-            //             translations: {
-            //                 'es': '4.2 Scripting',
-            //                 'en': '4.2 Scripting',
-            //             },
-            //             items: [
-            //                 'ut4/ut42-scripting',
-            //                 'ut4/ut42-scripting-variables',
-            //                 'ut4/ut42-scripting-backslash',
-            //                 'ut4/ut42-scripting-arithmetics',
-            //                 'ut4/ut42-scripting-parametres',
-            //                 {
-            //                     label: 'Estructures de Control',
-            //                     translations: {
-            //                         'es': 'Estructuras de Control',
-            //                         'en': 'Control structures',
-            //                     },
-            //                     items: [
-            //                         'ut4/ut42-scripting-if-else',
-            //                         'ut4/ut42-scripting-operators',
-            //                         'ut4/ut42-scripting-case',
-            //                     ],
-            //                 },
-            //             ],
-            //         },
-            //     ],
-            // },
+                },
+                // Collapsa el grupo de forma predeterminada.
+                collapsed: true,
+                items: [
+                    {
+                        label: '4.1 Gestió de usuaris',
+                        translations: {
+                            'es': '4.1 Gestión de usuarios',
+                            'en': '4.1 User management',
+                        },
+                        items: [
+                            'ut4/ut41',
+                            'ut4/ut41-win',
+                            {
+                                label: 'Gestió d\'usuaris - Linux',
+                                translations: {
+                                    'es': 'Gestión de usuarios - Linux',
+                                    'en': 'Gestión de usuarios - Linux',
+                                },
+                                items: [
+                                    'ut4/ut41-linux',
+                                    'ut4/ut41-linux-permissions',
+                                    'ut4/ut41-linux-groups',
+                                    'ut4/ut41-linux-users',
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        label: '4.2 Scripting',
+                        translations: {
+                            'es': '4.2 Scripting',
+                            'en': '4.2 Scripting',
+                        },
+                        items: [
+                            'ut4/ut42-scripting',
+                            'ut4/ut42-scripting-variables',
+                            'ut4/ut42-scripting-backslash',
+                            'ut4/ut42-scripting-arithmetics',
+                            'ut4/ut42-scripting-parametres',
+                            {
+                                label: 'Estructures de Control',
+                                translations: {
+                                    'es': 'Estructuras de Control',
+                                    'en': 'Control structures',
+                                },
+                                items: [
+                                    'ut4/ut42-scripting-if-else',
+                                    'ut4/ut42-scripting-operators',
+                                    'ut4/ut42-scripting-case',
+                                    'ut4/ut42-scripting-forin',
+                                    'ut4/ut42-scripting-for',
+                                ],
+                            },
+                        ],
+                    },
+                ],
+            },
         ],
     }),],
 });
