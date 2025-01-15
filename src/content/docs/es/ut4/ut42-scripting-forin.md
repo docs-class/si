@@ -30,7 +30,7 @@ done
 ```
 
 
-:::note[Separador]
+:::tip[Separador]
 
 Podemos cambiar el separador por defecto (espacio)
 
