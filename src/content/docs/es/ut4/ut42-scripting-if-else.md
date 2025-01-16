@@ -16,6 +16,7 @@ fi
 - [[ condición ]] 
   - verdadero → ejecuto “acciones” 
   - falso → no ejecuto nada
+- [[ expresión ]] → Permite el uso de expresiones regulares, no hay que entrecomillar las variables, ni escapar caracteres especiales.
 ```mermaid
 graph LR;
     A[Inicio] --> B{Condición};
@@ -23,9 +24,6 @@ graph LR;
     B -->|Falso| D[Fin];
     C --> D;
 ```
-
-- [[ expresión ]] → Permite el uso de expresiones regulares, no hay que entrecomillar las variables, ni escapar caracteres especiales.
-
 
 :::note[Cosas a tener en cuenta]
 - Hay que dejar un espacio en blanco entre los corchetes.
@@ -55,8 +53,9 @@ graph LR;
     D --> E;
 ```
 
-> La sección else es opcional
+> La sección **else** es opcional
 
+## Anidar
 
 Se pueden anidar muchas condiciones diferentes con el elemento **elif**:
 

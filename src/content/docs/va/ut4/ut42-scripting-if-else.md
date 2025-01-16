@@ -16,6 +16,8 @@ fi
 - [[ condició ]] 
   - veritable → execute “accions” 
   - fals → no execute res
+- [[ expressió ]] → Permet l'ús d'expressions regulars, no cal entrecomillar les variables, ni escapar caràcters especials.
+
 ```mermaid
 graph LR;
     A[Inici] --> B{Condició};
@@ -23,8 +25,6 @@ graph LR;
     B -->|Fals| D[Fi];
     C --> D;
 ```
-
-- [[ expressió ]] → Permet l'ús d'expressions regulars, no cal entrecomillar les variables, ni escapar caràcters especials.
 
 :::note[Coses a tindre en compte]
 - Cal deixar un espai en blanc entre els claudàtors.
@@ -54,8 +54,9 @@ graph LR;
     D --> E;
 ```
 
-> La secció else és opcional
+> La secció **else** és opcional
 
+## Nidar
 Es poden niar moltes condicions diferents amb l'element **elif**:
 
 ```js
