@@ -17,7 +17,7 @@ fi
   - verdadero → ejecuto “acciones” 
   - falso → no ejecuto nada
 ```mermaid
-graph TD;
+graph LR;
     A[Inicio] --> B{Condición};
     B -->|Verdadero| C[Acciones];
     B -->|Falso| D[Fin];
@@ -47,7 +47,7 @@ fi
 ```
 
 ```mermaid
-graph TD;
+graph LR;
     A[Inicio] --> B{Condición};
     B -->|Verdadero| C[Acciones 1];
     B -->|Falso| D[Acciones 2];
@@ -76,7 +76,7 @@ fi
 ```
 
 ```mermaid
-graph TD;
+graph LR;
     A[Inicio] --> B{Condición 1};
     B -->|Verdadero| C[Acciones 1];
     B -->|Falso| D{Condición 2};

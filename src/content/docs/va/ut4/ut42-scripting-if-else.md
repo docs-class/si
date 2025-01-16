@@ -17,7 +17,7 @@ fi
   - veritable → execute “accions” 
   - fals → no execute res
 ```mermaid
-graph TD;
+graph LR;
     A[Inici] --> B{Condició};
     B -->|Veritable| C[Accions];
     B -->|Fals| D[Fi];
@@ -46,7 +46,7 @@ fi
 ```
 
 ```mermaid
-graph TD;
+graph LR;
     A[Inici] --> B{Condició};
     B -->|Veritable| C[Accions 1];
     B -->|Fals| D[Accions 2];
@@ -74,7 +74,7 @@ fi
 ```
 
 ```mermaid
-graph TD;
+graph LR;
     A[Inici] --> B{Condició 1};
     B -->|Veritable| C[Accions 1];
     B -->|Fals| D{Condició 2};
