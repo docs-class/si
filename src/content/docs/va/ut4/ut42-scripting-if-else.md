@@ -3,7 +3,7 @@ title: "IF/ELSE"
 description: "Scripting - if/else"
 ---
 
-El **if** és una estructura condicional en la programació que permet executar un bloc de codi només si es compleix una condició específica.
+L'**if** és una estructura condicional en programació que permet executar un bloc de codi només si es compleix una condició específica.
 
 ```js
 if [[ condició ]]
@@ -16,13 +16,20 @@ fi
 - [[ condició ]] 
   - veritable → execute “accions” 
   - fals → no execute res
-![if control](../../../../assets/ut4/if_300x247.png)
+```mermaid
+graph TD;
+    A[Inici] --> B{Condició};
+    B -->|Veritable| C[Accions];
+    B -->|Fals| D[Fi];
+    C --> D;
+```
+
 - [[ expressió ]] → Permet l'ús d'expressions regulars, no cal entrecomillar les variables, ni escapar caràcters especials.
 
 :::note[Coses a tindre en compte]
 - Cal deixar un espai en blanc entre els claudàtors.
 - Podem fer condicions usant variables, fent ús del $, ja que volem comparar el seu contingut.
-- És recomanable tabular les accions perquè quede més net el codi.
+- És recomanable tabular les accions perquè el codi quede més net.
 - Sempre ha de finalitzar l'estructura amb fi.
 :::
 
@@ -37,7 +44,16 @@ else
   accions 2
 fi
 ```
-![if-else control](../../../../assets/ut4/if-else_300x279.png)
+
+```mermaid
+graph TD;
+    A[Inici] --> B{Condició};
+    B -->|Veritable| C[Accions 1];
+    B -->|Fals| D[Accions 2];
+    C --> E[Fi];
+    D --> E;
+```
+
 > La secció else és opcional
 
 Es poden niar moltes condicions diferents amb l'element **elif**:
@@ -55,4 +71,19 @@ then
 else
     accions 4
 fi
+```
+
+```mermaid
+graph TD;
+    A[Inici] --> B{Condició 1};
+    B -->|Veritable| C[Accions 1];
+    B -->|Fals| D{Condició 2};
+    D -->|Veritable| E[Accions 2];
+    D -->|Fals| F{Condició 3};
+    F -->|Veritable| G[Accions 3];
+    F -->|Fals| H[Accions 4];
+    C --> I[Fi];
+    E --> I;
+    G --> I;
+    H --> I;
 ```

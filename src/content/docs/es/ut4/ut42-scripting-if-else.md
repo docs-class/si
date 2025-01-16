@@ -16,7 +16,14 @@ fi
 - [[ condición ]] 
   - verdadero → ejecuto “acciones” 
   - falso → no ejecuto nada
-![if control](../../../../assets/ut4/if_300x247.png)
+```mermaid
+graph TD;
+    A[Inicio] --> B{Condición};
+    B -->|Verdadero| C[Acciones];
+    B -->|Falso| D[Fin];
+    C --> D;
+```
+
 - [[ expresión ]] → Permite el uso de expresiones regulares, no hay que entrecomillar las variables, ni escapar caracteres especiales.
 
 
@@ -38,7 +45,16 @@ else
   acciones 2
 fi
 ```
-![if-else control](../../../../assets/ut4/if-else_300x279.png)
+
+```mermaid
+graph TD;
+    A[Inicio] --> B{Condición};
+    B -->|Verdadero| C[Acciones 1];
+    B -->|Falso| D[Acciones 2];
+    C --> E[Fin];
+    D --> E;
+```
+
 > La sección else es opcional
 
 
@@ -57,4 +73,19 @@ then
 else
     acciones 4
 fi
+```
+
+```mermaid
+graph TD;
+    A[Inicio] --> B{Condición 1};
+    B -->|Verdadero| C[Acciones 1];
+    B -->|Falso| D{Condición 2};
+    D -->|Verdadero| E[Acciones 2];
+    D -->|Falso| F{Condición 3};
+    F -->|Verdadero| G[Acciones 3];
+    F -->|Falso| H[Acciones 4];
+    C --> I[Fin];
+    E --> I;
+    G --> I;
+    H --> I;
 ```

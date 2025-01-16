@@ -12,6 +12,7 @@ export default defineConfig({
     site: 'https://docs-class.github.io/',
     base: '/si',
     markdown: {
+        // Para mermaid
 		rehypePlugins: [
 			rehypeRaw,
 			rehypeMermaid,
