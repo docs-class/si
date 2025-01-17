@@ -11,7 +11,7 @@ description: "Usuaris i fitxers de configuració"
 - **Normals**: (>1000). Resta d’usuaris.
 
 ### Fitxers de configuració
-- **/etc/passwd**. Fitxer principal.
+- **/etc/passwd**. Fitxer principal amb els usuaris del sistema.
 - **/etc/shadow**. Fitxer on es mantenen les contrasenyes.
 - **/etc/group**. Fitxer on s’associen usuaris i grups.
 
