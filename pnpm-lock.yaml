@@ -35,9 +35,6 @@ importers:
       mermaid:
         specifier: ^11.4.1
         version: 11.4.1
-      playwright:
-        specifier: ^1.49.1
-        version: 1.49.1
       rehype:
         specifier: ^13.0.2
         version: 13.0.2
@@ -6067,13 +6064,15 @@ snapshots:
       mlly: 1.7.4
       pathe: 2.0.2
 
-  playwright-core@1.49.1: {}
+  playwright-core@1.49.1:
+    optional: true
 
   playwright@1.49.1:
     dependencies:
       playwright-core: 1.49.1
     optionalDependencies:
       fsevents: 2.3.2
+    optional: true
 
   points-on-curve@0.2.0: {}
 
