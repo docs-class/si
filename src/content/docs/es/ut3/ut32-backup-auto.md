@@ -17,9 +17,15 @@ RA: 3 - CE: e, f, g
   - **Cumplimiento legal**
     -  En algunos sectores, las empresas están obligadas por ley a realizar copias de seguridad de ciertos datos
 ### Tipos de copias de seguridad
-- **Completa**: Se copia toda la información.
-- **Incremental**: Solo se copian los datos modificados desde la última copia.
-- **Diferencial**: Se copian los cambios realizados desde la última copia completa.
+- **COMPLETA:** Copia la totalidad de los datos por eso tarda menos tiempo en recuperarlos, por lo contrario lleva mucho tiempo realizar una copia de seguridad, depende del tamaño de datos a respaldar.
+- **DIFERENCIAL:** El lunes se hace una copia de seguridad sólo de los archivos que han cambiado desde el domingo, el martes se hace una copia de seguridad sólo de los archivos que han cambiado desde el domingo, y así sucesivamente hasta la siguiente copia de seguridad completa.
+ ![backup diferencial](../../../../assets/ut3/bk-diferencial.png)
+
+- **INCREMENTAL:**  Las copias de seguridad incrementales también hacen una copia de seguridad sólo de los datos modificados, pero sólo de los datos que han cambiado desde la última copia de seguridad, ya sea completa o incremental.
+ ![backup incremental](../../../../assets/ut3/bk-incremental.png)
+
+
+
 ### Métodos de almacenamiento
 - Almacenamiento local (discos duros externos, NAS).
 - Almacenamiento en la nube (Google Drive, Dropbox, Amazon S3).

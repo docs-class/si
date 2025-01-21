@@ -26,5 +26,5 @@ Les interfícies CLI continuen sent una eina fonamental en la informàtica, espe
   - Les comandes poden ser complexes a vegades, cosa que pot portar a errors si no s'escriuen correctament.
 
 :::tip
-Manz.dev desenvolupador que destaca el terminal
+[Manz.dev desarrollador que destaca el terminal](https://manz.dev)
 :::

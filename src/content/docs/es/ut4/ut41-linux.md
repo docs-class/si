@@ -1,17 +1,17 @@
 ---
-title: "Usuarios y ficheros de configuración"
-description: "Usuarios y ficheros de configuración"
+title: "Usuarios y archivos de configuración"
+description: "Usuarios y archivos de configuración"
 ---
 
-## Tipo de usuarios y ficehros de configuración
+## Tipo de usuarios y archivos de configuración
 
-### Tipus de usuaris
-- **Root**: (0). Usuari amb tots els permisos.
-- **Sistema**: (1-999). Usuaris ocults associats a aplicacions o kernel.
-- **Normals**: (>1000). Resta d’usuaris.
+### Tipos de usuarios
+- **Root**: (0). Usuario con todos los permisos.
+- **Sistema**: (1-999). Usuarios ocultos asociados a aplicaciones o kernel.
+- **Normales**: (>1000). Resto de usuarios.
 
 ### Archivos de configuración
-- **/etc/passwd**. Archivo principal.
+- **/etc/passwd**. Archivo principal con usuarios del sistema.
 - **/etc/shadow**. Archivo donde se mantienen las contraseñas.
 - **/etc/group**. Archivo donde se asocian usuarios y grupos.
 
@@ -32,7 +32,6 @@ profesor:x:1000:1000:,,,:/home/profesor:/bin/bash
 5. **GECOS**: Un campo que suele contener información adicional sobre el usuario, como el nombre completo, número de teléfono, etc.
 6. **Directorio de inicio**: La ruta al directorio de inicio del usuario.
 7. **Shell**: El intérprete de comandos que se ejecuta cuando el usuario inicia sesión.
-
 
 ```bash  title="/etc/shadow"
 root:*:19993:0:99999:7:::
