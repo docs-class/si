@@ -3,7 +3,7 @@ title: "Terminal Linux avançat"
 description: "Terminal Linux avançat"
 ---
 
-### Wildcards (Comodins)
+## Wildcards (Comodins)
 
 Les **wildcards o comodins** són caràcters especials.
 En una baralla de cartes, un comodí és una carta especial que pot representar qualsevol altra carta.
@@ -45,7 +45,7 @@ De manera similar, en informàtica, una wildcard és un caràcter especial que p
    ls file[a-c,A-C,1-3]?.txt  # Llista fitxers com filea1.txt, fileBc.txt, filecc.txt
    ```
 
-### **Comandes Avançades**
+## **Comandes Avançades**
 
 | **Comanda** | **Descripció**                         | **Exemple**               |
 |-------------|----------------------------------------|---------------------------|
