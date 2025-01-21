@@ -60,7 +60,7 @@ De manera similar, en informática, una wildcard es un carácter especial que pu
 | **tee**     | divide la salida y la guarda en un archivo. | `ls \| tee lista.txt`   |
 | **tr**      | traduce o elimina caracteres.          | `echo "linux" \| tr 'a-z' 'A-Z'` |
 | **sed**     | edita texto en línea.                  | `sed 's/root/admin/g' /etc/passwd` |
-| **tar**     | comprime o descomprime archivos.       | `tar -czvf archivo.tar.gz carpeta/` |
+| tar     | comprime o descomprime archivos.       | `tar -czvf archivo.tar.gz carpeta/` |
 
 :::tip[TAR]
 [tar](https://www.hostinger.es/tutoriales/como-usar-comando-tar-linux)
@@ -70,20 +70,19 @@ De manera similar, en informática, una wildcard es un carácter especial que pu
 
 | **Comando** | **Descripción**                         | **Ejemplo**               |
 |-------------|-----------------------------------------|---------------------------|
-| **chmod**   | cambia los permisos de archivos.       | `chmod 755 script.sh`     |
-| **chown**   | cambia el propietario de un archivo.   | `chown user:group archivo.txt` |
-| **scp**     | copia archivos entre máquinas.         | `scp archivo.txt usuario@192.168.1.100:/home/usuario/` |
-| **rsync**   | sincroniza archivos y directorios.     | `rsync -av carpeta/ usuario@192.168.1.100:/destino/` |
+| chmod   | cambia los permisos de archivos.       | `chmod 755 script.sh`     |
+| chown   | cambia el propietario de un archivo.   | `chown user:group archivo.txt` |
+| scp     | copia archivos entre máquinas.         | `scp archivo.txt usuario@192.168.1.100:/home/usuario/` |
+| rsync   | sincroniza archivos y directorios.     | `rsync -av carpeta/ usuario@192.168.1.100:/destino/` |
 | **df**      | muestra el espacio en disco.           | `df -h`                   |
 | **du**      | calcula el tamaño de archivos.         | `du -sh /home/usuario/`   |
 | **ps**      | lista los procesos activos.            | `ps aux \| grep apache`    |
 | **top**     | muestra procesos en tiempo real.       | `top`                     |
 | **kill**    | termina procesos usando su PID.        | `kill 1234`               |
-| **df**       | muestra el estado del disco.                       | `df -h`                         |
-| **fsck**     | comprueba la integridad de los discos.             | `fsck /dev/sda1`                |
-| **mount**    | monta particiones y volúmenes.                     | `mount /dev/sda1 /mnt`          |
-| **umount**   | desmonta particiones y volúmenes.                  | `umount /mnt`                   |
-| **fdisk**    | administra particiones del disco.                  | `fdisk /dev/sda`                |
+| fsck     | comprueba la integridad de los discos.             | `fsck /dev/sda1`                |
+| mount    | monta particiones y volúmenes.                     | `mount /dev/sda1 /mnt`          |
+| umount   | desmonta particiones y volúmenes.                  | `umount /mnt`                   |
+| fdisk    | administra particiones del disco.                  | `fdisk /dev/sda`                |
 | **ln**       | crea enlaces físicos y simbólicos.                 | `ln -s archivo_original enlace` |
 
 :::tip[Prueba]

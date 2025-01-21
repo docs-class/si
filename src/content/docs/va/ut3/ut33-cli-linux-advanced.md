@@ -61,30 +61,29 @@ De manera similar, en informàtica, una wildcard és un caràcter especial que p
 | **tee**     | divideix l'eixida i la guarda en un fitxer. | `ls \| tee llista.txt`   |
 | **tr**      | tradueix o elimina caràcters.          | `echo "linux" \| tr 'a-z' 'A-Z'` |
 | **sed**     | edita text en línia.                   | `sed 's/root/admin/g' /etc/passwd` |
-| **tar**     | comprimeix o descomprimeix fitxers.    | `tar -czvf fitxer.tar.gz carpeta/` |
+| tar     | comprimeix o descomprimeix fitxers.    | `tar -czvf fitxer.tar.gz carpeta/` |
 
 :::tip[TAR]
-tar
+[tar](https://www.hostinger.es/tutoriales/como-usar-comando-tar-linux)
 :::
 
 ## **Comandes de Gestió**
 
 | **Comanda** | **Descripció**                         | **Exemple**               |
 |-------------|----------------------------------------|---------------------------|
-| **chmod**   | canvia els permisos de fitxers.        | `chmod 755 script.sh`     |
-| **chown**   | canvia el propietari d'un fitxer.      | `chown user:group fitxer.txt` |
-| **scp**     | copia fitxers entre màquines.          | `scp fitxer.txt usuari@192.168.1.100:/home/usuari/` |
-| **rsync**   | sincronitza fitxers i directoris.      | `rsync -av carpeta/ usuari@192.168.1.100:/destí/` |
+| chmod   | canvia els permisos de fitxers.        | `chmod 755 script.sh`     |
+| chown   | canvia el propietari d'un fitxer.      | `chown user:group fitxer.txt` |
+| scp     | copia fitxers entre màquines.          | `scp fitxer.txt usuari@192.168.1.100:/home/usuari/` |
+| rsync   | sincronitza fitxers i directoris.      | `rsync -av carpeta/ usuari@192.168.1.100:/destí/` |
 | **df**      | mostra l'espai en disc.                | `df -h`                   |
 | **du**      | calcula la mida de fitxers.            | `du -sh /home/usuari/`    |
 | **ps**      | llista els processos actius.           | `ps aux \| grep apache`   |
 | **top**     | mostra processos en temps real.        | `top`                     |
 | **kill**    | acaba processos usant el seu PID.      | `kill 1234`               |
-| **df**      | mostra l'estat del disc.               | `df -h`                   |
-| **fsck**    | comprova la integritat dels discos.    | `fsck /dev/sda1`          |
-| **mount**   | munta particions i volums.             | `mount /dev/sda1 /mnt`    |
-| **umount**  | desmunta particions i volums.          | `umount /mnt`             |
-| **fdisk**   | administra particions del disc.        | `fdisk /dev/sda`          |
+| fsck    | comprova la integritat dels discos.    | `fsck /dev/sda1`          |
+| mount   | munta particions i volums.             | `mount /dev/sda1 /mnt`    |
+| umount  | desmunta particions i volums.          | `umount /mnt`             |
+| fdisk   | administra particions del disc.        | `fdisk /dev/sda`          |
 | **ln**      | crea enllaços físics i simbòlics.      | `ln -s fitxer_original enllaç` |
 
 :::tip[Prova]
