@@ -50,7 +50,7 @@ De manera similar, en informática, una wildcard es un carácter especial que pu
 | **tee**     | divide la salida y la guarda en un archivo. | `ls \| tee lista.txt`   |
 | **tr**      | traduce o elimina caracteres.          | `echo "linux" \| tr 'a-z' 'A-Z'` |
 | **sed**     | edita texto en línea.                  | `sed 's/root/admin/g' /etc/passwd` |
-| **tar**     | comprime o descomprime archivos.       | `tar -czvf archivo.tar.gz carpeta/` |
+| tar     | comprime o descomprime archivos.       | `tar -czvf archivo.tar.gz carpeta/` |
 
 :::tip[TAR]
 [tar](https://www.hostinger.es/tutoriales/como-usar-comando-tar-linux)
