@@ -70,7 +70,7 @@ De manera similar, en informática, una wildcard es un carácter especial que pu
 
 | **Comando** | **Descripción**                         | **Ejemplo**               |
 |-------------|-----------------------------------------|---------------------------|
-| chmod   | cambia los permisos de archivos       | `chmod 755 script.sh`     |
+| chmod   | cambia los permisos de archivos.     | `chmod 755 script.sh`     |
 | chown   | cambia el propietario de un archivo.   | `chown user:group archivo.txt` |
 | scp     | copia archivos entre máquinas.         | `scp archivo.txt usuario@192.168.1.100:/home/usuario/` |
 | rsync   | sincroniza archivos y directorios.     | `rsync -av carpeta/ usuario@192.168.1.100:/destino/` |
