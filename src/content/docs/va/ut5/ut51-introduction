@@ -1,0 +1,40 @@
+---
+title: "Xarxa"
+description: "Xarxa"
+---
+
+## 1. **Components, tipus i connexions de xarxa**  
+   - **Rols de client i servidor:**  
+     - Tots els equips connectats a una xarxa que participen directament en la comunicació es classifiquen com a **hosts**.  
+     - En xarxes modernes, els hosts poden exercir el rol de client, servidor o ambdós.  
+     - El programari instal·lat en un equip determina el rol que exerceix.  
+     - Exemples:  
+       - **Servidor de correu electrònic:** Executa programari de servidor de correu. Els clients accedeixen al correu amb programari com Microsoft Outlook.  
+       - **Servidor web:** Executa programari de servidor web. Els clients accedeixen a pàgines web mitjançant navegadors com Internet Explorer.  
+       - **Servidor de fitxers:** Emmagatzema fitxers corporatius i d'usuari en una ubicació central. Els clients accedeixen amb programari com l'Explorador de Fitxers de Windows.  
+
+   - **Infraestructura de xarxa:**  
+     - La infraestructura de xarxa inclou tres categories de components:  
+       - **Dispositius finals:** Ordinadors, telèfons, impressores, etc.  
+       - **Dispositius intermedis:** Switches, routers, punts d'accés, etc.  
+       - **Mitjans de xarxa:** Cables de coure, fibra òptica, mitjans sense fils, etc.  
+     - Els components es representen en diagrames de topologia mitjançant icones específiques.  
+
+## 2. **Principis de comunicació**  
+   - La comunicació pot adoptar diferents formes i estils depenent del context:  
+     - Exemple: Una conversa informal a internet versus una entrevista de treball.  
+   - Abans d'iniciar una comunicació, s'estableixen regles o acords, que inclouen:  
+     - Mètode de comunicació: (cara a cara, telèfon, carta, etc.).  
+     - Llenguatge comú i gramàtica.  
+     - Confirmació o acusament de recepció dels missatges.  
+   - Aquestes regles, conegudes com a **protocols**, han de seguir-se perquè els missatges es lliuren i comprenguen correctament.  
+   - Comparació amb xarxes:  
+     - Els ordinadors també utilitzen protocols per a comunicar-se.  
+     - En una xarxa local, tots els dispositius han de "parlar el mateix idioma", és a dir, compartir un protocol comú.  
+     - Sense protocols compartits, la comunicació no seria possible.  
+   - Característiques dels protocols de xarxa:  
+     - **Format del missatge:** Estructura específica segons el tipus de missatge.  
+     - **Mida del missatge:** Dividir missatges llargs en peces petites per a garantir una transmissió fiable.  
+     - **Temps:** Velocitat i moment d'enviament de les dades.  
+     - **Codificació:** Conversió de dades a bits, utilitzant patrons de llum, so o impulsos elèctrics segons el mitjà.  
+     - **Encapsulació:** Afegir encapçalaments amb informació d'adreça per al lliurament del missatge.

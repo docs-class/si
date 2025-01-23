@@ -1,0 +1,40 @@
+---
+title: "Network"
+description: "Network"
+---
+
+## 1. **Componentes, tipos y conexiones de red**  
+   - **Roles de cliente y servidor:**  
+     - Todos los equipos conectados a una red que participan directamente en la comunicación se clasifican como **hosts**.  
+     - En redes modernas, los hosts pueden desempeñar el rol de cliente, servidor o ambos.  
+     - El software instalado en un equipo determina el rol que desempeña.  
+     - Ejemplos:  
+       - **Servidor de correo electrónico:** Ejecuta software de servidor de correo. Los clientes acceden al correo con software como Microsoft Outlook.  
+       - **Servidor web:** Ejecuta software de servidor web. Los clientes acceden a páginas web mediante navegadores como Internet Explorer.  
+       - **Servidor de archivos:** Almacena archivos corporativos y de usuario en una ubicación central. Los clientes acceden con software como el Explorador de Archivos de Windows.  
+
+   - **Infraestructura de red:**  
+     - La infraestructura de red incluye tres categorías de componentes:  
+       - **Dispositivos finales:** Computadoras, teléfonos, impresoras, etc.  
+       - **Dispositivos intermedios:** Switches, routers, puntos de acceso, etc.  
+       - **Medios de red:** Cables de cobre, fibra óptica, medios inalámbricos, etc.  
+     - Los componentes se representan en diagramas de topología mediante íconos específicos.  
+
+## 2. **Principios de comunicación**  
+   - La comunicación puede adoptar distintas formas y estilos dependiendo del contexto:  
+     - Ejemplo: Una conversación informal en internet versus una entrevista de trabajo.  
+   - Antes de iniciar una comunicación, se establecen reglas o acuerdos, que incluyen:  
+     - Método de comunicación: (cara a cara, teléfono, carta, etc.).  
+     - Lenguaje común y gramática.  
+     - Confirmación o acuse de recibo de los mensajes.  
+   - Estas reglas, conocidas como **protocolos**, deben seguirse para que los mensajes se entreguen y comprendan correctamente.  
+   - Comparación con redes:  
+     - Las computadoras también utilizan protocolos para comunicarse.  
+     - En una red local, todos los dispositivos deben "hablar el mismo idioma", es decir, compartir un protocolo común.  
+     - Sin protocolos compartidos, la comunicación no sería posible.  
+   - Características de los protocolos de red:  
+     - **Formato del mensaje:** Estructura específica según el tipo de mensaje.  
+     - **Tamaño del mensaje:** Dividir mensajes largos en piezas pequeñas para garantizar una transmisión fiable.  
+     - **Tiempo:** Velocidad y momento de envío de los datos.  
+     - **Codificación:** Conversión de datos a bits, utilizando patrones de luz, sonido o impulsos eléctricos según el medio.  
+     - **Encapsulación:** Añadir encabezados con información de dirección para la entrega del mensaje.  
