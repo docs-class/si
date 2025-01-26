@@ -11,8 +11,20 @@ De manera similar, en informàtica, una wildcard és un caràcter especial que p
 
 1. **Múltiple**: creació o manipulació de diversos fitxers
    ```bash
-   touch file{1..100}.txt  # Crea fitxers file1.txt fins a file100.txt
-   cp {hola.txt, adios.txt} ~ # Copia hola.txt i adios.txt al directori del usuari
+      touch fitxer{1..100}.txt  # Crea fitxers fitxer1.txt fins a fitxer100.txt
+      cp {hola.txt, adéu.txt} ~ # Copia hola.txt i adéu.txt al directori de l'usuari
+      mkdir -p Nivell1/Nivell2/{Nivell3/{Nivell4/Nivell5,logs,scripts},docs,dades} # Crea l'estructura de directoris complexa
+   ```
+   ```markdown
+   Nivell1/
+   └── Nivell2/
+      ├── Nivell3/
+      │   ├── Nivell4/
+      │   │   └── Nivell5/
+      │   ├── logs/
+      │   └── scripts/
+      ├── docs/
+      └── dades/
    ```
 
 2. **Asterisc (*)**: Representa zero o més caràcters. És útil per a buscar fitxers que coincidisquen amb un patró específic.

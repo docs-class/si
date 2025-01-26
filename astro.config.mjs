@@ -210,7 +210,7 @@ export default defineConfig({
             },
             {
                 label: "UT4 - GESTIÓ USUARIS I PROCESSOS. SCRIPTING",
-                // badge: { text: '25-NOV', variant: 'success' },
+                // badge: { text: '26ENE25', variant: 'success' },
                 translations: {
                     'es': 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
                     'en': 'UT4 - USERS AND PROCESSES. SCRIPTING',
