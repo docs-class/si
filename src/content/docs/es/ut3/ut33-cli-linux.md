@@ -7,6 +7,10 @@ description: "Introducción al terminal"
 > **/home/USUARIO-LINUX/** # Carpeta personal en Linux
 >
 > **/mnt/c/Users/USUARIO-HOST/** # Carpeta personal en HOST (Windows)
+>
+> En caso de que WSL se cierre inmediatamente al iniciar, se debe establecer Ubuntu por defecto
+> - Lista el las imágenes en el sistema: `wsl -l` 
+> - Establece Ubuntu por defecto: `wsl --set-default Ubuntu`
 :::
 
 ### Prompt de Linux

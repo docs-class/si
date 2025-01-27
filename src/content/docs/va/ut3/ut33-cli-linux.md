@@ -8,6 +8,10 @@ description: "Introducció al terminal"
 > **/home/USUARIO-LINUX/** # Carpeta personal en Linux
 >
 > **/mnt/c/Users/USUARIO-HOST/** # Carpeta personal en HOST (Windows)
+
+> En cas que WSL es tanque immediatament en iniciar, s'ha d'establir Ubuntu per defecte.
+> - Llista les imatges en el sistema: `wsl -l`
+> - Estableix Ubuntu per defecte: `wsl --set-default Ubuntu`
 :::
 
 ### Prompt de Linux
