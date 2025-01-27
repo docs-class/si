@@ -241,6 +241,8 @@ export default defineConfig({
                                     'ut4/ut41-linux-users',
                                 ],
                             },
+                            'ut4/ut41-policies',
+
                         ],
                     },
                 // {
