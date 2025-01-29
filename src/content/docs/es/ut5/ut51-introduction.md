@@ -3,8 +3,28 @@ title: "Network"
 description: "Network"
 ---
 
-## 1. **Componentes, tipos y conexiones de red**  
-   - **Roles de cliente y servidor:**  
+:::note[Conexión con el currículum]
+**5. Interconecta sistemas en red configurando dispositivos y protocolos.**	
+
+a)	Se ha configurado el protocolo TCP/IP.
+
+b)	Se han configurado redes de área local cableadas.
+
+c)	Se han configurado redes de área local inalámbricas.
+
+d)	Se han utilizado dispositivos de interconexión de redes.
+
+e)	Se ha configurado el acceso a redes de área extensa.
+
+f)	Se han gestionado puertos de comunicaciones.
+
+g)	Se ha verificado el funcionamiento de la red mediante el uso de comandos y herramientas básicas.
+
+h)	Se han aplicado protocolos seguros de comunicaciones.
+:::
+
+## 1. Componentes, tipos y conexiones de red
+   - **Roles de cliente y servidor**  
      - Todos los equipos conectados a una red que participan directamente en la comunicación se clasifican como **hosts**.  
      - En redes modernas, los hosts pueden desempeñar el rol de cliente, servidor o ambos.  
      - El software instalado en un equipo determina el rol que desempeña.  
@@ -13,6 +33,8 @@ description: "Network"
        - **Servidor web:** Ejecuta software de servidor web. Los clientes acceden a páginas web mediante navegadores como Internet Explorer.  
        - **Servidor de archivos:** Almacena archivos corporativos y de usuario en una ubicación central. Los clientes acceden con software como el Explorador de Archivos de Windows.  
 
+![Cliente-Servidor](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixB3ZY7C732R5otxCEDr8XkXpCgJVPySECUzRQklaFwk9yvbTBiZGJKSevWK7rU2VmYJ2Y2sNW4EpPUXpvUoe-XFUdyinD08gvDo4r-SxQN4OJl9gUePJmED89581peNlw5KOWd2KCP0xy/s1600/INFOGRAFIA_SOBRE_CLIENTE_SERVIDOR_INTERNET.jpg)
+
    - **Infraestructura de red:**  
      - La infraestructura de red incluye tres categorías de componentes:  
        - **Dispositivos finales:** Computadoras, teléfonos, impresoras, etc.  
@@ -20,24 +42,22 @@ description: "Network"
        - **Medios de red:** Cables de cobre, fibra óptica, medios inalámbricos, etc.  
      - Los componentes se representan en diagramas de topología mediante íconos específicos.  
 
-## 2. **Principios de comunicación**  
-   - La comunicación puede adoptar distintas formas y estilos dependiendo del contexto:  
-     - Ejemplo: Una conversación informal en internet versus una entrevista de trabajo.  
+## 2. Principios de comunicación 
+
+:::tip[Protocolos]
    - Antes de iniciar una comunicación, se establecen reglas o acuerdos, que incluyen:  
      - Método de comunicación: (cara a cara, teléfono, carta, etc.).  
      - Lenguaje común y gramática.  
-     - Confirmación o acuse de recibo de los mensajes.  
-   - Estas reglas, conocidas como **protocolos**, deben seguirse para que los mensajes se entreguen y comprendan correctamente.  
-   - Comparación con redes:  
-     - Las computadoras también utilizan protocolos para comunicarse.  
-     - En una red local, todos los dispositivos deben "hablar el mismo idioma", es decir, compartir un protocolo común.  
-     - Sin protocolos compartidos, la comunicación no sería posible.  
-   - Características de los protocolos de red:  
-     - **Formato del mensaje:** Estructura específica según el tipo de mensaje.  
-     - **Tamaño del mensaje:** Dividir mensajes largos en piezas pequeñas para garantizar una transmisión fiable.  
-     - **Tiempo:** Velocidad y momento de envío de los datos.  
-     - **Codificación:** Conversión de datos a bits, utilizando patrones de luz, sonido o impulsos eléctricos según el medio.  
-     - **Encapsulación:** Añadir encabezados con información de dirección para la entrega del mensaje.  
+     - Confirmación o acuse de recibo de los mensajes.
+     - Estas reglas, conocidas como **protocolos**, deben seguirse para que los mensajes se entreguen y comprendan correctamente.  
+:::
+   
+### Características de los protocolos de red  
+ - **Formato del mensaje:** Estructura específica según el tipo de mensaje.  
+ - **Tamaño del mensaje:** Dividir mensajes largos en piezas pequeñas para garantizar una transmisión fiable.  
+ - **Tiempo:** Velocidad y momento de envío de los datos.  
+ - **Codificación:** Conversión de datos a bits, utilizando patrones de luz, sonido o impulsos eléctricos según el medio.  
+ - **Encapsulación:** Añadir encabezados con información de dirección para la entrega del mensaje.  
 
 ## 3. **El Protocolo de Internet (IP)**  
    - **Dirección IPv4:**  
