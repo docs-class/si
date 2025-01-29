@@ -1,5 +1,5 @@
 ---
-title: "Network"
+title: "Introducción a las redes"
 description: "Network"
 ---
 
@@ -44,7 +44,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 
 ## 2. Principios de comunicación 
 
-:::tip[Protocolos]
+:::caution[Protocolos]
    - Antes de iniciar una comunicación, se establecen reglas o acuerdos, que incluyen:  
      - Método de comunicación: (cara a cara, teléfono, carta, etc.).  
      - Lenguaje común y gramática.  
@@ -58,6 +58,8 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
  - **Tiempo:** Velocidad y momento de envío de los datos.  
  - **Codificación:** Conversión de datos a bits, utilizando patrones de luz, sonido o impulsos eléctricos según el medio.  
  - **Encapsulación:** Añadir encabezados con información de dirección para la entrega del mensaje.  
+ 
+![TCP/IP Model - De GISEPROI - Trabajo propio, CC BY-SA 4.0,](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Suite_de_Protocolos_TCPIP.png/531px-Suite_de_Protocolos_TCPIP.png)
 
 ## 3. **El Protocolo de Internet (IP)**  
    - **Dirección IPv4:**  
