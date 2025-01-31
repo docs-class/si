@@ -58,8 +58,8 @@ Los permisos son esenciales para autorizar usuarios a acceder a recursos en un e
 ![Group managment](../../../../assets/ut4/windows%20permissions.png)
 
 ### Tipos de permisos
-- **Explícitos:** configurados al crear un recurso o mediante acción del usuario.
-- **Heredados:** propagados desde el contenedor del recurso.
+- **Explícitos:** Son aquellos que se establecen por defecto cuando se crea el recurso o mediante una acción del usuario.
+- **Heredados:** son aquellos que se propagan a un recurso secundario desde un recurso principal. Por defecto, los recursos heredan los permisos de su contenedor cuando se crean.
 
 ### Otorgar y denegar permisos
 - Los propietarios pueden conceder permisos a usuarios o grupos.
