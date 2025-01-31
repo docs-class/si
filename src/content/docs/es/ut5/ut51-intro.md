@@ -95,3 +95,91 @@ description: "Network"
      - **netstat:** Muestra conexiones activas.  
      - **tracert:** Muestra la ruta hacia un destino.  
      - **nslookup:** Consulta información sobre dominios.  
+
+
+
+## 1 EJERCICIOS
+
+### Configuración del protocolo TCP/IP en un cliente de red
+1. **Direcciones IP y Máscaras de Subred:**
+   - Configura una dirección IP estática en tu computadora con una máscara de subred adecuada.
+   - Cambia la configuración a una dirección IP dinámica usando DHCP.
+
+2. **IPv4 e IPv6:**
+   - Configura una dirección IPv4 estática y verifica la conectividad.
+   - Configura una dirección IPv6 estática y verifica la conectividad.
+
+3. **Configuración Estática y Dinámica Automática:**
+   - Configura una dirección IP estática en tu computadora.
+   - Cambia la configuración a obtener una dirección IP automáticamente mediante DHCP.
+
+### Ficheros de configuración de red
+1. **Linux:**
+   - Edita el archivo `/etc/network/interfaces` para configurar una dirección IP estática.
+   - Edita el archivo `/etc/resolv.conf` para configurar servidores DNS.
+
+2. **Windows:**
+   - Usa el comando `netsh` para configurar una dirección IP estática y servidores DNS.
+
+### Gestión de puertos
+1. **Abrir y Cerrar Puertos:**
+   - Configura el firewall de tu computadora para abrir y cerrar puertos específicos.
+   - Usa `netstat` para verificar qué puertos están en uso.
+
+### Resolución de problemas de conectividad en sistemas operativos en red
+1. **Diagnóstico de Conectividad:**
+   - Usa `ping` para verificar la conectividad entre dispositivos.
+   - Usa `tracert` (Windows) o `traceroute` (Linux) para diagnosticar la ruta de los paquetes.
+
+### Comandos utilizados en sistemas operativos libres y propietarios
+1. **Linux:**
+   - Usa `ifconfig` o `ip` para verificar la configuración de red.
+   - Usa `ping`, `traceroute`, `netstat` y `nslookup` para diagnosticar problemas de red.
+
+2. **Windows:**
+   - Usa `ipconfig` para verificar la configuración de red.
+   - Usa `ping`, `tracert`, `netstat` y `nslookup` para diagnosticar problemas de red.
+
+### Monitorización de redes
+1. **Herramientas de Monitorización:**
+   - Usa `Wireshark` para capturar y analizar tráfico de red.
+   - Usa `Nagios` o `Zabbix` para monitorizar el estado de la red y los dispositivos.
+
+### Protocolos TCP/IP
+1. **Configuración y Pruebas:**
+   - Configura y prueba servicios básicos como HTTP, FTP y SSH en una red local.
+   - Usa herramientas como `curl` o `wget` para interactuar con estos servicios.
+
+### Configuración de los adaptadores de red en sistemas operativos libres y propietarios
+1. **Linux:**
+   - Configura un adaptador de red usando `ifconfig` o `ip`.
+   - Configura una conexión inalámbrica usando `nmcli` o `wpa_supplicant`.
+
+2. **Windows:**
+   - Configura un adaptador de red usando el Panel de Control o `netsh`.
+   - Configura una conexión inalámbrica usando el Panel de Control o `netsh wlan`.
+
+### Interconexión de redes: adaptadores de red y dispositivos de interconexión
+1. **Configuración de Switches y Routers:**
+   - Configura un switch gestionable y crea VLANs.
+   - Configura un router para permitir la comunicación entre VLANs.
+
+### Redes cableadas: tipos y características
+1. **Configuración y Pruebas:**
+   - Conecta varias computadoras a un switch usando cables Ethernet.
+   - Configura las direcciones IP y prueba la conectividad.
+
+### Redes inalámbricas: tipos y características
+1. **Configuración y Pruebas:**
+   - Configura un router inalámbrico y establece un SSID y una contraseña.
+   - Conecta dispositivos a la red inalámbrica y verifica la conectividad.
+
+### Seguridad básica en redes cableadas e inalámbricas
+1. **Configuración de Seguridad:**
+   - Configura el firewall de tu computadora para proteger la red.
+   - Configura la seguridad del router inalámbrico (WPA3, filtrado MAC).
+
+### Seguridad de comunicaciones
+1. **Protocolos Seguros:**
+   - Configura un servidor web para usar HTTPS.
+   - Configura un servidor SSH y usa claves SSH para la autenticación.

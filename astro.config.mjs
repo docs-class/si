@@ -277,19 +277,19 @@ export default defineConfig({
                 // },
                 ],
             },
-            {
-                label: "UT5 - SISTEMES INFORMÀTICS EN XARXA. CONFIGURACIÓ I EXPLOTACIÓ",
-                // badge: { text: '25-NOV', variant: 'success' },
-                translations: {
-                    'es': 'UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN',
-                    'en': 'UT5 - COMPUTER SYSTEMS IN NETWORKS. CONFIGURATION AND OPERATION',
+            // {
+            //     label: "UT5 - SISTEMES INFORMÀTICS EN XARXA. CONFIGURACIÓ I EXPLOTACIÓ",
+            //     // badge: { text: '25-NOV', variant: 'success' },
+            //     translations: {
+            //         'es': 'UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN',
+            //         'en': 'UT5 - COMPUTER SYSTEMS IN NETWORKS. CONFIGURATION AND OPERATION',
 
-                },
-                // Collapsa el grupo de forma predeterminada.
-                items: [
-                        'ut5/ut51-introduction',
-                ],
-            },
+            //     },
+            //     // Collapsa el grupo de forma predeterminada.
+            //     items: [
+            //             'ut5/ut51-introduction',
+            //     ],
+            // },
         ],
     }),],
 });
