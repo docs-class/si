@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
 import markdoc from '@astrojs/markdoc';
+import starlight from '@astrojs/starlight';
 import starlightViewModes from 'starlight-view-modes';
 import rehypeMermaid from 'rehype-mermaid';
 import rehypeRaw from 'rehype-raw';
@@ -14,9 +14,9 @@ export default defineConfig({
     markdown: {
         // Para mermaid
         rehypePlugins: [
-            rehypeRaw,
-            rehypeMermaid,
-        ],
+			rehypeRaw,
+			rehypeMermaid,
+		],
     },
     integrations: [markdoc(),
     starlight({
