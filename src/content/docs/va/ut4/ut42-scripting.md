@@ -40,6 +40,21 @@ Si no funciona, assegura't de donar-li permisos d'execució:
 ```sh  frame="none"
 chmod u+x mi_primer_script.sh
 ```
+### Executar un script en Linux en segon pla
+
+Per a executar un script en segon pla, encara que serveix per a qualsevol comandament en bash, pots usar l'operador `&` al final del comandament. Per exemple:
+```bash
+./mi_script.sh &
+```
+Això executarà `mi_script.sh` en segon pla i et tornarà el control de la terminal immediatament.
+
+| Comandament | Descripció |
+|-------------|-------------|
+| `jobs` | Mostra una llista de treballs amb els seus respectius números de treball. |
+| `fg %1` | Porta el treball número 1 al primer pla. |
+| `Ctrl+C` | Passa a segon pla el treball que està en primer pla. Comprovar amb `jobs`. |
+| `bg %1` | Reanuda el treball en segon pla. |
+| `kill %1` | Termina el treball número 1. |
 
 :::danger[Consideracions]
 - El script s'ha d'executar des de la mateixa carpeta on està el fitxer, si no haurem de posar la ruta absoluta.

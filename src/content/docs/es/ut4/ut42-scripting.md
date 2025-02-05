@@ -41,7 +41,6 @@ chmod u+x mi_primer_script.sh
 
 ### Ejecutar un script en Linux en segundo plano
 
-
 Para ejecutar un script en segundo plano, aunque sirve para cualquier comando en bash, puedes usar el operador `&` al final del comando. Por ejemplo:
 ```bash
 ./mi_script.sh &
