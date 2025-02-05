@@ -30,12 +30,12 @@ description: "Protocolo SSH"
 - Permite copiar archivos y directorios entre sistemas remotos y locales.  
 - Mantiene permisos y atributos de los archivos.  
 
-```bash
+```bash frame="none"
 scp [opciones] origen destino
 ```  
 
 **Copiar un archivo de local a remoto**  
-   ```bash
+   ```bash frame="none"
    scp archivo.txt usuario@servidor:/ruta/destino/
    ```  
 
@@ -53,32 +53,32 @@ Se recomienda **rsync** en lugar de SCP, ya que permite transferencias más efic
 ✅ Mantiene permisos y propiedades de archivos  
 
 ### **Sintaxis básica**  
-```bash
+```bash frame="none"
 rsync [opciones] -e "ssh -p PUERTO" origen destino
 ```  
 
 1. **Copiar un archivo de local a remoto**  
-   ```bash
+   ```bash frame="none"
    rsync -avz -e "ssh" archivo.txt usuario@servidor:/ruta/destino/
    ```  
 
 2. **Copiar un archivo de remoto a local**  
-   ```bash
+   ```bash frame="none"
    rsync -avz -e "ssh" usuario@servidor:/ruta/origen/archivo.txt /ruta/local/
    ```  
 
 3. **Copiar un directorio completo**  
-   ```bash
+   ```bash frame="none"
    rsync -avz -e "ssh" carpeta/ usuario@servidor:/ruta/destino/
    ```  
 
 4. **Usar un puerto SSH específico**  
-   ```bash
+   ```bash frame="none"
    rsync -avz -e "ssh -p 2222" archivo.txt usuario@servidor:/ruta/destino/
    ```  
 
 5. **Eliminar archivos en destino que no están en origen**  
-   ```bash
+   ```bash frame="none"
    rsync -avz --delete -e "ssh" carpeta/ usuario@servidor:/ruta/destino/
    ```  
 
