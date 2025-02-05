@@ -26,15 +26,14 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 ## 1. Componentes, tipos y conexiones de red
    - **Roles de cliente y servidor**  
      - Todos los equipos conectados a una red que participan directamente en la comunicación se clasifican como **hosts**.  
-     - En redes modernas, los hosts pueden desempeñar el rol de cliente, servidor o ambos.  
+     - En redes modernas, los hosts pueden desempeñar el rol de **cliente, servidor o ambos**. 
      - El software instalado en un equipo determina el rol que desempeña.  
-     - Ejemplos:  
-       - **Servidor de correo electrónico:** Ejecuta software de servidor de correo. Los clientes acceden al correo con software como Microsoft Outlook.  
-       - **Servidor web:** Ejecuta software de servidor web. Los clientes acceden a páginas web mediante navegadores como Internet Explorer.  
-       - **Servidor de archivos:** Almacena archivos corporativos y de usuario en una ubicación central. Los clientes acceden con software como el Explorador de Archivos de Windows.  
+       - Ejemplos: _Servidor de correo electrónico, web o de archivos._
+:::caution[Actividad]
+[Servidor - PowerCert Animated Videos](https://www.youtube.com/watch?v=UjCDWCeHCzY) - Actividad de rellenar
+:::
 
-![Cliente-Servidor](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixB3ZY7C732R5otxCEDr8XkXpCgJVPySECUzRQklaFwk9yvbTBiZGJKSevWK7rU2VmYJ2Y2sNW4EpPUXpvUoe-XFUdyinD08gvDo4r-SxQN4OJl9gUePJmED89581peNlw5KOWd2KCP0xy/s1600/INFOGRAFIA_SOBRE_CLIENTE_SERVIDOR_INTERNET.jpg)
-
+![LAN](https://cdn.prod.website-files.com/620d42e86cb8ec4d0839e59d/6230ee03762e4e5318c33297_61ca0988bf85585f5ccc26b5_Local-Area-Network-Diagram.jpeg)
    - **Infraestructura de red:**  
      - La infraestructura de red incluye tres categorías de componentes:  
        - **Dispositivos finales:** Computadoras, teléfonos, impresoras, etc.  
@@ -71,7 +70,10 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
      - Las direcciones IPv4 tienen 32 bits divididos en cuatro octetos.  
      - Se representan comúnmente en notación decimal, como **192.168.0.1**, en lugar de binaria para facilitar la lectura.  
 
-## 4. **IPv4 y Segmentación de Redes**  
+## 4. **IPv4 y Segmentación de Redes**
+
+[Subnet Mask - PowerCert Animated Videos](https://www.youtube.com/watch?v=s_Ntt6eTn94)
+
    - **Estructura de las direcciones IPv4:**  
      - Las direcciones IPv4 tienen dos partes:  
        - **Red:** Identifica el segmento de red.  
@@ -82,6 +84,13 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
    - **Segmentación y subredes:**  
      - Las redes grandes se subdividen en subredes más pequeñas para reducir el tráfico y mejorar el rendimiento.  
      - Subredes más pequeñas ayudan a gestionar mejor la red y aplicar políticas de seguridad.  
+
+
+### **Public and private IP addresses**  
+- **IP privadas** (no accesibles desde Internet, definidas en **RFC 1918**):  
+  - **Clase A**: 10.0.0.0 - 10.255.255.255  
+  - **Clase B**: 172.16.0.0 - 172.31.255.255  
+  - **Clase C**: 192.168.0.0 - 192.168.255.255  
 
 ## 5. **Dirección dinámica con DHCP (Dynamic Host Configuration Protocol)**  
    - **Asignación dinámica:**  
@@ -100,15 +109,15 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
      - El NAT permite que dispositivos con direcciones privadas accedan a redes públicas, traduciendo direcciones locales a direcciones globales.  
 
 ## 7. **TCP y UDP**  
-   - **Puertos de comunicación:**  
+  - **Puertos de comunicación:**  
      - Los números de puerto identifican servicios específicos que utilizan protocolos como TCP y UDP.  
-     - Ejemplos:  
-       - **HTTP (80)** para navegación web.  
-       - **DNS (53)** para resolución de nombres.  
-       - **SSH (22)** para acceso remoto seguro.  
-   - **Diferencias entre TCP y UDP:**  
-     - TCP es orientado a conexión y garantiza la entrega de datos.  
-     - UDP es más rápido pero no garantiza la entrega.  
+      - **Rango de puertos**:  
+        - **Bien conocidos (0-1023)**: HTTP (80), HTTPS (443), SSH (22).  
+        - **Registrados (1024-49151)**: Aplicaciones específicas.  
+        - **Dinámicos (49152-65535)**: Uso temporal en conexiones cliente.  
+      - **Diferencias entre TCP y UDP:**  
+        - TCP es orientado a conexión y garantiza la entrega de datos.  
+        - UDP es más rápido pero no garantiza la entrega.  
 
 ## 8. **Utilidades de prueba de red**  
    - **Comandos de diagnóstico:**  
