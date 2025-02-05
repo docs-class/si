@@ -5,7 +5,20 @@ description: "Scripting - case"
 
 La instrucción **case** equivale a una estructura de if/else anidada. Comprobamos el valor de la condición y en función de ese valor hacemos una cosa u otra. (Se utiliza sobre todo para hacer menús.)
 
-![case control](../../../../assets/ut4/case.png)
+```mermaid
+graph TD
+    A[Inicio] --> B{Variable}
+    B -->|Caso 1| C[Acción 1]
+    B -->|Caso 2| D[Acción 2]
+    B -->|Caso 3| E[Acción 3]
+    B -->|Caso N| F[Acción N]
+    B -->|Default| G[Acción por defecto]
+    C --> H[Fin]
+    D --> H[Fin]
+    E --> H[Fin]
+    F --> H[Fin]
+    G --> H[Fin]
+```
 ```bash
 #!/bin/bash
 case $var in
