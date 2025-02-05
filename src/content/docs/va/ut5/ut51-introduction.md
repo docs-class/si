@@ -43,7 +43,7 @@ h) S'han aplicat protocols segurs de comunicacions.
 
 ## 2. Principis de comunicació  
 
-:::caution[Protocols]  
+:::tip[Protocols]  
    - Abans d'iniciar una comunicació, s'estableixen regles o acords, que inclouen:  
      - Mètode de comunicació: (cara a cara, telèfon, carta, etc.).  
      - Llenguatge comú i gramàtica.  
@@ -72,7 +72,9 @@ h) S'han aplicat protocols segurs de comunicacions.
 
 ## 4. **IPv4 i Segmentació de Xarxes**  
 
+:::caution[Subneting]
 [Subnet Mask - PowerCert Animated Videos](https://www.youtube.com/watch?v=s_Ntt6eTn94)
+:::
 
    - **Estructura de les adreces IPv4:**  
      - Les adreces IPv4 tenen dues parts:  

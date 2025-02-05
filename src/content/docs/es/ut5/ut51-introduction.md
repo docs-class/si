@@ -43,7 +43,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 
 ## 2. Principios de comunicación 
 
-:::caution[Protocolos]
+:::tip[Protocolos]
    - Antes de iniciar una comunicación, se establecen reglas o acuerdos, que incluyen:  
      - Método de comunicación: (cara a cara, teléfono, carta, etc.).  
      - Lenguaje común y gramática.  
@@ -72,8 +72,9 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 
 ## 4. **IPv4 y Segmentación de Redes**
 
+:::caution[Subneting]
 [Subnet Mask - PowerCert Animated Videos](https://www.youtube.com/watch?v=s_Ntt6eTn94)
-
+:::
    - **Estructura de las direcciones IPv4:**  
      - Las direcciones IPv4 tienen dos partes:  
        - **Red:** Identifica el segmento de red.  
