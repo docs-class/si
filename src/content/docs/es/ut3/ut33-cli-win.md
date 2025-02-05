@@ -10,7 +10,7 @@ description: "Introducción al terminal Windows"
 2. Desde el Explorador de Archivos
 3. Con acceso rápido (Presiona **Win + X**)
 ### Cómo actualizar PowerShell a la última versión
-```js 
+```js
 winget install --id Microsoft.Powershell --source winget
 ```
 ### Verificar la Versión de PowerShell
