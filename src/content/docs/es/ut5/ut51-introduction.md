@@ -81,6 +81,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
      - La máscara de subred determina la parte que corresponde a la red y al host. Por ejemplo:  
        - Dirección: **192.168.5.11**  
        - Máscara de subred: **255.255.255.0**  
+       - Notación CIDR (Classless Inter-Domain Routing):  **192.168.5.11/24** 
    - **Segmentación y subredes:**  
      - Las redes grandes se subdividen en subredes más pequeñas para reducir el tráfico y mejorar el rendimiento.  
      - Subredes más pequeñas ayudan a gestionar mejor la red y aplicar políticas de seguridad.  
@@ -91,6 +92,8 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
   - **Clase A**: 10.0.0.0 - 10.255.255.255  
   - **Clase B**: 172.16.0.0 - 172.31.255.255  
   - **Clase C**: 192.168.0.0 - 192.168.255.255  
+- **IP Comerciales**
+  - **Clase D i E**: Son usadas para usos comerciales y experimentales
 
 ## 5. **Dirección dinámica con DHCP (Dynamic Host Configuration Protocol)**  
    - **Asignación dinámica:**  

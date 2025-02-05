@@ -81,6 +81,7 @@ h) S'han aplicat protocols segurs de comunicacions.
      - La màscara de subxarxa determina la part que correspon a la xarxa i a l'host. Per exemple:  
        - Adreça: **192.168.5.11**  
        - Màscara de subxarxa: **255.255.255.0**  
+       - Notació CIDR (Classless Inter-Domain Routing):  **192.168.5.11/24** 
    - **Segmentació i subxarxes:**  
      - Les xarxes grans es subdivideixen en subxarxes més xicotetes per reduir el trànsit i millorar el rendiment.  
      - Subxarxes més xicotetes ajuden a gestionar millor la xarxa i aplicar polítiques de seguretat.  
@@ -90,6 +91,9 @@ h) S'han aplicat protocols segurs de comunicacions.
   - **Classe A**: 10.0.0.0 - 10.255.255.255  
   - **Classe B**: 172.16.0.0 - 172.31.255.255  
   - **Classe C**: 192.168.0.0 - 192.168.255.255  
+
+- **IP Comercials**
+  - **Classe D i E**: Són usades per a usos comercials i experimentals 
 
 ## 5. **Adreçament dinàmic amb DHCP (Dynamic Host Configuration Protocol)**  
    - **Assignació dinàmica:**  
