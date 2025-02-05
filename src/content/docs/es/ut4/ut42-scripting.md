@@ -39,6 +39,24 @@ Si no funciona, asegúrate de darle permisos de ejecución:
 chmod u+x mi_primer_script.sh
 ```
 
+### Ejecutar un script en Linux en segundo plano
+
+
+Para ejecutar un script en segundo plano, aunque sirve para cualquier comando en bash, puedes usar el operador `&` al final del comando. Por ejemplo:
+```bash
+./mi_script.sh &
+```
+Esto ejecutará `mi_script.sh` en segundo plano y te devolverá el control de la terminal inmediatamente.
+
+| Comando | Descripción |
+|---------|-------------|
+| `jobs` | Muestra una lista de trabajos con sus respectivos números de trabajo. |
+| `fg %1` | Trae el trabajo número 1 al primer plano. |
+| `Ctrl+C` | pasa a segundo plano el trabajo que está en primer plano. comprobar con ´jobs´ |
+| `bg %1` | Reanuda el trabajo en segundo plano. |
+| `kill %1` | Termina el trabajo número 1. |
+
+
 :::danger[Consideraciones]
 - El script se tiene que ejecutar desde la misma carpeta donde está el fichero, si no tendremos que poner la ruta absoluta.
 - El script se sigue ejecutando aunque haya un error.
