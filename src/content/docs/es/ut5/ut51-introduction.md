@@ -29,7 +29,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
      - En redes modernas, los hosts pueden desempeñar el rol de **cliente, servidor o ambos**. 
      - El software instalado en un equipo determina el rol que desempeña.  
        - Ejemplos: _Servidor de correo electrónico, web o de archivos._
-:::caution[Actividad]
+:::tip[Servidor]
 [Servidor - PowerCert Animated Videos](https://www.youtube.com/watch?v=UjCDWCeHCzY) - Actividad de rellenar
 :::
 
@@ -43,7 +43,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 
 ## 2. Principios de comunicación 
 
-:::tip[Protocolos]
+:::caution[Protocolos]
    - Antes de iniciar una comunicación, se establecen reglas o acuerdos, que incluyen:  
      - Método de comunicación: (cara a cara, teléfono, carta, etc.).  
      - Lenguaje común y gramática.  
@@ -72,7 +72,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 
 ## 4. **IPv4 y Segmentación de Redes**
 
-:::caution[Subneting]
+:::tip[Subneting]
 [Subnet Mask - PowerCert Animated Videos](https://www.youtube.com/watch?v=s_Ntt6eTn94)
 :::
    - **Estructura de las direcciones IPv4:**  
@@ -89,6 +89,11 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 
 
 ### **Public and private IP addresses**  
+
+:::tip[Public & Private IP]
+[Public & private IP](https://www.youtube.com/watch?v=po8ZFG0Xc4Q)
+:::
+
 - **IP privadas** (no accesibles desde Internet, definidas en **RFC 1918**):  
   - **Clase A**: 10.0.0.0 - 10.255.255.255  
   - **Clase B**: 172.16.0.0 - 172.31.255.255  
@@ -105,6 +110,11 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
      - Requiere una entrada manual de parámetros como dirección IP, máscara de subred y puerta de enlace predeterminada.  
 
 ## 6. **Puertas de enlace a otras redes**  
+
+:::tip[Default gateway]
+[Default gateway - PowerCert Animated Videos](https://www.youtube.com/watch?v=pCcJFdYNamc)
+:::
+
    - **Routers como gateways:**  
      - Los routers conectan redes distintas y actúan como puertas de enlace.  
      - Cada interfaz de un router se conecta a una red específica y tiene asignada una dirección IPv4 única.  
@@ -112,7 +122,12 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
    - **Traducción de direcciones (NAT):**  
      - El NAT permite que dispositivos con direcciones privadas accedan a redes públicas, traduciendo direcciones locales a direcciones globales.  
 
-## 7. **TCP y UDP**  
+
+
+## 7. **PUERTOS**  
+:::tip[Ports]
+[Ports - PowerCert Animated Videos](https://www.youtube.com/watch?v=g2fT-g9PX9o)
+:::
   - **Puertos de comunicación:**  
      - Los números de puerto identifican servicios específicos que utilizan protocolos como TCP y UDP.  
       - **Rango de puertos**:  
@@ -123,10 +138,13 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
         - TCP es orientado a conexión y garantiza la entrega de datos.  
         - UDP es más rápido pero no garantiza la entrega.  
 
-## 8. **Utilidades de prueba de red**  
-   - **Comandos de diagnóstico:**  
-     - **ipconfig:** Muestra la configuración de red.  
-     - **ping:** Verifica la conectividad con otros hosts.  
-     - **netstat:** Muestra conexiones activas.  
-     - **tracert:** Muestra la ruta hacia un destino.  
-     - **nslookup:** Consulta información sobre dominios.  
+## 8. **Comandos de diagnóstico de red**  
+
+| **Utilidad de prueba de red** | **Windows** | **Linux** |
+|-------------------------------|-------------|-----------|
+| Muestra la configuración de red | `ipconfig` | `ifconfig` o `ip addr` |
+| Verifica la conectividad con otros hosts | `ping` | `ping` |
+| Muestra conexiones activas | `netstat` | `netstat` o `ss` |
+| Muestra la ruta hacia un destino | `tracert` | `traceroute` |
+| Consulta información sobre dominios | `nslookup` | `nslookup` o `dig` |
+

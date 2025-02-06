@@ -29,7 +29,7 @@ h) S'han aplicat protocols segurs de comunicacions.
      - En xarxes modernes, els hosts poden exercir el rol de **client, servidor o ambdós**.  
      - El programari instal·lat en un equip determina el rol que exerceix.  
        - Exemples: _Servidor de correu electrònic, web o d’arxius._  
-:::caution[Activitat]  
+:::tip[Servidor]  
 [Servidor - PowerCert Animated Videos](https://www.youtube.com/watch?v=UjCDWCeHCzY) - Activitat d'omplir  
 :::  
 
@@ -43,7 +43,7 @@ h) S'han aplicat protocols segurs de comunicacions.
 
 ## 2. Principis de comunicació  
 
-:::tip[Protocols]  
+:::caution[Protocols]  
    - Abans d'iniciar una comunicació, s'estableixen regles o acords, que inclouen:  
      - Mètode de comunicació: (cara a cara, telèfon, carta, etc.).  
      - Llenguatge comú i gramàtica.  
@@ -72,7 +72,7 @@ h) S'han aplicat protocols segurs de comunicacions.
 
 ## 4. **IPv4 i Segmentació de Xarxes**  
 
-:::caution[Subneting]
+:::tip[Subneting]
 [Subnet Mask - PowerCert Animated Videos](https://www.youtube.com/watch?v=s_Ntt6eTn94)
 :::
 
@@ -89,6 +89,11 @@ h) S'han aplicat protocols segurs de comunicacions.
      - Subxarxes més xicotetes ajuden a gestionar millor la xarxa i aplicar polítiques de seguretat.  
 
 ### **Adreces IP públiques i privades**  
+
+:::tip[Public & Private IP]
+[Public & private IP](https://www.youtube.com/watch?v=po8ZFG0Xc4Q)
+:::
+
 - **IP privades** (no accessibles des d'Internet, definides en **RFC 1918**):  
   - **Classe A**: 10.0.0.0 - 10.255.255.255  
   - **Classe B**: 172.16.0.0 - 172.31.255.255  
@@ -106,6 +111,11 @@ h) S'han aplicat protocols segurs de comunicacions.
      - Requereix una entrada manual de paràmetres com adreça IP, màscara de subxarxa i passarel·la predeterminada.  
 
 ## 6. **Passarel·les a altres xarxes**  
+
+:::tip[Default gateway]
+[Default gateway - PowerCert Animated Videos](https://www.youtube.com/watch?v=pCcJFdYNamc)
+:::
+
    - **Routers com a gateways:**  
      - Els routers connecten xarxes distintes i actuen com a passarel·les.  
      - Cada interfície d'un router es connecta a una xarxa específica i té assignada una adreça IPv4 única.  
@@ -113,7 +123,11 @@ h) S'han aplicat protocols segurs de comunicacions.
    - **Traducció d’adreces (NAT):**  
      - El NAT permet que dispositius amb adreces privades accedisquen a xarxes públiques, traduint adreces locals a adreces globals.  
 
-## 7. **TCP i UDP**  
+## 7. **PORTS**  
+
+:::tip[Ports]
+[Ports - PowerCert Animated Videos](https://www.youtube.com/watch?v=g2fT-g9PX9o)
+:::
   - **Ports de comunicació:**  
      - Els números de port identifiquen serveis específics que utilitzen protocols com TCP i UDP.  
       - **Rang de ports**:  
@@ -124,10 +138,11 @@ h) S'han aplicat protocols segurs de comunicacions.
         - TCP és orientat a connexió i garanteix el lliurament de dades.  
         - UDP és més ràpid però no garanteix el lliurament.  
 
-## 8. **Utilitats de prova de xarxa**  
-   - **Ordres de diagnòstic:**  
-     - **ipconfig:** Mostra la configuració de xarxa.  
-     - **ping:** Verifica la connectivitat amb altres hosts.  
-     - **netstat:** Mostra connexions actives.  
-     - **tracert:** Mostra la ruta cap a una destinació.  
-     - **nslookup:** Consulta informació sobre dominis.  
+## 8. **Ordres de diagnòstic de xarxa**  
+| **Utilitat de prova de xarxa** | **Windows** | **Linux** |
+|-------------------------------|-------------|-----------|
+| Mostra la configuració de xarxa | `i**p**config` | `i**f**config` o `ip addr` |
+| Verifica la connectivitat amb altres hosts | `ping` | `ping` |
+| Mostra connexions actives | `netstat` | `netstat` o `ss` |
+| Mostra la ruta cap a una destinació | `tracert` | `traceroute` |
+| Consulta informació sobre dominis | `nslookup` | `nslookup` o `dig` |
