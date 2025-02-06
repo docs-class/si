@@ -141,7 +141,7 @@ h) S'han aplicat protocols segurs de comunicacions.
 ## 8. **Ordres de diagnòstic de xarxa**  
 | **Utilitat de prova de xarxa** | **Windows** | **Linux** |
 |-------------------------------|-------------|-----------|
-| Mostra la configuració de xarxa | `i**p**config` | `i**f**config` o `ip addr` |
+| Mostra la configuració de xarxa | `ipconfig` | `ifconfig` o `ip addr` |
 | Verifica la connectivitat amb altres hosts | `ping` | `ping` |
 | Mostra connexions actives | `netstat` | `netstat` o `ss` |
 | Mostra la ruta cap a una destinació | `tracert` | `traceroute` |
