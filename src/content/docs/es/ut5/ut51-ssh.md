@@ -50,7 +50,7 @@ Se recomienda **rsync** en lugar de SCP, ya que permite transferencias más efic
 ✅ Transferencia incremental (solo copia cambios)  
 ✅ Más rápido y eficiente  
 ✅ Soporta exclusión de archivos (`--exclude`)  
-✅ Mantiene permisos y propiedades de archivos  
+ 
 
 ### **Sintaxis básica**  
 ```bash

@@ -50,7 +50,7 @@ Es recomana **rsync** en lloc de SCP, ja que permet transferències més eficien
 ✅ Transferència incremental (només copia els canvis)  
 ✅ Més ràpid i eficient  
 ✅ Suporta exclusió de fitxers (`--exclude`)  
-✅ Manté permisos i propietats dels fitxers  
+
 
 ### **Sintaxi bàsica**  
 ```bash
