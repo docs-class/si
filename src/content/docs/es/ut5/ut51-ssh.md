@@ -53,7 +53,7 @@ Se recomienda **rsync** en lugar de SCP, ya que permite transferencias más efic
 ✅ Mantiene permisos y propiedades de archivos  
 
 ### **Sintaxis básica**  
-```bash title="hi"
+```bash
 rsync [opciones] -e "ssh -p PUERTO" origen destino
 ```  
 
