@@ -74,6 +74,16 @@ El comando **umask** en Linux se utiliza para establecer los permisos predetermi
    - Umask: 022
    - Permisos finales: 644 (666 - 022)
 
+El cálculo se realiza bit a bit, eliminando los bits especificados por la `umask` de los permisos predeterminados. Por ejemplo, para un archivo:
+
+**Umask**:                     022 (000 010 010 en binario) --> **!Umask**:                    755 (111 101 101 en binario)
+```
+Permisos predeterminados:  666 (110 110 110 en binario)
+!Umask:                    755 (111 101 101 en binario)
+--------------------------------------------------------
+Permisos finales:          644 (110 100 100 en binario)
+```
+
 -  **Persistencia**: Para hacer que la umask sea persistente, puedes agregar el comando `umask valor` en archivos de configuración como `.bashrc` o `.profile`.
 
 #### Ejemplo de archivo `.bashrc`
@@ -82,7 +92,7 @@ El comando **umask** en Linux se utiliza para establecer los permisos predetermi
 # .bashrc
 
 # Configuración de la umask
-umask 027
+umask 026
 
 # Otras configuraciones y alias
 alias ll='ls -alF'

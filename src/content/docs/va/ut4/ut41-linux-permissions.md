@@ -71,6 +71,16 @@ El comandament **umask** en Linux s'utilitza per establir els permisos predeterm
    - Umask: 022
    - Permisos finals: 644 (666 - 022)
 
+El càlcul es realitza bit a bit, eliminant els bits especificats per la `umask` dels permisos predeterminats. Per exemple, per a un fitxer:
+
+**Umask**:                     022 (000 010 010 en binari) --> **!Umask**:                    755 (111 101 101 en binari)
+```
+Permisos predeterminats:  666 (110 110 110 en binari)
+!Umask:                   755 (111 101 101 en binari)
+--------------------------------------------------------
+Permisos finals:          644 (110 100 100 en binari)
+```
+
 -  **Persistència**: Per fer que la umask sigui persistent, pots afegir el comandament `umask valor` en fitxers de configuració com `.bashrc` o `.profile`.
 
 #### Exemple de fitxer `.bashrc`
