@@ -124,7 +124,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 
 
 
-## 7. **PUERTOS**  
+## 7. **Puertos**  
 :::tip[Ports]
 [Ports - PowerCert Animated Videos](https://www.youtube.com/watch?v=g2fT-g9PX9o)
 :::

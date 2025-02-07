@@ -123,7 +123,7 @@ h) S'han aplicat protocols segurs de comunicacions.
    - **Traducció d’adreces (NAT):**  
      - El NAT permet que dispositius amb adreces privades accedisquen a xarxes públiques, traduint adreces locals a adreces globals.  
 
-## 7. **PORTS**  
+## 7. **Ports**  
 
 :::tip[Ports]
 [Ports - PowerCert Animated Videos](https://www.youtube.com/watch?v=g2fT-g9PX9o)
