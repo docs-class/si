@@ -30,6 +30,7 @@ export default defineConfig({
             'en': { lang: 'en', label: 'English' },
             'va': { lang: 'va', label: 'Valencià' },
         },
+        expressiveCode: false,
         customCss: [
             // Relative path to your custom CSS file
             './src/styles/custom.css',
@@ -288,6 +289,20 @@ export default defineConfig({
             //     // Collapsa el grupo de forma predeterminada.
             //     items: [
             //             'ut5/ut51-introduction',
+            //             'ut5/ut51-ssh',
+            //     ],
+            // },
+            // {
+            //     label: "UT6 - GESTIÓ DE RECURSOS EN XARXA",
+            //     // badge: { text: '25-NOV', variant: 'success' },
+            //     translations: {
+            //         'es': 'UT6 - GESTIÓN DE RECURSOS EN RED',
+            //         'en': 'UT6 - NETWORK RESOURCES ADMINISTRATION',
+
+            //     },
+            //     // Collapsa el grupo de forma predeterminada.
+            //     items: [
+            //             'ut6/ut61-introduction',
             //     ],
             // },
         ],
