@@ -4,21 +4,13 @@ description: "Network"
 ---
 
 :::note[Conexión con el currículum]
-**5. Interconecta sistemas en red configurando dispositivos y protocolos.**	
+**6. Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad existentes.**	
 
-a)	Se ha configurado el protocolo TCP/IP.
-
-b)	Se han configurado redes de área local cableadas.
-
-c)	Se han configurado redes de área local inalámbricas.
-
-d)	Se han utilizado dispositivos de interconexión de redes.
-
-e)	Se ha configurado el acceso a redes de área extensa.
-
-f)	Se han gestionado puertos de comunicaciones.
-
-g)	Se ha verificado el funcionamiento de la red mediante el uso de comandos y herramientas básicas.
-
-h)	Se han aplicado protocolos seguros de comunicaciones.
+a) Se ha configurado el acceso a recursos locales y recursos de red.  
+b) Se han identificado y configurado los derechos de usuario y directivas de seguridad.  
+c) Se han explotado servidores de ficheros, servidores de impresión y servidores de aplicaciones.  
+d) Se ha accedido a los servidores utilizando técnicas de conexión remota.  
+e) Se ha evaluado la necesidad de proteger los recursos y el sistema.  
+f) Se han instalado y evaluado utilidades de seguridad básica.  
+g) Se han configurado y explotado dominios.  
 :::
