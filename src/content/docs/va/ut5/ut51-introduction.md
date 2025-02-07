@@ -7,19 +7,12 @@ description: "Xarxa"
 **5. Interconnecta sistemes en xarxa configurant dispositius i protocols.**    
 
 a) S'ha configurat el protocol TCP/IP.  
-
 b) S'han configurat xarxes d'àrea local cablejades.  
-
 c) S'han configurat xarxes d'àrea local sense fil.  
-
 d) S'han utilitzat dispositius d'interconnexió de xarxes.  
-
 e) S'ha configurat l'accés a xarxes d'àrea extensa.  
-
 f) S'han gestionat ports de comunicacions.  
-
 g) S'ha verificat el funcionament de la xarxa mitjançant l'ús d'ordres i eines bàsiques.  
-
 h) S'han aplicat protocols segurs de comunicacions.  
 :::  
 

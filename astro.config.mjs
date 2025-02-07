@@ -246,6 +246,7 @@ export default defineConfig({
 
                         ],
                     },
+                    //Scripts
                 // {
                 //     label: '4.2 Scripting',
                 //     translations: {
@@ -278,6 +279,7 @@ export default defineConfig({
                 // },
                 ],
             },
+            //UT5
             // {
             //     label: "UT5 - SISTEMES INFORMÀTICS EN XARXA. CONFIGURACIÓ I EXPLOTACIÓ",
             //     // badge: { text: '25-NOV', variant: 'success' },
@@ -292,6 +294,7 @@ export default defineConfig({
             //             'ut5/ut51-ssh',
             //     ],
             // },
+            //UT6
             // {
             //     label: "UT6 - GESTIÓ DE RECURSOS EN XARXA",
             //     // badge: { text: '25-NOV', variant: 'success' },
@@ -303,6 +306,20 @@ export default defineConfig({
             //     // Collapsa el grupo de forma predeterminada.
             //     items: [
             //             'ut6/ut61-introduction',
+            //     ],
+            // },
+            //UT7
+            // {
+            //     label: "UT7 - APLICACIONS INFORMÀTIQUES",
+            //     // badge: { text: '25-NOV', variant: 'success' },
+            //     translations: {
+            //         'es': 'UT7 - APLICACIONES INFORMÁTICAS',
+            //         'en': 'UT7 - IT APPS',
+
+            //     },
+            //     // Collapsa el grupo de forma predeterminada.
+            //     items: [
+            //             'ut7/ut71-introduction',
             //     ],
             // },
         ],
