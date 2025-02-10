@@ -16,7 +16,7 @@ sysadmin@localhost:/Documents$ ls -l hello.sh
 
 ### Grupo
   ```bash frame="none"
-  chgrp grupo o GID fich1 [fich2 fich3 …..]
+  chgrp (grupo o GID) fich1 [fich2 fich3 …..]
   ```
 - No se modificarán los permisos para los ficheros ni su ubicación.
 - El parámetro `-R` cambia la propiedad de forma recursiva.
