@@ -6,7 +6,7 @@ description: "Grups i propietari"
 ## Canvi del propietari/grup de fitxers i directoris
 ### Propietari
 ```bash frame="none"
-chown [OPTIONS] [OWNER] fitxer
+chown [OPTIONS] [OWNER] fitxer / dir
 ```
 Canviar el propietari d'un fitxer a `root`:
 ```bash frame="none" ins="root"

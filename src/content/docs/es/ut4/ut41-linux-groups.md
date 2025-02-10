@@ -5,7 +5,7 @@ description: "Grupos y propietario"
 ## Cambio de la propietario/grupo de archivos y directorios
 ### Propietario
 ```bash frame="none"
-chown [OPTIONS] [OWNER] archivo
+chown [OPTIONS] [OWNER] archivo / dir
 ```
 Cambiar el propietario de un archivo a `root`:
 ```bash frame="none" ins="root"
