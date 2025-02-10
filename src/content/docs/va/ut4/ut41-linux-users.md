@@ -22,19 +22,19 @@ description: "Usuarios"
 \* **`usermod`**:
   - **Canviar el directori assignat a l'usuari i moure la seva informació**:
     ```sh frame="none"
-    sudo usermod -d /home/pepe -m nomusuari
+    sudo usermod -d /home/pepe -m nom_usuari
     ```
   - **Canviar el grup inicial de l'usuari**:
     ```sh frame="none"
-    sudo usermod -g pro nomusuari
+    sudo usermod -g pro nom_usuari
     ```
   - **Canviar el nom d'usuari**:
     ```sh frame="none"
-    sudo usermod -l nomnou nomantic
+    sudo usermod -l nom_nou nom_antic
     ```
     Hem de tenir cura perquè, encara que hagi canviat el nom, el directori vinculat seria el mateix que tenia anteriorment.
 
   - **Afegir l'usuari a un grup existent en el sistema**:
     ```sh frame="none"
-    sudo usermod -a -G nougrup nomusuari
+    sudo usermod -a -G nom_del_grup nom_usuari
     ```
