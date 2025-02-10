@@ -17,7 +17,7 @@
     "@astrojs/starlight-markdoc": "^0.2.0",
     "@beoe/rehype-mermaid": "^0.3.0",
     "@iconify-json/mdi": "^1.2.3",
-    "@iconify/json": "^2.2.303",
+    "@iconify/json": "^2.2.305",
     "astro": "^5.2.5",
     "mermaid": "^11.4.1",
     "playwright": "^1.50.1",
