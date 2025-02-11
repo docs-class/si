@@ -3,8 +3,7 @@ import { defineConfig } from 'astro/config';
 import markdoc from '@astrojs/markdoc';
 import starlight from '@astrojs/starlight';
 import starlightViewModes from 'starlight-view-modes';
-import rehypeMermaid from 'rehype-mermaid';
-import rehypeRaw from 'rehype-raw';
+import remarkMermaid from 'remark-mermaidjs'
 
 
 // https://astro.build/config
@@ -12,12 +11,9 @@ export default defineConfig({
     site: 'https://docs-class.github.io/',
     base: '/si',
     markdown: {
-        // Para mermaid
-        rehypePlugins: [
-			rehypeRaw,
-			rehypeMermaid,
-		],
-    },
+        // Applied to .md and .mdx files
+        remarkPlugins: [remarkMermaid],
+      },
     integrations: [markdoc(),
     starlight({
         title: {
