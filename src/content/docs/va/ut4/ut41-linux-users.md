@@ -22,7 +22,7 @@ description: "Usuarios"
 \* **`usermod`**:
   - **Canviar el directori assignat a l'usuari i moure la seva informació**:
     ```sh frame="none"
-    sudo usermod -d /home/pepe -m nom_usuari
+    sudo usermod -d /home/nou_directori -m nom_usuari
     ```
   - **Canviar el grup inicial de l'usuari**:
     ```sh frame="none"
