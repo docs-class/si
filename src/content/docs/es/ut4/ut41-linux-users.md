@@ -22,7 +22,7 @@ description: "Usuarios"
 \* **`usermod`**:
   - **Cambiar el directorio asignado al usuario y mover su información**:
     ```sh frame="none"
-    sudo usermod -d /home/directoriio_nuevo -m nombre_usuario
+    sudo usermod -d /home/directorio_nuevo -m nombre_usuario
     ```
   - **Cambiar el grupo inicial del usuario**:
     ```sh frame="none"
