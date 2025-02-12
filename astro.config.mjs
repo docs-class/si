@@ -276,48 +276,48 @@ export default defineConfig({
                 ],
             },
             //UT5
-            {
-                label: "UT5 - SISTEMES INFORMÀTICS EN XARXA. CONFIGURACIÓ I EXPLOTACIÓ",
-                // badge: { text: '25-NOV', variant: 'success' },
-                translations: {
-                    'es': 'UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN',
-                    'en': 'UT5 - COMPUTER SYSTEMS IN NETWORKS. CONFIGURATION AND OPERATION',
+            // {
+            //     label: "UT5 - SISTEMES INFORMÀTICS EN XARXA. CONFIGURACIÓ I EXPLOTACIÓ",
+            //     // badge: { text: '25-NOV', variant: 'success' },
+            //     translations: {
+            //         'es': 'UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN',
+            //         'en': 'UT5 - COMPUTER SYSTEMS IN NETWORKS. CONFIGURATION AND OPERATION',
 
-                },
-                // Collapsa el grupo de forma predeterminada.
-                items: [
-                        'ut5/ut51-introduction',
-                        'ut5/ut51-ssh',
-                ],
-            },
+            //     },
+            //     // Collapsa el grupo de forma predeterminada.
+            //     items: [
+            //             'ut5/ut51-introduction',
+            //             'ut5/ut51-ssh',
+            //     ],
+            // },
             //UT6
-            {
-                label: "UT6 - GESTIÓ DE RECURSOS EN XARXA",
-                // badge: { text: '25-NOV', variant: 'success' },
-                translations: {
-                    'es': 'UT6 - GESTIÓN DE RECURSOS EN RED',
-                    'en': 'UT6 - NETWORK RESOURCES ADMINISTRATION',
+            // {
+            //     label: "UT6 - GESTIÓ DE RECURSOS EN XARXA",
+            //     // badge: { text: '25-NOV', variant: 'success' },
+            //     translations: {
+            //         'es': 'UT6 - GESTIÓN DE RECURSOS EN RED',
+            //         'en': 'UT6 - NETWORK RESOURCES ADMINISTRATION',
 
-                },
-                // Collapsa el grupo de forma predeterminada.
-                items: [
-                        'ut6/ut61-introduction',
-                ],
-            },
+            //     },
+            //     // Collapsa el grupo de forma predeterminada.
+            //     items: [
+            //             'ut6/ut61-introduction',
+            //     ],
+            // },
             //UT7
-            {
-                label: "UT7 - APLICACIONS INFORMÀTIQUES",
-                // badge: { text: '25-NOV', variant: 'success' },
-                translations: {
-                    'es': 'UT7 - APLICACIONES INFORMÁTICAS',
-                    'en': 'UT7 - IT APPS',
+            // {
+            //     label: "UT7 - APLICACIONS INFORMÀTIQUES",
+            //     // badge: { text: '25-NOV', variant: 'success' },
+            //     translations: {
+            //         'es': 'UT7 - APLICACIONES INFORMÁTICAS',
+            //         'en': 'UT7 - IT APPS',
 
-                },
-                // Collapsa el grupo de forma predeterminada.
-                items: [
-                        'ut7/ut71-introduction',
-                ],
-            },
+            //     },
+            //     // Collapsa el grupo de forma predeterminada.
+            //     items: [
+            //             'ut7/ut71-introduction',
+            //     ],
+            // },
         ],
     }),],
 });
