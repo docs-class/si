@@ -1,6 +1,6 @@
 ---
-title: "Introducción a las redes"
-description: "Network"
+title: "Serveis de xarxa"
+description: "Network Services"
 ---
 
 :::note[Connexió amb el currículum]  
@@ -14,3 +14,12 @@ e) S'ha avaluat la necessitat de protegir els recursos i el sistema.
 f) S'han instal·lat i avaluat utilitats de seguretat bàsica.  
 g) S'han configurat i explotat dominis.  
 :::  
+
+
+## 1. **Adreçament dinàmic amb DHCP (Dynamic Host Configuration Protocol)**  
+   - **Assignació dinàmica:**  
+     - DHCP assigna automàticament configuracions IPv4 a dispositius finals, eliminant la necessitat de configuracions manuals.  
+     - Les configuracions assignades tenen un temps de "préstec" limitat i es tornen al pool DHCP quan el dispositiu es desconnecta.  
+   - **Assignació estàtica:**  
+     - Útil per a dispositius com servidors o impressores, la direcció dels quals no ha de canviar.  
+     - Requereix una entrada manual de paràmetres com adreça IP, màscara de subxarxa i passarel·la predeterminada.  
