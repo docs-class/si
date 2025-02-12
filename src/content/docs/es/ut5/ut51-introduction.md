@@ -94,8 +94,16 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 - **IP Comerciales**
   - **Clase D i E**: Son usadas para usos comerciales y experimentales
 
+## 5. **Dirección dinámica con DHCP (Dynamic Host Configuration Protocol)**  
+   - **Asignación dinámica:**  
+     - DHCP asigna automáticamente configuraciones IPv4 a dispositivos finales, eliminando la necesidad de configuraciones manuales.  
+     - Las configuraciones asignadas tienen un tiempo de "préstamo" limitado y son devueltas al pool DHCP cuando el dispositivo se desconecta.  
+   - **Asignación estática:**  
+     - Útil para dispositivos como servidores o impresoras, cuya dirección no debe cambiar.  
+     - Requiere una entrada manual de parámetros como dirección IP, máscara de subred y puerta de enlace predeterminada.  
 
-## 5. **Puertas de enlace a otras redes**  
+
+## 6. **Puertas de enlace a otras redes**  
 
 :::tip[Default gateway]
 [Default gateway - PowerCert Animated Videos](https://www.youtube.com/watch?v=pCcJFdYNamc)
@@ -110,7 +118,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 
 
 
-## 6. **Puertos**  
+## 7. **Puertos**  
 :::tip[Ports]
 [Ports - PowerCert Animated Videos](https://www.youtube.com/watch?v=g2fT-g9PX9o)
 :::
@@ -124,7 +132,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
         - TCP es orientado a conexión y garantiza la entrega de datos.  
         - UDP es más rápido pero no garantiza la entrega.  
 
-## 7. **Comandos de diagnóstico de red**  
+## 8. **Comandos de diagnóstico de red**  
 
 | **Utilidad de prueba de red** | **Windows** | **Linux** |
 |-------------------------------|-------------|-----------|
