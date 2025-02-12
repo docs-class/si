@@ -35,11 +35,7 @@ description: "Account & password policies"
 
 :::note[Windows]
 1. **Abre el Editor de Directivas de Grupo Local**:  
-<<<<<<< HEAD
    - Presiona `Win + R`, escribe `secpol.msc` y pulsa **Enter**.  
-=======
-   - Presiona `Win + R`, escribe `gpedit.msc`/`secpol.msc` y pulsa **Enter**.  
->>>>>>> fb3f6903653efa8da28aa6e9d75d7804b8869852
 
 2. **Navega a las Directivas de Contraseña**:  
    `Configuración del equipo > Configuración de Windows > Configuración de seguridad > Directivas de cuenta > Directivas de contraseña`  
