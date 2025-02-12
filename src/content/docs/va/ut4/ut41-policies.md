@@ -35,7 +35,7 @@ description: "Polítiques de comptes i contrasenyes"
 
 :::note[Windows]
 1. **Obre l'Editor de Directives de Grup Local**:  
-   - Prem `Win + R`, escriu `gpedit.msc` i pressiona **Enter**.  
+   - Prem `Win + R`, escriu `secpol.msc` i pressiona **Enter**.  
 
 2. **Navega a les Directives de Contrasenya**:  
    `Configuració de l'equip > Configuració de Windows > Configuració de seguretat > Directives de compte > Directives de contrasenya`  
