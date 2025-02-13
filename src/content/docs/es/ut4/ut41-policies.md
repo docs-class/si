@@ -12,7 +12,7 @@ description: "Account & password policies"
   /var/log/auth.log (Debian/Ubuntu) o /var/log/secure (Red Hat)
   ```
 
-## Seguridad de contraseñas  
+## 1. Seguridad de contraseñas Linux
   - Implementar contraseñas fuertes (longitud mínima, combinación de letras, números y caracteres especiales).
   ```bash
     # /etc/security/pwquality.conf
@@ -33,15 +33,17 @@ description: "Account & password policies"
   ```
   - Almacenar contraseñas de forma segura utilizando técnicas de hash y cifrado.  
 
-:::note[Windows]
+## 2. Seguridad de contraseñas Windows
 1. **Abre el Editor de Directivas de Grupo Local**:  
    - Presiona `Win + R`, escribe `gpedit.msc` y pulsa **Enter**.  
 
 2. **Navega a las Directivas de Contraseña**:  
    `Configuración del equipo > Configuración de Windows > Configuración de seguridad > Directivas de cuenta > Directivas de contraseña`  
 
+![gpedit](../../../../assets/ut4/gpedit.jpg)
+
+
 **secpol vs gpedit**
 
 - **GPO Locales** → Configuran aspectos generales del sistema. (Control de red, software, acceso de usuarios)
 - **Directivas de Seguridad Local** → Subconjunto de **GPO Locales** que Controlan la seguridad y permisos dentro del sistema.  
-:::

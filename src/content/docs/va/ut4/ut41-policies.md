@@ -12,7 +12,7 @@ description: "Polítiques de comptes i contrasenyes"
   /var/log/auth.log (Debian/Ubuntu) o /var/log/secure (Red Hat)
   ```
 
-## Seguretat de contrasenyes  
+## 1. Seguretat de contrasenyes a Linux
   - Implementar contrasenyes fortes (longitud mínima, combinació de lletres, números i caràcters especials).
   ```bash
     # /etc/security/pwquality.conf
@@ -33,18 +33,18 @@ description: "Polítiques de comptes i contrasenyes"
   ```
   - Emmagatzemar contrasenyes de forma segura utilitzant tècniques de hash i xifrat.  
 
-:::note[Windows]
+## 2. Seguretat de contrasenyes a Windows
 1. **Obre l'Editor de Directives de Grup Local**:  
    - Prem `Win + R`, escriu `gpedit.msc` i pressiona **Enter**.  
 
 2. **Navega a les Directives de Contrasenya**:  
    `Configuració de l'equip > Configuració de Windows > Configuració de seguretat > Directives de compte > Directives de contrasenya`  
+![gpedit](../../../../assets/ut4/gpedit.jpg)
 
 **secpol vs gpedit**
 
 - **GPO Locals** → Configuren aspectes generals del sistema. (Control de xarxa, programari, accés d'usuaris)  
 - **Directives de Seguretat Local** → Subconjunt de les **GPO Locals** que controlen la seguretat i els permisos dins del sistema. 
-:::
 
 
 
