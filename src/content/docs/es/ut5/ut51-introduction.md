@@ -139,6 +139,4 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 | Muestra la configuración de red | `ipconfig` | `ifconfig` o `ip addr` |
 | Verifica la conectividad con otros hosts | `ping` | `ping` |
 | Muestra conexiones activas | `netstat` | `netstat` o `ss` |
-| Muestra la ruta hacia un destino | `tracert` | `traceroute` |
-| Consulta información sobre dominios | `nslookup` | `nslookup` o `dig` |
 
