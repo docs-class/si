@@ -39,4 +39,9 @@ description: "Account & password policies"
 
 2. **Navega a las Directivas de Contraseña**:  
    `Configuración del equipo > Configuración de Windows > Configuración de seguridad > Directivas de cuenta > Directivas de contraseña`  
+
+**secpol vs gpedit**
+
+- **GPO Locales** → Configuran aspectos generales del sistema. (Control de red, software, acceso de usuarios)
+- **Directivas de Seguridad Local** → Subconjunto de **GPO Locales** que Controlan la seguridad y permisos dentro del sistema.  
 :::
