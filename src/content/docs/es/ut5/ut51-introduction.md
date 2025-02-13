@@ -34,7 +34,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
        - **Medios de red:** Cables de cobre, fibra óptica, medios inalámbricos, etc.  
      - Los componentes se representan en diagramas de topología mediante íconos específicos.  
 
-## 2. Principios de comunicación 
+## 2. TCP/IP
 
 :::caution[Protocolos]
    - Antes de iniciar una comunicación, se establecen reglas o acuerdos, que incluyen:  
@@ -44,16 +44,11 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
      - Estas reglas, conocidas como **protocolos**, deben seguirse para que los mensajes se entreguen y comprendan correctamente.  
 :::
    
-### Características de los protocolos de red  
- - **Formato del mensaje:** Estructura específica según el tipo de mensaje.  
- - **Tamaño del mensaje:** Dividir mensajes largos en piezas pequeñas para garantizar una transmisión fiable.  
- - **Tiempo:** Velocidad y momento de envío de los datos.  
- - **Codificación:** Conversión de datos a bits, utilizando patrones de luz, sonido o impulsos eléctricos según el medio.  
- - **Encapsulación:** Añadir encabezados con información de dirección para la entrega del mensaje.  
- 
-![TCP/IP Model - De GISEPROI - Trabajo propio, CC BY-SA 4.0,](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Suite_de_Protocolos_TCPIP.png/531px-Suite_de_Protocolos_TCPIP.png)
+### El Protocolo de Control de Transmisión (TCP)  
 
-## 3. **El Protocolo de Internet (IP)**  
+El **Protocolo de Control de Transmisión (TCP)** es un protocolo de transporte que garantiza una comunicación fiable entre dispositivos en redes IP. Proporciona una conexión orientada a flujo, asegurando que los datos se envíen y reciban de manera íntegra y ordenada.
+
+### El Protocolo de Internet (IP)  
    - **Dirección IPv4:**  
      - Cada host necesita una dirección IPv4 para participar en internet o redes locales.  
      - La dirección IPv4 identifica lógicamente un host y debe ser única dentro de una LAN y en todo el mundo para comunicaciones remotas.  
@@ -63,7 +58,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
      - Las direcciones IPv4 tienen 32 bits divididos en cuatro octetos.  
      - Se representan comúnmente en notación decimal, como **192.168.0.1**, en lugar de binaria para facilitar la lectura.  
 
-## 4. **IPv4 y Segmentación de Redes**
+## 3. **IPv4 y Segmentación de Redes**
 
 :::tip[Subneting]
 [Subnet Mask - PowerCert Animated Videos](https://www.youtube.com/watch?v=s_Ntt6eTn94)
@@ -94,7 +89,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 - **IP Comerciales**
   - **Clase D i E**: Son usadas para usos comerciales y experimentales
 
-## 5. **Puertas de enlace a otras redes**  
+## 4. **Puertas de enlace a otras redes**  
 
 :::tip[Default gateway]
 [Default gateway - PowerCert Animated Videos](https://www.youtube.com/watch?v=pCcJFdYNamc)
@@ -107,7 +102,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
    - **Traducción de direcciones (NAT):**  
      - El NAT permite que dispositivos con direcciones privadas accedan a redes públicas, traduciendo direcciones locales a direcciones globales.  
 
-## 6. **Puertos**  
+## 5. **Puertos**  
 :::tip[Ports]
 [Ports - PowerCert Animated Videos](https://www.youtube.com/watch?v=g2fT-g9PX9o)
 :::
@@ -121,7 +116,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
         - TCP es orientado a conexión y garantiza la entrega de datos.  
         - UDP es más rápido pero no garantiza la entrega.  
 
-## 7. **Comandos de diagnóstico de red**  
+## 6. **Comandos de diagnóstico de red**  
 
 | **Utilidad de prueba de red** | **Windows** | **Linux** |
 |-------------------------------|-------------|-----------|

@@ -19,12 +19,13 @@ h) S'han aplicat protocols segurs de comunicacions.
 ## 1. Components, tipus i connexions de xarxa  
    - **Rols de client i servidor**  
      - Tots els equips connectats a una xarxa que participen directament en la comunicació es classifiquen com a **hosts**.  
-     - En xarxes modernes, els hosts poden exercir el rol de **client, servidor o ambdós**.  
+     - En xarxes modernes, els hosts poden exercir el rol de **client, servidor o els dos**.  
      - El programari instal·lat en un equip determina el rol que exerceix.  
        - Exemples: _Servidor de correu electrònic, web o d’arxius._  
+
 :::tip[Servidor]  
 [Servidor - PowerCert Animated Videos](https://www.youtube.com/watch?v=UjCDWCeHCzY) - Activitat d'omplir  
-:::  
+:::   
 
 ![LAN](https://cdn.prod.website-files.com/620d42e86cb8ec4d0839e59d/6230ee03762e4e5318c33297_61ca0988bf85585f5ccc26b5_Local-Area-Network-Diagram.jpeg)  
    - **Infraestructura de xarxa:**  
@@ -34,9 +35,9 @@ h) S'han aplicat protocols segurs de comunicacions.
        - **Mitjans de xarxa:** Cables de coure, fibra òptica, mitjans sense fil, etc.  
      - Els components es representen en diagrames de topologia mitjançant icones específiques.  
 
-## 2. Principis de comunicació  
+## 2. TCP/IP
 
-:::caution[Protocols]  
+:::caution[Principis de comunicació]  
    - Abans d'iniciar una comunicació, s'estableixen regles o acords, que inclouen:  
      - Mètode de comunicació: (cara a cara, telèfon, carta, etc.).  
      - Llenguatge comú i gramàtica.  
@@ -44,16 +45,12 @@ h) S'han aplicat protocols segurs de comunicacions.
      - Aquestes regles, conegudes com a **protocols**, han de seguir-se perquè els missatges es lliuren i s’entenguen correctament.  
 :::  
 
-### Característiques dels protocols de xarxa  
- - **Format del missatge:** Estructura específica segons el tipus de missatge.  
- - **Mida del missatge:** Dividir missatges llargs en peces xicotetes per garantir una transmissió fiable.  
- - **Temps:** Velocitat i moment d'enviament de les dades.  
- - **Codificació:** Conversió de dades a bits, utilitzant patrons de llum, so o impulsos elèctrics segons el mitjà.  
- - **Encapsulació:** Afegir capçaleres amb informació d'adreça per al lliurament del missatge.  
+### El Protocol de Control de Transmissió (TCP)  
 
-![TCP/IP Model - De GISEPROI - Treball propi, CC BY-SA 4.0,](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Suite_de_Protocolos_TCPIP.png/531px-Suite_de_Protocolos_TCPIP.png)  
+El **Protocol de Control de Transmissió (TCP)** és un protocol de transport que garanteix una comunicació fiable entre dispositius en xarxes IP. Proporciona una connexió orientada a flux, garantint que les dades s’envien i es reben de manera íntegra i ordenada.  
 
-## 3. **El Protocol d’Internet (IP)**  
+
+### El Protocol d’Internet (IP)  
    - **Adreça IPv4:**  
      - Cada host necessita una adreça IPv4 per participar en internet o xarxes locals.  
      - L’adreça IPv4 identifica lògicament un host i ha de ser única dins d'una LAN i a tot el món per a comunicacions remotes.  
@@ -63,7 +60,7 @@ h) S'han aplicat protocols segurs de comunicacions.
      - Les adreces IPv4 tenen 32 bits dividits en quatre octets.  
      - Es representen comunament en notació decimal, com **192.168.0.1**, en lloc de binària per facilitar la lectura.  
 
-## 4. **IPv4 i Segmentació de Xarxes**  
+## 3. **IPv4 i Segmentació de Xarxes**  
 
 :::tip[Subneting]
 [Subnet Mask - PowerCert Animated Videos](https://www.youtube.com/watch?v=s_Ntt6eTn94)
@@ -95,7 +92,7 @@ h) S'han aplicat protocols segurs de comunicacions.
 - **IP Comercials**
   - **Classe D i E**: Són usades per a usos comercials i experimentals 
 
-## 5. **Passarel·les a altres xarxes**  
+## 4. **Passarel·les a altres xarxes**  
 
 :::tip[Default gateway]
 [Default gateway - PowerCert Animated Videos](https://www.youtube.com/watch?v=pCcJFdYNamc)
@@ -108,7 +105,7 @@ h) S'han aplicat protocols segurs de comunicacions.
    - **Traducció d’adreces (NAT):**  
      - El NAT permet que dispositius amb adreces privades accedisquen a xarxes públiques, traduint adreces locals a adreces globals.  
 
-## 6. **Ports**  
+## 5. **Ports**  
 
 :::tip[Ports]
 [Ports - PowerCert Animated Videos](https://www.youtube.com/watch?v=g2fT-g9PX9o)
@@ -123,7 +120,7 @@ h) S'han aplicat protocols segurs de comunicacions.
         - TCP és orientat a connexió i garanteix el lliurament de dades.  
         - UDP és més ràpid però no garanteix el lliurament.  
 
-## 7. **Ordres de diagnòstic de xarxa**  
+## 6. **Ordres de diagnòstic de xarxa**  
 | **Utilitat de prova de xarxa** | **Windows** | **Linux** |
 |-------------------------------|-------------|-----------|
 | Mostra la configuració de xarxa | `ipconfig` | `ifconfig` o `ip addr` |
