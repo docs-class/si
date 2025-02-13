@@ -95,15 +95,7 @@ h) S'han aplicat protocols segurs de comunicacions.
 - **IP Comercials**
   - **Classe D i E**: Són usades per a usos comercials i experimentals 
 
-## 5. **Adreçament dinàmic amb DHCP (Dynamic Host Configuration Protocol)**  
-   - **Assignació dinàmica:**  
-     - DHCP assigna automàticament configuracions IPv4 a dispositius finals, eliminant la necessitat de configuracions manuals.  
-     - Les configuracions assignades tenen un temps de "préstec" limitat i es tornen al pool DHCP quan el dispositiu es desconnecta.  
-   - **Assignació estàtica:**  
-     - Útil per a dispositius com servidors o impressores, la direcció dels quals no ha de canviar.  
-     - Requereix una entrada manual de paràmetres com adreça IP, màscara de subxarxa i passarel·la predeterminada.  
-     - 
-## 6. **Passarel·les a altres xarxes**  
+## 5. **Passarel·les a altres xarxes**  
 
 :::tip[Default gateway]
 [Default gateway - PowerCert Animated Videos](https://www.youtube.com/watch?v=pCcJFdYNamc)
@@ -116,7 +108,7 @@ h) S'han aplicat protocols segurs de comunicacions.
    - **Traducció d’adreces (NAT):**  
      - El NAT permet que dispositius amb adreces privades accedisquen a xarxes públiques, traduint adreces locals a adreces globals.  
 
-## 7. **Ports**  
+## 6. **Ports**  
 
 :::tip[Ports]
 [Ports - PowerCert Animated Videos](https://www.youtube.com/watch?v=g2fT-g9PX9o)
@@ -131,7 +123,7 @@ h) S'han aplicat protocols segurs de comunicacions.
         - TCP és orientat a connexió i garanteix el lliurament de dades.  
         - UDP és més ràpid però no garanteix el lliurament.  
 
-## 8. **Ordres de diagnòstic de xarxa**  
+## 7. **Ordres de diagnòstic de xarxa**  
 | **Utilitat de prova de xarxa** | **Windows** | **Linux** |
 |-------------------------------|-------------|-----------|
 | Mostra la configuració de xarxa | `ipconfig` | `ifconfig` o `ip addr` |
