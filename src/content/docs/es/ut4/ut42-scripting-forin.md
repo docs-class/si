@@ -43,6 +43,7 @@ Podemos cambiar el separador por defecto (espacio)
 
 ```bash
 #!/bin/bash
+ #Script: Toma el primer archivo listado en el directorio actual y muestra su nombre original y su nombre modificado con guiones bajos en lugar de espacios. 
 IFS=$'\n'
 for variable in `ls -l | tr -s ' ' | head -n2 | tail –n1 | cut -d ' ' `
 do
@@ -51,12 +52,6 @@ do
   NuevoFichero=`echo $FicheroOriginal | tr ' ' '_'` echo $NuevoFichero
 done
 ```
-:::note[Aclaracions]
-- Además de cambiar el separador por defecto, podemos eliminar los espacios de los nombres de los fichero.
-- En este caso lo hacemos solo para la línea 2, si queremos que recorra todo el ls –l, quitamos la parte de head –n2 en adelante.
-- Vemos que el comando se puede convertir en la lista que recorre la variable.
-- **-f 9-** esta opción del cut significa que te quedes desde el campo 9 del fichero hasta el final.
-:::
 
 ### Ejemplo 3 - argumentos
 
