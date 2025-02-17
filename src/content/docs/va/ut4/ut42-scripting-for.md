@@ -21,7 +21,7 @@ done
 IFS=$'\n'
 #càlcul de nº de línies
 lineas=`wc -l nombres | cut -d ' ' -f 1`
-for ((x=1;x<=$lineas;x++))
+for (( x=1;x<=$lineas;x++ ))
 do
   echo $x
   linea=`head -n$x nombres | tail -n 1` 
