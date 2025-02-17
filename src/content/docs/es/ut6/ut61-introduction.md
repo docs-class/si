@@ -33,6 +33,7 @@ g) Se han configurado y explotado dominios.
 - No existe una administración centralizada. Si cada uno comparte lo que quiere cuando quiere sin que haya un control, la localización del recurso puede ser un grave problema.
 - Microsoft introdujo en sus sistemas operativos la posibilidad de crear grupos de trabajo, que dividían la red en subconjuntos.
 
+![workgroup in Windows](../../../../assets/ut6/01_workgroup.png)
 #### Desventajas:
 - Muy fácil de configurar y difíciles de gestionar. No existe un control de quien tiene acceso y quien no a los recursos.
 - Poca funcionalidad.
