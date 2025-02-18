@@ -3,7 +3,7 @@ title: "Ficheros"
 description: "Scripting - Files"
 ---
 
-# Ficheros
+# Operadores
 
 | **Operador** | **Descripción**                                      |
 |--------------|------------------------------------------------------|

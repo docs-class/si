@@ -3,7 +3,7 @@ title: "Fitxers"
 description: "Scripting - Fitxers"
 ---
 
-# Fitxers
+# Operadors
 
 | **Operador** | **Descripció**                                      |
 |--------------|------------------------------------------------------|
@@ -46,4 +46,3 @@ done
 ```
 
 En aquest cas, l'ordre `cat input_file` imprimeix el contingut del fitxer `"input_file"` en l'eixida estàndard. El bucle `for` itera sobre cada línia del fitxer, assignant cada una a la variable `line`. Després, es mostra la línia amb `echo "$line"`.  
-```
