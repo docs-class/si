@@ -1,32 +1,31 @@
 ---
-title: "Ficheros"
-description: "Scripting - Files"
+title: "Fitxers"
+description: "Scripting - Fitxers"
 ---
 
-# Ficheros
+# Fitxers
 
-| **Operador** | **Descripción**                                      |
+| **Operador** | **Descripció**                                      |
 |--------------|------------------------------------------------------|
-| -e           | Verdadero si el fichero/directorio existe            |
-| -d           | Verdadero si el path dado es un directorio           |
-| -f           | Verdadero si el path dado es un archivo              |
-| -r           | Verdadero si el fichero tiene permiso de lectura     |
-| -w           | Verdadero si el fichero tiene permiso de escritura   |
-| -x           | Verdadero si el fichero tiene permiso de ejecución   |
-| -s           | Verdadero si el fichero tiene un tamaño mayor de 0 (no está vacío) |
-| -O           | Verdadero si eres el propietario                     |
-| -G           | Verdadero si perteneces al grupo propietario         |
+| -e           | Vertader si el fitxer/directori existeix            |
+| -d           | Vertader si el camí donat és un directori           |
+| -f           | Vertader si el camí donat és un fitxer              |
+| -r           | Vertader si el fitxer té permís de lectura          |
+| -w           | Vertader si el fitxer té permís d'escriptura        |
+| -x           | Vertader si el fitxer té permís d'execució          |
+| -s           | Vertader si el fitxer té una mida major de 0 (no està buit) |
+| -O           | Vertader si eres el propietari                      |
+| -G           | Vertader si pertanys al grup propietari             |
 
 ```js
-fichero=”copia.txt”
-if [[ -e $fichero ]]
+fitxer=”copia.txt”
+if [[ -e $fitxer ]]
 then
-  Echo “$fichero existe, pero no sé si es un fichero o un directorio” 
+  Echo “$fitxer existeix, però no sé si és un fitxer o un directori” 
 fi
 ```
 
-
-## Lectura de un fichero con while
+## Lectura d'un fitxer amb while
 ```
 while IFS= read -r line
 do
@@ -34,12 +33,11 @@ do
 done < input_file
 ```
 
-Para leer un archivo línea por línea, usamos el comando `read` con el nombre del archivo como argumento, en este caso, `"input_file"`.  El comando `read` asigna cada línea leída a la variable `línea`. El bucle `while` continúa hasta que se hayan procesado todas las líneas del archivo. 
+Per a llegir un fitxer línia per línia, usem l'ordre `read` amb el nom del fitxer com a argument, en aquest cas, `"input_file"`. L'ordre `read` assigna cada línia llegida a la variable `line`. El bucle `while` continua fins que s'hagen processat totes les línies del fitxer.  
 
-Para mantener los espacios en blanco iniciales y finales de cada línea, establecemos el separador de campo interno (IFS) como una cadena nula. Este comportamiento es el predeterminado del comando `read`. 
+Per a mantenir els espais en blanc inicials i finals de cada línia, establim el separador de camp intern (IFS) com una cadena nul·la. Aquest comportament és el predeterminat de l'ordre `read`.  
 
-
-## Lectura de un fichero con For
+## Lectura d'un fitxer amb For
 
 ```bash
 for line in $(cat input_file); do
@@ -47,4 +45,5 @@ for line in $(cat input_file); do
 done
 ```
 
-En este caso, el comando `cat input_file`  imprime el contenido del archivo "input_file" en la salida estándar. El bucle `for` itera sobre cada línea del archivo, asignando cada una a la variable `line`.  Luego, se imprime la línea con `echo "$line"`. 
+En aquest cas, l'ordre `cat input_file` imprimeix el contingut del fitxer `"input_file"` en l'eixida estàndard. El bucle `for` itera sobre cada línia del fitxer, assignant cada una a la variable `line`. Després, es mostra la línia amb `echo "$line"`.  
+```

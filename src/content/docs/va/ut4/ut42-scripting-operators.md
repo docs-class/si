@@ -37,26 +37,6 @@ Comparació numèrica **(entre números)**
 | -lt          | Menor que                 |
 | -le          | Menor o igual que         |
 
-# Fitxers
-
-| **Operador** | **Descripció**                                      |
-|--------------|------------------------------------------------------|
-| -e           | Vertader si el fitxer/directori existeix            |
-| -d           | Vertader si el path donat és un directori           |
-| -f           | Vertader si el path donat és un fitxer              |
-| -r           | Vertader si el fitxer té permís de lectura     |
-| -w           | Vertader si el fitxer té permís d'escriptura   |
-| -x           | Vertader si el fitxer té permís d'execució   |
-| -s           | Vertader si el fitxer té una mida major de 0 (no està buit) |
-| -O           | Vertader si eres el propietari                     |
-| -G           | Vertader si pertanys al grup propietari         |
-
-```js
-fitxer=”copia.txt”
-if [[ -e $fitxer ]]
-then
-  Echo “$fitxer existeix, però no sé si és un fitxer o un directori” 
-fi
 ```
 
 ### Expressions Lògiques

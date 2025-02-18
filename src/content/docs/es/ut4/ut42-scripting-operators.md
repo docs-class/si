@@ -37,27 +37,6 @@ Comparación numérica **(entre números)**
 | -lt          | Menor que                 |
 | -le          | Menor o igual que         |
 
-# Ficheros
-
-| **Operador** | **Descripción**                                      |
-|--------------|------------------------------------------------------|
-| -e           | Verdadero si el fichero/directorio existe            |
-| -d           | Verdadero si el path dado es un directorio           |
-| -f           | Verdadero si el path dado es un archivo              |
-| -r           | Verdadero si el fichero tiene permiso de lectura     |
-| -w           | Verdadero si el fichero tiene permiso de escritura   |
-| -x           | Verdadero si el fichero tiene permiso de ejecución   |
-| -s           | Verdadero si el fichero tiene un tamaño mayor de 0 (no está vacío) |
-| -O           | Verdadero si eres el propietario                     |
-| -G           | Verdadero si perteneces al grupo propietario         |
-
-```js
-fichero=”copia.txt”
-if [[ -e $fichero ]]
-then
-  Echo “$fichero existe, pero no sé si es un fichero o un directorio” 
-fi
-```
 
 ### Expresiones Lógicas
 
