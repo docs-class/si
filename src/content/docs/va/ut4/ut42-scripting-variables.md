@@ -33,17 +33,3 @@ description: "Variables"
   ```
 - Les variables que creem en el script es queden en el script i no les veurem des del terminal. Aquestes variables existiran mentre s'executi el script, després deixaran d'existir.
 - Si creem una variable localment, en el terminal, serà visible en la shell en la qual l'hem creat. I deixarà d'existir quan tanquem la consola.
-
-### VARIABLES D'ENTORN
-
-- Cada shell executa un entorn d'execució determinat, visible per a aquest shell i per als seus fills. Les variables d'entorn defineixen les condicions de l'entorn del shell. Són les variables de sistema i es carreguen quan arrenca aquest.
-- Sempre s'escriuen en majúscules.
-
-| Variable   | Descripció                                                                 |
-|------------|-----------------------------------------------------------------------------|
-| `PATH`     | Rutes de directoris on es busquen els comandaments executables.              |
-| `USER`     | Nom de l'usuari que ha iniciat sessió.                                  |
-| `SHELL`    | Shell que interpretarà els comandaments ingressats.                             |
-| `PWD`      | Directori de treball actual.                                               |
-| `LANG`     | Configuració regional i d'idioma.                                         |
-| `LOGNAME`  | Nom de l'usuari que ha iniciat sessió.                                  |

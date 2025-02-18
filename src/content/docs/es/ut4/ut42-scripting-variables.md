@@ -33,18 +33,3 @@ description: "Variables"
   ```
 - Las variables que creamos en el script se quedan en el script y no las veremos desde el terminal. Estas variables existirán mientras se ejecute el script, después dejarán de existir.
 - Si creamos una variable localmente, en la terminal, será visible en la shell en la que la hemos creado. Y dejará de existir cuando cerremos la consola.
-
-### VARIABLES DE ENTORNO
-
-- Cada shell ejecuta un entorno de ejecución determinado, visible para ese shell y para sus hijos. Las variables de entorno definen las condiciones del entorno del shell. Son las variables de sistema y se cargan cuando arranca este.
-- Siempre se escriben en mayúsculas.
-
-| Variable   | Descripción                                                                 |
-|------------|-----------------------------------------------------------------------------|
-| `HOME`     | Directorio principal del usuario actual.                                    |
-| `PATH`     | Rutas de directorios donde se buscan los comandos ejecutables.              |
-| `USER`     | Nombre del usuario que ha iniciado sesión.                                  |
-| `SHELL`    | Shell que interpretará los comandos ingresados.                             |
-| `PWD`      | Directorio de trabajo actual.                                               |
-| `LANG`     | Configuración regional y de idioma.                                         |
-| `LOGNAME`  | Nombre del usuario que ha iniciado sesión.                                  |
