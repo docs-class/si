@@ -17,7 +17,7 @@ description: "Scripting - Fitxers"
 | -O           | Vertader si eres el propietari                      |
 | -G           | Vertader si pertanys al grup propietari             |
 
-```js
+```bash
 fitxer=”copia.txt”
 if [[ -e $fitxer ]]
 then
@@ -26,7 +26,8 @@ fi
 ```
 
 ## Lectura d'un fitxer amb while
-```
+
+```bash
 while IFS= read -r line
 do
   echo "$line"

@@ -17,7 +17,7 @@ description: "Scripting - Files"
 | -O           | Verdadero si eres el propietario                     |
 | -G           | Verdadero si perteneces al grupo propietario         |
 
-```js
+```bash
 fichero=”copia.txt”
 if [[ -e $fichero ]]
 then
@@ -27,7 +27,8 @@ fi
 
 
 ## Lectura de un fichero con while
-```
+
+```bash
 while IFS= read -r line
 do
   echo "$line"
