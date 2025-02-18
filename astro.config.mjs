@@ -269,6 +269,7 @@ export default defineConfig({
                                 'ut4/ut42-scripting-for',
                                 'ut4/ut42-scripting-while',
                                 'ut4/ut42-scripting-break',
+                                'ut4/ut42-scripting-files',
                             ],
                         },
                     ],
