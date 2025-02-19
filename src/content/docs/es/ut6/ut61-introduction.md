@@ -33,11 +33,13 @@ g) Se han configurado y explotado dominios.
 - Microsoft introdujo en sus sistemas operativos la posibilidad de crear grupos de trabajo, que dividían la red en subconjuntos.
 
 ![workgroup in Windows](../../../../assets/ut6/01_workgroup.png)
-### Desventajas
+
+:::danger[Desventajas]
 - Muy fácil de configurar y difíciles de gestionar. No existe un control de quien tiene acceso y quien no a los recursos.
 - Poca funcionalidad.
 - Recursos dispersos en la red.
 - Muy insegura (usuarios "avanzados").
+:::
 
 ## 2. Estructura Cliente-Servidor. Servidores Independientes.
 - Red no plana (existen servidores dedicados).
@@ -45,10 +47,11 @@ g) Se han configurado y explotado dominios.
 - Un cliente realiza una petición a un servidor y éste le responde.
 - Facilita la administración y la localización de recursos.
 
-### Desventajas
+:::danger[Desventajas]
 - Cada servidor mantiene su propia lista de usuarios y recursos.
 - Si un cliente necesita acceder a múltiples servidores, requerirá múltiples cuentas y contraseñas.
 - La sincronización entre servidores puede ser un problema.
+:::
 
 ![Client-server schema](../../../../assets/ut6/02_client-server.jpg)
 
