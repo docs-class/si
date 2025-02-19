@@ -23,7 +23,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
      - El software instalado en un equipo determina el rol que desempeña.  
        - Ejemplos: _Servidor de correo electrónico, web o de archivos._
 :::tip[Servidor]
-[Servidor - PowerCert Animated Videos](https://www.youtube.com/watch?v=UjCDWCeHCzY) - Actividad de rellenar
+[Servidor - PowerCert Animated Videos](https://www.youtube.com/watch?v=UjCDWCeHCzY) + Actividad de rellenar
 :::
 
 ![LAN](https://cdn.prod.website-files.com/620d42e86cb8ec4d0839e59d/6230ee03762e4e5318c33297_61ca0988bf85585f5ccc26b5_Local-Area-Network-Diagram.jpeg)
