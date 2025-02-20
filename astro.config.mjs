@@ -277,21 +277,21 @@ export default defineConfig({
                 ],
             },
             //UT5
-            // {
-            //     label: "UT5 - SISTEMES INFORMÀTICS EN XARXA. CONFIGURACIÓ I EXPLOTACIÓ",
-            //     // badge: { text: '25-NOV', variant: 'success' },
-            //     translations: {
-            //         'es': 'UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN',
-            //         'en': 'UT5 - COMPUTER SYSTEMS IN NETWORKS. CONFIGURATION AND OPERATION',
+            {
+                label: "UT5 - SISTEMES INFORMÀTICS EN XARXA. CONFIGURACIÓ I EXPLOTACIÓ",
+                // badge: { text: '25-NOV', variant: 'success' },
+                translations: {
+                    'es': 'UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN',
+                    'en': 'UT5 - COMPUTER SYSTEMS IN NETWORKS. CONFIGURATION AND OPERATION',
 
-            //     },
-            //     // Collapsa el grupo de forma predeterminada.
-            //     items: [
-            //             'ut5/ut51-introduction',
-            //             'ut5/ut51-services',
-            //             'ut5/ut51-ssh',
-            //     ],
-            // },
+                },
+                // Collapsa el grupo de forma predeterminada.
+                items: [
+                        'ut5/ut51-introduction',
+                        'ut5/ut51-services',
+                        'ut5/ut51-ssh',
+                ],
+            },
             //UT6
             // {
             //     label: "UT6 - GESTIÓ DE RECURSOS EN XARXA",
@@ -304,6 +304,9 @@ export default defineConfig({
             //     // Collapsa el grupo de forma predeterminada.
             //     items: [
             //             'ut6/ut61-introduction',
+            //             'ut6/ut61-active-directory',
+            //             'ut6/ut61-structure',
+            //             'ut6/ut61-ldap',
             //     ],
             // },
             //UT7
