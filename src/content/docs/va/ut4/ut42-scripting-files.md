@@ -41,6 +41,7 @@ Per a mantenir els espais en blanc inicials i finals de cada línia, establim el
 ## Lectura d'un fitxer amb For
 
 ```bash
+IFS=$'\n'
 for line in $(cat input_file); do
   echo "$line"
 done

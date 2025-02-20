@@ -43,6 +43,7 @@ Para mantener los espacios en blanco iniciales y finales de cada línea, estable
 ## Lectura de un fichero con For
 
 ```bash
+IFS=$'\n'
 for line in $(cat input_file); do
   echo "$line"
 done
