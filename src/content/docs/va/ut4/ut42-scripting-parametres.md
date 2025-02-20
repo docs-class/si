@@ -28,3 +28,7 @@ Un argument és un paràmetre que se li passa a una funció o a un programa. És
   > Els arguments van separats per espais i en cas d'inserir un metacaràcter, com *, és necessari escapar-lo → `./sócUnScript.sh \*`
 
   ![Param example](../../../../assets/ut4/param.jpg)
+
+  :::caution[activitat]
+  - A4.2.1 Scripts básicos (Linux)
+  :::
