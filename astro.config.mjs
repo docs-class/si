@@ -287,9 +287,9 @@ export default defineConfig({
                 },
                 // Collapsa el grupo de forma predeterminada.
                 items: [
-                        'ut5/ut51-introduction',
-                        'ut5/ut51-services',
-                        'ut5/ut51-ssh',
+                        // 'ut5/ut51-introduction',
+                        // 'ut5/ut51-services',
+                        // 'ut5/ut51-ssh',
                 ],
             },
             //UT6
