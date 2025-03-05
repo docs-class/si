@@ -32,3 +32,7 @@ Un argument és un paràmetre que se li passa a una funció o a un programa. És
   :::caution[activitat]
   - A4.2.1 Scripts básicos (Linux)
   :::
+
+  :::tip[resources]
+  - [colors & PSX customization ](https://atareao.es/como/colorear-la-linea-de-comandos/)
+  :::
