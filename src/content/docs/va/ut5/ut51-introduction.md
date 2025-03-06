@@ -20,8 +20,8 @@ h) S'han aplicat protocols segurs de comunicacions.
 [Servidor - PowerCert Animated Videos](https://www.youtube.com/watch?v=UjCDWCeHCzY)  
 :::  
 
-:::tip[Tipus de xarxes]  
-[Tipus de xarxes - PowerCert Animated Videos](https://www.youtube.com/watch?v=po8ZFG0Xc4Q)  
+:::tip[Tipus de xarxes]
+[Tipus de xarxes - PowerCert Animated Videos](https://www.youtube.com/watch?v=NyZWSvSj8ek)  
 :::  
 
 :::tip[Adreça IP i màscara de subxarxa]  

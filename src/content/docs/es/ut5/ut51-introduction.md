@@ -21,7 +21,7 @@ h)	Se han aplicado protocolos seguros de comunicaciones.
 :::
 
 :::tip[Tipos de redes]
-[Tipos de redes - PowerCert Animated Videos](https://www.youtube.com/watch?v=po8ZFG0Xc4Q)
+[Tipos de redes - PowerCert Animated Videos](https://www.youtube.com/watch?v=NyZWSvSj8ek)
 :::
 
 :::tip[Dirección IP y máscara de subred]
