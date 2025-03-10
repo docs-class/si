@@ -33,3 +33,31 @@ description: "Variables"
   ```
 - Les variables que creem en el script es queden en el script i no les veurem des del terminal. Aquestes variables existiran mentre s'executi el script, després deixaran d'existir.
 - Si creem una variable localment, en el terminal, serà visible en la shell en la qual l'hem creat. I deixarà d'existir quan tanquem la consola.
+Claro, aquí tienes la traducción al valenciano:
+
+## Arrays
+
+#### Declaració
+   - `frutas[0]='Poma'`
+   - `declare -a frutas=('Poma' 'Banana' 'Cirera')` #L'atribut -a significa "array"
+   - `frutas=('Poma' 'Banana' 'Cirera')`
+
+#### Accés i manipulació
+   - `echo ${frutas[0]}` # imprimir el primer element
+   - `frutas+=('Préssec')` # afegir un nou element
+   - `echo ${frutas[@]}` # per a imprimir tots els elements
+
+## Cadena de caràcters
+   ```bash
+   #! /bin/bash
+   cadena="abc"
+   for (((i=0;i<${#cadena};i++)) # ${#cadena} => torna la longitud de la cadena
+   do
+      echo "Mostrant el caràcter $i: ${cadena:$i:1}" 
+      # ${variable:posició:nombre de caràcters}
+   done
+
+   # Mostrant el caràcter 0: a
+   # Mostrant el caràcter 1: b
+   # Mostrant el caràcter 2: c
+   ```

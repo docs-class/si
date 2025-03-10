@@ -3,8 +3,6 @@ title: "Variables"
 description: "Variables"
 ---
 
-## VARIABLES
-
 - Son las variables que creamos nosotros y siempre van en minúsculas, para diferenciarlas de las variables de entorno que van en mayúsculas.
 - Las variables pueden empezar por letra o `_` 
   - y pueden incluir letras, números o el carácter `_`.
@@ -33,3 +31,35 @@ description: "Variables"
   ```
 - Las variables que creamos en el script se quedan en el script y no las veremos desde el terminal. Estas variables existirán mientras se ejecute el script, después dejarán de existir.
 - Si creamos una variable localmente, en la terminal, será visible en la shell en la que la hemos creado. Y dejará de existir cuando cerremos la consola.
+  
+## Arrays
+
+#### Declaración
+   - `frutas[0]='Manzana'`
+   - `declare -a frutas=('Manzana' 'Banana' 'Cereza')` #El atributo -a significa "array"
+   - `frutas=('Manzana' 'Banana' 'Cereza')`
+
+#### Acceso y manipulación
+   - `echo ${frutas[0]}` # imprimir el primer elemento
+   - `frutas+=('Durazno')` # añadir un nuevo elemento
+   - `echo ${frutas[@]}` #  Para imprimir todos los elementos
+
+## Cadena de carcteres
+   ```bash
+   #! /bin/bash
+   cadena="abc"
+   for (((i=0;i<${#cadena};i++)) # ${#cadena} => devuelve la longitud de la cadena
+   do
+      echo "Mostrando el caracter $i: ${cadena:$i:1}" 
+      # ${variable:posición:número de caracteres}
+   done
+
+   # Mostrando el caracter 0: a
+   # Mostrando el caracter 1: b
+   # Mostrando el caracter 2: c
+   ```
+
+
+
+
+
