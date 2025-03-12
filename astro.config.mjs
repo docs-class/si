@@ -106,6 +106,7 @@ export default defineConfig({
                     },
                 ],
             },
+            //UT2
             {
                 label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
                 // badge: { text: '28-OCT', variant: 'success' },
@@ -145,6 +146,7 @@ export default defineConfig({
                     },
                 ],
             },
+            //UT3
             {
                 label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL",
                 // badge: { text: '25-NOV', variant: 'success' },
@@ -205,6 +207,7 @@ export default defineConfig({
                     },
                 ],
             },
+            //UT4
             {
                 label: "UT4 - GESTIÓ USUARIS I PROCESSOS. SCRIPTING",
                 // badge: { text: '26ENE25', variant: 'success' },
@@ -293,22 +296,22 @@ export default defineConfig({
                 ],
             },
             //UT6
-            // {
-            //     label: "UT6 - GESTIÓ DE RECURSOS EN XARXA",
-            //     // badge: { text: '25-NOV', variant: 'success' },
-            //     translations: {
-            //         'es': 'UT6 - GESTIÓN DE RECURSOS EN RED',
-            //         'en': 'UT6 - NETWORK RESOURCES ADMINISTRATION',
+            {
+                label: "UT6 - GESTIÓ DE RECURSOS EN XARXA",
+                // badge: { text: '25-NOV', variant: 'success' },
+                translations: {
+                    'es': 'UT6 - GESTIÓN DE RECURSOS EN RED',
+                    'en': 'UT6 - NETWORK RESOURCES ADMINISTRATION',
 
-            //     },
-            //     // Collapsa el grupo de forma predeterminada.
-            //     items: [
-            //             'ut6/ut61-introduction',
-            //             'ut6/ut61-active-directory',
-            //             'ut6/ut61-structure',
-            //             'ut6/ut61-ldap',
-            //     ],
-            // },
+                },
+                // Collapsa el grupo de forma predeterminada.
+                items: [
+                        'ut6/ut61-introduction',
+                        'ut6/ut61-active-directory',
+                        'ut6/ut61-structure',
+                        'ut6/ut61-ldap',
+                ],
+            },
             //UT7
             // {
             //     label: "UT7 - APLICACIONS INFORMÀTIQUES",
