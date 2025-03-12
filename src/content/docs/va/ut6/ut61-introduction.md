@@ -34,7 +34,8 @@ g) S'han configurat i explotat dominis.
 ![workgroup en Windows](../../../../assets/ut6/01_workgroup.png)
 
 :::danger[Desavantatges]
-- Molt fàcil de configurar i difícil de gestionar. No existeix un control sobre qui té accés i qui no als recursos.
+- Molt fàcil de configurar i difícil de gestionar.
+  - No existeix un control sobre qui té accés i qui no als recursos.
 - Poca funcionalitat.
 - Recursos dispersos en la xarxa.
 - Molt insegura (usuaris "avançats").
