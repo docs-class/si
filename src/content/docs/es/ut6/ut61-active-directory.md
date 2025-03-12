@@ -30,4 +30,3 @@ En general, los objetos se organizan en tres categorías:
 
   Otro aspecto importante de los servicios de directorio, es que ofrecen una **capa de abstracción** para facilitar el acceso a los objetos. Se debe indicar una **única ubicación** en donde se dirigirán las peticiones de información. No importa si la información solicitada se encuentra o no en ese emplazamiento, el **servicio de directorio se encargará de las solicitudes** que le lleguen.
   
-  En  resumen,  **un  servicio  de  directorio  ofrece  toda  la  información  de  los recursos de la red a través de una única ubicación**. Para ello convierte cada recurso  en  un  objeto  y  almacena  su  información  en  una  base  de  datos jerárquica y, opcionalmente, distribuida. La gestión de estos datos se realiza a través de un protocolo determinado por la versión del servicio de directorio escogido. En nuestro caso será el protocolo **LDAP**.
