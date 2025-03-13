@@ -29,3 +29,7 @@ Per a assignar noms a tots aquests objectes que componen la xarxa, els serveis d
 La tecnologia utilitzada per a crear aquest espai de noms és el DNS (**Domain Name Server**), i el seu funcionament és similar al d'Internet. Cadascun dels objectes del directori posseeix un **DN (Distinguished Name)** que el identifica de manera unívoca respecte a la resta d'elements del directori.
 
 Un altre aspecte important dels serveis de directori és que ofereixen una **capa d'abstracció** per a facilitar l'accés als objectes. S'ha d'indicar una **única ubicació** on es dirigiran les peticions d'informació. No importa si la informació sol·licitada es troba o no en eixe emplaçament, el **servei de directori s'encarregarà de gestionar les sol·licituds** que li arriben.
+
+  :::danger[aclariment]
+  **Active Directory** és un tipus específic de servei de directori. Mentre que el servei de directori és un concepte ampli que abasta qualsevol sistema que gestione informació de xarxa, Active Directory és una implementació concreta d'aquest concepte, dissenyada per Microsoft per als seus entorns de xarxa.
+  :::

@@ -30,3 +30,7 @@ En general, los objetos se organizan en tres categorías:
 
   Otro aspecto importante de los servicios de directorio, es que ofrecen una **capa de abstracción** para facilitar el acceso a los objetos. Se debe indicar una **única ubicación** en donde se dirigirán las peticiones de información. No importa si la información solicitada se encuentra o no en ese emplazamiento, el **servicio de directorio se encargará de las solicitudes** que le lleguen.
   
+
+  :::danger[aclaración]
+  **Active Directory** es un tipo específico de servicio de directorio. Mientras que el servicio de directorio es un concepto amplio que abarca cualquier sistema que gestione información de red, Active Directory es una implementación concreta de este concepto, diseñada por Microsoft para sus entornos de red.
+  :::
