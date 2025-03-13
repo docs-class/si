@@ -307,7 +307,7 @@ export default defineConfig({
                 // Collapsa el grupo de forma predeterminada.
                 items: [
                         'ut6/ut61-introduction',
-                        'ut6/ut61-active-directory',
+                        'ut6/ut61-directory-services',
                         'ut6/ut61-structure',
                         'ut6/ut61-ldap',
                 ],
