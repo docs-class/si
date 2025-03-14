@@ -296,21 +296,21 @@ export default defineConfig({
                 ],
             },
             //UT6
-            {
-                label: "UT6 - GESTIÓ DE RECURSOS EN XARXA",
-                // badge: { text: '25-NOV', variant: 'success' },
-                translations: {
-                    'es': 'UT6 - GESTIÓN DE RECURSOS EN RED',
-                    'en': 'UT6 - NETWORK RESOURCES ADMINISTRATION',
+            // {
+            //     label: "UT6 - GESTIÓ DE RECURSOS EN XARXA",
+            //     // badge: { text: '25-NOV', variant: 'success' },
+            //     translations: {
+            //         'es': 'UT6 - GESTIÓN DE RECURSOS EN RED',
+            //         'en': 'UT6 - NETWORK RESOURCES ADMINISTRATION',
 
-                },
-                // Collapsa el grupo de forma predeterminada.
-                items: [
-                        'ut6/ut61-introduction',
-                        'ut6/ut61-directory-service',
-                        'ut6/ut61-structure',
-                ],
-            },
+            //     },
+            //     // Collapsa el grupo de forma predeterminada.
+            //     items: [
+            //             'ut6/ut61-introduction',
+            //             'ut6/ut61-directory-service',
+            //             'ut6/ut61-structure',
+            //     ],
+            // },
             //UT7
             // {
             //     label: "UT7 - APLICACIONS INFORMÀTIQUES",
