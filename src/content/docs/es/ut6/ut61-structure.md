@@ -34,6 +34,17 @@ Un bosque contendrá por lo menos un dominio, que será el dominio raíz del bos
 En este ejemplo se ve como se han unido **5 dominios**  en  un  bosque.  De  estos  5 dominios  3  pertenecen  a  un  árbol  (raíz: **miempresa.com**) y los otros 2 a un segundo árbol (raíz: **tuempresa.com**). 
 Las _flechas_ que vemos en el esquema son las relaciones de confianza entre dominios. Todas  han  sido  creadas  automáticamente por  Windows  Server.  Todos  los  dominios pueden comunicarse entre sí gracias a las propiedades de las relaciones de confianza.
 
+### Nomenclatura
+- Computers: 
+  - computer_name.domain_name
+    - PC01.miempresa.net
+- Users:
+  - user_name@domain_name
+    - manolo@miempresa.net
+  - DOMAIN_NAME\user_name (NetBios style) # old style
+    - MIEMPRESA\manolo
+
+
 ### Relaciones de confianza 
 Método de comunicación segura entre dominios, árboles y bosques, que permiten a los usuarios autentificarse en otra parte del directorio a la que no pertenecen.
 
@@ -44,4 +55,9 @@ Son  un  conjunto  de configuraciones específicas para usuarios y equipos de un
 
 :::note[Resumen]
 Un servicio de directorio ofrece toda la información de los recursos de la red a través de una única ubicación. Para ello convierte cada recurso en un objeto y almacena su información en una base de datos jerárquica y opcionalmente distribuida. La gestión de estos datos se realiza a través de un protocolo determinado por la versión del servicio de directorio escogido. En nuestro caso **ACTIVE DIRECTORY**
+:::
+
+:::danger
+- Una vez instalado AD no se pude cambiar el nombre de la máquina
+- La IP del servidor debe ser fija
 :::
