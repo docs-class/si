@@ -3,7 +3,7 @@ title: "Serveis de directori"
 description: "Serveis de directori"
 ---
 
-## Directory Services
+## Serveis de directori (Directory Services)
 
 Els serveis de directori **emmagatzemen informació** sobre l'organització, llocs, ordinadors, usuaris, objectes compartits i qualsevol altra cosa que puga formar part de la infraestructura de xarxa. Els **elements** del directori actiu poden ser diferents entre si (**usuaris, grups, polítiques d'accés, permisos, etc.**), per la qual cosa la informació emmagatzemada variarà segons la naturalesa de l'objecte. Tota aquesta informació s'emmagatzema en una **base de dades jeràrquica**.
 
@@ -20,7 +20,7 @@ Els serveis de directori **emmagatzemen informació** sobre l'organització, llo
   - **Unitat Organitzativa**: és un contenidor d'objectes que permet organitzar-los en subconjunts de forma jeràrquica. D'aquesta manera, podem establir una estructura lògica que represente adequadament la nostra organització i en facilite l'administració.
   - **Grups**: conjunt d'objectes d'usuari. Igual que les unitats organitzatives, faciliten l'organització i administració dels objectes, en aquest cas concret, usuaris.
   - **Controlador de domini**: és l'equip que conté la base de dades d'objectes del directori per a un determinat domini, inclosa la informació de seguretat. A més, serà responsable de l'autenticació d'objectes dins del seu àmbit de control.
-  - **Catàleg global**: base de dades amb la informació de tots els objectes que conté el directori. Aquesta informació habitualment es divideix entre els controladors de domini, sent aquests responsables del manteniment de la seua part d'aquesta informació.
+
 
 ## DNS (Domain Name Server)
 

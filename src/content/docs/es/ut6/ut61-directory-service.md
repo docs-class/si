@@ -3,7 +3,7 @@ title: "Servicios de directorio"
 description: "Servicios de directorio"
 ---
 
-## Directory Services
+## Servicios de directorio (Directory Services)
 
 Los servicios de directorio **almacenan información** sobre la organización, sitios, ordenadores, usuarios, objetos compartidos y cualquier otra cosa que pueda formar parte de la infraestructura de red. Los **elementos** del directorio activo pueden ser diferentes unos de otros (**usuarios, grupos, políticas de acceso, permisos, etc.**), por lo que la información almacenada variará según la naturaleza del objeto. Toda esta información se almacena en una **base de datos jerárquica**.
 
@@ -20,7 +20,7 @@ En general, los objetos se organizan en tres categorías:
   - **Unidad  Organizativa**:  es  un  contenedor  de  objetos  que  permite  organizarlos  en subconjuntos de forma jerárquica. De esta forma podemos establecer una estructura lógica que represente de forma adecuada a nuestra organización y simplifique la administración.
   -   **Grupos**: conjunto de objetos usuario. Al igual que las unidades organizativas, facilitan la organización y administración de los objetos, en este caso concreto, usuarios.
   -   **Controlador de dominio**: es el equipo que contiene la base de datos de objetos del directorio  para  un  determinado  dominio,  incluida  la  información  de  seguridad. Además será responsable de la autenticación de objetos dentro de su ámbito de control.
-  -  **Catálogo global**, base de datos con la información de todos los objetos que contiene el directorio.  Esta  información  habitualmente  se  divide  entre  los  controladores  de dominio  siendo  estos  responsables  del  mantenimiento  de  su  parte  de  esta información.
+
   
   ## DNS (Domain Name Server)
   
