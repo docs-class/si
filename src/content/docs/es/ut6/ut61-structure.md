@@ -35,14 +35,15 @@ En este ejemplo se ve como se han unido **5 dominios**  en  un  bosque.  De  est
 Las _flechas_ que vemos en el esquema son las relaciones de confianza entre dominios. Todas  han  sido  creadas  automáticamente por  Windows  Server.  Todos  los  dominios pueden comunicarse entre sí gracias a las propiedades de las relaciones de confianza.
 
 ### Nomenclatura
-- Computers: 
+- Ordenadores: 
   - computer_name.domain_name
     - PC01.miempresa.net
-- Users:
+- Usuarios:
   - user_name@domain_name
-    - manolo@miempresa.net
+    - user_name@miempresa.net
   - DOMAIN_NAME\user_name (NetBios style) # old style
-    - MIEMPRESA\manolo
+    - MIEMPRESA\user_name
+  ![naming](../../../../assets/ut6/08_nomenclatura.png)
 
 
 ### Relaciones de confianza 

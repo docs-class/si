@@ -43,14 +43,15 @@ Són un conjunt de configuracions específiques per a usuaris i equips d'un domi
   - Els requisits per utilitzar una GPO són dos, que la xarxa estiga basada en una estructura de domini i que existisca almenys un controlador de domini i que els equips i usuaris han d'estar units al domini, utilitzant credencials de domini per iniciar sessió en els seus equips. És a dir, que siguen objectes del directori.
 
 ### Nomenclatura
-- Computers: 
+- Ordinadors: 
   - computer_name.domain_name
     - PC01.miempresa.net
-- Users:
+- Usuaris:
   - user_name@domain_name
-    - manolo@miempresa.net
+    - user_name@miempresa.net
   - DOMAIN_NAME\user_name (NetBios style) # old style
-    - MIEMPRESA\manolo
+    - MIEMPRESA\user_name
+  ![naming](../../../../assets/ut6/08_nomenclatura.png)
 
 :::note[Resum]
 Un servei de directori ofereix tota la informació dels recursos de la xarxa a través d'una única ubicació. Per a això converteix cada recurs en un objecte i emmagatzema la seva informació en una base de dades jeràrquica i opcionalment distribuïda. La gestió d'aquestes dades es realitza a través d'un protocol determinat per la versió del servei de directori escollit. En el nostre cas **ACTIVE DIRECTORY**
