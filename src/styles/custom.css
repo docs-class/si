@@ -9,3 +9,7 @@
     } */
     
   }
+
+  .starlight-aside__content,.starlight-aside__title{
+    font-size: small;
+  }

@@ -5,7 +5,7 @@ description: "Grupos y propietario"
 ## Cambio de la propietario/grupo de archivos y directorios
 ### Propietario
 ```bash frame="none"
-chown [OPTIONS] [OWNER] archivo
+chown [OPTIONS] [OWNER] archivo / dir
 ```
 Cambiar el propietario de un archivo a `root`:
 ```bash frame="none" ins="root"
@@ -16,7 +16,7 @@ sysadmin@localhost:/Documents$ ls -l hello.sh
 
 ### Grupo
   ```bash frame="none"
-  chgrp grupo o GID fich1 [fich2 fich3 …..]
+  chgrp (grupo o GID) fich1 [fich2 fich3 …..]
   ```
 - No se modificarán los permisos para los ficheros ni su ubicación.
 - El parámetro `-R` cambia la propiedad de forma recursiva.

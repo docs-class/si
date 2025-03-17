@@ -6,10 +6,12 @@ description: "Components i Protocols"
 ### **1. Components d'una xarxa informàtica**
 
 1. **Dispositius d'interconnexió:**
-   - **Switch**: Distribueix paquets de dades dins de la mateixa xarxa.
-   - **Router**: Connecta diferents xarxes i dirigeix el trànsit entre elles.
-   - **Hub**: Transmet els paquets a tots els dispositius (menys eficient que un switch).
-   - **Bridge**: Connecta dos segments de xarxa i filtra el trànsit.
+   - **Switch**: Dispositiu de capa 2 que distribuïx els paquets de dades dins de la mateixa xarxa segons adreces MAC.  
+   - **Router**: Opera en la capa 3 i connecta diferents xarxes, dirigint el trànsit entre elles mitjançant adreces IP.  
+   - **Hub**: Funciona en la capa 1, retransmetent paquets a tots els dispositius connectats sense filtrar.  
+   - **Bridge**: Connecta dos segments de xarxa i filtra el trànsit segons adreces MAC per a millorar el rendiment.  
+   - **Patch Panel**: Panell de connexions que organitza i distribuïx cables de xarxa en instal·lacions estructurades. No processa dades, només facilita la connexió física.  
+   - **Mòdem**: Convertix senyals digitals en analògiques (i viceversa) per a permetre la comunicació entre una xarxa local i un proveïdor d’Internet (ISP).  
 
 2. **Servidors:**
    - Proporcionen serveis a la xarxa, com emmagatzematge, correu electrònic, bases de dades.
@@ -26,7 +28,7 @@ description: "Components i Protocols"
    - **Fibra òptica (monomode, multimode):** Transmissió de dades a alta velocitat i llargues distàncies.
    - **Sense fils (Wi-Fi, Bluetooth, WiMAX):** Comunicacions sense cables per a LAN i MAN.
 
-5. **Perifèrics de xarxa:**
+1. **Perifèrics de xarxa:**
    - Dispositius com impressores en xarxa, escàners i unitats d'emmagatzematge en xarxa (NAS).
 
 ---

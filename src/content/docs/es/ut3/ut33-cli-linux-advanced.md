@@ -3,16 +3,29 @@ title: "Terminal Linux avanzado"
 description: "Terminal Linux avanzado"
 ---
 
-### Wildcards (Comodines)
+## Wildcards (Comodines)
 
 Las **wildcards o comodines** son caracteres especiales.
 En una baraja de cartas, un comodín es una carta especial que puede representar a cualquier otra carta.
 De manera similar, en informática, una wildcard es un carácter especial que puede sustituir a cualquier otro carácter.
 
-1. **Múltiple**: creación o manipulación de varios ficheros
+1. **Múltiple**: creación o manipulación de varios ficheros/directorios
    ```bash
    touch file{1..100}.txt  # Crea ficheros file1.txt hasta file100.txt
    cp {hola.txt, adios.txt} ~ # Copia hola.txt y adios.txt al directorio del usuario
+   mkdir -p Nivel1/Nivel2/{Nivel3/{Nivel4/Nivel5,logs,scripts},docs,data} # Crea la estructura de directorios compleja
+   ```
+
+   ```markdown
+   Nivel1/
+   └── Nivel2/
+      ├── Nivel3/
+      │   ├── Nivel4/
+      │   │   └── Nivel5/
+      │   ├── logs/
+      │   └── scripts/
+      ├── docs/
+      └── data/
    ```
 
 2. **Asterisco (*)**: Representa cero o más caracteres. Es útil para buscar archivos que coincidan con un patrón específico.
@@ -44,7 +57,7 @@ De manera similar, en informática, una wildcard es un carácter especial que pu
    ls file[a-c,A-C,1-3]?.txt  # Lista ficheros como filea1.txt, fileBc.txt, filecc.txt
    ```
 
-### **Comandos Avanzados**
+## **Comandos Avanzados**
 
 | **Comando** | **Descripción**                         | **Ejemplo**               |
 |-------------|-----------------------------------------|---------------------------|
@@ -70,7 +83,7 @@ De manera similar, en informática, una wildcard es un carácter especial que pu
 
 | **Comando** | **Descripción**                         | **Ejemplo**               |
 |-------------|-----------------------------------------|---------------------------|
-| chmod   | cambia los permisos de archivos       | `chmod 755 script.sh`     |
+| chmod   | cambia los permisos de archivos.     | `chmod 755 script.sh`     |
 | chown   | cambia el propietario de un archivo.   | `chown user:group archivo.txt` |
 | scp     | copia archivos entre máquinas.         | `scp archivo.txt usuario@192.168.1.100:/home/usuario/` |
 | rsync   | sincroniza archivos y directorios.     | `rsync -av carpeta/ usuario@192.168.1.100:/destino/` |

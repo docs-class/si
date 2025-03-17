@@ -42,6 +42,7 @@ Podem canviar el separador per defecte (espai).
 
 ```bash
 #!/bin/bash
+#Script: Pren el primer fitxer llistat en el directori actual i mostra el seu nom original i el seu nom modificat amb guions baixos en lloc d'espais.
 IFS=$'\n'
 for variable in `ls -l | tr -s ' ' | head -n2 | tail –n1 | cut -d ' ' `
 do
@@ -50,12 +51,6 @@ do
   NouFitxer=`echo $FitxerOriginal | tr ' ' '_'` echo $NouFitxer
 done
 ```
-:::note[Aclaracions]
-- A més de canviar el separador per defecte, podem eliminar els espais dels noms dels fitxers.
-- En aquest cas ho fem només per a la línia 2, si volem que recòrrega tot el ls –l, llevem la part de head –n2 en avant.
-- Veiem que l'ordre es pot convertir en la llista que recòrre la variable.
-- **-f 9-** aquesta opció del cut significa que et quedes des del camp 9 del fitxer fins al final.
-:::
 
 ### Exemple 3 - arguments
 

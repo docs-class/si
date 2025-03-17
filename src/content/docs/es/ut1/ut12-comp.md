@@ -6,10 +6,13 @@ description: "Componentes y Protocolos"
 ### **1. Componentes de una red informática**
 
 1. **Dispositivos de interconexión:**
-   - **Switch**: Distribuye paquetes de datos dentro de la misma red.
-   - **Router**: Conecta diferentes redes y dirige el tráfico entre ellas.
-   - **Hub**: Transmite los paquetes a todos los dispositivos (menos eficiente que un switch).
-   - **Bridge**: Conecta dos segmentos de red y filtra el tráfico.
+   - **Switch**: Dispositivo de capa 2 que distribuye los paquetes de datos dentro de la misma red según direcciones MAC.  
+   - **Router**: Opera en la capa 3 y conecta diferentes redes, dirigiendo el tráfico entre ellas mediante direcciones IP.  
+   - **Hub**: Funciona en la capa 1, retransmitiendo paquetes a todos los dispositivos conectados sin filtrar.  
+   - **Bridge**: Conecta dos segmentos de red y filtra el tráfico según direcciones MAC para mejorar el rendimiento.  
+   - **Patch Panel**: Panel de conexiones que organiza y distribuye cables de red en instalaciones estructuradas. No procesa datos, solo facilita la conexión física.  
+   - **Módem**: Convierte señales digitales en analógicas (y viceversa) para permitir la comunicación entre una red local y un proveedor de Internet (ISP).  
+
 
 2. **Servidores:**
    - Proporcionan servicios a la red, como almacenamiento, correo electrónico, bases de datos.

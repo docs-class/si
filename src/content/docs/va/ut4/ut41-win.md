@@ -57,8 +57,9 @@ Els permisos són essencials per autoritzar usuaris a accedir a recursos en un e
 ![Group managment](../../../../assets/ut4/windows%20permissions.png)
 
 ### Tipus de permisos
-- **Explícits:** configurats en crear un recurs o mitjançant acció de l'usuari.
-- **Heredats:** propagats des del contenidor del recurs.
+- **Explícits:** Són aquells que s'estableixen per defecte quan es crea el recurs o mitjançant una acció de l'usuari.
+- **Heredats:** són aquells que es propaguen a un recurs secundari des d'un recurs principal. Per defecte, els recursos hereten els permisos del seu contenidor quan es creen.
+
 
 ### Atorgar i denegar permisos
 - Els propietaris poden concedir permisos a usuaris o grups.

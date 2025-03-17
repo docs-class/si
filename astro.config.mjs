@@ -1,10 +1,9 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
 import markdoc from '@astrojs/markdoc';
+import starlight from '@astrojs/starlight';
 import starlightViewModes from 'starlight-view-modes';
-import rehypeMermaid from 'rehype-mermaid';
-import rehypeRaw from 'rehype-raw';
+import remarkMermaid from 'remark-mermaidjs'
 
 
 // https://astro.build/config
@@ -12,12 +11,9 @@ export default defineConfig({
     site: 'https://docs-class.github.io/',
     base: '/si',
     markdown: {
-        // Para mermaid
-		rehypePlugins: [
-			rehypeRaw,
-			rehypeMermaid,
-		],
-	},
+        // Applied to .md and .mdx files
+        remarkPlugins: [remarkMermaid],
+      },
     integrations: [markdoc(),
     starlight({
         title: {
@@ -30,6 +26,7 @@ export default defineConfig({
             'en': { lang: 'en', label: 'English' },
             'va': { lang: 'va', label: 'Valencià' },
         },
+        expressiveCode: false,
         customCss: [
             // Relative path to your custom CSS file
             './src/styles/custom.css',
@@ -109,6 +106,7 @@ export default defineConfig({
                     },
                 ],
             },
+            //UT2
             {
                 label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
                 // badge: { text: '28-OCT', variant: 'success' },
@@ -148,6 +146,7 @@ export default defineConfig({
                     },
                 ],
             },
+            //UT3
             {
                 label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL",
                 // badge: { text: '25-NOV', variant: 'success' },
@@ -208,9 +207,10 @@ export default defineConfig({
                     },
                 ],
             },
+            //UT4
             {
                 label: "UT4 - GESTIÓ USUARIS I PROCESSOS. SCRIPTING",
-                // badge: { text: '25-NOV', variant: 'success' },
+                // badge: { text: '26ENE25', variant: 'success' },
                 translations: {
                     'es': 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
                     'en': 'UT4 - USERS AND PROCESSES. SCRIPTING',
@@ -241,40 +241,90 @@ export default defineConfig({
                                     'ut4/ut41-linux-users',
                                 ],
                             },
+                            'ut4/ut41-policies',
+
                         ],
                     },
-                    // {
-                    //     label: '4.2 Scripting',
-                    //     translations: {
-                    //         'es': '4.2 Scripting',
-                    //         'en': '4.2 Scripting',
-                    //     },
-                    //     items: [
-                    //         'ut4/ut42-scripting',
-                    //         'ut4/ut42-scripting-variables',
-                    //         'ut4/ut42-scripting-backslash',
-                    //         'ut4/ut42-scripting-arithmetics',
-                    //         'ut4/ut42-scripting-parametres',
-                    //         {
-                    //             label: 'Estructures de Control',
-                    //             translations: {
-                    //                 'es': 'Estructuras de Control',
-                    //                 'en': 'Control structures',
-                    //             },
-                    //             items: [
-                    //                 'ut4/ut42-scripting-if-else',
-                    //                 'ut4/ut42-scripting-operators',
-                    //                 'ut4/ut42-scripting-case',
-                    //                 'ut4/ut42-scripting-forin',
-                    //                 'ut4/ut42-scripting-for',
-                    //                 'ut4/ut42-scripting-while',
-                    //                 'ut4/ut42-scripting-break',
-                    //             ],
-                    //         },
-                    //     ],
-                    // },
+                    //Scripts
+                {
+                    label: '4.2 Scripting',
+                    translations: {
+                        'es': '4.2 Scripting',
+                        'en': '4.2 Scripting',
+                    },
+                    items: [
+                        'ut4/ut42-scripting',
+                        'ut4/ut42-scripting-variables',
+                        'ut4/ut42-scripting-backslash',
+                        'ut4/ut42-scripting-arithmetics',
+                        'ut4/ut42-scripting-parametres',
+                        {
+                            label: 'Estructures de Control',
+                            translations: {
+                                'es': 'Estructuras de Control',
+                                'en': 'Control structures',
+                            },
+                            items: [
+                                'ut4/ut42-scripting-if-else',
+                                'ut4/ut42-scripting-operators',
+                                'ut4/ut42-scripting-case',
+                                'ut4/ut42-scripting-forin',
+                                'ut4/ut42-scripting-for',
+                                'ut4/ut42-scripting-while',
+                                'ut4/ut42-scripting-break',
+                                'ut4/ut42-scripting-files',
+                            ],
+                        },
+                    ],
+                },
                 ],
             },
+            //UT5
+            {
+                label: "UT5 - SISTEMES INFORMÀTICS EN XARXA. CONFIGURACIÓ I EXPLOTACIÓ",
+                // badge: { text: '25-NOV', variant: 'success' },
+                translations: {
+                    'es': 'UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN',
+                    'en': 'UT5 - COMPUTER SYSTEMS IN NETWORKS. CONFIGURATION AND OPERATION',
+
+                },
+                // Collapsa el grupo de forma predeterminada.
+                items: [
+                        'ut5/ut51-introduction',
+                        // 'ut5/ut51-services',
+                        // 'ut5/ut51-ssh',
+                ],
+            },
+            //UT6
+            {
+                label: "UT6 - GESTIÓ DE RECURSOS EN XARXA",
+                // badge: { text: '25-NOV', variant: 'success' },
+                translations: {
+                    'es': 'UT6 - GESTIÓN DE RECURSOS EN RED',
+                    'en': 'UT6 - NETWORK RESOURCES ADMINISTRATION',
+
+                },
+                // Collapsa el grupo de forma predeterminada.
+                items: [
+                        'ut6/ut61-introduction',
+                        'ut6/ut61-directory-service',
+                        'ut6/ut61-structure',
+                ],
+            },
+            //UT7
+            // {
+            //     label: "UT7 - APLICACIONS INFORMÀTIQUES",
+            //     // badge: { text: '25-NOV', variant: 'success' },
+            //     translations: {
+            //         'es': 'UT7 - APLICACIONES INFORMÁTICAS',
+            //         'en': 'UT7 - IT APPS',
+
+            //     },
+            //     // Collapsa el grupo de forma predeterminada.
+            //     items: [
+            //             'ut7/ut71-introduction',
+            //     ],
+            // },
         ],
     }),],
 });

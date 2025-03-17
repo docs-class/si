@@ -28,3 +28,13 @@ Un argumento es un parámetros que se le pasa a una función o a un programa. Es
 
   
   > Los argumentos van separados por espacios y en caso de insertar un metacaracter, como *, es necesario escaparlo → `./soyUnScript.sh \*`
+
+  ![Param example](../../../../assets/ut4/param.jpg)
+
+   :::caution[actividad]
+  - A4.2.1 Scripts básicos (Linux)
+  :::
+
+  :::tip[resources]
+  - [colors & PSX customization ](https://atareao.es/como/colorear-la-linea-de-comandos/)
+  :::
