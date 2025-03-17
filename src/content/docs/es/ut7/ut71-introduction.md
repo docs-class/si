@@ -1,6 +1,9 @@
 ---
 title: "Introducción a las redes"
 description: "Network"
+export_on_save:
+    puppeteer: true
+    html: false
 ---
 
 :::note[Connexió amb el currículum]  
@@ -14,3 +17,7 @@ e) S'ha avaluat la necessitat de protegir els recursos i el sistema.
 f) S'han instal·lat i avaluat utilitats de seguretat bàsica.  
 g) S'han configurat i explotat dominis.  
 :::  
+
+zsfxdsf
+hola Juam T
+
