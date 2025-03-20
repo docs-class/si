@@ -18,6 +18,5 @@ f) S'han instal·lat i avaluat utilitats de seguretat bàsica.
 g) S'han configurat i explotat dominis.  
 :::  
 
-zsfxdsf
-hola Juam T
+
 
