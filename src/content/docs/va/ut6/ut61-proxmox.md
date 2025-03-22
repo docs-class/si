@@ -7,7 +7,7 @@ Per a les pràctiques necessitarem un Servidor de Windows (WS) i un Windows 10 p
 ## Accés a Windows Server
 
 1. **Accés a la interfície web de Proxmox**:
-   - Obri el teu navegador web i dirigeix-te a la URL: 192.232.22.1:4444
+   - Obri el teu navegador web i dirigeix-te a la URL: [https://10.100.0.3:8006](https://10.100.0.3:8006)
    - Introdueix les credencials d'usuari: 
      - **Usuari**: usuX (X = número d'usuari assignat)
      - **Contrasenya**: xxxxxxxx
