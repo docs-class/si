@@ -309,6 +309,7 @@ export default defineConfig({
                         'ut6/ut61-introduction',
                         'ut6/ut61-directory-service',
                         'ut6/ut61-structure',
+                        'ut6/ut61-proxmox',
                 ],
             },
             //UT7
