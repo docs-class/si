@@ -3,19 +3,16 @@ import { defineConfig } from 'astro/config';
 import markdoc from '@astrojs/markdoc';
 import starlight from '@astrojs/starlight';
 import starlightViewModes from 'starlight-view-modes';
-import remarkMermaid from 'remark-mermaidjs'
+
+
+import d2 from 'astro-d2';
 
 
 // https://astro.build/config
 export default defineConfig({
     site: 'https://docs-class.github.io/',
     base: '/si',
-    markdown: {
-        // Applied to .md and .mdx files
-        remarkPlugins: [remarkMermaid],
-      },
-    integrations: [markdoc(),
-    starlight({
+    integrations: [markdoc(), starlight({
         title: {
             es: 'Sistemas Informáticos',
             va: 'Sistemes Informàtics',
@@ -309,6 +306,7 @@ export default defineConfig({
                         'ut6/ut61-introduction',
                         'ut6/ut61-directory-service',
                         'ut6/ut61-structure',
+                        'ut6/ut61-proxmox',
                 ],
             },
             //UT7
@@ -326,5 +324,5 @@ export default defineConfig({
             //     ],
             // },
         ],
-    }),],
+    }), d2()],
 });

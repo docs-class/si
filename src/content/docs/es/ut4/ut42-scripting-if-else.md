@@ -15,14 +15,20 @@ fi
 - **if** abre la estructura y **fi** la cierra
 - [[ condición ]] 
   - verdadero → ejecuto “acciones” 
-  - falso → no ejecuto nada
+  - Falsoo → no ejecuto nada
 - [[ expresión ]] → Permite el uso de expresiones regulares, no hay que entrecomillar las variables, ni escapar caracteres especiales.
-```mermaid
-graph LR;
-    A[Inicio] --> B{Condición};
-    B -->|Verdadero| C[Acciones];
-    B -->|Falso| D[Fin];
-    C --> D;
+```d2 
+direction: right
+A: Inicio
+B: Condición
+B.shape: diamond
+C: Acciones
+D: Fin
+
+A -> B
+B -> C: Verdadero
+B -> D: Falsoo
+C -> D
 ```
 
 :::note[Cosas a tener en cuenta]
@@ -44,13 +50,22 @@ else
 fi
 ```
 
-```mermaid
-graph LR;
-    A[Inicio] --> B{Condición};
-    B -->|Verdadero| C[Acciones 1];
-    B -->|Falso| D[Acciones 2];
-    C --> E[Fin];
-    D --> E;
+
+```d2
+direction: right
+A: Inicio
+B: Condición
+B.shape: diamond
+C: Acciones 1
+D: Acciones 2
+E: Fin
+
+A -> B
+B -> C: Verdad
+B -> D: Falso
+C -> E
+D -> E
+
 ```
 
 > La sección **else** es opcional
@@ -74,17 +89,31 @@ else
 fi
 ```
 
-```mermaid
-graph LR;
-    A[Inicio] --> B{Condición 1};
-    B -->|Verdadero| C[Acciones 1];
-    B -->|Falso| D{Condición 2};
-    D -->|Verdadero| E[Acciones 2];
-    D -->|Falso| F{Condición 3};
-    F -->|Verdadero| G[Acciones 3];
-    F -->|Falso| H[Acciones 4];
-    C --> I[Fin];
-    E --> I;
-    G --> I;
-    H --> I;
+```d2
+direction: right
+A: Inicio
+B: Condición 1
+B.shape: diamond
+C: Acciones 1
+D: Condición 2
+D.shape: diamond
+E: Acciones 2
+F: Condición 3
+F.shape: diamond
+G: Acciones 3
+H: Acciones 4
+I: Fin
+
+A -> B
+B -> C: Verdad
+B -> D: Falso
+D -> E: Verdad
+D -> F: Falso
+F -> G: Verdad
+F -> H: Falso
+C -> I
+E -> I
+G -> I
+H -> I
+
 ```

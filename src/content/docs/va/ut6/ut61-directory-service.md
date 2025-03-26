@@ -20,7 +20,7 @@ Els serveis de directori **emmagatzemen informació** sobre l'organització, llo
   - **Unitat Organitzativa**: és un contenidor d'objectes que permet organitzar-los en subconjunts de forma jeràrquica. D'aquesta manera, podem establir una estructura lògica que represente adequadament la nostra organització i en facilite l'administració.
   - **Grups**: conjunt d'objectes d'usuari. Igual que les unitats organitzatives, faciliten l'organització i administració dels objectes, en aquest cas concret, usuaris.
   - **Controlador de domini**: és l'equip que conté la base de dades d'objectes del directori per a un determinat domini, inclosa la informació de seguretat. A més, serà responsable de l'autenticació d'objectes dins del seu àmbit de control.
-
+![dominio](../../../../assets/ut6/dominio.webp)
 
 ## DNS (Domain Name Server)
 
