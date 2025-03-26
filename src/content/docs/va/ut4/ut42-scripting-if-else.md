@@ -18,12 +18,18 @@ fi
   - fals → no execute res
 - [[ expressió ]] → Permet l'ús d'expressions regulars, no cal entrecomillar les variables, ni escapar caràcters especials.
 
-```mermaid
-graph LR;
-    A[Inici] --> B{Condició};
-    B -->|Veritable| C[Accions];
-    B -->|Fals| D[Fi];
-    C --> D;
+```d2
+direction: right
+A: Inicio
+B: Condición
+B.shape: diamond
+C: Acciones
+D: Fin
+
+A -> B
+B -> C: Verdadero
+B -> D: Falso
+C -> D
 ```
 
 :::note[Coses a tindre en compte]
@@ -45,13 +51,21 @@ else
 fi
 ```
 
-```mermaid
-graph LR;
-    A[Inici] --> B{Condició};
-    B -->|Veritable| C[Accions 1];
-    B -->|Fals| D[Accions 2];
-    C --> E[Fi];
-    D --> E;
+```d2
+direction: right
+A: Inici
+B: Condició
+B.shape: diamond
+C: Accions 1
+D: Accions 2
+E: Fi
+
+A -> B
+B -> C: Veritable
+B -> D: Fals
+C -> E
+D -> E
+
 ```
 
 > La secció **else** és opcional
@@ -74,17 +88,31 @@ else
 fi
 ```
 
-```mermaid
-graph LR;
-    A[Inici] --> B{Condició 1};
-    B -->|Veritable| C[Accions 1];
-    B -->|Fals| D{Condició 2};
-    D -->|Veritable| E[Accions 2];
-    D -->|Fals| F{Condició 3};
-    F -->|Veritable| G[Accions 3];
-    F -->|Fals| H[Accions 4];
-    C --> I[Fi];
-    E --> I;
-    G --> I;
-    H --> I;
+```d2
+direction: right
+A: Inici
+B: Condició 1
+B.shape: diamond
+C: Accions 1
+D: Condició 2
+D.shape: diamond
+E: Accions 2
+F: Condició 3
+F.shape: diamond
+G: Accions 3
+H: Accions 4
+I: Fi
+
+A -> B
+B -> C: Veritable
+B -> D: Fals
+D -> E: Veritable
+D -> F: Fals
+F -> G: Veritable
+F -> H: Fals
+C -> I
+E -> I
+G -> I
+H -> I
+
 ```

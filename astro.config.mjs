@@ -3,7 +3,6 @@ import { defineConfig } from 'astro/config';
 import markdoc from '@astrojs/markdoc';
 import starlight from '@astrojs/starlight';
 import starlightViewModes from 'starlight-view-modes';
-import remarkMermaid from 'remark-mermaidjs'
 
 
 import d2 from 'astro-d2';
@@ -13,10 +12,6 @@ import d2 from 'astro-d2';
 export default defineConfig({
     site: 'https://docs-class.github.io/',
     base: '/si',
-    markdown: {
-        // Applied to .md and .mdx files
-        remarkPlugins: [remarkMermaid],
-      },
     integrations: [markdoc(), starlight({
         title: {
             es: 'Sistemas Informáticos',
