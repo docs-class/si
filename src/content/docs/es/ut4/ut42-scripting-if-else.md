@@ -17,7 +17,7 @@ fi
   - verdadero → ejecuto “acciones” 
   - Falsoo → no ejecuto nada
 - [[ expresión ]] → Permite el uso de expresiones regulares, no hay que entrecomillar las variables, ni escapar caracteres especiales.
-```d2 elk
+```d2 
 direction: right
 A: Inicio
 B: Condición
