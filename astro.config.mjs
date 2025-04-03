@@ -310,19 +310,19 @@ export default defineConfig({
                 ],
             },
             //UT7
-            // {
-            //     label: "UT7 - APLICACIONS INFORMÀTIQUES",
-            //     // badge: { text: '25-NOV', variant: 'success' },
-            //     translations: {
-            //         'es': 'UT7 - APLICACIONES INFORMÁTICAS',
-            //         'en': 'UT7 - IT APPS',
+            {
+                label: "UT7 - APLICACIONS INFORMÀTIQUES",
+                // badge: { text: '25-NOV', variant: 'success' },
+                translations: {
+                    'es': 'UT7 - APLICACIONES INFORMÁTICAS',
+                    'en': 'UT7 - IT APPS',
 
-            //     },
-            //     // Collapsa el grupo de forma predeterminada.
-            //     items: [
-            //             'ut7/ut71-introduction',
-            //     ],
-            // },
+                },
+                // Collapsa el grupo de forma predeterminada.
+                items: [
+                        'ut7/ut71-introduction',
+                ],
+            },
         ],
     }), d2()],
 });

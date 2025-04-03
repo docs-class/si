@@ -1,16 +1,93 @@
 ---
-title: "Introducción a las redes"
-description: "Network"
+title: "Aplicacions Informàtiques"
+description: "Aplicacions Informàtiques"
+export_on_save:
+   // puppeteer: true
+   // html: false
 ---
 
 :::note[Connexió amb el currículum]  
-**6. Opera sistemes en xarxa gestionant els seus recursos i identificant les restriccions de seguretat existents.**  
+**7. Elabora documentació valorant i utilitzant aplicacions informàtiques de propòsit general.**  
 
-a) S'ha configurat l'accés a recursos locals i recursos de xarxa.  
-b) S'han identificat i configurat els drets d'usuari i directrius de seguretat.  
-c) S'han explotat servidors de fitxers, servidors d'impressió i servidors d'aplicacions.  
-d) S'ha accedit als servidors utilitzant tècniques de connexió remota.  
-e) S'ha avaluat la necessitat de protegir els recursos i el sistema.  
-f) S'han instal·lat i avaluat utilitats de seguretat bàsica.  
-g) S'han configurat i explotat dominis.  
+a) S'ha classificat el programari en funció de la seua llicència i propòsit.
+
+b) S'han analitzat les necessitats específiques de programari associades a l'ús de sistemes informàtics en diferents entorns productius.
+
+c) S'han realitzat tasques de documentació mitjançant l'ús d'eines ofimàtiques.
+
+d) S'han utilitzat sistemes de correu i missatgeria electrònica.
+
+e) S'han utilitzat els serveis de transferència de fitxers.
+
+f) S'han utilitzat mètodes de cerca de documentació tècnica mitjançant l'ús de serveis d'Internet. 
+
+g) S'han utilitzat eines de propòsit general.
 :::  
+
+## Llicències de Programari
+### Diferències entre Programari Privatiu i Programari Lliure
+
+| Característica      | Programari Privatiu               | Programari Lliure                        |
+|--------------------|------------------------------------|-----------------------------------------|
+| **Accés al codi**   | No està disponible                | Està disponible per a tots              |
+| **Modificació**     | No permés                        | Permés i fomentat                       |
+| **Distribució**     | Restringit, només sota llicència  | Lliure, amb possibilitat de redistribució|
+| **Control**         | Controlat pel propietari          | Controlat per la comunitat o usuaris    |
+| **Exemples**        | Windows, macOS, Photoshop         | Linux, Firefox, LibreOffice             |
+
+#### **Les Quatre Llibertats del Programari Lliure**:
+
+1. **Llibertat 0**: Usar el programa per a qualsevol propòsit.
+2. **Llibertat 1**: Estudiar i modificar el programa (accés al codi font).
+3. **Llibertat 2**: Redistribuir còpies del programa.
+4. **Llibertat 3**: Millorar el programa i compartir les modificacions.
+
+## Tipus de Llicències de Programari
+
+##### **Llicències Lliures**:
+- **Free Software**: Permet l'ús, còpia i distribució, però no sempre és gratuït.
+- **Copyleft**: Permet modificar i redistribuir el programari sota les mateixes condicions que l'original.
+- **GPL (GNU General Public License)**: Popular en projectes de programari lliure com Linux, permet la modificació i redistribució del programari amb la mateixa llicència.
+- **Debian**: Contracte per a distribuir i utilitzar programari lliure, amb drets clars per als usuaris.
+- **BSD**: Protegeix la distribució de programari desenvolupat per Berkeley Software Distribution.
+- **X.org**: Permet la distribució de programari lliure sense compromís amb el copyleft.
+
+##### **Llicències Gratuïtes**:
+- **Freeware**: Gratuït per al seu ús, però no permet l'accés al codi font.
+- **Trial o Demoware**: Versió gratuïta limitada per temps o característiques, després requereix pagament.
+- **Demo**: Versió de demostració amb funcions limitades.
+- **Adware**: Gratuït, però amb publicitat. Pot oferir una versió de pagament sense anuncis.
+- **Crippleware o Lite**: Versió gratuïta amb funcions limitades.
+
+##### **Llicències Protegides i de Pagament**:
+- **Shareware**: Permet la redistribució gratuïta, però requereix pagament per a continuar usant-lo.
+- **Programari Propietari**: El codi font no està disponible, i el seu ús està restringit pel propietari del programari.
+- **Programari Comercial**: Requereix pagament per al seu ús, ja siga propietari o lliure.
+- **Nagware**: Gratuït durant un temps, però després demana pagament mostrant recordatoris constants.
+
+##### **Llicències Condicionals**:
+- **Careware**: Sol·licita donacions per a organitzacions benèfiques.
+- **Donationware**: Permet donacions voluntàries als desenvolupadors.
+- **Greenware**: Exigeix un compromís amb la conservació del medi ambient.
+- **Emailware**: Sol·licita un correu electrònic a l'autor per a confirmar l'ús.
+
+## Llicències Creative Commons (CC)
+
+Les **Llicències Creative Commons (CC)** són àmpliament utilitzades en la distribució de contingut digital, com imatges, vídeos, música i textos.
+
+Les llicències Creative Commons ofereixen un enfocament més flexible en comparació amb les llicències tradicionals de programari. Aquestes permeten als creadors decidir quins drets desitgen atorgar al públic, tals com el dret a **compartir**, **modificar** o **utilitzar** la seua obra amb fins **comercials** o **no comercials**, sempre sota certs termes i condicions. Això facilita la col·laboració i l'intercanvi de contingut, tant en projectes educatius com creatius.
+
+#### Tipus de Llicències Creative Commons:
+
+1. **CC 1.0 (Domini Públic)**: Permet l'ús total de l'obra sense cap restricció. El creador renuncia a tots els seus drets i l'obra entra en el domini públic.
+2. **CC BY (Atribució)**: Permet compartir i modificar l'obra, fins i tot amb fins comercials, sempre que es done crèdit a l'autor.
+3. **CC BY-SA (Atribució-CompartirIgual)**: Permet compartir i modificar l'obra, però les obres derivades han de mantindre la mateixa llicència.
+4. **CC BY-ND (Atribució-SenseObresDerivades)**: Permet compartir l'obra, però no modificar-la, ni crear obres derivades.
+5. **CC BY-NC (Atribució-NoComercial)**: Permet compartir i modificar l'obra per a fins no comercials, amb atribució a l'autor.
+6. **CC BY-NC-SA (Atribució-NoComercial-CompartirIgual)**: Permet compartir i modificar l'obra per a fins no comercials, mantenint la mateixa llicència.
+7. **CC BY-NC-ND (Atribució-NoComercial-SenseObresDerivades)**: Permet compartir l'obra per a fins no comercials, sense modificacions ni obres derivades.
+
+:::tip[Ampliació]
+- [Creative Commons Licenses](https://www.youtube.com/watch?v=srVPLrmlBJY)
+:::
+
