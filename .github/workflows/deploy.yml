@@ -18,6 +18,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Install D2
+        run: |
+          curl -fsSL https://d2lang.com/install.sh | sh
+          echo "$HOME/.d2/bin" >> $GITHUB_PATH
+      - name: Verify D2 installation
+        run: d2 --version
       - name: Checkout your repository using git
         uses: actions/checkout@v4
       - name: Install, build, and upload your site
