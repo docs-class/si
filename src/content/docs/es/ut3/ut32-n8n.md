@@ -1,34 +1,29 @@
 ---
-title: "Automatización"
+title: "Automatización con n8n"
 description: "Automatización de tareas con n8n"
 export_on_save:
   puppeteer: true
   html: false
 ---
 
-¡Claro! Aquí tienes una **guía paso a paso para que tus alumnos de FP Superior de DAM** comiencen con **n8n**, enfocada en su instalación local y primeros pasos. Esta guía está pensada para usuarios sin experiencia previa, pero con conocimientos básicos de sistemas operativos y redes.
+## 🎯 Introducción a n8n  
 
----
+### ¿Qué es n8n?
 
-# 📘 Guía para Empezar con n8n (Versión Local)
+- Plataforma de automatización basada en nodos.
+- Open Source y autohospedable.
+- Similar a Zapier o Make, pero libre y local.
 
-## 🎯 Objetivo
-Que los alumnos puedan instalar y configurar n8n en su equipo local y realizar sus primeros workflows sencillos.
 
----
+### ¿Cómo funciona?
 
-## 🧰 Requisitos Mínimos
+- Trabaja con **nodos conectados**.
+- Ejecuta flujos de trabajo (_workflows_).
+- Permite integrar APIs, scripts y servicios.
 
-- Sistema operativo: Windows 10+, macOS o Linux
-- Node.js v14.x o superior (recomendado v16 o v18)
-- npm (viene con Node.js)
-- Conocimientos básicos de terminal/comandos
+### 📦 Instalación Paso a Paso
 
----
-
-## 📦 Instalación Paso a Paso
-
-### ✅ Paso 1: Verificar e instalar Node.js y npm
+#### ✅ Paso 1: Verificar e instalar Node.js y npm
 
 **Windows / Linux / macOS**
 
@@ -50,7 +45,7 @@ Que los alumnos puedan instalar y configurar n8n en su equipo local y realizar s
 
 ---
 
-### ✅ Paso 2: Instalar n8n de forma local
+#### ✅ Paso 2: Instalar n8n de forma local
 
 1. En el terminal, ejecuta:
    ```bash
@@ -71,9 +66,9 @@ Que los alumnos puedan instalar y configurar n8n en su equipo local y realizar s
 
 ---
 
-## 🧪 Primeros Pasos en n8n
+### 🧪 Primeros Pasos en n8n
 
-### 🧭 Paso 3: Crear tu primer Workflow
+#### 🧭 Paso 3: Crear tu primer Workflow
 
 1. Al entrar en la interfaz web:
    - Verás un lienzo vacío.
@@ -97,7 +92,7 @@ Que los alumnos puedan instalar y configurar n8n en su equipo local y realizar s
 
 ---
 
-### 💡 Paso 4: Guardar y exportar tu workflow
+#### 💡 Paso 4: Guardar y exportar tu workflow
 
 1. Haz clic en **"Save"** arriba a la derecha.
 2. Puedes exportar el workflow como JSON:
@@ -106,11 +101,11 @@ Que los alumnos puedan instalar y configurar n8n en su equipo local y realizar s
 
 ---
 
-## 🛠️ Opciones Adicionales (Avanzadas)
+### 🛠️ Opciones Adicionales (Avanzadas)
 
 > Estas opciones son opcionales y pueden usarse después del primer contacto con n8n.
 
-### 🐳 Usar Docker (opcional)
+#### 🐳 Usar Docker (opcional)
 
 Si prefieres usar Docker (muy útil en entornos profesionales):
 
@@ -122,7 +117,7 @@ docker run -it -p 5678:5678 n8nio/n8n
 
 ---
 
-### 🗂️ Persistencia de datos (opcional)
+#### 🗂️ Persistencia de datos (opcional)
 
 Por defecto, n8n no guarda los workflows si lo cierras. Para guardarlos:
 
@@ -134,26 +129,25 @@ Por defecto, n8n no guarda los workflows si lo cierras. Para guardarlos:
 
 ---
 
-## 📝 Actividades Propuestas para los Alumnos
+### 📝 Actividades Propuestas para los Alumnos
 
-### 🧪 Actividad 1: Automatizar una consulta a una API pública
+#### 🧪 Actividad 1: Automatizar una consulta a una API pública
 - Usa la API de GitHub (`https://api.github.com/users/username`) para obtener información de un usuario.
 - Muestra el resultado en el debug.
 
-### 🧪 Actividad 2: Hacer una copia de seguridad de archivos
+#### 🧪 Actividad 2: Hacer una copia de seguridad de archivos
 - Usa el nodo `Read Binary File` para leer un archivo.
 - Usa el nodo `Write Binary File` para guardarlo en otra ubicación.
 - Programa este flujo con el nodo `Cron`.
 
-### 🧪 Actividad 3: Enviar un correo con datos de una consulta
+#### 🧪 Actividad 3: Enviar un correo con datos de una consulta
 - Usa nodos como `HTTP Request` + `Email`.
 - Envía un correo con resultados de una llamada a una API.
 
 ---
 
-## 📚 Recursos Oficiales
+### 📚 Recursos Oficiales
 
 - Documentación oficial: [https://docs.n8n.io](https://docs.n8n.io)
 - Comunidad y foro: [https://community.n8n.io](https://community.n8n.io)
 - Plantillas predefinidas: [https://n8n.io/workflows](https://n8n.io/workflows)
-
