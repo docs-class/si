@@ -40,7 +40,7 @@ export default defineConfig({
             './src/styles/katex.css', 
         ],
         plugins: [
-            starlightViewModes({
+       /*      starlightViewModes({
                 // @ts-ignore
                 // zenModeEnabled: true,
                 zenModeCloseButtonPosition: "top-right",
@@ -55,7 +55,7 @@ export default defineConfig({
                 presentationModeEnabled: false, // not supported yet
                 // presentationModeControlButtonPosition: "middle-right", // not supported yet
                 // presentationModeShowSwitchInTableOfContents: true, // not supported yet
-            }),
+            }), */
         ],
         // Default locale
         defaultLocale: 'es',
