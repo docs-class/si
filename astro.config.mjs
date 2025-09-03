@@ -4,6 +4,7 @@ import markdoc from '@astrojs/markdoc';
 import starlight from '@astrojs/starlight';
 import starlightViewModes from 'starlight-view-modes';
 
+
 // math plugins
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
@@ -20,7 +21,7 @@ export default defineConfig({
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
     },
-    integrations: [markdoc(), starlight({
+    integrations: [ markdoc(), starlight({
         title: {
             es: 'Sistemas Informáticos',
             va: 'Sistemes Informàtics',
