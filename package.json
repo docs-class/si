@@ -18,6 +18,8 @@
     "@iconify/json": "^2.2.354",
     "astro": "^5.10.2",
     "astro-d2": "^0.8.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
     "sharp": "^0.34.2",
     "starlight-view-modes": "^0.11.0",
     "typescript": "^5.8.3"

@@ -13,3 +13,10 @@
   .starlight-aside__content,.starlight-aside__title{
     font-size: small;
   }
+
+
+p:has(img) {
+  display: flex;
+  /* align-items: center; This is an optional but very useful property to vertically center the image and text */
+  justify-content: center;
+}

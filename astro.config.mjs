@@ -4,6 +4,10 @@ import markdoc from '@astrojs/markdoc';
 import starlight from '@astrojs/starlight';
 import starlightViewModes from 'starlight-view-modes';
 
+// math plugins
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
+
 
 import d2 from 'astro-d2';
 
@@ -12,24 +16,31 @@ import d2 from 'astro-d2';
 export default defineConfig({
     site: 'https://docs-class.github.io/',
     base: '/si',
+    markdown: {
+        remarkPlugins: [remarkMath],
+        rehypePlugins: [rehypeKatex],
+    },
     integrations: [markdoc(), starlight({
         title: {
             es: 'Sistemas Informáticos',
             va: 'Sistemes Informàtics',
             en: 'IT Systems',
         },
+
         locales: {
             'es': { lang: 'es', label: 'Español' },
-            'en': { lang: 'en', label: 'English' },
-            'va': { lang: 'va', label: 'Valencià' },
+            // 'en': { lang: 'en', label: 'English' },
+            // 'va': { lang: 'va', label: 'Valencià' },
         },
         expressiveCode: false,
         customCss: [
             // Relative path to your custom CSS file
             './src/styles/custom.css',
+            './src/styles/katex.css', 
         ],
         plugins: [
             starlightViewModes({
+                // @ts-ignore
                 zenModeEnabled: true,
                 zenModeCloseButtonPosition: "top-right",
                 zenModeShowHeader: false,
@@ -46,7 +57,7 @@ export default defineConfig({
             }),
         ],
         // Default locale
-        defaultLocale: 'va',
+        defaultLocale: 'es',
         sidebar: [
             {
                 label: 'UT1 - SISTEMES INFORMÀTICS: ARQUITECTURA Y COMPONENTS',
@@ -243,37 +254,37 @@ export default defineConfig({
                         ],
                     },
                     //Scripts
-                {
-                    label: '4.2 Scripting',
-                    translations: {
-                        'es': '4.2 Scripting',
-                        'en': '4.2 Scripting',
-                    },
-                    items: [
-                        'ut4/ut42-scripting',
-                        'ut4/ut42-scripting-variables',
-                        'ut4/ut42-scripting-backslash',
-                        'ut4/ut42-scripting-arithmetics',
-                        'ut4/ut42-scripting-parametres',
-                        {
-                            label: 'Estructures de Control',
-                            translations: {
-                                'es': 'Estructuras de Control',
-                                'en': 'Control structures',
-                            },
-                            items: [
-                                'ut4/ut42-scripting-if-else',
-                                'ut4/ut42-scripting-operators',
-                                'ut4/ut42-scripting-case',
-                                'ut4/ut42-scripting-forin',
-                                'ut4/ut42-scripting-for',
-                                'ut4/ut42-scripting-while',
-                                'ut4/ut42-scripting-break',
-                                'ut4/ut42-scripting-files',
-                            ],
+                    {
+                        label: '4.2 Scripting',
+                        translations: {
+                            'es': '4.2 Scripting',
+                            'en': '4.2 Scripting',
                         },
-                    ],
-                },
+                        items: [
+                            'ut4/ut42-scripting',
+                            'ut4/ut42-scripting-variables',
+                            'ut4/ut42-scripting-backslash',
+                            'ut4/ut42-scripting-arithmetics',
+                            'ut4/ut42-scripting-parametres',
+                            {
+                                label: 'Estructures de Control',
+                                translations: {
+                                    'es': 'Estructuras de Control',
+                                    'en': 'Control structures',
+                                },
+                                items: [
+                                    'ut4/ut42-scripting-if-else',
+                                    'ut4/ut42-scripting-operators',
+                                    'ut4/ut42-scripting-case',
+                                    'ut4/ut42-scripting-forin',
+                                    'ut4/ut42-scripting-for',
+                                    'ut4/ut42-scripting-while',
+                                    'ut4/ut42-scripting-break',
+                                    'ut4/ut42-scripting-files',
+                                ],
+                            },
+                        ],
+                    },
                 ],
             },
             //UT5
@@ -287,9 +298,9 @@ export default defineConfig({
                 },
                 // Collapsa el grupo de forma predeterminada.
                 items: [
-                        'ut5/ut51-introduction',
-                        // 'ut5/ut51-services',
-                        // 'ut5/ut51-ssh',
+                    'ut5/ut51-introduction',
+                    // 'ut5/ut51-services',
+                    // 'ut5/ut51-ssh',
                 ],
             },
             //UT6
@@ -303,10 +314,10 @@ export default defineConfig({
                 },
                 // Collapsa el grupo de forma predeterminada.
                 items: [
-                        'ut6/ut61-introduction',
-                        'ut6/ut61-directory-service',
-                        'ut6/ut61-structure',
-                        'ut6/ut61-proxmox',
+                    'ut6/ut61-introduction',
+                    'ut6/ut61-directory-service',
+                    'ut6/ut61-structure',
+                    'ut6/ut61-proxmox',
                 ],
             },
             //UT7
@@ -320,7 +331,7 @@ export default defineConfig({
                 },
                 // Collapsa el grupo de forma predeterminada.
                 items: [
-                        'ut7/ut71-introduction',
+                    'ut7/ut71-introduction',
                 ],
             },
         ],
