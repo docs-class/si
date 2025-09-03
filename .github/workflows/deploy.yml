@@ -22,16 +22,10 @@ jobs:
         run: d2 --version
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
+      - name: Build with Astro
         uses: withastro/action@v3
         with:
           package-manager: pnpm@latest
-      
-      # IMPORTANT: This step uploads the build output to be used by the deploy job
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
 
   deploy:
     needs: build
