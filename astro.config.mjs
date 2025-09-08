@@ -2,7 +2,6 @@
 import { defineConfig } from 'astro/config';
 import markdoc from '@astrojs/markdoc';
 import starlight from '@astrojs/starlight';
-import fullviewMode from 'starlight-fullview-mode';
 
 
 // math plugins
@@ -40,7 +39,6 @@ export default defineConfig({
             './src/styles/katex.css',
         ],
         plugins: [
-            fullviewMode(),
         ],
 
         // Default locale

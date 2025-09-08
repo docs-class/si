@@ -22,7 +22,6 @@
     "remark-math": "^6.0.0",
     "root": "github:stramel/astro-icon#main",
     "sharp": "^0.34.3",
-    "starlight-fullview-mode": "^0.2.3",
     "typescript": "^5.9.2"
   },
   "devDependencies": {

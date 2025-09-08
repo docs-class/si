@@ -44,9 +44,6 @@ importers:
       sharp:
         specifier: ^0.34.3
         version: 0.34.3
-      starlight-fullview-mode:
-        specifier: ^0.2.3
-        version: 0.2.3(@astrojs/starlight@0.34.8(astro@5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1)))
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -2309,12 +2306,6 @@ packages:
   stable@0.1.8:
     resolution: {integrity: sha512-ji9qxRnOVfcuLDySj9qzhGSEFVobyt1kIOSkj1qZzYLzq7Tos/oUUWvotUPQLlrsidqsK6tBH89Bc9kL5zHA6w==}
     deprecated: 'Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility'
-
-  starlight-fullview-mode@0.2.3:
-    resolution: {integrity: sha512-8sw/VKhWAtcD5eOUBz4T8U/rEtteOXXyKTp0QwNXlwAW4zgIb6qKsnRXOQearHMp3GTSUH/b+tISHrtz9+/ePQ==}
-    engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
-    peerDependencies:
-      '@astrojs/starlight': '>=0.32'
 
   stream-replace-string@2.0.0:
     resolution: {integrity: sha512-TlnjJ1C0QrmxRNrON00JvaFFlNh5TTG00APw23j74ET7gkQpTASi6/L2fuiav8pzK715HXtUeClpBTw2NPSn6w==}
@@ -5754,11 +5745,6 @@ snapshots:
   sprintf-js@1.0.3: {}
 
   stable@0.1.8: {}
-
-  starlight-fullview-mode@0.2.3(@astrojs/starlight@0.34.8(astro@5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1))):
-    dependencies:
-      '@astrojs/starlight': 0.34.8(astro@5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1))
-      '@iconify-json/mdi': 1.2.3
 
   stream-replace-string@2.0.0: {}
 
