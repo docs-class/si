@@ -2,7 +2,7 @@
 import { defineConfig } from 'astro/config';
 import markdoc from '@astrojs/markdoc';
 import starlight from '@astrojs/starlight';
-import starlightViewModes from 'starlight-view-modes';
+import fullviewMode from 'starlight-fullview-mode';
 
 
 // math plugins
@@ -21,7 +21,7 @@ export default defineConfig({
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
     },
-    integrations: [ markdoc(), starlight({
+    integrations: [markdoc(), starlight({
         title: {
             es: 'Sistemas Informáticos',
             va: 'Sistemes Informàtics',
@@ -37,26 +37,12 @@ export default defineConfig({
         customCss: [
             // Relative path to your custom CSS file
             './src/styles/custom.css',
-            './src/styles/katex.css', 
+            './src/styles/katex.css',
         ],
         plugins: [
-            starlightViewModes({
-                // @ts-ignore
-                zenModeEnabled: true,
-                zenModeCloseButtonPosition: "top-right",
-                zenModeShowHeader: false,
-                zenModeShowSidebar: false,
-                zenModeShowTableOfContents: false,
-                zenModeShowFooter: true,
-                zenModeShowSwitchInHeader: true,
-                zenModeShowSwitchInHeaderMobile: true,
-                zenModeShowSwitchInTableOfContents: false,
-
-                presentationModeEnabled: false, // not supported yet
-                // presentationModeControlButtonPosition: "middle-right", // not supported yet
-                // presentationModeShowSwitchInTableOfContents: true, // not supported yet
-            }),
+            fullviewMode(),
         ],
+
         // Default locale
         defaultLocale: 'es',
         sidebar: [

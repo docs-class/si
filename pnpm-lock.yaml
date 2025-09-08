@@ -44,9 +44,9 @@ importers:
       sharp:
         specifier: ^0.34.3
         version: 0.34.3
-      starlight-view-modes:
-        specifier: ^0.11.0
-        version: 0.11.0(@astrojs/starlight@0.34.8(astro@5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1)))
+      starlight-fullview-mode:
+        specifier: ^0.2.3
+        version: 0.2.3(@astrojs/starlight@0.34.8(astro@5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1)))
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -1586,10 +1586,6 @@ packages:
   iron-webcrypto@1.2.1:
     resolution: {integrity: sha512-feOM6FaSr6rEABp/eDfVseKyTMDt+KGpeB35SkVn9Tyn0CqvVsY3EwI0v5i8nMHyJnzCIQf7nsy3p41TPkJZhg==}
 
-  is-absolute-url@4.0.1:
-    resolution: {integrity: sha512-/51/TKE88Lmm7Gc4/8btclNXWS+g50wXhYJq8HWIBAGUBnoAdRu1aXeh364t/O7wXDAcTJDP8PNuNKWUDWie+A==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-
   is-alphabetical@2.0.1:
     resolution: {integrity: sha512-FWyyY60MeTNyeSRpkM2Iry0G9hpr7/9kD40mD/cGQEuilcZYS4okz8SN2Q6rLCJ8gbCt6fN+rC+6tMGS99LaxQ==}
 
@@ -2314,8 +2310,8 @@ packages:
     resolution: {integrity: sha512-ji9qxRnOVfcuLDySj9qzhGSEFVobyt1kIOSkj1qZzYLzq7Tos/oUUWvotUPQLlrsidqsK6tBH89Bc9kL5zHA6w==}
     deprecated: 'Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility'
 
-  starlight-view-modes@0.11.0:
-    resolution: {integrity: sha512-U/QCdAS69pmZVakdropJIOTITQuLRlZWKaST2Pj3SFwhVnJX4mm9IOP8Ta765L18DMidY+JyKPXdoWkcuLl1vQ==}
+  starlight-fullview-mode@0.2.3:
+    resolution: {integrity: sha512-8sw/VKhWAtcD5eOUBz4T8U/rEtteOXXyKTp0QwNXlwAW4zgIb6qKsnRXOQearHMp3GTSUH/b+tISHrtz9+/ePQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
       '@astrojs/starlight': '>=0.32'
@@ -4629,8 +4625,6 @@ snapshots:
 
   iron-webcrypto@1.2.1: {}
 
-  is-absolute-url@4.0.1: {}
-
   is-alphabetical@2.0.1: {}
 
   is-alphanumerical@2.0.1:
@@ -5761,17 +5755,10 @@ snapshots:
 
   stable@0.1.8: {}
 
-  starlight-view-modes@0.11.0(@astrojs/starlight@0.34.8(astro@5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1))):
+  starlight-fullview-mode@0.2.3(@astrojs/starlight@0.34.8(astro@5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1))):
     dependencies:
       '@astrojs/starlight': 0.34.8(astro@5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1))
-      '@pagefind/default-ui': 1.4.0
-      is-absolute-url: 4.0.1
-      pagefind: 1.4.0
-      picomatch: 4.0.3
-      rehype-parse: 9.0.1
-      rehype-stringify: 10.0.1
-      unified: 11.0.5
-      unist-util-visit: 5.0.0
+      '@iconify-json/mdi': 1.2.3
 
   stream-replace-string@2.0.0: {}
 
