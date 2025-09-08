@@ -12,10 +12,10 @@ importers:
         specifier: ^0.9.4
         version: 0.9.4(typescript@5.9.2)
       '@astrojs/markdoc':
-        specifier: ^0.15.0
+        specifier: ^0.15.6
         version: 0.15.6(astro@5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1))
       '@astrojs/starlight':
-        specifier: ^0.34.4
+        specifier: ^0.34.8
         version: 0.34.8(astro@5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1))
       '@astrojs/starlight-markdoc':
         specifier: ^0.4.0
@@ -24,10 +24,10 @@ importers:
         specifier: ^1.2.3
         version: 1.2.3
       '@iconify/json':
-        specifier: ^2.2.354
+        specifier: ^2.2.382
         version: 2.2.382
       astro:
-        specifier: ^5.10.2
+        specifier: ^5.13.6
         version: 5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1)
       astro-d2:
         specifier: ^0.8.0
@@ -42,13 +42,13 @@ importers:
         specifier: github:stramel/astro-icon#main
         version: https://codeload.github.com/stramel/astro-icon/tar.gz/4c28f275f0b9721203494f3047bda262c706c5ca(@types/node@24.3.1)
       sharp:
-        specifier: ^0.34.2
+        specifier: ^0.34.3
         version: 0.34.3
       starlight-view-modes:
         specifier: ^0.11.0
         version: 0.11.0(@astrojs/starlight@0.34.8(astro@5.13.6(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1)))
       typescript:
-        specifier: ^5.8.3
+        specifier: ^5.9.2
         version: 5.9.2
     devDependencies:
       '@iconify-json/mdi-light':
