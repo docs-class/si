@@ -42,7 +42,7 @@ export default defineConfig({
         plugins: [
             starlightViewModes({
                 // @ts-ignore
-                //zenModeEnabled: true,
+                zenModeEnabled: true,
                 zenModeCloseButtonPosition: "top-right",
                 zenModeShowHeader: false,
                 zenModeShowSidebar: false,
