@@ -10,7 +10,7 @@ La **arquitectura de von Neumann** es un modelo de diseño para computadores pro
 
 <!-- Local image stored in src/assets/ -->
 <!-- Use a relative file path or import alias -->
-![Von Neumman Arquitecture](../../../../assets/ut1/vonNeumman.png)
+![Von Neumann Architecture](../../../assets/ut1/vonNeumman.png)
 
 
 ### Componentes principales:
@@ -45,4 +45,4 @@ La **arquitectura de von Neumann** es un modelo de diseño para computadores pro
 - Flexibilidad al permitir que el mismo hardware pueda ejecutar diferentes programas.
 
 ### Desventajas:
-- **Cuello de botella de von Neumann**: Al compartir el mismo bus para acceder tanto a los datos como a las instrucciones, puede haber una limitación en el rendimiento, ya que la CPU puede quedar esperando mientras accede a la memoria. 
+- **Cuello de botella de von Neumann**: Al compartir el mismo bus para acceder tanto a los datos como a las instrucciones, puede haber una limitación en el rendimiento, ya que la CPU puede quedar esperando mientras accede a la memoria.
