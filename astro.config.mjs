@@ -27,12 +27,12 @@ export default defineConfig({
             va: 'Sistemes Informàtics',
             en: 'IT Systems',
         },
-
-        locales: {
+        favicon: '/images/favicon.png',
+       /*  locales: {
             'es': { lang: 'es', label: 'Español' },
             // 'en': { lang: 'en', label: 'English' },
             // 'va': { lang: 'va', label: 'Valencià' },
-        },
+        }, */
         expressiveCode: false,
         customCss: [
             // Relative path to your custom CSS file
