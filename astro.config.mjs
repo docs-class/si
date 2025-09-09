@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 import fullviewMode from 'starlight-fullview-mode';
 
 
+
 // math plugins
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
@@ -24,11 +25,6 @@ export default defineConfig({
     integrations: [markdoc(), starlight({
         title: 'Sistemas Informáticos',
         favicon: '/images/favicon.png',
-       /*  locales: {
-            'es': { lang: 'es', label: 'Español' },
-            // 'en': { lang: 'en', label: 'English' },
-            // 'va': { lang: 'va', label: 'Valencià' },
-        }, */
         expressiveCode: false,
         customCss: [
             // Relative path to your custom CSS file
@@ -40,23 +36,15 @@ export default defineConfig({
         ],
 
         // Default locale
-        defaultLocale: 'es',
+        //defaultLocale: 'es',
         sidebar: [
             {
-                label: 'UT1 - SISTEMES INFORMÀTICS: ARQUITECTURA Y COMPONENTS',
-                translations: {
-                    'es': 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
-                    'en': 'UT1 - IT SYSTEMS: ARQUITECTURE AND COMPONENTS',
-                },
+                label: 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
                 // Collapsa el grupo de forma predeterminada.
                 collapsed: true,
                 items: [
                     {
-                        label: '1.1 Arquitectura i Components',
-                        translations: {
-                            'es': '1.1 Arquitectura y Componentes',
-                            'en': '1.1 Arquitecture and Components',
-                        },
+                        label: '1.1 Arquitectura y Componentes',
                         items: [
                             'ut1/ut11',
                             'ut1/ut11-info',
@@ -74,30 +62,21 @@ export default defineConfig({
                         ],
                     },
                     {
-                        label: '1.2 Tipus de Xarxes i Components',
-                        translations: {
-                            'es': '1.2 Tipos de Redes y Componentes',
-                            'en': '1.2 Network Topologies and Components',
-                        },
+                        label: '1.2 Tipos de Redes y Componentes',
                         items: [
                             'ut1/ut12',
                             'ut1/ut12-comp',
                         ],
                     },
                     {
-                        label: '1.3 Precaucions Bàsiques i muntatge',
-                        translations: {
-                            'es': '1.3 Precauciones Básicas y monteje',
-                            'en': '1.3 Basic Precautions and mounting',
-                        },
-
+                        label: '1.3 Precauciones Básicas y montaje',
                         items: [
                             'ut1/ut13',
                         ],
                     },
                 ],
-             },
-/*            //UT2
+            },
+/*             //UT2
             {
                 label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
                 // badge: { text: '28-OCT', variant: 'success' },
@@ -109,11 +88,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                     {
-                        label: '2.1 Introducció als Sistemes Operatius',
-                        translations: {
-                            'es': '2.1 Introducción a los Sistemas Operativos',
-                            'en': '2.1 System Operating Introduction',
-                        },
+                        label: '2.1 Introducción a los Sistemas Operativos',
                         items: [
                             'ut2/ut21',
                             'ut2/ut21-install',
@@ -123,11 +98,7 @@ export default defineConfig({
                         ],
                     },
                     {
-                        label: '2.2 Màquines virtuals, Instalació i Actualizació de SSOO',
-                        translations: {
-                            'es': '2.2 Máquinas virtuales, Instalación y actualización de SSOO',
-                            'en': '2.2 Virtual Machines, Installing & updating OS',
-                        },
+                        label: '2.2 Máquinas virtuales, Instalación y actualización de SSOO',
                         items: [
                             'ut2/ut22-virtualization',
                             'ut2/ut22-virtualbox-advanced',
@@ -139,42 +110,25 @@ export default defineConfig({
             },
             //UT3
             {
-                label: "UT3 - GESTIÓ D'ARXIUS I EMMAGATZEMATGE. INTRODUCCIÓ AL TERMINAL",
+                label: 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL',
                 // badge: { text: '25-NOV', variant: 'success' },
-                translations: {
-                    'es': 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL ',
-                    'en': 'UT3 - FILE MANAGEMENT AND STORAGE. INTRODUCTION TO THE TERMINAL',
-
-                },
                 // Collapsa el grupo de forma predeterminada.
                 collapsed: true,
                 items: [
                     {
-                        label: '3.1 Estructura de directoris',
-                        translations: {
-                            'es': '3.1 Estructura de directorios',
-                            'en': '3.1 Directory structure',
-                        },
+                        label: '3.1 Estructura de directorios',
                         items: [
                             'ut3/ut31',
                             'ut3/ut31-directories',
                         ],
                     },
                     {
-                        label: '3.2 Particions, Automatizacions i backups',
-                        translations: {
-                            'es': '3.2 Particiones, Automatizaciones y backups',
-                            'en': '3.2 Partitions, Automations & backups',
-                        },
+                        label: '3.2 Particiones, Automatizaciones y backups',
                         items: [
                             'ut3/ut32-partitions',
                             'ut3/ut32-backup-auto',
                             {
-                                label: 'Automatització',
-                                translations: {
-                                    'es': 'Automatización',
-                                    'en': 'Automation',
-                                },
+                                label: 'Automatización',
                                 items: [
                                     'ut3/ut32-wintasks',
                                     'ut3/ut32-linuxtasks',
@@ -183,11 +137,7 @@ export default defineConfig({
                         ],
                     },
                     {
-                        label: '3.3 Gestió de la informació',
-                        translations: {
-                            'es': '3.3 Gestión de la información',
-                            'en': '3.3 Information Management',
-                        },
+                        label: '3.3 Gestión de la información',
                         items: [
                             'ut3/ut33-cli',
                             'ut3/ut33-cli-win',
@@ -200,31 +150,18 @@ export default defineConfig({
             },
             //UT4
             {
-                label: "UT4 - GESTIÓ USUARIS I PROCESSOS. SCRIPTING",
+                label: 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
                 // badge: { text: '26ENE25', variant: 'success' },
-                translations: {
-                    'es': 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
-                    'en': 'UT4 - USERS AND PROCESSES. SCRIPTING',
-
-                },
                 // Collapsa el grupo de forma predeterminada.
                 collapsed: true,
                 items: [
                     {
-                        label: '4.1 Gestió de usuaris',
-                        translations: {
-                            'es': '4.1 Gestión de usuarios',
-                            'en': '4.1 User management',
-                        },
+                        label: '4.1 Gestión de usuarios',
                         items: [
                             'ut4/ut41',
                             'ut4/ut41-win',
                             {
-                                label: 'Gestió d\'usuaris - Linux',
-                                translations: {
-                                    'es': 'Gestión de usuarios - Linux',
-                                    'en': 'Gestión de usuarios - Linux',
-                                },
+                                label: 'Gestión de usuarios - Linux',
                                 items: [
                                     'ut4/ut41-linux',
                                     'ut4/ut41-linux-permissions',
@@ -239,10 +176,6 @@ export default defineConfig({
                     //Scripts
                     {
                         label: '4.2 Scripting',
-                        translations: {
-                            'es': '4.2 Scripting',
-                            'en': '4.2 Scripting',
-                        },
                         items: [
                             'ut4/ut42-scripting',
                             'ut4/ut42-scripting-variables',
@@ -250,11 +183,7 @@ export default defineConfig({
                             'ut4/ut42-scripting-arithmetics',
                             'ut4/ut42-scripting-parametres',
                             {
-                                label: 'Estructures de Control',
-                                translations: {
-                                    'es': 'Estructuras de Control',
-                                    'en': 'Control structures',
-                                },
+                                label: 'Estructuras de Control',
                                 items: [
                                     'ut4/ut42-scripting-if-else',
                                     'ut4/ut42-scripting-operators',
@@ -272,13 +201,8 @@ export default defineConfig({
             },
             //UT5
             {
-                label: "UT5 - SISTEMES INFORMÀTICS EN XARXA. CONFIGURACIÓ I EXPLOTACIÓ",
+                label: "UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN",
                 // badge: { text: '25-NOV', variant: 'success' },
-                translations: {
-                    'es': 'UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN',
-                    'en': 'UT5 - COMPUTER SYSTEMS IN NETWORKS. CONFIGURATION AND OPERATION',
-
-                },
                 // Collapsa el grupo de forma predeterminada.
                 items: [
                     'ut5/ut51-introduction',
@@ -288,13 +212,8 @@ export default defineConfig({
             },
             //UT6
             {
-                label: "UT6 - GESTIÓ DE RECURSOS EN XARXA",
+                label: "UT6 - GESTIÓN DE RECURSOS EN RED",
                 // badge: { text: '25-NOV', variant: 'success' },
-                translations: {
-                    'es': 'UT6 - GESTIÓN DE RECURSOS EN RED',
-                    'en': 'UT6 - NETWORK RESOURCES ADMINISTRATION',
-
-                },
                 // Collapsa el grupo de forma predeterminada.
                 items: [
                     'ut6/ut61-introduction',
@@ -305,13 +224,9 @@ export default defineConfig({
             },
             //UT7
             {
-                label: "UT7 - APLICACIONS INFORMÀTIQUES",
+                label: "UT7 - APLICACIONES INFORMÁTICAS",
                 // badge: { text: '25-NOV', variant: 'success' },
-                translations: {
-                    'es': 'UT7 - APLICACIONES INFORMÁTICAS',
-                    'en': 'UT7 - IT APPS',
 
-                },
                 // Collapsa el grupo de forma predeterminada.
                 items: [
                     'ut7/ut71-introduction',
