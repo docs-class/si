@@ -5,7 +5,7 @@ description: "Scripting - WHILE"
 
 Un bucle **While** en bash es una estructura de control (de repetición). _Las instrucciones se ejecutarán  mientras se cumpla la  expresión._
 
-![while control](../../../../assets/ut4/while_250x353.png)
+![while control](../../../assets/ut4/while_250x353.png)
 ```bash
 #!/bin/bash
 while [ expresión ]

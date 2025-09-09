@@ -9,7 +9,7 @@ Al analizar un procesador (CPU), hay varios factores clave que debes tener en cu
    - La frecuencia de los procesadores se mide en **gigahercios (GHz)**, que representan miles de millones de ciclos por segundo. Un procesador de **3.5 GHz**, por ejemplo, ejecuta **3,500 millones de ciclos cada segundo**.
 
    - Cuanto mayor es la frecuencia en GHz, más rápido puede ejecutar operaciones, aunque esto no siempre implica mayor rendimiento general (depende de otros factores como la arquitectura del procesador y la eficiencia energética).
-![Monitor CPU W11](../../../../assets/ut1/cpuMonitor.png)
+![Monitor CPU W11](../../../assets/ut1/cpuMonitor.png)
 Monitor CPU de Windows 11. (ctrl + mayusculas + esc)
 
 ### 2. **Número de Núcleos (Cores)**
@@ -40,7 +40,7 @@ Solo los P-core tienen hilos
      - **L3**: Compartida entre todos los núcleos, más lenta pero de mayor capacidad.
    - La caché ayuda a acelerar el acceso a datos y reduce la necesidad de ir a la RAM para obtener información, mejorando el rendimiento general.
 
-   ![Caches L1, L2, L3](../../../../assets/ut1/caches.png) 
+   ![Caches L1, L2, L3](../../../assets/ut1/caches.png) 
 
 ### 5. **Arquitectura del Procesador**
    - Se refiere al diseño y estructura interna del procesador. Las arquitecturas más comunes incluyen **x86** y **ARM**.
@@ -74,7 +74,7 @@ Solo los P-core tienen hilos
    - Los dos principales fabricantes de procesadores para PCs de escritorio y portátiles son **Intel** y **AMD**.
    - AMD ha ganado terreno en los últimos años con sus procesadores Ryzen, que ofrecen una excelente relación calidad-precio, mientras que Intel sigue siendo competitivo con sus procesadores de alto rendimiento, especialmente en tareas de mononúcleo.
 
-![Procesador AMD e Intel](../../../../assets/ut1/procesador.jpg) 
+![Procesador AMD e Intel](../../../assets/ut1/procesador.jpg) 
 
 ### 13. **Integración**
    - Desde la unión del North Bridge y South Bridge en lo que se conoce ahora el Chipset, el procesador ha integrado los controladores de Memoria Principal y PCI-express

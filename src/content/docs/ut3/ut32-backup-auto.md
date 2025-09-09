@@ -19,10 +19,10 @@ RA: 3 - CE: e, f, g
 ### Tipos de copias de seguridad
 - **COMPLETA:** Copia la totalidad de los datos por eso tarda menos tiempo en recuperarlos, por lo contrario lleva mucho tiempo realizar una copia de seguridad, depende del tamaño de datos a respaldar.
 - **DIFERENCIAL:** El lunes se hace una copia de seguridad sólo de los archivos que han cambiado desde el domingo, el martes se hace una copia de seguridad sólo de los archivos que han cambiado desde el domingo, y así sucesivamente hasta la siguiente copia de seguridad completa.
- ![backup diferencial](../../../../assets/ut3/bk-diferencial.png)
+ ![backup diferencial](../../../assets/ut3/bk-diferencial.png)
 
 - **INCREMENTAL:**  Las copias de seguridad incrementales también hacen una copia de seguridad sólo de los datos modificados, pero sólo de los datos que han cambiado desde la última copia de seguridad, ya sea completa o incremental.
- ![backup incremental](../../../../assets/ut3/bk-incremental.png)
+ ![backup incremental](../../../assets/ut3/bk-incremental.png)
 
 
 

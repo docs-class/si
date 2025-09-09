@@ -32,7 +32,7 @@ description: "Introducción al terminal"
      ``` frame="none"
      ls -l -a = ls -la
      ```
-![ls command](../../../../assets/ut3/ls-command.png)
+![ls command](../../../assets/ut3/ls-command.png)
 
 1. **Diferenciación entre mayúsculas y minúsculas:**
    En Linux, **las mayúsculas y minúsculas son diferentes**, por lo que debes prestar atención al escribir los comandos.

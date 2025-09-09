@@ -12,17 +12,17 @@ La placa base es un circuito impreso con distintas formas estándar, que permite
 ## 1. Factor de forma de una placa base 
 Se refiere a sus dimensiones físicas, el diseño de sus conectores y la disposición de sus componentes. Determina qué tipo de carcasa o gabinete puede alojar la placa, así como el tipo de componentes que se pueden instalar. Los principales factores de forma para placas base son:
 
-![Tamaños de placas base](../../../../assets/ut1/placas-sizes.png)
+![Tamaños de placas base](../../../assets/ut1/placas-sizes.png)
 
 
 ## 2. Componentes de la placa base
-![Placa base y sus componentes](../../../../assets/ut1/placa1.jpg)
+![Placa base y sus componentes](../../../assets/ut1/placa1.jpg)
 
 
 ### Chipset
 
 Chips en la placa base que actúa como un puente de comunicación entre el procesador (CPU) y otros componentes del ordenador, como la memoria RAM, almacenamiento, tarjetas gráficas, puertos USB y otros dispositivos periféricos.
-![Chipset 13th gen Z790](../../../../assets/ut1/chipset-Z790.jpg)
+![Chipset 13th gen Z790](../../../assets/ut1/chipset-Z790.jpg)
 
 ### Socket
 
@@ -35,16 +35,16 @@ Cada procesador está diseñado para un tipo específico de socket.
 
 ### Refrigeración de la CPU
 
-![Refrigeración líquida](../../../../assets/ut1/liquidRef.webp)
+![Refrigeración líquida](../../../assets/ut1/liquidRef.webp)
 
 - Refrigeración líquida, Pasta térmica y ventilador
 
 ### Conectores frontales y posteriores
 
-![Conectores frontales](../../../../assets/ut1/conectores-frontal.jpg)
+![Conectores frontales](../../../assets/ut1/conectores-frontal.jpg)
 
 ![Conectores posteriores old](https://onubaelectronica.es/wp-content/uploads/2020/04/conectores_mainboard.jpg.webp)
-![Conectores posteriores](../../../../assets/ut1/conectores-placa-base-trasera.webp)
+![Conectores posteriores](../../../assets/ut1/conectores-placa-base-trasera.webp)
 ![Conectores posteriores top](https://acf.geeknetic.es/imgw/imagenes/auto/2022/1/27/l8m-conectoresplacasbase.jpg?f=webp)
 
 ### PCI-Express 
@@ -68,7 +68,7 @@ Cada procesador está diseñado para un tipo específico de socket.
 
 El BIOS (Basic Input/Output System) y UEFI (Unified Extensible Firmware Interface) son dos tipos de firmware que se encuentran en las placas base y se ejecutan cuando se enciende el ordenador para inicializar el hardware y arrancar el sistema operativo
 
-![Ejemplo de BIOS](../../../../assets/ut1/bios.png)
+![Ejemplo de BIOS](../../../assets/ut1/bios.png)
 
 - **Limitaciones BIOS**:
   - Soporta solo discos de hasta **2 TB** de tamaño.

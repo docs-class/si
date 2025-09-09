@@ -24,7 +24,7 @@ description: "Componentes y Protocolos"
 
 4. **Medios de transmisión:**
    - **Cableado de cobre (UTP, FTP, STP, SFTP):** Utilizado en redes LAN.
-![cables](../../../../assets/ut1/ut12-cables.png)
+![cables](../../../assets/ut1/ut12-cables.png)
 
    - **Fibra óptica (monomodo, multimodo):** Transmisión de datos a alta velocidad y largas distancias.
    - **Inalámbricos (Wi-Fi, Bluetooth, WiMAX):** Comunicaciones sin cables para LAN y MAN.

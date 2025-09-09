@@ -40,7 +40,7 @@ description: "Account & password policies"
 2. **Navega a las Directivas de Contraseña**:  
    `Configuración del equipo > Configuración de Windows > Configuración de seguridad > Directivas de cuenta > Directivas de contraseña`  
 
-![gpedit](../../../../assets/ut4/gpedit.jpg)
+![gpedit](../../../assets/ut4/gpedit.jpg)
 
 
 **secpol vs gpedit**

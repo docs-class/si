@@ -22,14 +22,14 @@ Conjunto de dominios dependientes de una raíz común y que tienen una estructur
 
   - De  esta  forma  sabemos  que  **miEmpresa.net**,  **damA.miEmpresa.net**  y **damB.miEmpresa.net**  forman  parte  del  mismo  árbol,  mientras  que _miEmpresa.com_ e _miEmpresa.es_ no.
   - Si un usuario es creado dentro de un dominio, automáticamente será reconocido en todos los dominios que jerárquicamente dependan del dominio al que pertenece.
-![árbol](../../../../assets/ut6/06_division.png)
+![árbol](../../../assets/ut6/06_division.png)
 
 ### Bosque
 Es el mayor contenedor lógico dentro del directorio, conteniendo a todos los dominios dentro de su ámbito. Cada uno de estos contenedores posee su propio espacio de nombres y una forma de relacionarse con el resto de bosques. Los dominios están interconectados por relaciones de confianza, de forma que los dominios  dentro  de  un  bosque  confían  automáticamente  unos  en  otros  y  los diferentes árboles podrán compartir recursos (se verá más adelante).
 Varios árboles pueden integrarse en el mismo bosque, pero NO compartirán espacio de nombres (DNS)
 Un bosque contendrá por lo menos un dominio, que será el dominio raíz del bosque.
 
-![bosque](../../../../assets/ut6/07_bosque.png)
+![bosque](../../../assets/ut6/07_bosque.png)
 
 En este ejemplo se ve como se han unido **5 dominios**  en  un  bosque.  De  estos  5 dominios  3  pertenecen  a  un  árbol  (raíz: **miempresa.com**) y los otros 2 a un segundo árbol (raíz: **tuempresa.com**). 
 Las _flechas_ que vemos en el esquema son las relaciones de confianza entre dominios. Todas  han  sido  creadas  automáticamente por  Windows  Server.  Todos  los  dominios pueden comunicarse entre sí gracias a las propiedades de las relaciones de confianza.
@@ -43,7 +43,7 @@ Las _flechas_ que vemos en el esquema son las relaciones de confianza entre domi
     - user_name@miempresa.net
   - DOMAIN_NAME\user_name (NetBios style) # old style
     - MIEMPRESA\user_name
-  ![naming](../../../../assets/ut6/08_nomenclatura.png)
+  ![naming](../../../assets/ut6/08_nomenclatura.png)
 
 
 ### Relaciones de confianza 

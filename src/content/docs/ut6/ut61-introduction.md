@@ -32,7 +32,7 @@ g) Se han configurado y explotado dominios.
 - No existe una administración centralizada. Si cada uno comparte lo que quiere cuando quiere sin que haya un control, la localización del recurso puede ser un grave problema.
 - Microsoft introdujo en sus sistemas operativos la posibilidad de crear grupos de trabajo, que dividían la red en subconjuntos.
 
-![workgroup in Windows](../../../../assets/ut6/01_workgroup.png)
+![workgroup in Windows](../../../assets/ut6/01_workgroup.png)
 
 :::danger[Desventajas]
 - Muy fácil de configurar y difíciles de gestionar
@@ -54,7 +54,7 @@ g) Se han configurado y explotado dominios.
 - La sincronización entre servidores puede ser un problema.
 :::
 
-![Client-server schema](../../../../assets/ut6/02_client-server.jpg)
+![Client-server schema](../../../assets/ut6/02_client-server.jpg)
 
 ## 3. Servicios de Directorio y Dominios
 - Un **servicio de directorio** es un conjunto de aplicaciones que guardan y administran la información sobre los elementos de una red.
@@ -65,6 +65,6 @@ g) Se han configurado y explotado dominios.
   - **Controlador de Dominio:** Servidor que autentica y administra accesos.
   - **Catálogo Global:** Base de datos con la información de todos los objetos de la red.
 
-![Client-server vs domain server](../../../../assets/ut6/03_domain-servervsclient-server.jpg)
+![Client-server vs domain server](../../../assets/ut6/03_domain-servervsclient-server.jpg)
 
-![Domain-server schema](../../../../assets/ut6/04_domain-server.jpg)
+![Domain-server schema](../../../assets/ut6/04_domain-server.jpg)

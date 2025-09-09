@@ -5,7 +5,7 @@ description: "Scripting - FOR"
 
 Un bucle **for** en bash es una estructura de control (de repetición) que permite ejecutar un conjunto de comandos repetidamente para cada elemento en una lista o un rango de valores.
 
-![for control](../../../../assets/ut4/for_250x473.png)
+![for control](../../../assets/ut4/for_250x473.png)
 ```bash
 #!/bin/bash
 for (( inicialización; condición; incremento ))  

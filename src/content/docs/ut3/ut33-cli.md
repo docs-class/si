@@ -7,11 +7,11 @@ Las Interfaces de Línea de Comandos (CLI), también conocidas como interfaces b
 
 Las interfaces CLI pueden parecer arcaicas en la era de las elegantes interfaces gráficas de usuario (GUI) y las emergentes tecnologías de interfaces naturales de usuario (NUI), pero siguen siendo herramientas indispensables para los usuarios avanzados y profesionales que buscan un control y una eficiencia incomparables.
 
-![Interfaces](../../../../assets/ut3/interfaces.png)
+![Interfaces](../../../assets/ut3/interfaces.png)
 
 Las interfaces CLI siguen siendo una herramienta fundamental en la informática, especialmente para tareas que requieren un control preciso y automatización.
 
-![CLI Interfaces](../../../../assets/ut3/cli_services.png)
+![CLI Interfaces](../../../assets/ut3/cli_services.png)
 
 ## Pros y Contras de CLI
 - **Pros:**
