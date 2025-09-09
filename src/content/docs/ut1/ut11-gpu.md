@@ -17,7 +17,9 @@ La GPU (**Graphics Processing Unit**) es el procesador dedicado a manejar y acel
 
 
 Existen varios tipos de **memoria gráfica** que se utilizan en las **tarjetas gráficas** (GPU). Estas memorias están diseñadas para almacenar datos gráficos como texturas, modelos 3D, y realizar tareas de renderizado de manera rápida y eficiente.
+
 ![GPU sobre placa](https://i.blogs.es/0ba60b/screenshot_3639/1366_2000.webp)
+
 ### Principales tipos de memoria gráfica:
 
 1. **VRAM (Video RAM)**:

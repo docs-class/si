@@ -22,11 +22,7 @@ export default defineConfig({
         rehypePlugins: [rehypeKatex],
     },
     integrations: [markdoc(), starlight({
-        title: {
-            es: 'Sistemas Informáticos',
-            va: 'Sistemes Informàtics',
-            en: 'IT Systems',
-        },
+        title: 'Sistemas Informáticos',
         favicon: '/images/favicon.png',
        /*  locales: {
             'es': { lang: 'es', label: 'Español' },
@@ -67,7 +63,7 @@ export default defineConfig({
                             'ut1/ut11-post',
                             'ut1/ut11-arch',
                             'ut1/ut11-cpu',
-                            'ut1/ut11-mb',
+                            'ut1/ut11-motherboard',
                             'ut1/ut11-box',
                             'ut1/ut11-ram',
                             'ut1/ut11-gpu',

@@ -22,6 +22,7 @@ Se refiere a sus dimensiones físicas, el diseño de sus conectores y la disposi
 ### Chipset
 
 Chips en la placa base que actúa como un puente de comunicación entre el procesador (CPU) y otros componentes del ordenador, como la memoria RAM, almacenamiento, tarjetas gráficas, puertos USB y otros dispositivos periféricos.
+
 ![Chipset 13th gen Z790](../../../assets/ut1/chipset-Z790.jpg)
 
 ### Socket
@@ -44,7 +45,9 @@ Cada procesador está diseñado para un tipo específico de socket.
 ![Conectores frontales](../../../assets/ut1/conectores-frontal.jpg)
 
 ![Conectores posteriores old](https://onubaelectronica.es/wp-content/uploads/2020/04/conectores_mainboard.jpg.webp)
+
 ![Conectores posteriores](../../../assets/ut1/conectores-placa-base-trasera.webp)
+
 ![Conectores posteriores top](https://acf.geeknetic.es/imgw/imagenes/auto/2022/1/27/l8m-conectoresplacasbase.jpg?f=webp)
 
 ### PCI-Express 
