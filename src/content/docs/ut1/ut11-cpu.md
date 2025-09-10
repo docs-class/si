@@ -87,3 +87,8 @@ Solo los P-core tienen hilos
 - [AMD and Intel processors naming](https://www.youtube.com/watch?v=ELJxau5qaQI)
 - [Hiper Threading](https://www.youtube.com/watch?v=lrT9Bl0MCXQ)
 :::
+
+
+:::caution[activitad]
+Practicum I - Placas Base y Procesadores
+:::
