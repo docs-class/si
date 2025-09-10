@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ gh-pages ]   # <- cambia 'gh-pages' a 'main' o la rama de desarrollo que uses
+    branches: [ main ]   # <- cambia 'gh-pages' a 'main' o la rama de desarrollo que uses
   workflow_dispatch:
 
 permissions:
