@@ -9,7 +9,9 @@ Al analizar un procesador (CPU), hay varios factores clave que debes tener en cu
    - La frecuencia de los procesadores se mide en **gigahercios (GHz)**, que representan miles de millones de ciclos por segundo. Un procesador de **3.5 GHz**, por ejemplo, ejecuta **3,500 millones de ciclos cada segundo**.
 
    - Cuanto mayor es la frecuencia en GHz, más rápido puede ejecutar operaciones, aunque esto no siempre implica mayor rendimiento general (depende de otros factores como la arquitectura del procesador y la eficiencia energética).
+
 ![Monitor CPU W11](../../../assets/ut1/cpuMonitor.png)
+
 Monitor CPU de Windows 11. (ctrl + mayusculas + esc)
 
 ### 2. **Número de Núcleos (Cores)**
