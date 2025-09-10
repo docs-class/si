@@ -120,3 +120,8 @@ Para medir la cantidad de información que puede ser enviada o recibida por unid
 | ATA                 | ~ 100 MB/s             |
 | SATA 3.2            | ~ 2 GB/s               |
 | PCI-E v4 x16        | ~ 63 GB/s              |
+
+
+:::caution[activitad]
+Medidas de información
+:::
