@@ -76,7 +76,7 @@ export default defineConfig({
                     },
                 ],
             },
-/*             //UT2
+             //UT2
             {
                 label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
                 // badge: { text: '28-OCT', variant: 'success' },
@@ -108,7 +108,7 @@ export default defineConfig({
                     },
                 ],
             },
-            //UT3
+/*           //UT3
             {
                 label: 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL',
                 // badge: { text: '25-NOV', variant: 'success' },
