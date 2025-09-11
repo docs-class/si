@@ -67,7 +67,5 @@ Los protocolos definen cómo se comunican los dispositivos en una red.
    - Representan cómo se comunican los dispositivos entre sí, incluyendo subredes, direcciones IP y ruteo.
    - Ejemplo: Un diagrama con las direcciones IP de cada dispositivo y rutas de tráfico configuradas.
 
-:::caution[actividad]
-Practicum IV
-::: 
+
    
