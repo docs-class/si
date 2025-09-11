@@ -76,7 +76,7 @@ export default defineConfig({
                     },
                 ],
             },
-/*             //UT2
+             //UT2
             {
                 label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
                 // badge: { text: '28-OCT', variant: 'success' },
@@ -231,7 +231,7 @@ export default defineConfig({
                 items: [
                     'ut7/ut71-introduction',
                 ],
-            }, */
+            }, 
         ],
     }), d2()],
 });
