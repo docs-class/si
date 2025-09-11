@@ -122,6 +122,6 @@ Para medir la cantidad de información que puede ser enviada o recibida por unid
 | PCI-E v4 x16        | ~ 63 GB/s              |
 
 
-:::caution[activitad]
+:::caution[actividad]
 Medidas de información
 :::

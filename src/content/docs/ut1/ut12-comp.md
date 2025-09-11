@@ -24,6 +24,7 @@ description: "Componentes y Protocolos"
 
 4. **Medios de transmisión:**
    - **Cableado de cobre (UTP, FTP, STP, SFTP):** Utilizado en redes LAN.
+   - 
 ![cables](../../../assets/ut1/ut12-cables.png)
 
    - **Fibra óptica (monomodo, multimodo):** Transmisión de datos a alta velocidad y largas distancias.
@@ -66,7 +67,7 @@ Los protocolos definen cómo se comunican los dispositivos en una red.
    - Representan cómo se comunican los dispositivos entre sí, incluyendo subredes, direcciones IP y ruteo.
    - Ejemplo: Un diagrama con las direcciones IP de cada dispositivo y rutas de tráfico configuradas.
 
-:::caution[activitad]
+:::caution[actividad]
 Practicum IV
 ::: 
    

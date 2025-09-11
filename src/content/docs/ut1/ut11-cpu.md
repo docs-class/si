@@ -91,6 +91,6 @@ Solo los P-core tienen hilos
 :::
 
 
-:::caution[activitad]
+:::caution[actividad]
 Practicum I - Placas Base y Procesadores
 :::

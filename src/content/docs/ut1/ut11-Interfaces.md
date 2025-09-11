@@ -65,6 +65,6 @@ Una **interfaz** es el punto de conexión y comunicación entre diferentes compo
    - Puerto para conectarse a redes mediante cable Ethernet, proporcionando acceso a Internet o a redes locales.
    - **Ethernet 10G (10 Gigabit)**: Soporta velocidades de hasta **10 Gbps**.
 
-:::caution[activitad]
+:::caution[actividad]
 Practicum III
 :::

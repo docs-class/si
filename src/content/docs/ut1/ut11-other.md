@@ -89,6 +89,6 @@ El monitoreo se puede realizar mediante software especializado, como **HWMonitor
 [¿Cómo funciona un PC y qué hace cada pieza? | Componentes del ordenador explicados (Nate Gentile)](https://www.youtube.com/watch?v=0zkX6nlpiSk)
 :::
 
-:::caution[activitad]
+:::caution[actividad]
 Practicum IV
 :::
