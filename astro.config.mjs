@@ -4,16 +4,21 @@ import markdoc from '@astrojs/markdoc';
 import starlight from '@astrojs/starlight';
 import fullviewMode from 'starlight-fullview-mode';
 
-/*
- npx starlight-to-pdf --url http://localhost:4321/si/ut1/ -p ./public/_pdf --filename ut1_all --pdf-outline --no-contents
-*/
 // math plugins
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 
-
 import d2 from 'astro-d2';
 
+/*
+***EXPORT TO PDF***
+Copia y pega en terminal para generar PDF de todas las UTs
+Asegúrate de que el servidor de desarrollo esté en marcha (pnpm run dev)
+
+npx starlight-to-pdf --url http://localhost:4321/si/ut1/ -p ./public/_pdf --filename ut1_all --pdf-outline --no-contents --header ./src/components/header-pdf.html --footer ./src/components/footer-pdf.html --margins '2.8cm 1cm 1.5cm 1.5cm'
+
+Luego elimina las unidades que no necesites.
+*/
 
 // https://astro.build/config
 export default defineConfig({
