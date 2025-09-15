@@ -4,8 +4,9 @@ import markdoc from '@astrojs/markdoc';
 import starlight from '@astrojs/starlight';
 import fullviewMode from 'starlight-fullview-mode';
 
-
-
+/*
+ npx starlight-to-pdf --url http://localhost:4321/si/ut1/ -p ./public/_pdf --filename ut1_all --pdf-outline --no-contents
+*/
 // math plugins
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
