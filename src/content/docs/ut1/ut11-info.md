@@ -72,9 +72,14 @@ Aplicando las conversiones, se obtiene la siguiente tabla de referencia:
 | 24.000.000.000       | 24.000.000.000    | 3.000.000     | **3.000**     | 3 | 0,0033 |
 | 8.000.000            | **1.000.000**     | 1.000         | 1.0011    | 0.001 | 0     |
 
+<details>
+<summary>Disco de 256GB (SI) ¿Cuánta capacidad tiene en GiB realmente (ISO)?</summary>
+
+![SSD](../../../assets/ut1/ut111_ssd.png)
+
+</details>
 
 ---
-
 
 ### **Medidas de Velocidad de Transferencia**
 Para medir la cantidad de información que puede ser enviada o recibida por unidad de tiempo, se diferencian las siguientes medidas:
@@ -124,7 +129,7 @@ Para medir la cantidad de información que puede ser enviada o recibida por unid
 | PCI-E v4 x16        | ~ 63 GB/s              |
 
 <details>
-<summary>Tienes una foto que has hecho con tu IPhone en RAW. ¿Cuánto tardarías en transferirla a tu ordenador si utilizas un USB 3.2 (1.2 GB/s)?¿Y las fotos de del pasado verano en la playa (25GB)?</summary>
+<summary>Tienes una foto que has hecho con tu IPhone en RAW. ¿Cuánto tardarías en transferirla a tu ordenador si utilizas un USB 3.2 gen 2 (1.2 GB/s)?¿Y las fotos de del pasado verano en la playa (25GB)?</summary>
 
 ![usb3.2](../../../assets/ut1/ut111_usb.png)
 
