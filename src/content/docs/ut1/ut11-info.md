@@ -75,37 +75,39 @@ Aplicando las conversiones, se obtiene la siguiente tabla de referencia:
 
 ---
 
+
 ### **Medidas de Velocidad de Transferencia**
 Para medir la cantidad de información que puede ser enviada o recibida por unidad de tiempo, se diferencian las siguientes medidas:
 
 - **Transferencia en red**: Utiliza el bit como base y los múltiplos son de 1000.
 - **Transferencia local**: Utiliza el byte como base y los múltiplos son de 1024 (como en el almacenamiento).
 
-| Factor          | Símbolo | Nombre              |
-|-----------------|---------|--------------------|
-| 10⁰             | b/s     | Bit por segundo     |
-| 10³             | Kb/s    | Kilobit por segundo |
-| 10⁶             | Mb/s    | Megabit por segundo |
-| 10⁹             | Gb/s    | Gigabit por segundo |
-| 10¹²            | Tb/s    | Terabit por segundo |
-| 10¹⁵            | Pb/s    | Petabit por segundo |
-| 10¹⁸            | Eb/s    | Exabit por segundo  |
-| 10²¹            | Zb/s    | Zettabit por segundo|
 
----
+| Factor | Símbolo | Nombre               |   | Factor | Símbolo | Nombre                |
+| ------ | ------- | -------------------- | - | ------ | ------- | --------------------- |
+| 10⁰    | b/s     | Bit por segundo      | - | 2⁰     | B/s     | Byte por segundo      |
+| 10³    | Kb/s    | Kilobit por segundo  | - | 2¹⁰    | KB/s    | Kilobyte por segundo  |
+| 10⁶    | Mb/s    | Megabit por segundo  | - | 2²⁰    | MB/s    | Megabyte por segundo  |
+| 10⁹    | Gb/s    | Gigabit por segundo  | - | 2³⁰    | GB/s    | Gigabyte por segundo  |
+| 10¹²   | Tb/s    | Terabit por segundo  | - | 2⁴⁰    | TB/s    | Terabyte por segundo  |
+| 10¹⁵   | Pb/s    | Petabit por segundo  | - | 2⁵⁰    | PB/s    | Petabyte por segundo  |
+| 10¹⁸   | Eb/s    | Exabit por segundo   | - | 2⁶⁰    | EB/s    | Exabyte por segundo   |
+| 10²¹   | Zb/s    | Zettabit por segundo | - | 2⁷⁰    | ZB/s    | Zettabyte por segundo |
 
-| Factor          | Símbolo | Nombre              |
-|-----------------|---------|--------------------|
-| 2⁰              | B/s     | Byte por segundo    |
-| 2¹⁰             | KB/s    | Kilobyte por segundo|
-| 2²⁰             | MB/s    | Megabyte por segundo|
-| 2³⁰             | GB/s    | Gigabyte por segundo|
-| 2⁴⁰             | TB/s    | Terabyte por segundo|
-| 2⁵⁰             | PB/s    | Petabyte por segundo|
-| 2⁶⁰             | EB/s    | Exabyte por segundo |
-| 2⁷⁰             | ZB/s    | Zettabyte por segundo|
+<details>
+<summary>¿Cúanto tardará, en minutos, descargar un ADLS de 20Mbps una película de 1500MB? ¿Y una conexión de fibra de 300Mb/s(en segundos)?</summary>
 
---- 
+![adsl_fibra](../../../assets/ut1/ut111_adsl_fibra.png)
+
+</details>
+
+<details>
+<summary>Tienes que subir tu video de tu última escapada, 200GB, a Youtube para compartirlo con tus amigas ¿Cúanto tardará, en minutos u horas, si tienes una conexión de ADSL de 10Mbps?¿cuánto tardarías si tuvieras una conexión de fibra de 600Mbps?</summary>
+
+![cloud backup](../../../assets/ut1/ut111_backup_nube.png)
+
+</details>
+
 
 ### **Tasa de Transferencia Según el Tipo de Transmisión**
 
@@ -120,6 +122,14 @@ Para medir la cantidad de información que puede ser enviada o recibida por unid
 | ATA                 | ~ 100 MB/s             |
 | SATA 3.2            | ~ 2 GB/s               |
 | PCI-E v4 x16        | ~ 63 GB/s              |
+
+<details>
+<summary>Tienes una foto que has hecho con tu IPhone en RAW. ¿Cuánto tardarías en transferirla a tu ordenador si utilizas un USB 3.2 (1.2 GB/s)?¿Y las fotos de del pasado verano en la playa (25GB)?</summary>
+
+![usb3.2](../../../assets/ut1/ut111_usb.png)
+
+</details>
+
 
 
 :::caution[actividad]
