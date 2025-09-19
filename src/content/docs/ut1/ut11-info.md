@@ -104,12 +104,18 @@ Para medir la cantidad de información que puede ser enviada o recibida por unid
 
 ![adsl_fibra](../../../assets/ut1/ut111_adsl_fibra.png)
 
+ADSL:
+- 1500 MB / 2,5 MB/s = 600 s = 10 min
+
+Fibra:
+- 1500 MB / 37,5 MB/s = 40 s
+
 </details>
 
 <details>
 <summary>Tienes que subir tu video de tu última escapada, 200GB, a Youtube para compartirlo con tus amigas ¿Cúanto tardará, en minutos u horas, si tienes una conexión de ADSL de 10Mbps?¿cuánto tardarías si tuvieras una conexión de fibra de 600Mbps?</summary>
 
-![cloud backup](../../../assets/ut1/ut111_backup_nube.png)
+![cloud upload](../../../assets/ut1/ut111_cloud.png)
 
 </details>
 
@@ -133,10 +139,13 @@ Para medir la cantidad de información que puede ser enviada o recibida por unid
 
 ![usb3.2](../../../assets/ut1/ut111_usb.png)
 
+- Foto RAW (25 MB): 25 MB / 1.2 GB/s = 0.02083 s ≈ 21 ms
+- Fotos Verano (25 GB): 25 GB / 1.2 GB/s = 20.8333 s ≈ 20.83 s
+  
 </details>
 
 
-
 :::caution[actividad]
-Medidas de información
+- Grupos de 3: Buscar tarifas de móvil 
+- Medidas de información
 :::
