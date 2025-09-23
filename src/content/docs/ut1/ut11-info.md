@@ -146,6 +146,5 @@ Fibra:
 
 
 :::caution[actividad]
-- Grupos de 3: Buscar tarifas de móvil 
 - Medidas de información
 :::
