@@ -71,14 +71,14 @@ Aplicando las conversiones, se obtiene la siguiente tabla de referencia:
 | 8.000.000.000.000 | 1.000.000.000.000 | 1.000.000.000 | 1.000.000 | 1.000 | **1** |
 | 24.000.000.000       | 24.000.000.000    | 3.000.000     | **3.000**     | 3 | 0,0033 |
 | 8.000.000            | **1.000.000**     | 1.000         | 1.0011    | 0.001 | 0     |
-<!-- 
+
 <details>
 <summary>Disco de 256GB (SI) ¿Cuánta capacidad tiene en GiB realmente (ISO)?</summary>
 
 ![SSD](../../../assets/ut1/ut111_ssd.png)
 
 </details>
- -->
+
 ---
 
 ### **Medidas de Velocidad de Transferencia**
@@ -99,7 +99,6 @@ Para medir la cantidad de información que puede ser enviada o recibida por unid
 | 10¹⁸   | Eb/s    | Exabit por segundo   | - | 2⁶⁰    | EB/s    | Exabyte por segundo   |
 | 10²¹   | Zb/s    | Zettabit por segundo | - | 2⁷⁰    | ZB/s    | Zettabyte por segundo |
 
-<!--
 <details>
 <summary>¿Cúanto tardará, en minutos, descargar un ADLS de 20Mbps una película de 1500MB? ¿Y una conexión de fibra de 300Mb/s(en segundos)?</summary>
 
@@ -111,15 +110,14 @@ ADSL:
 Fibra:
 - 1500 MB / 37,5 MB/s = 40 s
 
- </details>
+</details>
 
 <details>
 <summary>Tienes que subir tu video de tu última escapada, 200GB, a Youtube para compartirlo con tus amigas ¿Cúanto tardará, en minutos u horas, si tienes una conexión de ADSL de 10Mbps?¿cuánto tardarías si tuvieras una conexión de fibra de 600Mbps?</summary>
 
 ![cloud upload](../../../assets/ut1/ut111_cloud.png)
 
-</details> 
--->
+</details>
 
 
 ### **Tasa de Transferencia Según el Tipo de Transmisión**
@@ -135,17 +133,17 @@ Fibra:
 | ATA                 | ~ 100 MB/s             |
 | SATA 3.2            | ~ 2 GB/s               |
 | PCI-E v4 x16        | ~ 63 GB/s              |
-<!-- 
+
 <details>
-<summary>Tienes una foto que has hecho con tu IPhone en RAW. ¿Cuánto tardarías en transferirla a tu ordenador si utilizas un USB 3.2 gen 2 (1.2 GB/s)?¿Y las fotos de del pasado verano en la playa (25GB)?</summary>
+<summary>Tienes una foto que has hecho con tu IPhone en RAW. ¿Cuánto tardarías en transferirla a tu ordenador si utilizas un USB 3.2 gen 2 (1.2 GB/s) si la foto pesa 25MB?¿Y las fotos de del pasado verano en la playa (25GB)?</summary>
 
 ![usb3.2](../../../assets/ut1/ut111_usb.png)
 
-- Foto RAW (25 MB): 25 MB / 1.2 GB/s = 0.02083 s ≈ 21 ms
+- Foto RAW (25 MB): 25 MB (0,025 GB) / 1.2 GB/s = 0.02083 s ≈ 21 ms
 - Fotos Verano (25 GB): 25 GB / 1.2 GB/s = 20.8333 s ≈ 20.83 s
   
 </details>
- -->
+
 
 :::caution[actividad]
 - Grupos de 3: Buscar tarifas de móvil 
