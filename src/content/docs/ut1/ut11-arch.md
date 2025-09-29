@@ -27,7 +27,7 @@ La **arquitectura de von Neumann** es un modelo de diseño para computadores pro
    - Un sistema de comunicación que transporta datos, direcciones y señales de control entre los diferentes componentes.
 
 
-
+![Von Neumann Architecture](../../../assets/ut1/Jerarquia_memoria.png)
 
 ### Funcionamiento básico:
 - **Ciclo de búsqueda y ejecución**: 

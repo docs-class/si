@@ -18,17 +18,22 @@ Monitor CPU de Windows 11. (ctrl + mayusculas + esc)
    - Un núcleo es una unidad de procesamiento independiente dentro del procesador.
    - Cuantos más núcleos tenga un procesador, más tareas o hilos puede manejar simultáneamente. Procesadores con múltiples núcleos (dual-core, quad-core, octa-core, etc.) son mejores para multitarea y aplicaciones que requieren procesamiento paralelo.
    
-   :::note
-   Con el lanzamiento de los procesadores Intel Core de 12ª Generación (Alder Lake), Intel dio un gran paso adelante en esta filosofía, presentando dos tipos diferentes de núcleos dentro de un mismo procesador.
-
-   - Los P-Cores se llaman así porque la P viene de Performance, rendimiento en inglés.
-   - Los E-Cores se llaman así porque la E viene de Efficiency, eficiencia en inglés.
-   - LP E-Core, que sería un núcleo de ultra-bajo consumo. Este diseño sería similar a los procesadores ARM, los cuales también tienen tres tipos de núcleos
-   :::
+   
 
 ### 3. **Número de Hilos (Threads)**
-   - Los hilos son las unidades más pequeñas que gestionan las tareas dentro de un núcleo. Algunos procesadores tienen tecnología de **multithreading** (como **Hyper-Threading** de Intel) que permite a un núcleo manejar más de un hilo simultáneamente.
+   - Los hilos son las unidades más pequeñas que gestionan las tareas dentro de un núcleo. Algunos procesadores tienen tecnología de **multithreading** (como **Hyper-Threading** de Intel o SMT de AMD) que permite a un núcleo manejar más de un hilo simultáneamente.
    - Más hilos permiten un mejor rendimiento en aplicaciones multitarea y tareas que se benefician del paralelismo, como edición de video o renderizado 3D.
+   - Dependencia del Software: Las ganancias reales de rendimiento de SMT (o Hyper-Threading) dependen de la capacidad del software para utilizar eficazmente múltiples hilos.
+
+:::note
+   
+| Fabricante | Nomenclatura | Rol del Núcleo de RENDIMIENTO | Rol del Núcleo de EFICIENCIA | **Año de Adopción** (Primer Producto Relevante) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Intel** | **P-Core** y **E-Core** (Arquitectura Híbrida) | Máxima potencia. Tareas *single-thread* pesadas (juegos, edición). Soportan Hyper-Threading. | Máxima eficiencia. Tareas *multi-thread* escalables y de fondo (antivirus, ofimática). No soportan Hyper-Threading. | **2021** (12ª Gen. Alder Lake) |
+| **AMD** | **Zen 4** y **Zen 4c** (Núcleos de Densidad) | Alto rendimiento. Enfoque similar a P-Core. | Alta densidad y eficiencia. Ligeramente menos rendimiento individual que Zen 4, con menor consumo. | **2023** (Serie Ryzen 7040U / Bergamo) |
+| **ARM** | **big** y **LITTLE** | Tareas intensivas principales. | Tareas de fondo o ligeras. Estándar en *smartphones* y tabletas. | **2013** (Samsung Exynos 5 Octa 5410) |
+| **Apple** | **Performance Cores** y **Efficiency Cores** | Máxima velocidad y respuesta. | Bajo consumo para tareas básicas y de fondo. | **2020** (Chip M1) |
+:::
 
 :::danger[FYI]
 Solo los P-core tienen hilos
