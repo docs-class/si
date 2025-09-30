@@ -1,92 +1,90 @@
+
 ---
 title: Procesador
 description: Procesador de un Sistema Informático
 ---
 
-Al analizar un procesador (CPU), hay varios factores clave que debes tener en cuenta para comprender su rendimiento y cómo se adapta a tus necesidades. Aquí te resumo los aspectos más importantes que debes saber:
+### **1. Frecuencia (La Velocidad del Reloj)**
 
-### 1. **Frecuencia de Reloj (Clock Speed)**
-   - La frecuencia de los procesadores se mide en **gigahercios (GHz)**, que representan miles de millones de ciclos por segundo. Un procesador de **3.5 GHz**, por ejemplo, ejecuta **3,500 millones de ciclos cada segundo**.
-
-   - Cuanto mayor es la frecuencia en GHz, más rápido puede ejecutar operaciones, aunque esto no siempre implica mayor rendimiento general (depende de otros factores como la arquitectura del procesador y la eficiencia energética).
+*   Se mide en **Gigahercios (GHz)**, que son miles de millones de ciclos por segundo.
+*   **En cristiano:** Es la velocidad a la que el procesador hace sus cálculos. Un procesador de 3.5 GHz completa 3,500 millones de operaciones cada segundo.
+*   **Ojo:** Aunque una frecuencia más alta suele significar más rapidez, no es el único factor que determina el rendimiento general de la CPU.
 
 ![Monitor CPU W11](../../../assets/ut1/cpuMonitor.png)
 
 Monitor CPU de Windows 11. (ctrl + mayusculas + esc)
 
-### 2. **Número de Núcleos (Cores)**
-   - Un núcleo es una unidad de procesamiento independiente dentro del procesador.
-   - Cuantos más núcleos tenga un procesador, más tareas o hilos puede manejar simultáneamente. Procesadores con múltiples núcleos (dual-core, quad-core, octa-core, etc.) son mejores para multitarea y aplicaciones que requieren procesamiento paralelo.
-   
-   
-
-### 3. **Número de Hilos (Threads)**
-   - Los hilos son las unidades más pequeñas que gestionan las tareas dentro de un núcleo. Algunos procesadores tienen tecnología de **multithreading** (como **Hyper-Threading** de Intel o SMT de AMD) que permite a un núcleo manejar más de un hilo simultáneamente.
-   - Más hilos permiten un mejor rendimiento en aplicaciones multitarea y tareas que se benefician del paralelismo, como edición de video o renderizado 3D.
-   - Dependencia del Software: Las ganancias reales de rendimiento de SMT (o Hyper-Threading) dependen de la capacidad del software para utilizar eficazmente múltiples hilos.
-
 :::note
-   
-| Fabricante | Nomenclatura                                   | Rol del Núcleo de RENDIMIENTO                                      | Rol del Núcleo de EFICIENCIA                                                                       | Multihilo                                                                                                                                                                                                      | **Año de Adopción** (Primer Producto Relevante) |
-| ---------- | ---------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| **Intel**  | **P-Core** y **E-Core** (Arquitectura Híbrida) | Máxima potencia. Tareas *single-thread* pesadas (juegos, edición). | Máxima eficiencia. Tareas *multi-thread* escalables y de fondo (antivirus, ofimática).             | P-Core                                                                                                                                                                                                         | **2021** (12ª Gen. Alder Lake)                  |
-| **AMD**    | **Zen 4** y **Zen 4c** (Núcleos de Densidad)   | Alto rendimiento. Enfoque similar a P-Core.                        | Alta densidad y eficiencia. Ligeramente menos rendimiento individual que Zen 4, con menor consumo. | Sí (2-way SMT)                                                                                                                                                                                                 | **2023** (Serie Ryzen 7040U / Bergamo)          |
-| **ARM**    | **big** y **LITTLE**                           | Tareas intensivas principales.                                     | Tareas de fondo o ligeras. Estándar en *smartphones* y tabletas.                                   | - Sí soportan multi-hilo (cada núcleo gestiona un hilo). <br>- No tienen SMT/Hyper-Threading como Intel/AMD (dos hilos por núcleo). | **2013** (Samsung Exynos 5 Octa 5410)           |
-| **Apple**  | **Performance Cores** y **Efficiency Cores**   | Máxima velocidad y respuesta.                                      | Bajo consumo para tareas básicas y de fondo.                                                       | Cada núcleo ejecuta un solo hilo a la vez, pero al haber muchos núcleos físicos (por ejemplo, un M1 tiene 8 núcleos, un M2 Pro hasta 12, un M3 Max hasta 16), logran un gran rendimiento en cargas multi-hilo  | **2020** (Chip M1)                              |
+Un hercio (símbolo: Hz) es la unidad de medida de la frecuencia en el Sistema Internacional de Unidades (SI).
 :::
 
+### **2. Núcleos y Hilos (Cerebros y Brazos)**
+
+*   **Núcleos (Cores):** Piensa en ellos como **"cerebros" independientes** dentro del procesador. Cuantos más núcleos, más tareas pesadas puede hacer a la vez, lo que es ideal para la multitarea.
+*   **Hilos (Threads):** Son como los **"brazos" de cada cerebro**. Permiten gestionar las tareas dentro de un núcleo. Gracias a tecnologías como **Hyper-Threading** (Intel) o **SMT** (AMD), un solo núcleo puede manejar dos hilos a la vez, duplicando su capacidad para ciertas tareas.
+*   **¡Importante! Arquitecturas Híbridas:** Los procesadores modernos mezclan dos tipos de núcleos para optimizar el rendimiento y el consumo:
+    *   **Núcleos de Rendimiento (P-Cores):** Son los potentes, diseñados para las tareas más exigentes como juegos o edición de vídeo. En los procesadores Intel, solo los P-Cores suelen tener la capacidad de manejar dos hilos (Hyper-Threading).
+    *   **Núcleos de Eficiencia (E-Cores):** Son los ahorradores. Se encargan de las tareas en segundo plano (como el antivirus u ofimática) consumiendo muy poca energía.
+    *   Esta filosofía la usan casi todos los fabricantes: **Intel** (P-Cores/E-Cores), **AMD** (Zen 4/Zen 4c), **Apple** (Performance/Efficiency Cores) y **ARM** (big/LITTLE).
+  
 :::danger[FYI]
-Solo los P-core tienen hilos
+* Solo los P-core tienen hilos en intel. 
+* AMD en todos los núcleos tiene hilos.
+* ARM(APPLE) no tienen hilos pero si procesos en paralelo.
 :::
 
-### 4. **Memoria Caché**
-   - La caché es una memoria muy rápida integrada en la CPU para almacenar datos e instrucciones de uso frecuente.
-   - **Tipos**: 
-     - **L1**: Pequeña y ultrarrápida, cercana a los núcleos.
-     - **L2**: Un poco más grande y más lenta que L1.
-     - **L3**: Compartida entre todos los núcleos, más lenta pero de mayor capacidad.
-   - La caché ayuda a acelerar el acceso a datos y reduce la necesidad de ir a la RAM para obtener información, mejorando el rendimiento general.
+### **3. Memoria Caché (La "Mesa de Trabajo" de la CPU)**
 
+*   Es una **memoria súper rápida integrada en la propia CPU**. Su función es guardar los datos e instrucciones que se usan con más frecuencia para tenerlos a mano y no tener que ir a buscarlos a la memoria RAM, que es mucho más lenta.
+*   **Se organiza en niveles:**
+    *   **L1:** La más pequeña y veloz, pegada al núcleo.
+    *   **L2:** Un poco más grande pero algo más lenta.
+    *   **L3:** La más grande, compartida entre todos los núcleos.
+    
    ![Caches L1, L2, L3](../../../assets/ut1/caches.png) 
 
-### 5. **Arquitectura del Procesador**
-   - Se refiere al diseño y estructura interna del procesador. Las arquitecturas más comunes incluyen **x86** y **ARM**.
-   - Las arquitecturas más modernas y eficientes (como **x86-64** o **ARMv8**) permiten un mejor rendimiento y menor consumo de energía.
+### **4. Arquitectura (El "Idioma" del Procesador)**
 
-### 6. **Proceso de Fabricación (Tecnología de fabricación)**
-   - El tamaño de los transistores dentro de un chip, medido en **nanómetros (nm)**.
-   - A menor tamaño de los transistores (por ejemplo, 7 nm o 5 nm), mayor densidad de transistores, lo que significa un procesador más eficiente y de mejor rendimiento. Esto reduce el consumo energético y genera menos calor.
+Cuando hablamos de arquitecturas como x86 o ARM, en realidad nos referimos a su **"Conjunto de Instrucciones"**, que es como el diccionario de órdenes que el procesador entiende. Aquí es donde surgen dos filosofías de diseño totalmente opuestas: **CISC** y **RISC**.
 
-### 7. **Potencia Térmica de Diseño (TDP - Thermal Design Power)**
-   - Medida en vatios, indica la cantidad de calor que el procesador disipa bajo carga máxima.
-   - Un TDP más alto implica mayor consumo de energía y la necesidad de mejores soluciones de refrigeración. Es relevante para saber qué tipo de sistema de refrigeración necesitarás.
+:::note[CISC vs RISC]
+| Característica | **CISC (Complex Instruction Set Computer)** | **RISC (Reduced Instruction Set Computer)** |
+| :--- | :--- | :--- |
+| **Enfoque / Filosofía** | **El Enfoque "Navaja Suiza"**. Realizar tareas complejas con la menor cantidad de instrucciones posible. | **El Enfoque "Caja de Herramientas"**. Usar instrucciones muy simples, donde cada una hace una sola cosa de forma ultrarrápida. |
+| **Tipo de Instrucciones** | **Potentes y complejas**. Una sola instrucción puede ejecutar varias operaciones a la vez. | **Simples y reducidas**. Se necesitan varias instrucciones para realizar una tarea compleja. |
+| **Ejemplos de Uso** | La arquitectura **x86**, utilizada por los principales fabricantes de PC como **Intel** y **AMD**. | La arquitectura **ARM**, estándar en *smartphones* y tabletas. |
+| **Ventajas** | - Se necesitan menos líneas de código para programar una tarea. | - Las instrucciones se ejecutan muy rápido (generalmente en un ciclo de reloj).<br>- Consumo de energía y generación de calor muy bajos. |
+| **Desventajas** | - Las instrucciones tardan varios ciclos de reloj en completarse.<br>- Mayor consumo de energía y generación de calor. | - Se necesitan más instrucciones (y más memoria) para completar tareas complejas. |
+:::
 
-### 8. **Soporte de Instrucciones**
-   - Los procesadores modernos soportan conjuntos de instrucciones especiales como **SSE**, **AVX**, **NEON** (en ARM), que aceleran tareas específicas, como gráficos, cálculos científicos o cifrado.
-   - Esto puede mejorar considerablemente el rendimiento en aplicaciones que aprovechan estas instrucciones.
+![Procesador AMD e Intel](../../../assets/ut1/AMD-vs-Intel-vs-Arm_300x300.webp) 
 
-### 9. **Compatibilidad con Memoria RAM**
-   - Los procesadores están diseñados para trabajar con ciertos tipos y velocidades de memoria RAM (por ejemplo, **DDR4**, **DDR5**).
-   - Cuanto más rápida y avanzada sea la memoria RAM que soporta, mejor será el rendimiento en tareas intensivas en memoria.
+### **5. Proceso de Fabricación (El Tamaño Sí Importa)**
 
-### 10. **GPU Integrada (iGPU)**
-   - Algunos procesadores tienen una **Unidad de Procesamiento Gráfico** integrada, lo que permite gestionar gráficos sin necesidad de una tarjeta gráfica dedicada.
-   - Para tareas ligeras como la navegación web, ofimática y reproducción de video, una GPU integrada puede ser suficiente, pero para tareas intensivas como gaming o renderizado, una GPU dedicada es preferible.
+*   Se mide en **nanómetros (nm)** y se refiere al tamaño de los transistores del chip.
+*   **La regla de oro:** Cuanto **más pequeño es el número (ej. 7 nm o 5 nm), mejor**. Significa que caben más transistores en el mismo espacio, lo que se traduce en un procesador más potente, que consume _menos energía y genera menos calor_.
 
-### 11. **Overclocking**
-   - Algunos procesadores permiten **overclocking**, lo que significa que puedes aumentar manualmente su velocidad de reloj por encima de las especificaciones de fábrica.
-   - Si eres un usuario avanzado que busca exprimir el máximo rendimiento, el overclocking puede ser una opción. Sin embargo, genera más calor y puede requerir refrigeración adicional.
+### **6. TDP (El Calor que Genera)**
 
-### 12. **Fabricante (AMD vs Intel)**
-   - Los dos principales fabricantes de procesadores para PCs de escritorio y portátiles son **Intel** y **AMD**.
-   - AMD ha ganado terreno en los últimos años con sus procesadores Ryzen, que ofrecen una excelente relación calidad-precio, mientras que Intel sigue siendo competitivo con sus procesadores de alto rendimiento, especialmente en tareas de mononúcleo.
+*   El **TDP (Thermal Design Power)** se mide en vatios (W) e indica el calor que el procesador genera cuando está funcionando a máxima carga.
+*   **¿Por qué es importante?** Un TDP más alto significa que el procesador consume más energía y necesitará un sistema de refrigeración más potente (un mejor disipador y ventilador) para no sobrecalentarse.
 
-![Procesador AMD e Intel](../../../assets/ut1/procesador.jpg) 
+### **7. GPU Integrada (Gráficos "de Serie")**
 
-### 13. **Integración**
-   - Desde la unión del North Bridge y South Bridge en lo que se conoce ahora el Chipset, el procesador ha integrado los controladores de Memoria Principal y PCI-express
-   - Una evolución importante en la arquitectura de los sistemas informáticos que ha tenido un impacto significativo en el rendimiento y la eficiencia de los ordenadores modernos: **Reducción de la Latencia** y **Aumento del Ancho de Banda**
+*   Muchos procesadores incluyen una **Unidad de Procesamiento Gráfico (iGPU)**, es decir, una pequeña tarjeta gráfica integrada en el propio chip.
+*   **¿Para qué sirve?** Es perfecta para tareas del día a día: navegar por internet, ofimática, ver vídeos en alta definición, etc..
+*   **Ejemplos:**
+    *   **Intel:** Sus procesadores con gráficos integrados suelen llevar la etiqueta **"G"** (ej. Intel Core i5-12400G). (Con "F" no tienen iGPU).
+    *   **AMD:** Los procesadores con gráficos integrados se denominan **APU** (Accelerated Processing Unit), como los Ryzen 5 5600G o Ryzen 7 5700G.
 
+
+### **8. Otros Factores Clave**
+
+*   **Compatibilidad con RAM:** La CPU determina el tipo y la velocidad de memoria RAM que puedes instalar en tu sistema (por ejemplo, **DDR4** o **DDR5**).
+*   **Overclocking:** Es la técnica para **aumentar la velocidad de reloj** de un procesador por encima de sus valores de fábrica. Es algo para usuarios avanzados, ya que genera más calor y requiere una refrigeración especial .
+*   **Integración:** Los procesadores modernos integran funciones que antes estaban en la placa base, como el controlador de memoria. Esto reduce la latencia y aumenta el ancho de banda, haciendo el sistema más rápido y eficiente.
+*   **Fabricantes:** Los dos gigantes del mercado de PC son **Intel** y **AMD**. AMD ha destacado en los últimos años por su excelente relación rendimiento/precio con los procesadores Ryzen, mientras que Intel sigue siendo un competidor muy fuerte, especialmente en tareas que dependen de un solo núcleo .
+*   
 :::tip[Ampliación]
 - [Understanding Intel Processor Names - URL](https://www.intel.com/content/www/us/en/processors/processor-numbers.html)
 - [Understanding AMD Processor Names - URL](https://medium.com/@meCreator/01-understanding-amd-processor-names-3a89261dcd99)
