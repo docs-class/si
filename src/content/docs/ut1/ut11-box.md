@@ -62,3 +62,7 @@ Las fuentes de alimentación modernas incluyen varios mecanismos de protección 
 [Fuentes de alimentación (es)](https://www.coolmod.com/blog/categorias/componentes/tipos-de-fuente-de-alimentacion-para-pc/)
 :::
 
+:::caution[actividad]
+Practicum I - Placas Base y Procesadores
+:::
+

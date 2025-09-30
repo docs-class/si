@@ -92,8 +92,3 @@ Cuando hablamos de arquitecturas como x86 o ARM, en realidad nos referimos a su 
 - [AMD and Intel processors naming](https://www.youtube.com/watch?v=ELJxau5qaQI)
 - [Hiper Threading](https://www.youtube.com/watch?v=lrT9Bl0MCXQ)
 :::
-
-
-:::caution[actividad]
-Practicum I - Placas Base y Procesadores
-:::
