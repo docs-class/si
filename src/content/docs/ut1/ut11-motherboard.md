@@ -50,6 +50,12 @@ Cada procesador está diseñado para un tipo específico de socket.
 
 ![Conectores posteriores top](https://acf.geeknetic.es/imgw/imagenes/auto/2022/1/27/l8m-conectoresplacasbase.jpg?f=webp)
 
+:::caution[actividad]
+- No hay salida de HDMI, ¿A qué puede deberse?
+- Busca SS10 en un USB de color rojo.
+  - Haz una lista de los diferentes conectores USB-A y sus velocidades.
+:::
+
 ### PCI-Express 
 **PCI-Express (PCIe)** es una interfaz de conexión de alta velocidad utilizada para conectar componentes como tarjetas gráficas, SSD y tarjetas de red a la placa base. 
 
@@ -61,8 +67,12 @@ Cada procesador está diseñado para un tipo específico de socket.
 
 ![PCIe](https://vishub.org/pictures/19103.jpeg?style=500)
 
+:::caution[actividad]
+- Lista los PCIe más comunes y sus velocidades.
+- Busca una placa base con PCIe 5.0 y otra con PCIe 4.0. y compara sus precios.
+:::
 
-### Otros compoentes
+### Otros componentes
 
 - Pila botón para BIOS/UEFI
 - BIOS/UEFI

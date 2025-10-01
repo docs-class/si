@@ -59,6 +59,11 @@ Cuando hablamos de arquitecturas como x86 o ARM, en realidad nos referimos a su 
 
 ![Procesador AMD e Intel](../../../assets/ut1/AMD-vs-Intel-vs-Arm_300x300.webp) 
 
+:::caution[actividad]
+- Busca los últimos procesadores de Intel, AMD y Apple. ¿Qué novedades han presentado?
+- ¿Qué es x86 y x64? ¿Qué diferencias hay entre ellos?
+:::
+
 ### **5. Proceso de Fabricación (El Tamaño Sí Importa)**
 
 *   Se mide en **nanómetros (nm)** y se refiere al tamaño de los transistores del chip.

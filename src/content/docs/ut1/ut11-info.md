@@ -84,9 +84,11 @@ Aplicando las conversiones, se obtiene la siguiente tabla de referencia:
 ### **Medidas de Velocidad de Transferencia**
 Para medir la cantidad de información que puede ser enviada o recibida por unidad de tiempo, se diferencian las siguientes medidas:
 
+:::tip[Transferencia de datos]
 - **Transferencia en red**: Utiliza el bit como base y los múltiplos son de 1000.
 - **Transferencia local**: Utiliza el byte como base y los múltiplos son de 1024 (como en el almacenamiento).
-
+- **Nota**: No se aplica de manera estricta, ya que algunos fabricantes de discos duros y memorias USB usan el sistema decimal (1000) para indicar la velocidad de transferencia.
+:::
 
 | Factor | Símbolo | Nombre               |   | Factor | Símbolo | Nombre                |
 | ------ | ------- | -------------------- | - | ------ | ------- | --------------------- |

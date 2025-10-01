@@ -26,6 +26,9 @@ La **arquitectura de von Neumann** es un modelo de diseño para computadores pro
 4. **Bus de Datos**:
    - Un sistema de comunicación que transporta datos, direcciones y señales de control entre los diferentes componentes.
 
+:::caution[Otras arquitecturas]
+Busca otras arquitecturas alternativas a Von Neumann.
+:::
 
 ![Von Neumann Architecture](../../../assets/ut1/Jerarquia_memoria.png)
 
