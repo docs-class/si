@@ -26,13 +26,13 @@ El factor de forma de la RAM DDR se refiere a su tamaño físico y disposición 
      - **DDR (Double Data Rate SDRAM)**: Evolución de la SDRAM que transfiere datos en ambos flancos del ciclo de reloj, duplicando la tasa de transferencia.
 #### 1.1. DDR (Double Data Rate)
 
-| Tipus de RAM | Any de Lançament | Velocitat de Rellotge | Transferència de Dades (MT/s) | Velocitat de Transferència | Voltatge | Pins |
-|--------------|-----------------|---------------------------|------------------------------|---------------------------|----------|------|
-| **DDR**      | 2000            | 100 - 200                 | 200 - 400                    | 1,6 - 3,2 GB/s            | 2,5V     | 184  |
-| **DDR2**     | 2003            | 266 - 533                 | 533 - 1066                   | 4,2 - 8,5 GB/s            | 1,8V     | 240  |
-| **DDR3**     | 2007            | 533 - 1066                | 1066 - 2133                  | 8,5 - 17 GB/s             | 1,5V     | 240  |
-| **DDR4**     | 2014            | 1066 - 1600               | 2133 - 3200                  | 17 - 25,6 GB/s            | 1,2V     | 288  |
-| **DDR5**     | 2020            | 2400 - 4200               | 4800 - 8400                  | 38,4 - 67,2 GB/s          | 
+| Tipo de RAM | Año de lanzamiento | Frecuencia de reloj (MHz) | Transferencia de datos (MT/s) | Velocidad de transferencia | Voltaje | Nº de pines |
+| ----------- | ------------------ | ------------------------- | ----------------------------- | -------------------------- | ------- | ----------- |
+| **DDR**     | 2000               | 100 – 200                 | 200 – 400                     | 1,6 – 3,2 GB/s             | 2,5 V   | 184         |
+| **DDR2**    | 2003               | 133 – 266                 | 400 – 1066                    | 3,2 – 8,5 GB/s             | 1,8 V   | 240         |
+| **DDR3**    | 2007               | 400 – 1066                | 800 – 2133                    | 6,4 – 17 GB/s              | 1,5 V   | 240         |
+| **DDR4**    | 2014               | 800 – 1600                | 1600 – 3200                   | 12,8 – 25,6 GB/s           | 1,2 V   | 288         |
+| **DDR5**    | 2020               | 1200 – 2100               | 4800 – 8400+                  | 38,4 – 67,2 GB/s (o más)   | 1,1 V   | 288         |
 
 ![DDR Family](https://hardzone.es/app/uploads-hardzone.es/2019/12/ddr3-ddr4-ddr5-esquema.jpg)
 
