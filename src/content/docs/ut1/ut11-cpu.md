@@ -69,14 +69,14 @@ Cuando hablamos de arquitecturas como x86 o ARM, en realidad nos referimos a su 
 *   El **TDP (Thermal Design Power)** se mide en vatios (W) e indica el calor que el procesador genera cuando está funcionando a máxima carga.
 *   **¿Por qué es importante?** Un TDP más alto significa que el procesador consume más energía y necesitará un sistema de refrigeración más potente (un mejor disipador y ventilador) para no sobrecalentarse.
 
-### **7. GPU Integrada (Gráficos "de Serie")**
+### **7. GPU Integrada (Gráficos "de serie")**
 
-*   Muchos procesadores incluyen una **Unidad de Procesamiento Gráfico (iGPU)**, es decir, una pequeña tarjeta gráfica integrada en el propio chip.
-*   **¿Para qué sirve?** Es perfecta para tareas del día a día: navegar por internet, ofimática, ver vídeos en alta definición, etc..
-*   **Ejemplos:**
-    *   **Intel:** Sus procesadores con gráficos integrados suelen llevar la etiqueta **"G"** (ej. Intel Core i5-12400G). (Con "F" no tienen iGPU).
-    *   **AMD:** Los procesadores con gráficos integrados se denominan **APU** (Accelerated Processing Unit), como los Ryzen 5 5600G o Ryzen 7 5700G.
+* Muchos procesadores incluyen una **Unidad de Procesamiento Gráfico (iGPU)**, es decir, una tarjeta gráfica integrada en el propio chip del procesador.
+* **¿Para qué sirve?** Está pensada para tareas del día a día: navegar por internet, ofimática, reproducción de vídeo en alta definición o juegos poco exigentes.
+* **Ejemplos:**
 
+  * **Intel:** Sus procesadores con gráficos integrados suelen identificarse como **Intel UHD Graphics** o **Intel Iris Xe**, dependiendo de la gama. Los modelos con sufijo **"F"** (ej. Intel Core i5-12400F) **no** incluyen iGPU.
+  * **AMD:** Los procesadores con gráficos integrados reciben el nombre de **APU (Accelerated Processing Unit)**. Ejemplos: **Ryzen 5 5600G** o **Ryzen 7 5700G**.
 
 ### **8. Otros Factores Clave**
 
