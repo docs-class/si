@@ -13,7 +13,7 @@ description: "La caja y la Fuente de Alimentación"
 ![Caja3](../../../assets/ut1/pc3_720x405.webp)
 
 
-### **Fuente de Alimentación**
+### **Fuente de Alimentación (Power Supply Unit - PSU)**
 
 La **fuente de alimentación** es un componente esencial en un sistema informático encargado de suministrar energía eléctrica a todos los dispositivos y componentes del ordenador. Su función principal es convertir la corriente alterna (CA) de la red eléctrica en corriente continua (CC) con los voltajes adecuados para alimentar el hardware del equipo (placa base, discos duros, tarjetas gráficas, etc.).
 
@@ -38,8 +38,12 @@ La **fuente de alimentación** es un componente esencial en un sistema informát
 1. **Eficiencia Energética:**
    - La eficiencia de una fuente de alimentación se mide por la cantidad de energía convertida en corriente útil frente a la energía que se pierde en forma de calor.
    - Las certificaciones como **80 PLUS** garantizan que la fuente tiene un mínimo de eficiencia (del 80% o superior) en diferentes niveles de carga.
+  
+  ![Eficiencia Energética 80plus](https://www.coolmod.com/blog/wp-content/uploads/2024/07/Imagen-4.png)
 
 #### **Tipos de Fuentes de Alimentación**
+
+![Tipos de Fuentes de Alimentación](https://www.coolmod.com/blog/wp-content/uploads/2024/07/Imagen-2.jpg)
 1. **ATX (Advanced Technology eXtended):**
    - Es el tipo más común para ordenadores de sobremesa. Proporciona todos los conectores y voltajes necesarios para alimentar la mayoría de componentes de un PC estándar.
 
@@ -48,9 +52,6 @@ La **fuente de alimentación** es un componente esencial en un sistema informát
 
 3. **Fuentes de Alimentación Modulares y Semi-Modulares:**
    - Permiten conectar solo los cables necesarios, lo que ayuda a mantener el interior del equipo más ordenado y facilita la ventilación.
-
-4. **Fuentes Industriales:**
-   - Diseñadas para servidores y sistemas de alta demanda. Ofrecen potencias más altas y protección adicional contra fallos eléctricos.
 
 #### **Funciones de Protección**
 Las fuentes de alimentación modernas incluyen varios mecanismos de protección para evitar daños a los componentes:
