@@ -128,6 +128,6 @@ Para más información, visita [CAMM2/LPCAMM2](https://hardzone.es/tutoriales/co
 
 
 :::tip[Videos]
-- [¿Cómo influyen la latencia y la frecuencia en la memoria RAM? (sólo 4 primeros minutos)](https://www.youtube.com/watch?v=cKdAqnQL7mY)
+- [¿Cómo influyen la latencia y la frecuencia en la memoria RAM? (hasta minuto 2:30)](https://www.youtube.com/watch?v=cKdAqnQL7mY)
 - [¿Qué es la memoria RAM? | Explicación sencilla (Nate Gentile)](https://www.youtube.com/watch?v=1f2b0nG3H8I)
 :::
