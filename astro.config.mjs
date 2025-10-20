@@ -113,7 +113,7 @@ export default defineConfig({
                     },
                 ],
             },
-            //UT3
+      /*       //UT3
             {
                 label: 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL',
                 // badge: { text: '25-NOV', variant: 'success' },
@@ -236,7 +236,7 @@ export default defineConfig({
                 items: [
                     'ut7/ut71-introduction',
                 ],
-            }, 
+            },  */
         ],
     }), d2()],
 });
