@@ -10,19 +10,19 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/markdoc": "^0.15.7",
+    "@astrojs/check": "^0.9.5",
+    "@astrojs/markdoc": "^0.15.8",
     "@astrojs/starlight": "^0.34.8",
     "@astrojs/starlight-markdoc": "^0.4.0",
     "@iconify-json/mdi": "^1.2.3",
-    "@iconify/json": "^2.2.390",
-    "astro": "^5.14.1",
-    "astro-d2": "^0.8.0",
+    "@iconify/json": "^2.2.398",
+    "astro": "^5.14.7",
+    "astro-d2": "^0.8.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
     "root": "github:stramel/astro-icon#main",
     "sharp": "^0.34.4",
-    "starlight-fullview-mode": "^0.2.3",
+    "starlight-fullview-mode": "^0.2.6",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
