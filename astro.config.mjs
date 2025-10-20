@@ -96,8 +96,7 @@ export default defineConfig({
                     {
                         label: '2.1 Introducción a los Sistemas Operativos',
                         items: [
-                            'ut2/ut21',
-                            'ut2/ut21-install',
+                            'ut2/ut21-intro',
                             'ut2/ut21-boot',
                             'ut2/ut21-win',
                             'ut2/ut21-linux',

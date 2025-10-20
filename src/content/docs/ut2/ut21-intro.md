@@ -1,0 +1,150 @@
+---
+title: "Introducción"
+description: "Funciones, arquitectura, tipos y clasificación de un Sistema Operativo"
+---
+
+:::note[Connexió amb el currículum]
+RA: 2 - CE: a, b, c
+:::
+
+## 1. Introducción a los sistemas operativos: componentes, software y licencias
+
+### Elementos funcionales de un sistema informático
+
+Los componentes funcionales de un sistema informático son:
+
+*   Los componentes físicos: **hardware**.
+*   Los componentes lógicos: **software**.
+*   El personal y usuarios.
+*   Dependiendo de los autores, se añade la Documentación.
+
+Un **Sistema Operativo (SO)** se incluye en la categoría de **SOFTWARE**.
+
+### Definición y Tipos de Software
+
+Se denomina **software** al conjunto de los programas, procedimientos, reglas, documentación y datos asociados, que forman parte de las operaciones de un sistema de computación.
+
+**Tipos de software (dependiendo de su función)**:
+
+| Tipo de Software | Función principal |
+| :--- | :--- |
+| **Software de sistema** | Desvincular al usuario y al programador de los detalles del hardware del sistema informático. |
+| **Software de aplicación** | Permite a los usuarios llevar a cabo tareas específicas. |
+
+**Tipos de software de sistema**:
+El software base o de sistema actúa como intermediario entre el usuario y el hardware. En esta categoría se incluye:
+
+*   **Sistemas Operativos** (de Escritorio, Móviles, de Servidores, Virtuales/Hypervisores).
+*   BIOS.
+*   Firmware de equipos y dispositivos.
+*   Drivers de dispositivos.
+*   Aplicaciones de diagnóstico y software de mejora de equipos.
+
+**Tipos de software de aplicación**:
+Son programas diseñados para realizar tareas específicas y pueden clasificarse según su propósito o funcionalidad. Los principales tipos son:
+
+*   Aplicaciones de productividad, comunicación, multimedia, gestión empresarial, diseño y cad, educativas, entretenimiento y juegos, navegación y mapas, seguridad, financieras y contabilidad, científicas y de ingeniería, web y navegadores, utilidades y mantenimiento del sistema, móviles.
+
+### Tipos de Software y Licencias
+
+Además del software de sistema y de aplicación, se distingue por el tipo de acceso y distribución:
+
+| Tipo de Software | Acceso y Características |
+| :--- | :--- |
+| **Software libre** | Se proporciona el **código fuente** y libertad de copia, uso y modificación. |
+| **Software privativo o propietario** | Se concede únicamente derechos sobre su uso. Los fabricantes suelen ofrecer soporte técnico y actualizaciones. El usuario no dispone del código fuente. |
+
+Una **licencia** es un contrato entre el desarrollador y el usuario que define los derechos y deberes de ambas partes.
+
+#### Licencias de Software Libre
+
+En las licencias de software libre, los derechos del usuario son muy abiertos y permisivos. El usuario dispone de **cuatro libertades**:
+
+1.  Libertad para ejecutar con cualquier propósito.
+2.  Libertad para estudiarlo y adaptarlo a sus necesidades.
+3.  Libertad para distribuir copias.
+4.  Libertad para modificarlo y mejorarlo (código fuente).
+
+El software libre puede ser gratuito o no, ya que estas libertades no implican que no se pueda comercializar.
+
+**Ejemplos de licencias de software libre**:
+
+*   **SW con copyleft (Ej. GNU GPL):** El autor conserva los derechos de autor, pero permite la redistribución y modificación bajo esa misma licencia de software libre (efecto vírico). Ejemplo: el kernel de Linux.
+*   **SW sin copyleft (Ej. BSD, APACHE):** Es una licencia permisiva que no impone obligaciones sobre las obras derivadas. Ejemplo: Android usa Apache.
+*   **SW de dominio público:** No tiene derechos de autor. Es un código sin copyleft que puede derivar en privativo.
+
+#### Formas de Distribución (No Software Libre)
+
+Son formas de distribución para dar a conocer el producto, pero en la mayoría de los casos, el código fuente no está disponible, por lo que no son software libre:
+
+*   **Shareware:** O no tiene todas las funcionalidades habilitadas, o su uso se limita temporalmente. Si después de probarlo el usuario decide que le gusta, tiene que comprarlo.
+*   **Freeware:** Software gratuito y sin limitaciones temporales.
+
+#### Licencias de Software Propietario
+
+En estas licencias se especifican plazos y modos concretos de instalación y uso. Normalmente, no se puede copiar ni distribuir el software, y el usuario puede utilizarlo sin ser el propietario.
+
+*   **Tipos genéricos:** EULA (end user license agreement) y CLUF (contrato de licencia de usuario final).
+*   **Licencias de software propietario usadas por Microsoft**:
+    *   **OEM:** Se otorga al fabricante de hardware para que se distribuya con él en un único uso. Está ligada a un equipo físico concreto.
+    *   **Retail (ALUF - Acuerdo de Licencia de Usuario Final):** Es la licencia que se compra directamente del desarrollador y se puede instalar en cualquier hardware, normalmente en una sola máquina a la vez.
+    *   **VLM (Licencias de Volumen):** Permite la instalación en un número de ordenadores con una única licencia, de forma más sencilla y económica. Destinada a corporaciones y empresas.
+
+## 2. Evolución histórica
+
+| Periodo | Características principales |
+| :--- | :--- |
+| **Años 40-50 (Primeros Ordenadores)** | Se interactuaba directamente con el hardware mediante tarjetas perforadas. No existía sistema operativo ni monitores. La supervisión del proceso se realizaba manualmente por ingenieros, físicos y matemáticos. |
+| **Años 50-70 (Primeros SO)** | General Motors crea el primer SO para IBM, basado en un programa monitor que gestiona una cola de trabajos. **Evolución del hardware y del SO**: Sistemas por lotes multiprogramación (aprovechan tiempos muertos del procesador), Sistemas de tiempo compartido (simulan uso simultáneo/multiusuario asignando *quantum* de procesador), y Sistemas multiprocesador. |
+| **Años 70 - Actualidad (Ordenadores Personales)** | Inversión en **usabilidad** que acerca los ordenadores a usuarios no expertos. Mejora de la interacción mediante dispositivos de E/S más avanzados. Se desarrollan interfaces más usables y aplicaciones de propósito general (juegos, ofimática, etc.). |
+
+## 3. Características, funciones y tipos de un SO
+
+El sistema operativo es un software con características particulares porque debe administrar todos los recursos del sistema entre los usuarios y el resto del software. El SO es software y consume recursos, más que la mayoría de las aplicaciones de usuario.
+
+### Características de los SO
+
+*   **Adaptabilidad:** Debe actualizarse para adaptarse al nuevo software y hardware, que evolucionan en paralelo.
+*   **Facilidad de uso:** Es primordial, pero implica mayor gasto en recursos (ej., el sistema gráfico de ventanas). Algunos SO ganan eficiencia restringiendo su manejabilidad.
+*   **Eficiencia:** Debe atender todas las peticiones de recursos limitados (RAM, núcleos, acceso a discos, colas de impresión, etc.), teniendo en cuenta la importancia de las solicitudes y quién las realiza. Esta tarea es compleja y crítica.
+
+### Funciones del Sistema Operativo
+
+Las funciones de un SO incluyen:
+
+| Función | Descripción |
+| :--- | :--- |
+| **Gestión de procesos** | Determina qué proceso ejecutará el procesador en cada ciclo de reloj, reparte el tiempo de ejecución, y crea, destruye, arranca, para y comunica procesos. |
+| **Gestión memoria** | Reparte la memoria entre los procesos, realizando funciones de asignación, liberación y control de acceso a la misma. |
+| **Gestión E/S** | Controla las transferencias de información entre periféricos y CPU. |
+| **Gestión ficheros** | Gestiona el almacenamiento permanente y la seguridad de los ficheros y archivos. |
+| **Seguridad** | Incluye mecanismos para permitir o denegar el acceso a recursos (ficheros, red, etc.). Debe garantizar **el servicio y disponibilidad**, la **confidencialidad**, **protección** e **integridad** del sistema y de los datos. |
+| **Control de errores** | Gestiona todo tipo de errores, informando al usuario y salvaguardando de forma prioritaria la seguridad del sistema y los datos. |
+| **Interfaz con el usuario** | La interfaz gráfica o textual permite la comunicación, gestión, administración y explotación del sistema operativo por parte del usuario. |
+
+### Tipos de Sistemas Operativos (Clasificación)
+
+Los SO se distinguen según los servicios ofrecidos:
+
+| Criterio | Tipos | Descripción |
+| :--- | :--- | :--- |
+| **Número de procesos simultáneos** | Monotarea | Solo lanza un proceso cuando el anterior ha terminado. El usuario solo puede ejecutar un proceso a la vez. |
+| | Multitarea | Atiende a varios procesos de forma simultánea. Hay varios programas cargados en memoria listos para ser ejecutados. |
+| **Número de usuarios** | Monousuario | Solo atiende a un usuario, que dispone de todos los recursos. |
+| | Multiusuario | Da servicio a más de un usuario a la vez. Los recursos deben ser gestionados y repartidos. |
+| **Número de procesadores** | Monoproceso | Solo tiene una CPU, pero puede simular multitarea (*quantum*). |
+| | Multiproceso | Soporta varios procesos simultáneos mediante varios procesadores. |
+| **Forma de ofrecer los servicios** | Centralizados | Un ordenador central realiza las tareas de computación, y los usuarios se conectan por terminales ligeros. |
+| | Distribuidos | Una red de ordenadores independientes se presenta como un único sistema, repartiendo los cálculos entre los equipos. |
+| **Disponibilidad** | SO propietarios | Código fuente, derechos y permisos de uso son de una empresa. |
+| | SO libres | Libertad de uso, modificación, distribución y mejora del programa. |
+| **Tipo de procesamiento** | Sistemas de tiempo real | Diseñados para tareas críticas (ej. control de sistemas de un coche o avión). Deben responder correctamente en un tiempo muy limitado, siendo la fiabilidad fundamental. |
+| | SO interactivos o de tiempo compartido | Sistemas en los que no prima la limitación de tiempos de respuesta, como Windows o Ubuntu. |
+| **Interfaz empleado** | Textuales | No hay entorno gráfico; se introducen comandos en consola. Requiere mayor conocimiento de sintaxis, pero la explotación puede ser más potente. |
+| | Gráficos | Existe un entorno gráfico con ventanas que facilita el manejo, pero consume muchos más recursos a nivel de procesador. |
+| **Servicios (Adicional)** | **SO en red** | Gestionan la red (usuarios y recursos) de forma centralizada a través de un servidor con software específico (SOR). Ejemplos: Windows Server, Linux/UNIX server. |
+| | **SO cliente o de escritorio** | Procesan la información, gestionan procesos, memoria y E/S de un equipo. Orientados a uso como cliente de una red u ordenador independiente. Ejemplos: Windows 10, Ubuntu. |
+
+:::tip[enlaces]
+[OS stats](https://gs.statcounter.com/os-market-share)
+:::
