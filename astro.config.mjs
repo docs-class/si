@@ -15,7 +15,7 @@ import d2 from 'astro-d2';
 Copia y pega en terminal para generar PDF de todas las UTs
 Asegúrate de que el servidor de desarrollo esté en marcha (pnpm run dev)
 
-npx starlight-to-pdf --url http://localhost:4321/si/ut1/ -p ./public/_pdf --filename ut1_all --pdf-outline --no-contents --header ./src/components/header-pdf.html --footer ./src/components/footer-pdf.html --margins '2.8cm 1cm 1.5cm 1.5cm'
+npx starlight-to-pdf --url http://localhost:4321/si/ut1/ -p ./public/_pdf --filename SI --pdf-outline --no-contents --header ./src/components/header-pdf.html --footer ./src/components/footer-pdf.html --margins '2.8cm 1cm 1.5cm 1.5cm'
 
 Luego elimina las unidades que no necesites.
 */
