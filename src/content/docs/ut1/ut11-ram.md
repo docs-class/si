@@ -75,6 +75,16 @@ Eso significa que puede realizar **9.200 millones de transferencias de datos por
 - **Descripción**: No necesita refrescarse constantemente como la DRAM, por lo que es más rápida, pero también más cara y ocupa más espacio.
 - **Uso**: Se emplea principalmente en la CMOS de la BIOS y en las memorias caché de CPU y GPU.
 
+:::caution[Comparación de Transistores por Celda de Bit]
+| Tipo de Memoria | Componentes por Bit | Función del Componente Adicional |
+| :---: | :---: | :---: |
+| **SRAM** | **6 Transistores** | Los transistores (formando un *flip-flop* biestable) mantienen el estado del bit (0 o 1) sin necesidad de refresco constante. |
+| **DRAM** | **1 Transistor y 1 Condensador** | El transistor actúa como interruptor y el condensador almacena la carga eléctrica (el estado del bit), la cual debe ser refrescada periódicamente. |
+:::
+:::tip[¿Por que no RAM/SSD/HDD con SRAM?]
+* No se usa la SRAM como memoria principal debido a su alto costo y tamaño.
+:::
+
 ## Canales
 
 Los **canales de memoria RAM** son las “autopistas” que conectan el procesador con la memoria, permitiendo el intercambio de datos. Más canales significan mayor ancho de banda y, por tanto, mejor rendimiento, especialmente en tareas intensivas como juegos o edición de vídeo.
