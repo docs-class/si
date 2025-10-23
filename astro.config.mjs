@@ -14,10 +14,10 @@ import d2 from 'astro-d2';
 ***EXPORT TO PDF***
 Copia y pega en terminal para generar PDF de todas las UTs
 Asegúrate de que el servidor de desarrollo esté en marcha (pnpm run dev)
+Solo genera el PDF de las unidades que se muestren en el menu
 
 npx starlight-to-pdf --url http://localhost:4321/si/ut1/ -p ./public/_pdf --filename SI --pdf-outline --no-contents --header ./src/components/header-pdf.html --footer ./src/components/footer-pdf.html --margins '2.8cm 1cm 1.5cm 1.5cm'
 
-Luego elimina las unidades que no necesites.
 */
 
 // https://astro.build/config
@@ -40,9 +40,6 @@ export default defineConfig({
         plugins: [
             fullviewMode(),
         ],
-
-        // Default locale
-        //defaultLocale: 'es',
         sidebar: [
             {
                 label: 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
@@ -54,16 +51,11 @@ export default defineConfig({
                     },
                     {
                         label: '1.2 Tipos de Redes y Componentes',
-                        items: [
-                            'ut1/ut12',
-                            'ut1/ut12-comp',
-                        ],
+                       autogenerate: { directory: 'ut1/ut12' },
                     },
                     {
                         label: '1.3 Precauciones Básicas y montaje',
-                        items: [
-                            'ut1/ut13',
-                        ],
+                        autogenerate: { directory: 'ut1/ut13' },
                     },
                 ],
             },

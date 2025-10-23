@@ -24,7 +24,7 @@ description: "Componentes y Protocolos"
 4. **Medios de transmisión:**
    - **Cableado de cobre (UTP/FTP):** Utilizado en redes LAN.
 
-![cables](../../../assets/ut1/ut12-cables.png)
+![cables](../../../../assets/ut1/ut12-cables.png)
 
    - **Fibra óptica (monomodo, multimodo):** Transmisión de datos a alta velocidad y largas distancias.
    - **Inalámbricos (Wi-Fi, Bluetooth, WiMAX):** Comunicaciones sin cables para LAN y MAN.
@@ -62,12 +62,12 @@ Los protocolos definen cómo se comunican los dispositivos en una red.
    - Representan la disposición de los dispositivos y el cableado físico de la red.
    - Ejemplo: Un diagrama que muestra la ubicación de los ordenadores, servidores y cables en un edificio.
 
-![mapa físico](../../../assets/ut1/mapa_físico.png)
+![mapa físico](../../../../assets/ut1/mapa_físico.png)
 
 1. **Mapas lógicos:**
    - Representan cómo se comunican los dispositivos entre sí, incluyendo subredes, direcciones IP y ruteo.
    - Ejemplo: Un diagrama con las direcciones IP de cada dispositivo y rutas de tráfico configuradas.
 
-![mapa lógico](../../../assets/ut1/mapa_lógico.png)
+![mapa lógico](../../../../assets/ut1/mapa_lógico.png)
 
    
