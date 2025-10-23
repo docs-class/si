@@ -84,8 +84,7 @@ Una vez que las máquinas están agrupadas, se pueden realizar diversas acciones
 - **Eliminar Grupo**: Selecciona el grupo y haz clic derecho para eliminarlo.
 - **Configurar Grupo**: Puedes modificar configuraciones compartidas por las máquinas del grupo.
 
-![Grupos en virtualbox](../../../assets/ut2/grupos.png)
-
+![Grupos en virtualbox](../../../../../src/assets/ut2/grupos.png)
 
 :::caution[actividad]
 Virtualbox Advanced

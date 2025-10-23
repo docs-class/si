@@ -46,7 +46,6 @@ export default defineConfig({
         sidebar: [
             {
                 label: 'UT1 - SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES',
-                // Collapsa el grupo de forma predeterminada.
                 collapsed: true,
                 items: [
                     {
@@ -84,32 +83,16 @@ export default defineConfig({
             },
              //UT2
             {
-                label: 'UT2 - SISTEMES OPERATIUS. INTRODUCCIÓ',
-                // badge: { text: '28-OCT', variant: 'success' },
-                translations: {
-                    'es': 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
-                    'en': 'UT2 - OPERATING SYSTEMS. INTRODUCTION',
-                },
-                // Collapsa el grupo de forma predeterminada.
+                label: 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
                 collapsed: true,
                 items: [
                     {
                         label: '2.1 Introducción a los Sistemas Operativos',
-                        items: [
-                            'ut2/ut21-intro',
-                            'ut2/ut21-boot',
-                            'ut2/ut21-win',
-                            'ut2/ut21-linux',
-                        ],
+                        autogenerate: { directory: 'ut2/ut21' },
                     },
                     {
                         label: '2.2 Máquinas virtuales, Instalación y actualización de SSOO',
-                        items: [
-                            'ut2/ut22-virtualization',
-                            'ut2/ut22-virtualbox-advanced',
-                            'ut2/ut22-restore',
-                            'ut2/ut22-usb',
-                        ],
+                        autogenerate: { directory: 'ut2/ut22' },
                     },
                 ],
             },
