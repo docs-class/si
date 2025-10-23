@@ -75,7 +75,7 @@ Aplicando las conversiones, se obtiene la siguiente tabla de referencia:
 <details>
 <summary>Disco de 256GB (SI) ¿Cuánta capacidad tiene en GiB realmente (ISO)?</summary>
 
-![SSD](../../../assets/ut1/ut111_ssd.png)
+![SSD](../../../../assets/ut1/ut111_ssd.png)
 
 </details>
 
@@ -104,7 +104,7 @@ Para medir la cantidad de información que puede ser enviada o recibida por unid
 <details>
 <summary>¿Cúanto tardará, en minutos, descargar un ADLS de 20Mbps una película de 1500MB? ¿Y una conexión de fibra de 300Mb/s(en segundos)?</summary>
 
-![adsl_fibra](../../../assets/ut1/ut111_adsl_fibra.png)
+![adsl_fibra](../../../../assets/ut1/ut111_adsl_fibra.png)
 
 ADSL:
 - 1500 MB / 2,5 MB/s = 600 s = 10 min
@@ -117,7 +117,7 @@ Fibra:
 <details>
 <summary>Tienes que subir tu video de tu última escapada, 200GB, a Youtube para compartirlo con tus amigas ¿Cúanto tardará, en minutos u horas, si tienes una conexión de ADSL de 10Mbps?¿cuánto tardarías si tuvieras una conexión de fibra de 600Mbps?</summary>
 
-![cloud upload](../../../assets/ut1/ut111_cloud.png)
+![cloud upload](../../../../assets/ut1/ut111_cloud.png)
 
 </details>
 
@@ -139,7 +139,7 @@ Fibra:
 <details>
 <summary>Tienes una foto que has hecho con tu IPhone en RAW. ¿Cuánto tardarías en transferirla a tu ordenador si utilizas un USB 3.2 gen 2 (1.2 GB/s) si la foto pesa 25MB?¿Y las fotos de del pasado verano en la playa (25GB)?</summary>
 
-![usb3.2](../../../assets/ut1/ut111_usb.png)
+![usb3.2](../../../../assets/ut1/ut111_usb.png)
 
 - Foto RAW (25 MB): 25 MB (0,025 GB) / 1.2 GB/s = 0.02083 s ≈ 21 ms
 - Fotos Verano (25 GB): 25 GB / 1.2 GB/s = 20.8333 s ≈ 20.83 s

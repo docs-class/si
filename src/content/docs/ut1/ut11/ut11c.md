@@ -10,7 +10,7 @@ La **arquitectura de von Neumann** es un modelo de diseño para computadores pro
 
 <!-- Local image stored in src/assets/ -->
 <!-- Use a relative file path or import alias -->
-![Von Neumann Architecture](../../../assets/ut1/vonNeumman.png)
+![Von Neumann Architecture](../../../../assets/ut1/vonNeumman.png)
 
 
 ### Componentes principales:
@@ -30,7 +30,7 @@ La **arquitectura de von Neumann** es un modelo de diseño para computadores pro
 Busca otras arquitecturas alternativas a Von Neumann.
 :::
 
-![Von Neumann Architecture](../../../assets/ut1/Jerarquia_memoria.png)
+![Von Neumann Architecture](../../../../assets/ut1/Jerarquia_memoria.png)
 
 ### Funcionamiento básico:
 - **Ciclo de búsqueda y ejecución**: 

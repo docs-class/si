@@ -50,21 +50,7 @@ export default defineConfig({
                 items: [
                     {
                         label: '1.1 Arquitectura y Componentes',
-                        items: [
-                            'ut1/ut11',
-                            'ut1/ut11-info',
-                            'ut1/ut11-post',
-                            'ut1/ut11-arch',
-                            'ut1/ut11-cpu',
-                            'ut1/ut11-motherboard',
-                            'ut1/ut11-box',
-                            'ut1/ut11-ram',
-                            'ut1/ut11-gpu',
-                            'ut1/ut11-hdd',
-                            'ut1/ut11-interfaces',
-                            'ut1/ut11-raid',
-                            'ut1/ut11-other',
-                        ],
+                        autogenerate: { directory: 'ut1/ut11' },
                     },
                     {
                         label: '1.2 Tipos de Redes y Componentes',

@@ -6,11 +6,11 @@ description: "La caja y la Fuente de Alimentación"
 - Chasis que engloba y protege fisicamente el resto de componentes
 - Condiciona al resto de componentes
 
-![Caja1](../../../assets/ut1/pc1_300x396.jpg)
+![Caja1](../../../../assets/ut1/pc1_300x396.jpg)
 
-![Caja2](../../../assets/ut1/pc2_300x300.jpg)
+![Caja2](../../../../assets/ut1/pc2_300x300.jpg)
 
-![Caja3](../../../assets/ut1/pc3_720x405.webp)
+![Caja3](../../../../assets/ut1/pc3_720x405.webp)
 
 
 ### **Fuente de Alimentación (Power Supply Unit - PSU)**

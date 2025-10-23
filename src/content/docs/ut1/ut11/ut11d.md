@@ -10,7 +10,7 @@ description: Procesador de un Sistema Informático
 *   **En cristiano:** Es la velocidad a la que el procesador hace sus cálculos. Un procesador de 3.5 GHz completa 3,500 millones de operaciones cada segundo.
 *   **Ojo:** Aunque una frecuencia más alta suele significar más rapidez, no es el único factor que determina el rendimiento general de la CPU.
 
-![Monitor CPU W11](../../../assets/ut1/cpuMonitor.png)
+![Monitor CPU W11](../../../../assets/ut1/cpuMonitor.png)
 
 Monitor CPU de Windows 11. (ctrl + mayusculas + esc)
 
@@ -41,7 +41,7 @@ Un hercio (símbolo: Hz) es la unidad de medida de la frecuencia en el Sistema I
     *   **L2:** Un poco más grande pero algo más lenta.
     *   **L3:** La más grande, compartida entre todos los núcleos.
     
-   ![Caches L1, L2, L3](../../../assets/ut1/caches.png) 
+   ![Caches L1, L2, L3](../../../../assets/ut1/caches.png) 
 
 ### **4. Arquitectura (El "Idioma" del Procesador)**
 
@@ -57,7 +57,7 @@ Cuando hablamos de arquitecturas como x86 o ARM, en realidad nos referimos a su 
 | **Desventajas** | - Las instrucciones tardan varios ciclos de reloj en completarse.<br>- Mayor consumo de energía y generación de calor. | - Se necesitan más instrucciones (y más memoria) para completar tareas complejas. |
 :::
 
-![Procesador AMD e Intel](../../../assets/ut1/AMD-vs-Intel-vs-Arm_300x300.webp) 
+![Procesador AMD e Intel](../../../../assets/ut1/AMD-vs-Intel-vs-Arm_300x300.webp) 
 
 :::caution[actividad]
 - Busca los últimos procesadores de Intel, AMD y Apple. ¿Qué novedades han presentado?
