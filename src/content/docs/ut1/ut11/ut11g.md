@@ -115,9 +115,8 @@ Supongamos una RAM DDR4 con las siguientes características:
 - **Bus de datos**: 64 bits  
 - **Número de canales**: 2 (Dual Channel)
 
-<div style="text-align: center; font-weight: bold;">
-Tasa de transferencia (MB/s) = 3200 MHz × 64 bits × 2 canales / 8 = 51.200 MB/s = 51,2 GB/s
-</div>
+**Ancho de Banda (GB/s) = Frecuencia (MHz) × Ancho de Bus (Bytes) × Número de Canales**
+- Tasa de transferencia (MB/s) = 3200 MHz × 64 bits × 2 canales / 8 = 51.200 MB/s = 51,2 GB/s
 
 Esto significa que la tasa de transferencia de esta RAM es de **51,2 GB/s**.
 

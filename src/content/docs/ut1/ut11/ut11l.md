@@ -46,10 +46,6 @@ Referencias
 Abel, J. T., Ouillette, P., Williams, C. L., Blau, J., Cheng, J., Yao, K., Lee, W. Y., Cornish, T. C., Balis, U. G. J., & McClintock, D. S. (2020). Display Characteristics and Their Impact on Digital Pathology: A Current Review of Pathologists’ Future “Microscope”. Journal of Pathology Informatics, 11(1), 23. https://doi.org/10.4103/jpi.jpi_38_20
 :::
 
-### Tamaño de Pantalla
-
-Los monitores vienen en varios tamaños, generalmente medidos en pulgadas desde una esquina de la pantalla hasta la esquina opuesta. Los tamaños comunes van de 21 a 32 pulgadas, y la elección del tamaño depende del espacio disponible y el uso que se le dará.
-
 ### Tasa de Refresco
 
 La tasa de refresco, medida en Hertz (Hz), indica cuántas veces por segundo se actualiza la imagen en la pantalla. Una mayor tasa de refresco puede ofrecer una experiencia más fluida, especialmente en juegos.
@@ -60,25 +56,19 @@ La tasa de refresco, medida en Hertz (Hz), indica cuántas veces por segundo se 
 ### Conexiones
 
 - **HDMI**: Conexión digital que transmite audio y video de alta calidad.
+  - Soporta resoluciones hasta 4K y HDR.
 - **DisplayPort**: Similar a HDMI, pero con soporte para múltiples monitores.
+  - Ideal para configuraciones de juegos y estaciones de trabajo.
+- **DVI**: Conexión digital que puede transmitir video de alta calidad, pero sin audio.
 - **VGA**: Conexión analógica más antigua, que está en desuso.
-
-## Teclado y ratón
-
-#### Teclado:
-- **Teclado de membrana**: Común, económico y silencioso, aunque menos duradero.
-- **Teclado mecánico**: Más preciso y duradero, con mejor respuesta táctil, preferido por jugadores y escritores.
-- **Distribuciones del teclado**: QWERTY es la más común, pero también existen otras como AZERTY o QWERTZ, dependiendo del país y el idioma.
-
-#### Ratón:
-- **Ratón óptico**: Utiliza un sensor para detectar movimiento, común en la mayoría de PCs.
-- **Ratón láser**: Más preciso y funciona en más superficies.
 
 ## Altavoces
 
 - **Altavoces estéreo (2.0)**: Dos altavoces (izquierda y derecha) para sonido básico.
 - **Altavoces 2.1**: Dos altavoces y un subwoofer para mejorar los graves.
 - **Altavoces 5.1 o superiores**: Sistemas envolventes para una experiencia más inmersiva, ideales para cine o juegos.
+
+La conexión de los altavoces puede ser a través de cables (jack de 3.5 mm, RCA), óptica o inalámbrica (Bluetooth).
 
 ## Problemas y monitoreo
 
