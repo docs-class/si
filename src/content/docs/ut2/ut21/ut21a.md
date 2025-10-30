@@ -99,9 +99,7 @@ Viene preinstalado en la mayoría de distribuciones GNU/Linux.
     *   `/boot/grub/grub.cfg`: Archivo principal de configuración (formado por scripts), *no debe ser modificado directamente*.
 *   Para modificar las opciones de GRUB, se edita `/etc/default/grub` y se ejecuta `update-grub`.
 
-
-![GRUB2 HYPERFLUENT](https://preview.redd.it/grub-hyperfluent-grub2-theme-v0-q9tgc9o9gdlc1.jpg?width=2618&format=pjpg&auto=webp&s=fe72808788992e567a82c210b93583f36c47fe59 "GRUB2 HYPERFLUENT")
-
+![GRUB2 HYPERFLUENT MINT](../../../../assets/ut2/grub2_hyperfluent.webp)
 
 ### Instalación en Sistemas Mixtos (Windows y Linux)
 
