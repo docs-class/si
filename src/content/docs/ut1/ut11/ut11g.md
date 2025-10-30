@@ -108,7 +108,7 @@ Las **frecuencias de la RAM** indican la velocidad a la que la memoria puede lee
 4. **Compatibilidad**: La velocidad máxima de la RAM está limitada por la **placa base** y el **procesador**.
 5. **Overclocking**: Algunas memorias permiten aumentar su frecuencia por encima de la especificada, lo que puede requerir ajustes en la BIOS/UEFI.
 
-#### **Ejemplo de cálculo de transferencia**
+#### **Ejemplo de cálculo de tasa de transferencia / ancho de banda**
 Supongamos una RAM DDR4 con las siguientes características:
 
 - **Frecuencia de reloj**: 3200 MHz  
@@ -116,7 +116,7 @@ Supongamos una RAM DDR4 con las siguientes características:
 - **Número de canales**: 2 (Dual Channel)
 
 **Ancho de Banda (GB/s) = Frecuencia (MHz) × Ancho de Bus (Bytes) × Número de Canales**
-- Tasa de transferencia (MB/s) = 3200 MHz × 64 bits × 2 canales / 8 = 51.200 MB/s = 51,2 GB/s
+- Tasa de transferencia (MB/s) = 3200 MHz × 64 bits × 2 canales / 8 = 51.200 MB/s => 51,2 GB/s
 
 Esto significa que la tasa de transferencia de esta RAM es de **51,2 GB/s**.
 
