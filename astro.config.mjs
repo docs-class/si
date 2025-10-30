@@ -7,6 +7,7 @@ import fullviewMode from 'starlight-fullview-mode';
 // math plugins
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
+import rehypeExternalLinks from 'rehype-external-links';
 
 import d2 from 'astro-d2';
 
@@ -26,7 +27,15 @@ export default defineConfig({
     base: '/si',
     markdown: {
         remarkPlugins: [remarkMath],
-        rehypePlugins: [rehypeKatex],
+        rehypePlugins: [rehypeKatex, [
+        rehypeExternalLinks,
+        {
+          target: '_blank',
+          rel: ['noopener', 'noreferrer'],
+          // opcional: para que solo aplique a URLs absolutas y no relativas
+          // defaults: true,
+        },
+    ]],
     },
     integrations: [markdoc(), starlight({
         title: 'Sistemas Informáticos',
