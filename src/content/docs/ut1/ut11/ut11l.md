@@ -29,6 +29,23 @@ La resolución se refiere a la cantidad de píxeles que puede mostrar un monitor
 - **Full HD (1920 x 1080)**: Ideal para juegos y películas, ofreciendo una imagen clara y nítida.
 - **4K (3840 x 2160)**: Alta definición que proporciona detalles impresionantes, aunque requiere un hardware más potente.
 
+:::tip[Estudio científico]
+El artículo de PC Gamer informa sobre una nueva investigación sobre la visión humana (realizada por investigadores de la Universidad de Cambridge y Meta Reality Labs) que valida el valor de los monitores de PC de muy alta resolución, hasta 16K.
+El resumen de los puntos clave es el siguiente:
+ * Validación de Alta Resolución: La investigación sugiere que los monitores de alta densidad de píxeles (DPI), incluso más allá del 4K o 8K, son beneficiosos y no un simple truco publicitario.
+ * Nueva Acuidad Visual: El estudio, publicado en Nature, determinó que la agudeza visual humana es mayor de lo que se creía anteriormente, alcanzando los 94 píxeles por grado (ppd) para la visión acromática foveal (la parte central y más nítida del campo visual) (Abel et al., 2020).
+ * Factores Clave: La utilidad de una alta resolución depende totalmente de la distancia de visualización y el tamaño de la pantalla.
+ * Calculadora de Resolución: Los investigadores han creado una calculadora de resolución de pantalla que permite a los usuarios determinar si pueden percibir la diferencia de píxeles en su monitor o televisor actual o propuesto, basándose en la distancia a la que se sientan.
+ * Ejemplos de TV (Larga Distancia):
+   * Para un televisor de 50 pulgadas visto a tres metros de distancia, el límite de la visión humana es de alrededor de 1440p. Las resoluciones 4K u 8K serían un desperdicio en estas condiciones.
+   * Para notar la diferencia con 4K en un televisor, se necesitaría una pantalla de al menos 60 pulgadas a esa misma distancia (tres metros), o acercarse a dos metros para una pantalla de 50 pulgadas.
+ * Ejemplos de Monitores de PC (Corta Distancia):
+   * Para los usuarios de PC, que suelen sentarse a unos 40 cm de la pantalla, el beneficio de la alta resolución es evidente.
+   * El estudio indica que, a una distancia de visualización típica de PC, los usuarios podrían llegar hasta la resolución de 16K con pantallas de 30 a 40 pulgadas y aun así notar la diferencia en la calidad de la imagen.
+Referencias
+Abel, J. T., Ouillette, P., Williams, C. L., Blau, J., Cheng, J., Yao, K., Lee, W. Y., Cornish, T. C., Balis, U. G. J., & McClintock, D. S. (2020). Display Characteristics and Their Impact on Digital Pathology: A Current Review of Pathologists’ Future “Microscope”. Journal of Pathology Informatics, 11(1), 23. https://doi.org/10.4103/jpi.jpi_38_20
+:::
+
 ### Tamaño de Pantalla
 
 Los monitores vienen en varios tamaños, generalmente medidos en pulgadas desde una esquina de la pantalla hasta la esquina opuesta. Los tamaños comunes van de 21 a 32 pulgadas, y la elección del tamaño depende del espacio disponible y el uso que se le dará.

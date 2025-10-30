@@ -5,9 +5,9 @@ description: "GNU/Linux"
 
 **GNU** y **Linux** son componentes esenciales en muchos sistemas operativos de código abierto, pero desempeñan roles distintos:
 
-- **GNU**: Es un proyecto iniciado en 1983 por Richard Stallman con el objetivo de desarrollar un sistema operativo libre similar a Unix. GNU proporciona herramientas y aplicaciones fundamentales, como compiladores, editores de texto y utilidades del sistema, que permiten la interacción del usuario con el sistema operativo.
+- **GNU**: Es un proyecto iniciado en 1983 por Richard Stallman con el objetivo de desarrollar un sistema operativo libre similar a Unix. GNU proporciona** herramientas y aplicaciones fundamentales, como compiladores, editores de texto y utilidades del sistema**, que permiten la interacción del usuario con el sistema operativo.
 
-- **Linux**: Es el núcleo (kernel) del sistema operativo, desarrollado por Linus Torvalds en 1991. El núcleo gestiona los recursos del hardware y permite la comunicación entre el software y el hardware, siendo responsable de tareas como la gestión de procesos, memoria y dispositivos. 
+- **Linux**: Es el **núcleo (kernel)** del sistema operativo, desarrollado por Linus Torvalds en 1991. El núcleo gestiona los recursos del hardware y permite la comunicación entre el software y el hardware, siendo responsable de tareas como la gestión de procesos, memoria y dispositivos. 
 
 > La combinación del núcleo Linux con las herramientas y aplicaciones de GNU da lugar a un sistema operativo completo, comúnmente denominado **GNU/Linux**. Este término reconoce la contribución de ambos proyectos en la creación de un sistema operativo funcional y libre.
 

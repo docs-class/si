@@ -62,6 +62,10 @@ El SO es el **primer programa que se carga en la memoria RAM**.
     *   **Heredado (BIOS):** Establece compatibilidad hacia atrás con discos con esquema MBR.
     *   **UEFI:** Modo recomendado. Al instalar el SO en este modo, se crean particiones GPT.
 
+:::caution[UBIOS]
+Busca información sobre UBIOS, un firmware que combina características de BIOS y UEFI.
+:::
+
 #### Nomenclatura de Particiones
 
 *   **Windows:** Asigna letras (C:, D:, E:, etc.). Las letras A y B se reservaban tradicionalmente para unidades lectoras extraíbles (disquetes, cintas) por herencia de MS-DOS.
