@@ -66,5 +66,6 @@ Una **interfaz** es el punto de conexión y comunicación entre diferentes compo
    - **Ethernet 10G (10 Gigabit)**: Soporta velocidades de hasta **10 Gbps**.
 
 :::caution[actividad]
-Practicum III
+- Busca información sobre GPMI. ¿conector o interfaz?
+- Practicum III
 :::
