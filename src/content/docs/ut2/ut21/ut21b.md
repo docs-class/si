@@ -20,3 +20,8 @@ description: "MS Windows"
    - **Buscar en mi equipo**: Descarga primero los controladores desde la página web del fabricante.
 4. Reinicia si es necesario.
 ![Administrador de Dispositivos](https://www.softzone.es/app/uploads-softzone.es/2019/09/Men%C3%BA-contextual-propiedades-dispositivo-Windows-10.png)
+
+:::tip[Tiny11]
+[Tiny11](https://computerhoy.20minutos.es/software/que-es-tiny11-version-reducida-windows-11-para-pc-antiguos-que-esta-causando-sensacion_6662897_0.html) es una versión ligera de Windows 11 diseñada para mejorar el rendimiento en hardware antiguo o con recursos limitados.
+* El uso de Tiny11 o cualquier versión modificada de Windows 11 constituye una violación directa del EULA de Microsoft.
+:::
