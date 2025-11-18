@@ -23,5 +23,6 @@ description: "MS Windows"
 
 :::tip[Tiny11]
 [Tiny11](https://computerhoy.20minutos.es/software/que-es-tiny11-version-reducida-windows-11-para-pc-antiguos-que-esta-causando-sensacion_6662897_0.html) es una versión ligera de Windows 11 diseñada para mejorar el rendimiento en hardware antiguo o con recursos limitados.
-* El uso de Tiny11 o cualquier versión modificada de Windows 11 constituye una violación directa del EULA de Microsoft.
+* El uso de Tiny10/11 o cualquier versión modificada de Windows 10/11 constituye una violación directa del EULA de Microsoft.
+* Se usa a nivel educativo para equipos con bajos recursos. 
 :::
