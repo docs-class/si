@@ -19,12 +19,12 @@ RA: 3 - CE: e, f, g
 ### Tipos de copias de seguridad
 - **COMPLETA:** Copia la totalidad de los datos por eso tarda menos tiempo en recuperarlos, por lo contrario lleva mucho tiempo realizar una copia de seguridad, depende del tamaño de datos a respaldar.
 - **DIFERENCIAL:** El lunes se hace una copia de seguridad sólo de los archivos que han cambiado desde el domingo, el martes se hace una copia de seguridad sólo de los archivos que han cambiado desde el domingo, y así sucesivamente hasta la siguiente copia de seguridad completa.
- ![backup diferencial](../../../assets/ut3/bk-diferencial.png)
+ 
+![backup diferencial](../../../assets/ut3/bk-diferencial.png)
 
 - **INCREMENTAL:**  Las copias de seguridad incrementales también hacen una copia de seguridad sólo de los datos modificados, pero sólo de los datos que han cambiado desde la última copia de seguridad, ya sea completa o incremental.
- ![backup incremental](../../../assets/ut3/bk-incremental.png)
 
-
+![backup incremental](../../../assets/ut3/bk-incremental.png)
 
 ### Métodos de almacenamiento
 - Almacenamiento local (discos duros externos, NAS).
@@ -36,7 +36,9 @@ RA: 3 - CE: e, f, g
      - **Time Machine** (MacOS): Sistema de copia de seguridad automático.
      - **Duplicati** y **Veeam Backup**: Software de copias de seguridad para Windows, Linux y MacOS.
      - **rsync**: Comando para hacer copias de seguridad en Linux.
+
 ![Timeshift App](https://www.redeszone.net/app/uploads-redeszone.net/2017/10/TimeShift-Linux.png)
+
 ---
 
 ## 2. Planificación y Automatización de Tareas
@@ -44,8 +46,8 @@ RA: 3 - CE: e, f, g
 
 ### Programación de tareas en el sistema operativo
 
-- **Windows**: El "**[Programador de tareas](../ut32-wintasks)**" permite automatizar tareas como la ejecución de programas, el envío de correos electrónicos o la realización de copias de seguridad.
-- **Linux**: **Cron** es una herramienta que permite programar la ejecución de comandos o scripts en momentos específicos. Para inicio de sesión existe la automatización del propio sistema con [aplicaciones de inicio](../ut32-linuxtasks)
+- **Windows**: El "**[Programador de tareas](../ut32a1)**" permite automatizar tareas como la ejecución de programas, el envío de correos electrónicos o la realización de copias de seguridad.
+- **Linux**: **Cron** es una herramienta que permite programar la ejecución de comandos o scripts en momentos específicos. Para inicio de sesión existe la automatización del propio sistema con [aplicaciones de inicio](../ut32a2)
   
 :::tip
 [crontab guru](https://crontab.guru)
