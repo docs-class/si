@@ -83,7 +83,7 @@ export default defineConfig({
                     },
                 ],
             },
-             //UT3
+    /*         //UT3
             {
                 label: 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL',
                 // badge: { text: '25-NOV', variant: 'success' },
@@ -111,7 +111,7 @@ export default defineConfig({
                             },
                         ],
                     },
-                /*    {
+                    {
                         label: '3.3 Gestión de la información',
                         items: [
                             'ut3/ut33-cli',
@@ -121,9 +121,9 @@ export default defineConfig({
 
                         ],
                     },
-*/                ],
+                ],
             },
-      /*      //UT4
+            //UT4
             {
                 label: 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
                 // badge: { text: '26ENE25', variant: 'success' },
