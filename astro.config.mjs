@@ -1,7 +1,7 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
-import markdoc from '@astrojs/markdoc';
 import starlight from '@astrojs/starlight';
+import { defineConfig } from "astro/config";
+import markdoc from '@astrojs/markdoc';
 import fullviewMode from 'starlight-fullview-mode';
 
 // math plugins
@@ -37,7 +37,7 @@ export default defineConfig({
         },
     ]],
     },
-    integrations: [markdoc(), starlight({
+    integrations: [markdoc(),d2(), starlight({
         title: 'Sistemas Informáticos',
         favicon: '/images/favicon.png',
         expressiveCode: false,
@@ -83,7 +83,7 @@ export default defineConfig({
                     },
                 ],
             },
-    /*         //UT3
+             //UT3
             {
                 label: 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL',
                 // badge: { text: '25-NOV', variant: 'success' },
@@ -106,9 +106,9 @@ export default defineConfig({
                                 label: 'Automatización',
                                 items: [
                                     'ut3/ut32a1',
-                                    'ut3/ut32a2',
-                                ],
+                                    'ut3/ut32a2',                                ],
                             },
+                                    'ut3/ut32b',
                         ],
                     },
                     {
@@ -123,7 +123,7 @@ export default defineConfig({
                     },
                 ],
             },
-            //UT4
+     /*       //UT4
             {
                 label: 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
                 // badge: { text: '26ENE25', variant: 'success' },
@@ -208,5 +208,5 @@ export default defineConfig({
                 ],
             },  */
         ],
-    }), d2()],
+    })],
 });
