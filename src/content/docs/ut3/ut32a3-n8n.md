@@ -6,65 +6,83 @@ export_on_save:
   html: false
 ---
 
-## 🎯 Introducción a n8n  
+## ¿Qué es n8n?
 
-### ¿Qué es n8n?
-
+![n8n logo](https://cdn.raiolanetworks.com/blog/wp-content/uploads/n8n-1.png)
 - Plataforma de automatización basada en nodos.
 - Open Source y autohospedable.
 - Similar a Zapier o Make, pero libre y local.
 
-
-### ¿Cómo funciona?
+## ¿Cómo funciona?
 
 - Trabaja con **nodos conectados**.
 - Ejecuta flujos de trabajo (_workflows_).
 - Permite integrar APIs, scripts y servicios.
 
-### 📦 Instalación Paso a Paso
+![nodos](https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/Home_ITO_Ps_5a5aac3fda.webp)
 
-#### ✅ Paso 1: Verificar e instalar Node.js y npm
+## Instalación Paso a Paso (Docker Compose)
 
-**Windows / Linux / macOS**
+### 1\. Requisitos Previos
 
-1. Abre el terminal (o PowerShell/CMD en Windows).
-2. Ejecuta:
-   ```bash
-   node -v
-   npm -v
-   ```
-3. Si no aparece la versión, descarga Node.js desde:
-   👉 [https://nodejs.org](https://nodejs.org)  
-   Elige la versión LTS (la más estable).
+Asegúrate de tener instalados los siguientes programas en tu sistema:
 
-4. Reinicia el terminal y verifica de nuevo las versiones:
-   ```bash
-   node -v
-   npm -v
-   ```
+  * **Docker:** El motor de contenedores.
+```bash
+   // comprobamos la versión
+   docker --version
+   // en Windows, si no está instalado, usar dentor de PowerShell:
+   winget install docker
+   // actualizar a la última versión
+   winget upgrade docker
+```
+  * **[Docker Compose](https://imaginaformacion.com/tutoriales/que-es-docker-compose):** Para definir y ejecutar aplicaciones Docker de múltiples contenedores (simplifica mucho el proceso).
 
----
+### 2\. Crear el Archivo de Configuración (`docker-compose.yml`)
 
-#### ✅ Paso 2: Instalar n8n de forma local
+Crea un nuevo directorio para tu proyecto de n8n (ej. `n8n-project`) y dentro de él, crea un archivo llamado [docker-compose.yml](../ut3/ut32a4-docker-compose).
 
-1. En el terminal, ejecuta:
-   ```bash
-   npm install -g n8n
-   ```
-   Esto instala n8n globalmente en tu sistema.
 
-2. Una vez terminado, inicia n8n:
-   ```bash
-   n8n start
-   ```
-   Esto arrancará el servidor local de n8n.
+### 3\. Iniciar n8n
 
-3. Abre tu navegador y entra en:
-   👉 [http://localhost:5678](http://localhost:5678)
+Abre tu terminal, navega hasta el directorio donde guardaste el archivo `docker-compose.yml` y ejecuta el siguiente comando:
 
-   ¡Ya tienes n8n corriendo!
+```bash
+docker-compose up -d
+```
 
----
+  * `up`: Crea e inicia los contenedores.
+  * `-d`: Ejecuta los contenedores en modo *detached* (en segundo plano).
+
+### 4\. Verificar y Acceder
+
+1.  **Verifica que los contenedores estén corriendo:**
+
+    ```bash
+    docker-compose ps
+    ```
+
+    Deberías ver algo como `Up` en la columna de `State` para los servicios `n8n` y `postgres`.
+
+2.  **Accede a n8n:**
+    Abre tu navegador web y navega a: **`http://localhost:5678`**
+
+    Se te pedirá el usuario y la contraseña que configuraste en `N8N_BASIC_AUTH_USER` y `N8N_BASIC_AUTH_PASSWORD`.
+
+### 5\. Comandos Útiles
+
+  * **Para detener los contenedores (sin eliminar los datos):**
+    ```bash
+    docker-compose stop
+    ```
+  * **Para detener y eliminar los contenedores (sin eliminar los datos persistentes):**
+    ```bash
+    docker-compose down
+    ```
+  * **Para ver los logs de los contenedores (útil para solucionar problemas):**
+    ```bash
+    docker-compose logs -f
+    ```
 
 ### 🧪 Primeros Pasos en n8n
 
