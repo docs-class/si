@@ -27,8 +27,7 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@iconify-json/mdi-light": "^1.2.2",
-    "astro-icon": "https://gitpkg.vercel.app/stramel/astro-icon/packages/core?main"
+    "@iconify-json/mdi-light": "^1.2.2"
   },
   "pnpm": {
     "ignoredBuiltDependencies": [
