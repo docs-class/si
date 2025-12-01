@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ] # Tu rama de despliegue
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -17,18 +17,21 @@ jobs:
       - name: Checkout your repository
         uses: actions/checkout@v4
 
-      # 1. Configurar Node.js (con cache para pnpm)
+      # 1. Configurar Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20' # Versión LTS recomendada
-          cache: 'pnpm' 
+          # No necesitamos 'cache: pnpm' aquí, ya que la acción de pnpm se encarga de esto.
 
-      # 2. Instalar pnpm globalmente (SOLUCIÓN para "Unable to locate executable file")
-      - name: Install pnpm globally
-        run: npm install -g pnpm 
+      # 2. Instalar y configurar pnpm (SOLUCIÓN DEFINITIVA)
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: latest
+          run_install: false # Solo lo instalamos, no corremos 'pnpm install' todavía
 
-      # 3. Instalar dependencias del proyecto
+      # 3. Instalar dependencias del proyecto (Ahora pnpm está garantizado en el PATH)
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
@@ -41,7 +44,7 @@ jobs:
       - name: Verify D2 installation
         run: d2 --version
 
-      # 5. Construir con Astro (usando el script definido en package.json)
+      # 5. Construir con Astro
       - name: Build with Astro
         run: pnpm run build
 
