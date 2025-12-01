@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   
+    branches: [ main ]   # <- cambia 'gh-pages' a 'main' o la rama de desarrollo que uses
   workflow_dispatch:
 
 permissions:
@@ -14,22 +14,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout your repository
         uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: Install pnpm
-        run: |
-          npm install -g pnpm
-          pnpm --version
-
-      - name: Install dependencies
-        run: |
-          pnpm install --frozen-lockfile
 
       - name: Install D2
         run: |
@@ -39,10 +25,10 @@ jobs:
       - name: Verify D2 installation
         run: d2 --version
 
-      - name: Build
-        run: pnpm run build
-        env:
-          NODE_ENV: production
+      - name: Build with Astro
+        uses: withastro/action@v3
+        with:
+          package-manager: pnpm@latest
 
       - name: Add .nojekyll file
         run: touch ./dist/.nojekyll
