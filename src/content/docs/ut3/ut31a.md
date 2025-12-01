@@ -14,12 +14,10 @@ description: "Directorios"
 
 
 :::tip[¿Sabías que...?]
-| **Característica**    | **Discos SATA (`/dev/sdX`)**                | **Discos NVMe (`/dev/nvmeXnY`)**        |
-|------------------------|---------------------------------------------|-----------------------------------------|
-| **Namespaces**         | No existen                                 | Posibles, dividen el disco a nivel físico |
-| **Particiones**        | Gestionan el disco completo                | Gestionan espacio dentro de un namespace |
-| **Rendimiento**        | Limitado a una cola de comandos            | Alta velocidad con colas separadas por namespace |
-| **Aplicaciones**       | Sistemas personales y estándar             | Sistemas empresariales y de alto rendimiento |
+
+En **Particionado Tradicional** (SATA/AHCI) se divide este un dispositivo en secciones lógicas (particiones), como _/dev/sda1_, _/dev/sda2_, etc. Donde todo el tráfico de entrada/salida (I/O) para todas las particiones (sda1, sda2) viaja a través del **mismo único canal** y **cola de comandos** del disco SATA.
+
+Sin embargo, con **NVMe Namespaces**, cada Namespace puede tener su **propia cola de comandos independiente** y gestionar el tráfico I/O de forma separada. Esto mejora significativamente el rendimiento y la eficiencia. El SO los trata _como si fueran_ dos **discos físicos diferentes** conectados.
 :::
 
 
