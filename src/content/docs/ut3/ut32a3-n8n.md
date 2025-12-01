@@ -83,59 +83,21 @@ docker-compose up -d
     ```bash
     docker-compose logs -f
     ```
+  * **Ejecutar n8nn en Docker:**
+    ```bash
+    docker run -it -p 5678:5678 n8nio/n8n
+    ```
 
-### 🧪 Primeros Pasos en n8n
+Más info: [https://docs.n8n.io/hosting/installation/docker/](https://docs.n8n.io/hosting/installation/docker/)
 
-#### 🧭 Paso 3: Crear tu primer Workflow
 
-1. Al entrar en la interfaz web:
-   - Verás un lienzo vacío.
-   - A la izquierda hay una lista de **nodos disponibles**.
+### Primeros Pasos en n8n
 
-2. Haz clic en el botón **"+"** para crear un nuevo workflow.
+#### Crear tu primer Workflow
 
-3. Escribe un nombre como "Primer Workflow".
+[Primer Workflow en n8n](https://docs.n8n.io/try-it-out/tutorial-first-workflow/)
 
-4. Arrastra un nodo `HTTP Request` al lienzo.
-
-5. Configura el nodo:
-   - URL: `https://jsonplaceholder.typicode.com/posts/1`
-   - Método HTTP: `GET`
-
-6. Arrastra un nodo `Debug` y conéctalo al anterior.
-
-7. Haz clic en **"Execute Workflow"** (botón verde).
-
-8. En la pestaña **"Execution Data"**, verás los datos devueltos por la API.
-
----
-
-#### 💡 Paso 4: Guardar y exportar tu workflow
-
-1. Haz clic en **"Save"** arriba a la derecha.
-2. Puedes exportar el workflow como JSON:
-   - Menú **"Workflow" > Export to File"**
-   - Útil para compartir con compañeros o entregar tareas.
-
----
-
-### 🛠️ Opciones Adicionales (Avanzadas)
-
-> Estas opciones son opcionales y pueden usarse después del primer contacto con n8n.
-
-#### 🐳 Usar Docker (opcional)
-
-Si prefieres usar Docker (muy útil en entornos profesionales):
-
-```bash
-docker run -it -p 5678:5678 n8nio/n8n
-```
-
-👉 Más info: [https://docs.n8n.io/hosting-n8n/docker/](https://docs.n8n.io/hosting-n8n/docker/)
-
----
-
-#### 🗂️ Persistencia de datos (opcional)
+#### Persistencia de datos (opcional)
 
 Por defecto, n8n no guarda los workflows si lo cierras. Para guardarlos:
 
@@ -145,26 +107,7 @@ Por defecto, n8n no guarda los workflows si lo cierras. Para guardarlos:
    N8N_STORAGE_BASE_PATH=./n8n-data n8n start
    ```
 
----
-
-### 📝 Actividades Propuestas para los Alumnos
-
-#### 🧪 Actividad 1: Automatizar una consulta a una API pública
-- Usa la API de GitHub (`https://api.github.com/users/username`) para obtener información de un usuario.
-- Muestra el resultado en el debug.
-
-#### 🧪 Actividad 2: Hacer una copia de seguridad de archivos
-- Usa el nodo `Read Binary File` para leer un archivo.
-- Usa el nodo `Write Binary File` para guardarlo en otra ubicación.
-- Programa este flujo con el nodo `Cron`.
-
-#### 🧪 Actividad 3: Enviar un correo con datos de una consulta
-- Usa nodos como `HTTP Request` + `Email`.
-- Envía un correo con resultados de una llamada a una API.
-
----
-
-### 📚 Recursos Oficiales
+### Recursos Oficiales
 
 - Documentación oficial: [https://docs.n8n.io](https://docs.n8n.io)
 - Comunidad y foro: [https://community.n8n.io](https://community.n8n.io)
