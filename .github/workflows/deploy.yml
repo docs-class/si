@@ -33,7 +33,7 @@ jobs:
 
       # 3. Instalar dependencias del proyecto (Ahora pnpm está garantizado en el PATH)
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install #--frozen-lockfile
 
       # 4. Instalar D2 (Diagramas)
       - name: Install D2
