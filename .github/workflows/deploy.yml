@@ -14,6 +14,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Clean pnpm store and node_modules
+        run: |
+          rm -rf node_modules
+          pnpm store prune || true
+          pnpm install --frozen-lockfile
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
