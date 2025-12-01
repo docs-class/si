@@ -112,3 +112,5 @@ Por defecto, n8n no guarda los workflows si lo cierras. Para guardarlos:
 - Documentación oficial: [https://docs.n8n.io](https://docs.n8n.io)
 - Comunidad y foro: [https://community.n8n.io](https://community.n8n.io)
 - Plantillas predefinidas: [https://n8n.io/workflows](https://n8n.io/workflows)
+- [Cómo conectar cualquier API con n8n](https://youtu.be/eSehYWQO4UA)
+- [Nodos más usados en n8n - noobs](https://www.youtube.com/watch?v=4ZMCN0Y5x2s)
