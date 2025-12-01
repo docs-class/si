@@ -14,6 +14,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
       - name: Checkout your repository
         uses: actions/checkout@v4
 
@@ -25,10 +30,13 @@ jobs:
       - name: Verify D2 installation
         run: d2 --version
 
-      - name: Build with Astro
-        uses: withastro/action@v3
-        with:
-          package-manager: pnpm@latest
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm run build
+        env:
+          NODE_ENV: production
 
       - name: Add .nojekyll file
         run: touch ./dist/.nojekyll
