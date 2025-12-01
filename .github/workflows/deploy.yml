@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ] # <- Tu rama de despliegue
+    branches: [ main ] # Tu rama de despliegue
   workflow_dispatch:
 
 permissions:
@@ -17,18 +17,22 @@ jobs:
       - name: Checkout your repository
         uses: actions/checkout@v4
 
-      # 1. Configurar Node.js (necesario para Astro/Starlight)
+      # 1. Configurar Node.js (con cache para pnpm)
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # Usar una versión LTS reciente
-          cache: 'pnpm' # Cachear dependencias con pnpm
+          node-version: '20' # Versión LTS recomendada
+          cache: 'pnpm' 
 
-      # 2. Instalar dependencias con pnpm
+      # 2. Instalar pnpm globalmente (SOLUCIÓN para "Unable to locate executable file")
+      - name: Install pnpm globally
+        run: npm install -g pnpm 
+
+      # 3. Instalar dependencias del proyecto
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile # Instala dependencias basándose en pnpm-lock.yaml
+        run: pnpm install --frozen-lockfile
 
-      # 3. Instalar D2 (diagramas)
+      # 4. Instalar D2 (Diagramas)
       - name: Install D2
         run: |
           curl -fsSL https://d2lang.com/install.sh | sh
@@ -37,16 +41,15 @@ jobs:
       - name: Verify D2 installation
         run: d2 --version
 
-      # 4. Construir con Astro
+      # 5. Construir con Astro (usando el script definido en package.json)
       - name: Build with Astro
-        # Ejecuta el script 'build' de tu package.json: 'astro check && astro build'
         run: pnpm run build
 
-      # 5. Añadir archivo .nojekyll (necesario para GitHub Pages con frameworks modernos)
+      # 6. Añadir archivo .nojekyll
       - name: Add .nojekyll file
         run: touch ./dist/.nojekyll
 
-      # 6. Subir el artefacto de construcción
+      # 7. Subir el artefacto de construcción
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
