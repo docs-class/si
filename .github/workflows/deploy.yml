@@ -60,7 +60,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-          name: site-artifact-${{ github.run_id }}
+          name: github-pages
 
   deploy:
     needs: build
