@@ -14,27 +14,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository
-        uses: actions/checkout@v4
+      # ... (Pasos 1 y 2 permanecen iguales)
 
-      # 1. Configurar Node.js (SIN CACHÉ)
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20' # Versión LTS recomendada
+      # 2.5. Instalar dependencias del sistema operativo (Para Sharp)
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y libvips-dev
 
-      # 2. Instalar y configurar pnpm
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v3
-        with:
-          version: latest
-          run_install: false
-
-      # 3. Instalar dependencias del proyecto (DESCARGA COMPLETA FORZADA)
+      # 3. Instalar dependencias del proyecto
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile 
-        # NOTA: Asegúrate de que tu archivo pnpm-lock.yaml esté actualizado y commiteado.
-        # Si el error persiste, prueba a usar solo 'pnpm install' para una instalación menos estricta.
+        run: pnpm install --frozen-lockfile
 
       # 4. Instalar D2 (Diagramas)
       - name: Install D2
