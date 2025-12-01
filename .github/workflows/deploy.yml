@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # <- cambia 'gh-pages' a 'main' o la rama de desarrollo que uses
+    branches: [ main ]   
   workflow_dispatch:
 
 permissions:
@@ -14,19 +14,33 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Clean pnpm store and node_modules
-        run: |
-          rm -rf node_modules
-          pnpm store prune || true
-          pnpm install --frozen-lockfile
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: 'pnpm'  # Añadido soporte de caché para pnpm
 
-      - name: Checkout your repository
-        uses: actions/checkout@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+          run_install: false
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
 
       - name: Install D2
         run: |
