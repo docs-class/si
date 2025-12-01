@@ -17,23 +17,24 @@ jobs:
       - name: Checkout your repository
         uses: actions/checkout@v4
 
-      # 1. Configurar Node.js
+      # 1. Configurar Node.js (SIN CACHÉ)
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20' # Versión LTS recomendada
-          # No necesitamos 'cache: pnpm' aquí, ya que la acción de pnpm se encarga de esto.
 
-      # 2. Instalar y configurar pnpm (SOLUCIÓN DEFINITIVA)
+      # 2. Instalar y configurar pnpm
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
         with:
           version: latest
-          run_install: false # Solo lo instalamos, no corremos 'pnpm install' todavía
+          run_install: false
 
-      # 3. Instalar dependencias del proyecto (Ahora pnpm está garantizado en el PATH)
+      # 3. Instalar dependencias del proyecto (DESCARGA COMPLETA FORZADA)
       - name: Install dependencies
-        run: pnpm install #--frozen-lockfile
+        run: pnpm install --frozen-lockfile 
+        # NOTA: Asegúrate de que tu archivo pnpm-lock.yaml esté actualizado y commiteado.
+        # Si el error persiste, prueba a usar solo 'pnpm install' para una instalación menos estricta.
 
       # 4. Instalar D2 (Diagramas)
       - name: Install D2
