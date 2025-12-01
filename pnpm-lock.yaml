@@ -2506,11 +2506,11 @@ packages:
       '@volar/language-service':
         optional: true
 
-  vscode-css-languageservice@6.3.8:
-    resolution: {integrity: sha512-dBk/9ullEjIMbfSYAohGpDOisOVU1x2MQHOeU12ohGJQI7+r0PCimBwaa/pWpxl/vH4f7ibrBfxIZY3anGmHKQ==}
+  vscode-css-languageservice@6.3.9:
+    resolution: {integrity: sha512-1tLWfp+TDM5ZuVWht3jmaY5y7O6aZmpeXLoHl5bv1QtRsRKt4xYGRMmdJa5Pqx/FTkgRbsna9R+Gn2xE+evVuA==}
 
-  vscode-html-languageservice@5.6.0:
-    resolution: {integrity: sha512-FIVz83oGw2tBkOr8gQPeiREInnineCKGCz3ZD1Pi6opOuX3nSRkc4y4zLLWsuop+6ttYX//XZCI6SLzGhRzLmA==}
+  vscode-html-languageservice@5.6.1:
+    resolution: {integrity: sha512-5Mrqy5CLfFZUgkyhNZLA1Ye5g12Cb/v6VM7SxUzZUaRKWMDz4md+y26PrfRTSU0/eQAl3XpO9m2og+GGtDMuaA==}
 
   vscode-json-languageservice@4.1.8:
     resolution: {integrity: sha512-0vSpg6Xd9hfV+eZAaYN63xVVMOTmJ4GgHxXnkLCh+9RsQBkWKIghzLhW2B9ebfG+LQQg8uLtsQ2aUKjTgE+QOg==}
@@ -2662,7 +2662,7 @@ snapshots:
       volar-service-typescript: 0.0.66(@volar/language-service@2.4.26)
       volar-service-typescript-twoslash-queries: 0.0.66(@volar/language-service@2.4.26)
       volar-service-yaml: 0.0.66(@volar/language-service@2.4.26)
-      vscode-html-languageservice: 5.6.0
+      vscode-html-languageservice: 5.6.1
       vscode-uri: 3.1.0
     optionalDependencies:
       prettier: 3.7.3
@@ -5666,7 +5666,7 @@ snapshots:
 
   volar-service-css@0.0.66(@volar/language-service@2.4.26):
     dependencies:
-      vscode-css-languageservice: 6.3.8
+      vscode-css-languageservice: 6.3.9
       vscode-languageserver-textdocument: 1.0.12
       vscode-uri: 3.1.0
     optionalDependencies:
@@ -5683,7 +5683,7 @@ snapshots:
 
   volar-service-html@0.0.66(@volar/language-service@2.4.26):
     dependencies:
-      vscode-html-languageservice: 5.6.0
+      vscode-html-languageservice: 5.6.1
       vscode-languageserver-textdocument: 1.0.12
       vscode-uri: 3.1.0
     optionalDependencies:
@@ -5720,14 +5720,14 @@ snapshots:
     optionalDependencies:
       '@volar/language-service': 2.4.26
 
-  vscode-css-languageservice@6.3.8:
+  vscode-css-languageservice@6.3.9:
     dependencies:
       '@vscode/l10n': 0.0.18
       vscode-languageserver-textdocument: 1.0.12
       vscode-languageserver-types: 3.17.5
       vscode-uri: 3.1.0
 
-  vscode-html-languageservice@5.6.0:
+  vscode-html-languageservice@5.6.1:
     dependencies:
       '@vscode/l10n': 0.0.18
       vscode-languageserver-textdocument: 1.0.12
