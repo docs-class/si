@@ -18,6 +18,7 @@ Asegúrate de que el servidor de desarrollo esté en marcha (pnpm run dev)
 Solo genera el PDF de las unidades que se muestren en el menu
 
 npx starlight-to-pdf --url http://localhost:4321/si/ut1/ -p ./public/_pdf --filename SI --pdf-outline --no-contents --header ./src/components/header-pdf.html --footer ./src/components/footer-pdf.html --margins '2.8cm 1cm 1.5cm 1.5cm'
+npx starlight-to-pdf --url https://docs-class.github.io/si/ -p ./public/_pdf --filename SI --pdf-outline --no-contents --header ./src/components/header-pdf.html --footer ./src/components/footer-pdf.html --margins '2.8cm 1cm 1.5cm 1.5cm'
 
 */
 
@@ -106,20 +107,22 @@ export default defineConfig({
                                 label: 'Automatización',
                                 items: [
                                     'ut3/ut32a1',
-                                    'ut3/ut32a2',                                ],
+                                    'ut3/ut32a2',  
+                                    //'ut3/ut32a3-n8n',  
+                                    ],
                             },
                         ],
                     },
-                    /* {
+/*                      {
                         label: '3.3 Gestión de la información',
                         items: [
                             'ut3/ut33-cli',
-                            'ut3/ut33-cli-win',
-                            'ut3/ut33-cli-linux',
-                            'ut3/ut33-cli-linux-advanced',
+                            'ut3/ut33a-cli-win',
+                            'ut3/ut33b-cli-linux',
+                            'ut3/ut33c-cli-linux-advanced',
 
                         ],
-                    }, */
+                    },  */
                 ],
             },
             //UT4
