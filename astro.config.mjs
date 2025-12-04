@@ -29,16 +29,16 @@ export default defineConfig({
     markdown: {
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex, [
-        rehypeExternalLinks,
-        {
-          target: '_blank',
-          rel: ['noopener', 'noreferrer'],
-          // opcional: para que solo aplique a URLs absolutas y no relativas
-          // defaults: true,
-        },
-    ]],
+            rehypeExternalLinks,
+            {
+                target: '_blank',
+                rel: ['noopener', 'noreferrer'],
+                // opcional: para que solo aplique a URLs absolutas y no relativas
+                // defaults: true,
+            },
+        ]],
     },
-    integrations: [markdoc(),d2(), starlight({
+    integrations: [markdoc(), d2(), starlight({
         title: 'Sistemas Informáticos',
         favicon: '/images/favicon.png',
         expressiveCode: false,
@@ -49,6 +49,9 @@ export default defineConfig({
         ],
         plugins: [
             fullviewMode(),
+        ],
+        social: [
+            { icon: 'seti:pdf', label: 'PDF', href: 'https://docs-class.github.io/si/_pdf/SI.pdf' },
         ],
         sidebar: [
             {
@@ -61,7 +64,7 @@ export default defineConfig({
                     },
                     {
                         label: '1.2 Tipos de Redes y Componentes',
-                       autogenerate: { directory: 'ut1/ut12' },
+                        autogenerate: { directory: 'ut1/ut12' },
                     },
                     {
                         label: '1.3 Precauciones Básicas y montaje',
@@ -69,7 +72,7 @@ export default defineConfig({
                     },
                 ],
             },
-             //UT2
+            //UT2
             {
                 label: 'UT2 - SISTEMAS OPERATIVOS. INTRODUCCIÓN',
                 collapsed: true,
@@ -84,7 +87,7 @@ export default defineConfig({
                     },
                 ],
             },
-             //UT3
+            //UT3
             {
                 label: 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL',
                 // badge: { text: '25-NOV-24/01DIC25', variant: 'success' },
@@ -107,108 +110,108 @@ export default defineConfig({
                                 label: 'Automatización',
                                 items: [
                                     'ut3/ut32a1',
-                                    'ut3/ut32a2',  
+                                    'ut3/ut32a2',
                                     //'ut3/ut32a3-n8n',  
-                                    ],
+                                ],
                             },
                         ],
                     },
-/*                      {
-                        label: '3.3 Gestión de la información',
-                        items: [
-                            'ut3/ut33-cli',
-                            'ut3/ut33a-cli-win',
-                            'ut3/ut33b-cli-linux',
-                            'ut3/ut33c-cli-linux-advanced',
-
-                        ],
-                    },  */
+                    /*                      {
+                                            label: '3.3 Gestión de la información',
+                                            items: [
+                                                'ut3/ut33-cli',
+                                                'ut3/ut33a-cli-win',
+                                                'ut3/ut33b-cli-linux',
+                                                'ut3/ut33c-cli-linux-advanced',
+                    
+                                            ],
+                                        },  */
                 ],
             },
             //UT4
-    /*        {
-                label: 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
-                // badge: { text: '26ENE25', variant: 'success' },
-                // Collapsa el grupo de forma predeterminada.
-                collapsed: true,
-                items: [
-                    {
-                        label: '4.1 Gestión de usuarios',
+            /*        {
+                        label: 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
+                        // badge: { text: '26ENE25', variant: 'success' },
+                        // Collapsa el grupo de forma predeterminada.
+                        collapsed: true,
                         items: [
-                            'ut4/ut41',
-                            'ut4/ut41-win',
                             {
-                                label: 'Gestión de usuarios - Linux',
+                                label: '4.1 Gestión de usuarios',
                                 items: [
-                                    'ut4/ut41-linux',
-                                    'ut4/ut41-linux-permissions',
-                                    'ut4/ut41-linux-groups',
-                                    'ut4/ut41-linux-users',
+                                    'ut4/ut41',
+                                    'ut4/ut41-win',
+                                    {
+                                        label: 'Gestión de usuarios - Linux',
+                                        items: [
+                                            'ut4/ut41-linux',
+                                            'ut4/ut41-linux-permissions',
+                                            'ut4/ut41-linux-groups',
+                                            'ut4/ut41-linux-users',
+                                        ],
+                                    },
+                                    'ut4/ut41-policies',
+        
                                 ],
                             },
-                            'ut4/ut41-policies',
-
-                        ],
-                    },
-                    //Scripts
-                    {
-                        label: '4.2 Scripting',
-                        items: [
-                            'ut4/ut42-scripting',
-                            'ut4/ut42-scripting-variables',
-                            'ut4/ut42-scripting-backslash',
-                            'ut4/ut42-scripting-arithmetics',
-                            'ut4/ut42-scripting-parametres',
+                            //Scripts
                             {
-                                label: 'Estructuras de Control',
+                                label: '4.2 Scripting',
                                 items: [
-                                    'ut4/ut42-scripting-if-else',
-                                    'ut4/ut42-scripting-operators',
-                                    'ut4/ut42-scripting-case',
-                                    'ut4/ut42-scripting-forin',
-                                    'ut4/ut42-scripting-for',
-                                    'ut4/ut42-scripting-while',
-                                    'ut4/ut42-scripting-break',
-                                    'ut4/ut42-scripting-files',
+                                    'ut4/ut42-scripting',
+                                    'ut4/ut42-scripting-variables',
+                                    'ut4/ut42-scripting-backslash',
+                                    'ut4/ut42-scripting-arithmetics',
+                                    'ut4/ut42-scripting-parametres',
+                                    {
+                                        label: 'Estructuras de Control',
+                                        items: [
+                                            'ut4/ut42-scripting-if-else',
+                                            'ut4/ut42-scripting-operators',
+                                            'ut4/ut42-scripting-case',
+                                            'ut4/ut42-scripting-forin',
+                                            'ut4/ut42-scripting-for',
+                                            'ut4/ut42-scripting-while',
+                                            'ut4/ut42-scripting-break',
+                                            'ut4/ut42-scripting-files',
+                                        ],
+                                    },
                                 ],
                             },
                         ],
                     },
-                ],
-            },
-            //UT5
-            {
-                label: "UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN",
-                // badge: { text: '25-NOV', variant: 'success' },
-                // Collapsa el grupo de forma predeterminada.
-                items: [
-                    'ut5/ut51-introduction',
-                    // 'ut5/ut51-services',
-                    // 'ut5/ut51-ssh',
-                ],
-            },
-            //UT6
-            {
-                label: "UT6 - GESTIÓN DE RECURSOS EN RED",
-                // badge: { text: '25-NOV', variant: 'success' },
-                // Collapsa el grupo de forma predeterminada.
-                items: [
-                    'ut6/ut61-introduction',
-                    'ut6/ut61-directory-service',
-                    'ut6/ut61-structure',
-                    'ut6/ut61-proxmox',
-                ],
-            },
-            //UT7
-            {
-                label: "UT7 - APLICACIONES INFORMÁTICAS",
-                // badge: { text: '25-NOV', variant: 'success' },
-
-                // Collapsa el grupo de forma predeterminada.
-                items: [
-                    'ut7/ut71-introduction',
-                ],
-            },  */
+                    //UT5
+                    {
+                        label: "UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN",
+                        // badge: { text: '25-NOV', variant: 'success' },
+                        // Collapsa el grupo de forma predeterminada.
+                        items: [
+                            'ut5/ut51-introduction',
+                            // 'ut5/ut51-services',
+                            // 'ut5/ut51-ssh',
+                        ],
+                    },
+                    //UT6
+                    {
+                        label: "UT6 - GESTIÓN DE RECURSOS EN RED",
+                        // badge: { text: '25-NOV', variant: 'success' },
+                        // Collapsa el grupo de forma predeterminada.
+                        items: [
+                            'ut6/ut61-introduction',
+                            'ut6/ut61-directory-service',
+                            'ut6/ut61-structure',
+                            'ut6/ut61-proxmox',
+                        ],
+                    },
+                    //UT7
+                    {
+                        label: "UT7 - APLICACIONES INFORMÁTICAS",
+                        // badge: { text: '25-NOV', variant: 'success' },
+        
+                        // Collapsa el grupo de forma predeterminada.
+                        items: [
+                            'ut7/ut71-introduction',
+                        ],
+                    },  */
         ],
     })],
 });
