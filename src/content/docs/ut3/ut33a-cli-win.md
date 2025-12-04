@@ -35,118 +35,65 @@ Get-Process -Name "notepad" | Stop-Process
 #Este comando obtiene el proceso de Notepad y luego lo detiene.
 ```
 
-## 2. **Navegación y Exploración de Directorios**
+## Tabla de Comandos de Consola
 
-- **Ver el directorio actual**:  
-  ```js
-  Get-Location  # Alias: pwd (equivalente en Linux: pwd)
-  ```
+### 🧭 Navegación y Exploración de Directorios
 
-- **Cambiar de directorio**:  
-  ```js
-  Set-Location -Path "C:\Ruta\Directorio"  # Alias: cd (equivalente en Linux: cd)
-  ```
+| Tarea | **`CMD (MS-DOS)`** | **`PowerShell`** | **`Alias de PowerShell`** |
+| :--- | :--- | :--- | :--- |
+| **Mostrar directorio actual** | **`cd`** | **`Get-Location`** | **`gl`, `pwd`** |
+| Ejemplo | `cd` | `Get-Location` | `pwd` |
+| **Cambiar directorio** | **`cd [ruta]`** | **`Set-Location [ruta]`** | **`sl`, `cd`** |
+| Ejemplo | `cd C:\Users\Admin` | `Set-Location C:\Datos` | `cd \` |
+| **Listar contenido del directorio** | **`dir`** | **`Get-ChildItem`** | **`gci`, `ls`, `dir`** |
+| Ejemplo | `dir /p` (página a página) | `Get-ChildItem -Force` (incluir ocultos) | `ls` |
 
-- **Listar archivos y directorios**:  
-  ```js
-  Get-ChildItem  # Alias: ls, dir (equivalente en Linux: ls)
-  ```
+### 📁 Gestión de Directorios
 
-### 2. **Gestión de Directorios**
+| Tarea | **`CMD (MS-DOS)`** | **`PowerShell`** | **`Alias de PowerShell`** |
+| :--- | :--- | :--- | :--- |
+| **Crear nuevo directorio** | **`mkdir [nombre]`** | **`New-Item -ItemType Directory -Name [nombre]`** | **`md`, `ni`** |
+| Ejemplo | `mkdir ProyectosFP` | `New-Item -ItemType Directory -Name 'Backup Mayo'` | `md Clientes` |
+| **Eliminar directorio (vacío)** | **`rmdir [nombre]`** | **`Remove-Item [nombre]`** | **`ri`, `rd`** |
+| Ejemplo | `rmdir Temp` | `Remove-Item Temp` | `rd Fotos` |
+| **Eliminar directorio (con contenido)** | **`rmdir /s [nombre]`** | **`Remove-Item -Recurse [nombre]`** | **`ri`** |
+| Ejemplo | `rmdir /s Logs` | `Remove-Item -Recurse Logs` | `ri -Recurse Logs` |
 
-- **Crear un nuevo directorio**:  
-  ```js
-  New-Item -Path "C:\Ruta\NuevoDirectorio" -ItemType Directory  # Alias: mkdir (equivalente en Linux: mkdir)
-  ```
+### 📄 Gestión de Archivos
 
-- **Eliminar un directorio**:  
-  ```js
-  Remove-Item -Path "C:\Ruta\Directorio" -Recurse  # Alias: rm (equivalente en Linux: rm -r)
-  ```
+| Tarea | **`CMD (MS-DOS)`** | **`PowerShell`** | **`Alias de PowerShell`** |
+| :--- | :--- | :--- | :--- |
+| **Crear archivo vacío** | **`type nul > [nombre.ext]`** | **`New-Item -ItemType File -Name [nombre.ext]`** | **`ni`** |
+| Ejemplo | `type nul > readme.txt` | `New-Item -ItemType File -Name 'config.ini'` | `ni test.log` |
+| **Copiar archivo** | **`copy [origen] [destino]`** | **`Copy-Item [origen] [destino]`** | **`cpi`, `cp`** |
+| Ejemplo | `copy informe.pdf D:\` | `Copy-Item informe.pdf D:\` | `cp hosts c:\temp` |
+| **Mover/Renombrar archivo** | **`move [origen] [destino]`** | **`Move-Item [origen] [destino]`** | **`mi`, `mv`** |
+| Ejemplo | `move doc.txt informe.txt` | `Move-Item doc.txt informe.txt` | `mv doc.txt informe.txt` |
+| **Eliminar archivo** | **`del [nombre.ext]`** | **`Remove-Item [nombre.ext]`** | **`ri`, `del`** |
+| Ejemplo | `del temporal.tmp` | `Remove-Item temporal.tmp` | `del *.bak` |
+| **Mostrar contenido de un archivo** | **`type [nombre.ext]`** | **`Get-Content [nombre.ext]`** | **`gc`, `cat`** |
+| Ejemplo | `type error.log` | `Get-Content error.log -Tail 5` | `cat error.log` |
 
-- **Copiar un directorio**:  
-  ```js
-  Copy-Item -Path "C:\Ruta\DirectorioOrigen" -Destination "C:\Ruta\DirectorioDestino" -Recurse  # Alias: cp (equivalente en Linux: cp -r)
-  ```
+### 🔎 Búsqueda de Archivos y Texto
 
-- **Mover o renombrar un directorio**:  
-  ```js
-  Move-Item -Path "C:\Ruta\DirectorioOrigen" -Destination "C:\Ruta\NuevoNombre"  # Alias: mv (equivalente en Linux: mv)
-  ```
+| Tarea | **`CMD (MS-DOS)`** | **`PowerShell`** | **`Alias de PowerShell`** |
+| :--- | :--- | :--- | :--- |
+| **Buscar texto en archivo** | **`find "[texto]" [archivo]`** | **`Select-String -Pattern "[texto]" -Path [archivo]`** | **`sls`** |
+| Ejemplo | `find "error" log.txt` | `Select-String -Pattern "error" -Path log.txt` | `sls "red" *.log` |
+| **Buscar Archivo por nombre** | *No aplica un comando simple* | **`Get-ChildItem -Filter "[patrón]"`** | **`gci -fi "[patrón]"`** |
+| Ejemplo | *N/A* | `Get-ChildItem -Filter *.pdf` | `gci -fi *.pdf` |
 
-### 3. **Gestión de Archivos**
+¡Absolutamente! El comando **`attrib`** es clave para entender las propiedades básicas de los archivos en CMD, algo que deben dominar.
 
-- **Crear un archivo**:  
-  ```js
-  New-Item -Path "C:\Ruta\Archivo.txt" -ItemType File  # Sin alias directo, equivalente en Linux: touch
-  ```
+Aquí tienes la tabla ajustada para enfocarse en **`attrib`** y una breve explicación de los valores que maneja, que son los atributos básicos del sistema de archivos.
 
-- **Escribir en un archivo**:  
-  ```js
-  Set-Content -Path "C:\Ruta\Archivo.txt" -Value "Texto a escribir en el archivo"  # Sin alias directo, equivalente en Linux: echo "Texto" > archivo.txt
-  ```
+### 🔒 Atributos y Propiedades de Archivos (Windows)
 
-- **Añadir texto a un archivo**:  
-  ```js
-  Add-Content -Path "C:\Ruta\Archivo.txt" -Value "Texto adicional"  # Sin alias directo, equivalente en Linux: echo "Texto" >> archivo.txt
-  ```
+| Tarea | **`CMD (MS-DOS)`** | **`PowerShell`** | **`Alias de PowerShell`** |
+| :--- | :--- | :--- | :--- |
+| **Mostrar/Modificar Atributos** | **`attrib [+-][R\|H]`** | **`Get-ItemProperty`** | **`gip`** |
+| Ejemplo Mostrar | `attrib informe.pdf` | `(Get-Item informe.pdf).Attributes` | `gip informe.pdf` |
+| Ejemplo Modificar | `attrib +R +H informe.pdf` | `(Get-Item informe.pdf).IsReadOnly = $true` |  `(gip informe.pdf).IsReadOnly = $true` |
 
-- **Leer el contenido de un archivo**:  
-  ```js
-  Get-Content -Path "C:\Ruta\Archivo.txt"  # Alias: cat (equivalente en Linux: cat)
-  ```
-
-- **Copiar un archivo**:  
-  ```js
-  Copy-Item -Path "C:\Ruta\Archivo.txt" -Destination "C:\Ruta\CopiaArchivo.txt"  # Alias: cp (equivalente en Linux: cp)
-  ```
-
-- **Mover o renombrar un archivo**:  
-  ```js
-  Move-Item -Path "C:\Ruta\Archivo.txt" -Destination "C:\Ruta\NuevoNombre.txt"  # Alias: mv (equivalente en Linux: mv)
-  ```
-
-- **Eliminar un archivo**:  
-  ```js
-  Remove-Item -Path "C:\Ruta\Archivo.txt"  # Alias: rm (equivalente en Linux: rm)
-  ```
-
-### 4. **Buscar Archivos**
-
-- **Buscar archivos por nombre**:  
-  ```js
-  Get-ChildItem -Path "C:\Ruta" -Filter "*.txt" -Recurse  # Alias: ls -r *.txt (equivalente en Linux: find o ls -R *.txt)
-  ```
-
-- **Buscar archivos por palabra clave en el contenido**:  
-  ```js
-  Select-String -Path "C:\Ruta\*.txt" -Pattern "palabraClave"  # Sin alias directo, equivalente en Linux: grep "palabraClave" *.txt
-  ```
-
-### 5. **Comprimir y Descomprimir Archivos**
-
-- **Comprimir un directorio o archivo**:  
-  ```js
-  Compress-Archive -Path "C:\Ruta\Directorio" -DestinationPath "C:\Ruta\Archivo.zip"  # Sin alias directo, equivalente en Linux: zip
-  ```
-
-- **Descomprimir un archivo**:  
-  ```js
-  Expand-Archive -Path "C:\Ruta\Archivo.zip" -DestinationPath "C:\Ruta\Directorio"  # Sin alias directo, equivalente en Linux: unzip
-  ```
-
-### 6. **Permisos y Propiedades de Archivos**
-
-- **Ver propiedades de un archivo o directorio**:  
-  ```js
-  Get-Item -Path "C:\Ruta\Archivo.txt" | Format-List *  # Sin alias directo, equivalente en Linux: ls -l o stat
-  ```
-
-- **Cambiar permisos** (no es un alias directo, pero puedes usar `icacls`):  
-  ```js
-  icacls "C:\Ruta\Archivo.txt" /grant Usuario:(R)  # Equivalente en Linux: chmod
-  ```
-
-:::caution[Actividad]
-Directorios
-:::
+* **Sintaxis:** Se usa el signo **`+`** para establecer el atributo y **`-`** para quitarlo.
+* **Ejemplo:** Para hacer un archivo oculto y de solo lectura: `attrib +H +R archivo.txt`
