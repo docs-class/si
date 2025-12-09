@@ -1,5 +1,5 @@
 ---
-title: "Backup y automatización. Hola Carlos"
+title: "Backup y automatización."
 description: "Backup y automatización"
 ---
 
