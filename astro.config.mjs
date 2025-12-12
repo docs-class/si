@@ -111,7 +111,7 @@ export default defineConfig({
                                 items: [
                                     'ut3/ut32a1',
                                     'ut3/ut32a2',
-                                    //'ut3/ut32a3-n8n',  
+                                    'ut3/ut32a3-n8n',  
                                 ],
                             },
                         ],
