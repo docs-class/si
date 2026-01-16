@@ -111,21 +111,21 @@ export default defineConfig({
                                 items: [
                                     'ut3/ut32a1',
                                     'ut3/ut32a2',
-                                    'ut3/ut32a3-n8n',  
+                                    'ut3/ut32a3-n8n',
                                 ],
                             },
                         ],
                     },
-                    /*                      {
-                                            label: '3.3 Gestión de la información',
-                                            items: [
-                                                'ut3/ut33-cli',
-                                                'ut3/ut33a-cli-win',
-                                                'ut3/ut33b-cli-linux',
-                                                'ut3/ut33c-cli-linux-advanced',
-                    
-                                            ],
-                                        },  */
+                    {
+                        label: '3.3 Gestión de la información',
+                        items: [
+                            'ut3/ut33-cli',
+                            'ut3/ut33a-cli-win',
+                            'ut3/ut33b-cli-linux',
+                            'ut3/ut33c-cli-linux-advanced',
+
+                        ],
+                    },
                 ],
             },
             //UT4
