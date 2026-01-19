@@ -3,20 +3,28 @@ title: "Terminal Linux"
 description: "Introducción al terminal"
 ---
 ## Conceptos básicos
-:::tip[WSL]
-> **/home/USUARIO-LINUX/** # Carpeta personal en Linux
->
-> **/mnt/c/Users/USUARIO-HOST/** # Carpeta personal en HOST (Windows)
->
+
+```bash
+# Listar las distribuciones disponibles:
+wsl --list --online
+# Instalar WSL en Windows 10/11, abre PowerShell como administrador y ejecuta:
+wsl --install Ubuntu
+```
+:::tip[WSL - Carpetas personales]
+> - **/home/USUARIO-LINUX/** # Carpeta personal en Linux
+> - **/mnt/c/Users/USUARIO-HOST/** # Carpeta personal en HOST (Windows)
+:::
+
+
+:::tip[WS - Establecer Ubuntu por defecto]
 > En caso de que WSL se cierre inmediatamente al iniciar, se debe establecer Ubuntu por defecto
-> - Lista el las imágenes en el sistema: `wsl -l` 
 > - Establece Ubuntu por defecto: `wsl --set-default Ubuntu`
 :::
 
 ### Prompt de Linux
 
 - El **prompt** muestra información útil como el usuario, la máquina y el directorio actual.
-  - Ejemplo: `antonio@ubuntu:~$`
+  - Ejemplo: `beatriz@ubuntu:~$`
   - `$`: Usuario sin privilegios.
   - `#`: Usuario con privilegios root.
 

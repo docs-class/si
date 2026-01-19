@@ -107,3 +107,8 @@ De manera similar, en informática, una wildcard es un carácter especial que pu
 
   [Cheatshet - Terminal](https://terminaldelinux.com/terminal/cheatsheets/#chuleta-de-la-terminal-en-formato-pdf-gratis)
 :::
+
+:::caution[Actividad]
+- First Linux
+- Linux Advanced Commands
+:::
