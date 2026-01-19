@@ -109,6 +109,6 @@ De manera similar, en informática, una wildcard es un carácter especial que pu
 :::
 
 :::caution[Actividad]
-- First Linux
+- First command date
 - Linux Advanced Commands
 :::
