@@ -8,7 +8,7 @@ description: "Introducción al terminal"
 # Comprobar si WSL está instalado:
 wsl --status
 # Ejecutar WSL:
-wsl o simplemente buscarlo en el menú inicio como "WSL" (icono pinguino)
+wsl #o simplemente buscarlo en el menú inicio como "WSL" (icono pinguino)
 # Listar las distribuciones disponibles:
 wsl --list --online
 # Instalar WSL en Windows 10/11, abre PowerShell como administrador y ejecuta:
