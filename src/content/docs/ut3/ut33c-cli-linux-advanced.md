@@ -14,6 +14,10 @@ De manera similar, en informática, una wildcard es un carácter especial que pu
    touch file{1..100}.txt  # Crea ficheros file1.txt hasta file100.txt
    cp {hola.txt, adios.txt} ~ # Copia hola.txt y adios.txt al directorio del usuario
    mkdir -p Nivel1/Nivel2/{Nivel3/{Nivel4/Nivel5,logs,scripts},docs,data} # Crea la estructura de directorios compleja
+   - Para esto hay que instalar bash si no se tiene:
+      - sudo apt install bash-completion
+      - echo $SHELL #comprobamos el shell actual
+      - chsh -s /bin/bash #cambiamos el shell a bash
    ```
 
    ```markdown
