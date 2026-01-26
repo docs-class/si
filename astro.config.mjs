@@ -90,8 +90,7 @@ export default defineConfig({
             //UT3
             {
                 label: 'UT3 - GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO. INTRODUCCIÓN AL TERMINAL',
-                // badge: { text: '25-NOV-24/01DIC25', variant: 'success' },
-                // Collapsa el grupo de forma predeterminada.
+                //badge: { text: '25NOV24/01DIC25', variant: 'success' },
                 collapsed: true,
                 items: [
                     {
@@ -129,24 +128,24 @@ export default defineConfig({
                 ],
             },
             //UT4
-            /*        {
+       /*             {
                         label: 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
                         // badge: { text: '26ENE25', variant: 'success' },
-                        // Collapsa el grupo de forma predeterminada.
+                        // badge: { text: '26ENE26', variant: 'success' },
                         collapsed: true,
                         items: [
                             {
                                 label: '4.1 Gestión de usuarios',
                                 items: [
                                     'ut4/ut41',
-                                    'ut4/ut41-win',
+                                    'ut4/ut41a-win',
                                     {
                                         label: 'Gestión de usuarios - Linux',
                                         items: [
-                                            'ut4/ut41-linux',
-                                            'ut4/ut41-linux-permissions',
-                                            'ut4/ut41-linux-groups',
-                                            'ut4/ut41-linux-users',
+                                            'ut4/ut41b-linux',
+                                            'ut4/ut41b1-linux-permissions',
+                                            'ut4/ut41b2-linux-groups',
+                                            'ut4/ut41b3-linux-users',
                                         ],
                                     },
                                     'ut4/ut41-policies',
@@ -177,8 +176,11 @@ export default defineConfig({
                                     },
                                 ],
                             },
+                            
                         ],
                     },
+
+                    
                     //UT5
                     {
                         label: "UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN",
