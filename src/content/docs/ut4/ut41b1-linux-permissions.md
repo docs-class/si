@@ -1,6 +1,9 @@
 ---
 title: "Permisos"
 description: "Permisos"
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 4
 ---
 
 ## Cómo ver los permisos
@@ -84,9 +87,19 @@ Permisos predeterminados:  666 (110 110 110 en binario)
 Permisos finales:          644 (110 100 100 en binario)
 ```
 
+#### umask -S
+
+El comando `umask -S` muestra la umask en formato simbólico:
+
+```bash frame="none"
+sysadmin@localhost:~$ umask -S
+u=rwx,g=rx,o=rx
+```      
+#### Configurar umask permanentemente 
+
 -  **Persistencia**: Para hacer que la umask sea persistente, puedes agregar el comando `umask valor` en archivos de configuración como `.bashrc` o `.profile`.
 
-#### Ejemplo de archivo `.bashrc`
+##### Ejemplo de archivo `.bashrc`
 
 ```bash
 # .bashrc
