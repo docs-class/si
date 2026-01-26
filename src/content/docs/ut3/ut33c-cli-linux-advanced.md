@@ -113,6 +113,7 @@ De manera similar, en informática, una wildcard es un carácter especial que pu
 :::
 
 :::caution[Actividad]
-- First command date
+- Estructura de directorios en Linux
+- Speed command dating
 - Linux Advanced Commands
 :::
