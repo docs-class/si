@@ -3,33 +3,6 @@ title: "Política de cuentas y contraseñas"
 description: "Account & password policies"
 ---
 
-## 1. Monitoreo de eventos de autenticación
-  
-  ### GNU/Linux
-  ```bash
-  /var/log/auth.log (Debian/Ubuntu) o /var/log/secure (Red Hat)
-  ```
-
-  ### Windows
-  ```powershell
-  // Visor de eventos en Windows:
-  eventvwr.msc
-  ``` 
-  #### Visor de Eventos en Windows
-
-| **Ubicación**                  | **Descripción**                                                                                             |
-|-------------------------------|-------------------------------------------------------------------------------------------------------------|
-| **Registro de Seguridad**     | Aquí se registran los eventos de inicio y cierre de sesión, así como intentos fallidos y cambios en las cuentas de usuario.                                                  |
-| **Registro de Aplicación y Sistema** | Se registran eventos relacionados con aplicaciones y el sistema operativo, que también pueden incluir advertencias y errores relacionados con la autenticación.         |
-
-##### Tipos de Eventos Relevantes
-
-- **4624**: Inicio de sesión exitoso.
-- **4625**: Intento de inicio de sesión fallido.
-- **4740**: Bloqueo de cuenta.
-- **4720**: Creación de una nueva cuenta de usuario.
-
-
 ## 1. Seguridad en Linux
 
 ### Política de Cuentas y Contraseñas en Ubuntu
@@ -70,6 +43,21 @@ description: "Account & password policies"
 |-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Uso de Aplicaciones**                 | Puede gestionarse mediante el sistema de paquetes **APT** y restricciones establecidas en **`/etc/apt/sources.list`**.                                         |
 | **Restricciones de Hardware**           | Se pueden implementar mediante configuraciones en **udev** y su correspondiente archivo de reglas ubicado en **`/etc/udev/rules.d/`**, para controlar el uso de dispositivos de hardware. |
+
+### Visor de Eventos
+
+#### Logs de Autenticación
+  ```bash
+  /var/log/auth.log (Debian/Ubuntu) o /var/log/secure (Red Hat)
+  ```
+
+#### Gnome System Log (Gráfico)
+
+![Gnome system Log](https://blogs.gnome.org/johannes/files/2009/03/logview-filter.png)
+
+```bash
+sudo apt install gnome-system-log
+```
 
 ## 2. Seguridad en Windows
 
@@ -120,6 +108,36 @@ description: "Account & password policies"
 |-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Uso de Aplicaciones**                 | Controla qué aplicaciones pueden ser instaladas y ejecutadas en el sistema, limitando el uso de software no autorizado.                                          |
 | **Restricciones de Hardware**           | Permite la configuración de dispositivos de hardware que pueden ser utilizados, eliminando riesgos de seguridad de dispositivos no autorizados.                 |
+
+### Visor de Eventos
+
+##### Modo gráfico
+  ```powershell
+  // Visor gráfico de eventos en Windows
+  eventvwr.msc
+  ``` 
+| **Ubicación**                  | **Descripción**                                                                                             |
+|-------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Registro de Seguridad**     | Aquí se registran los eventos de inicio y cierre de sesión, así como intentos fallidos y cambios en las cuentas de usuario.                                                  |
+| **Registro de Aplicación y Sistema** | Se registran eventos relacionados con aplicaciones y el sistema operativo, que también pueden incluir advertencias y errores relacionados con la autenticación.         |
+
+##### Tipos de Eventos Relevantes
+
+- **4624**: Inicio de sesión exitoso.
+- **4625**: Intento de inicio de sesión fallido.
+- **4740**: Bloqueo de cuenta.
+- **4720**: Creación de una nueva cuenta de usuario.
+
+![eventos en windows 11](https://somebooks.es/wp-content/uploads/2023/05/Usar-el-visor-de-eventos-en-Windows-11-007.png)
+
+
+##### Modo línea de comandos
+```powershell
+// eventos específicos usando PowerShell:
+Get-WinEvent -LogName 'Security' | Where-Object { $_.Id -eq 4624 }
+Get-EventLog -LogName Security -InstanceId 4624,4625,4740,4720 -Newest 10
+```
+
 
 :::caution[actividad]
 GPOs de seguridad
