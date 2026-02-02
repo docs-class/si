@@ -128,10 +128,10 @@ export default defineConfig({
                 ],
             },
             //UT4
-       /*             {
+                    {
                         label: 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
                         // badge: { text: '26ENE25', variant: 'success' },
-                        // badge: { text: '26ENE26', variant: 'success' },
+                        // badge: { text: '05FEB26', variant: 'success' },
                         collapsed: true,
                         items: [
                             {
@@ -148,12 +148,12 @@ export default defineConfig({
                                             'ut4/ut41b3-linux-users',
                                         ],
                                     },
-                                    'ut4/ut41-policies',
+                                    'ut4/ut41c-policies',
         
                                 ],
                             },
                             //Scripts
-                            {
+                        /*     {
                                 label: '4.2 Scripting',
                                 items: [
                                     'ut4/ut42-scripting',
@@ -175,11 +175,11 @@ export default defineConfig({
                                         ],
                                     },
                                 ],
-                            },
+                            }, */
                             
                         ],
                     },
-
+/*
                     
                     //UT5
                     {
