@@ -1,6 +1,9 @@
 ---
 title: "Terminal Linux"
 description: "Introducción al terminal"
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 4
 ---
 ## Conceptos básicos
 
@@ -31,6 +34,72 @@ wsl --install Ubuntu
   - Ejemplo: `beatriz@ubuntu:~$`
   - `$`: Usuario sin privilegios.
   - `#`: Usuario con privilegios root.
+
+#### Variables de Entorno en Linux
+
+Las variables de entorno son pares clave-valor que el sistema operativo utiliza para configurar el entorno de ejecución de los procesos. A continuación se presenta un resumen sobre las variables de entorno más comunes y su uso.
+
+##### Tipos Comunes de Variables de Entorno
+
+| **Variable**          | **Descripción**                                                                                                                                                      |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **$HOME**             | Directorio personal del usuario actual.                                                                                                                            |
+| **$USER**             | Nombre de usuario del usuario actual.                                                                                                                                 |
+| **$PATH**             | Lista de directorios donde el sistema busca ejecutables. Separa los directorios por `:`.                                                                             |
+| **$SHELL**            | Shell predeterminado utilizado por el usuario.                                                                                                                     |
+| **$PWD**              | Directorio de trabajo actual (Present Working Directory).                                                                                                         |
+| **$TERM**             | Tipo de terminal que se está utilizando (por ejemplo, `xterm`, `gnome-terminal`).                                                                                    |
+| **$LANG**             | Configuración regional y de idioma del sistema (por ejemplo, `en_US.UTF-8`).                                                                                       |
+| **$EDITOR**           | Editor de texto predeterminado del usuario (por ejemplo, `vim`, `nano`).                                                                                           |
+| **$HISTSIZE**         | Número máximo de comandos que se guardan en el historial del shell.                                                                                                 |
+| **$PS1**              | Variable que define el prompt principal del shell. Controla cómo se ve la línea de comando. Los elementos comunes incluyen el nombre de usuario, el nombre del host, y el directorio actual. |
+
+##### Uso de Variables de Entorno
+
+- **Visualización**: Para ver el valor de una variable de entorno, se puede usar el comando `echo`:
+  ```bash
+  echo $HOME
+  ```
+
+- **Listar Todas las Variables**: Para listar todas las variables de entorno, se puede usar el comando:
+  ```bash
+  printenv
+  ```
+  O simplemente:
+  ```bash
+  env
+  ```
+
+- **Definir una Nueva Variable**: Para crear o modificar una variable de entorno en la sesión actual:
+  ```bash
+  export NOMBRE_VARIABLE=valor
+  ```
+
+##### Persistencia de Variables
+
+Para hacer que una variable de entorno persista en sesiones futuras, se puede agregar a archivos de configuración como:
+
+- **`~/.bashrc`** para usuarios de Bash.
+- **`~/.profile`** o **`~/.bash_profile`** para configuraciones de entorno más generales.
+
+##### Ejemplo de Uso
+
+1. **Agregar una variable a `~/.bashrc`**:
+   ```bash
+   echo 'export PS1="Mi nombre - $PS1"' >> ~/.bashrc 
+   // Añade al prompt el texto "Mi nombre - "
+   ```
+   Luego, para aplicar los cambios:
+   ```bash
+   source ~/.bashrc
+   ```
+
+2. **Acceder a una variable en un script**:
+   ```bash
+   echo "Mi directorio home es $HOME"
+   ```
+
+
 
 ### **Comandos y Entrada/Salida Estándar**
 
