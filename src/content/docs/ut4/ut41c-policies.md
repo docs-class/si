@@ -1,6 +1,6 @@
 ---
-title: "Política de cuentas y contraseñas"
-description: "Account & password policies"
+title: "Monitoreo y Política de Seguridad"
+description: "Monitoreo y políticas de seguridad en sistemas Linux y Windows."
 ---
 
 ## 1. Seguridad en Linux
@@ -138,6 +138,7 @@ Get-WinEvent -LogName 'Security' | Where-Object { $_.Id -eq 4624 }
 Get-EventLog -LogName Security -InstanceId 4624,4625,4740,4720 -Newest 10
 ```
 
+![Resultado de get-eventLog](../../../assets/ut4/ut41c-geteventsLog.png)
 
 :::caution[actividad]
 GPOs de seguridad
