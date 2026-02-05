@@ -153,7 +153,7 @@ export default defineConfig({
                                 ],
                             },
                             //Scripts
-                        /*     {
+                             /* {
                                 label: '4.2 Scripting',
                                 items: [
                                     'ut4/ut42-scripting',
@@ -175,19 +175,20 @@ export default defineConfig({
                                         ],
                                     },
                                 ],
-                            }, */
+                            },  */
                             
                         ],
                     },
-/*
+
                     
-                    //UT5
+/*                     //UT5
                     {
                         label: "UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN",
                         // badge: { text: '25-NOV', variant: 'success' },
                         // Collapsa el grupo de forma predeterminada.
                         items: [
                             'ut5/ut51-introduction',
+                            'ut5/ut51a-subnetting',
                             // 'ut5/ut51-services',
                             // 'ut5/ut51-ssh',
                         ],
@@ -213,7 +214,7 @@ export default defineConfig({
                         items: [
                             'ut7/ut71-introduction',
                         ],
-                    },  */
+                    },   */
         ],
     })],
 });
