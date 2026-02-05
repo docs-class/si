@@ -19,7 +19,7 @@ g)	Se ha verificado el funcionamiento de la red mediante el uso de comandos y he
 h)	Se han aplicado protocolos seguros de comunicaciones.  
 :::
 
-## 1. Introducción a la red
+## 5.1. Introducción a la red
 
 La **gestión y comprensión de los servidores** es un pilar fundamental en la arquitectura de sistemas, ya que estas máquinas actúan como el núcleo de la entrega de servicios en red.
 
@@ -66,27 +66,28 @@ Un servidor debe ejecutar un sistema operativo diseñado para la estabilidad y e
 :::
 
 
-## 2. Tipos de redes
+## Tipos de redes
 
+#### 1. Definición de Red
 En su forma más básica, una **red** consiste en computadoras conectadas entre sí para intercambiar información. Estas conexiones pueden realizarse mediante **cables o de forma inalámbrica**.
 
-#### Clasificación de Redes según su Alcance
-| Tipo de Red | Descripción                                                                 |
-|-------------|-----------------------------------------------------------------------------|
-| **PAN**     | **Red de Área Personal**: Red de corto alcance utilizada para conectar dispositivos personales (ej. teléfonos, computadoras, tablets). Generalmente se utiliza para compartir información entre dispositivos cercanos. |
-| **LAN**     | **Red de Área Local**: Conecta dispositivos dentro de un área geográfica limitada, como una oficina o un hogar. Permite la comunicación y el intercambio de recursos entre equipos cercanos. |
-| **MAN**     | **Red de Área Metropolitana**: Cubre una área más amplia que una LAN, como una ciudad. Se utiliza para conectar múltiples LANs dentro de una misma área geográfica. |
-| **WAN**     | **Red de Área Amplia**: Conecta redes que están geográficamente dispersas, a menudo en diferentes ciudades o países. Es utilizada por organizaciones grandes para interconectar sus distintas sedes. |
-| **CAN**     | **Red de Área de Campus**: Similar a una LAN, pero cubre una área más grande, como un campus universitario, interconectando múltiples edificaciones. |
-| **VPN**     | **Red Privada Virtual**: Proporciona una conexión segura y encriptada sobre una red pública, permitiendo a los usuarios acceder a recursos como si estuvieran en una red local. |
+#### 2. Clasificación de Redes según su Alcance
+*   **LAN (Local Area Network):** Es una **red privada** que se encuentra dentro de un entorno limitado como un hogar, una empresa o una organización. El dispositivo central de cableado más común para crear una LAN es el **conmutador (switch)**, que permite que dos o más equipos intercambien datos entre sí.
+*   **WAN (Wide Area Network):** Es una red a gran escala que conecta millones de computadoras y se extiende por áreas geográficas extensas, como países o continentes. El ejemplo más claro de una WAN es **Internet**. Para acceder a una WAN desde una LAN, se requiere una **puerta de enlace (gateway)** proporcionada por un ISP, que suele ser una combinación de módem y enrutador.
 
-## 3. Subredes (Subnetting)
+:::caution[Actividad]
+¿Conoces otro tipo de red?
+:::
+
+
+
+#### 3. Subredes (Subnetting)
 Una **subred** es simplemente una división de una red más grande. Una empresa puede decidir dividir su única LAN en redes más pequeñas para separar, por ejemplo, los datos del departamento de ventas de los del departamento de servicio.
 
 *   **El Enrutador (Router):** Es el dispositivo que divide o separa una red de otra, actuando como la entrada o puerta de acceso a cada subred.
 *   **Flexibilidad:** Una organización puede crear tantas subredes como necesite dependiendo de sus requerimientos de expansión.
 
-#### ¿Por qué crear subredes?
+#### 4. ¿Por qué crear subredes?
 La segmentación de una red en subredes ofrece tres beneficios críticos para la administración de sistemas:
 
 1.  **Manejabilidad:** Es más sencillo identificar y solucionar problemas técnicos en redes pequeñas que en una sola red masiva.
@@ -100,109 +101,33 @@ La segmentación de una red en subredes ofrece tres beneficios críticos para la
 | **WAN** | Gateway / Router | Global (Internet) |
 | **Subred** | Router (Enrutador) | División lógica de una LAN |
 
-
 :::tip[5.1.2. Tipos de redes]
 [Tipos de redes - PowerCert Animated Videos](https://www.youtube.com/watch?v=NyZWSvSj8ek)
 :::
 
-:::caution[Actividad]
-#### Cálculo de Subredes
-
-La información contenida en la **segunda página** de las fuentes (según la secuencia del documento proporcionado) completa la clasificación de las direcciones IP, detalla el direccionamiento privado y establece las máscaras de subred por defecto,.
-
-A continuación, se detalla el contenido principal:
-
-### 1. Clases de Direcciones IP (Continuación)
-Tras las clases A y B, la fuente especifica las siguientes categorías:
-*   **Clase C:** Rango de **192 – 223**. Su patrón de bits de cabecera es **110**.
-*   **Clase D:** Rango de **224 – 239**. Estas direcciones están **reservadas para multicast**.
-*   **Clase E:** Rango de **240 – 255**. Están **reservadas para experimentación** y se utilizan en investigación.
-
-### 2. Espacio de Direcciones Privadas
-Son rangos de IP utilizados en redes internas (como las LAN mencionadas anteriormente) que no se enrutan en Internet:
-*   **Clase A:** 10.0.0.0 a 10.255.255.255.
-*   **Clase B:** 172.16.0.0 a 172.31.255.255.
-*   **Clase C:** 192.168.0.0 a 192.168.255.255.
-
-### 3. Máscaras de Subred por Defecto y Estructura
-La máscara determina qué parte de la dirección IP identifica a la **red** y cuál al **host** (equipo individual),:
-
-*   **Clase A:** Máscara **255.0.0.0**. 
-    *   Estructura: Red . Host . Host . Host.
-*   **Clase B:** Máscara **255.255.0.0**. 
-    *   Estructura: Red . Red . Host . Host,.
-*   **Clase C:** Máscara **255.255.255.0**. 
-    *   Estructura: Red . Red . Red . Host,.
-
-### 4. Información del Documento
-Esta página también incluye los créditos del material original, titulado ***IP Addressing and Subnetting Workbook*** (Versión 1.1, Edición del Instructor), producido por **Robb Jones** para la Academia de Networking de Cisco en Maryland, EE. UU..
-
-**Escenario**: Una pequeña empresa tiene la dirección IP **192.168.1.0/24** y desea dividir su red en **4 subredes** para diferentes departamentos: Administración, Ventas, Soporte y Desarrollo.
-
-
-##### Paso 1: Determinar el número de bits necesarios para las subredes
-
-Dado que queremos **4 subredes**, necesitamos calcular el número de bits necesarios. La fórmula es:
-
-$$
-2^n \geq \text{número de subredes}
-$$
-
-Donde \( n \) es el número de bits. Aquí:
-
-$$
-2^2 = 4
-$$
-
-Por lo tanto, necesitamos **2 bits** para las subredes.
-
----
-
-##### Paso 2: Definir la nueva máscara de subred
-
-La máscara de subred original es **/24**. Si agregamos **2 bits** para las subredes:
-
-$$
-24 + 2 = 26
-$$
-
-La nueva máscara de subred será **255.255.255.192** o **/26**.
-
-
-##### Paso 3: Calcular las subredes
-
-Con una máscara de **/26**, cada subred tendrá:
-
-- **Cantidad de direcciones**: $$ 2^{(32 - 26)} = 2^6 = 64 $$
-- **Direcciones utilizables**: 62 (restando la dirección de red y la dirección de broadcast).
-
-**Subredes**:
-
-1. **Subred 1**: 192.168.1.0/26
-   - Rango de direcciones: 192.168.1.1 - 192.168.1.62
-   - Dirección de broadcast: 192.168.1.63
-
-2. **Subred 2**: 192.168.1.64/26
-   - Rango de direcciones: 192.168.1.65 - 192.168.1.126
-   - Dirección de broadcast: 192.168.1.127
-
-3. **Subred 3**: 192.168.1.128/26
-   - Rango de direcciones: 192.168.1.129 - 192.168.1.190
-   - Dirección de broadcast: 192.168.1.191
-
-4. **Subred 4**: 192.168.1.192/26
-   - Rango de direcciones: 192.168.1.193 - 192.168.1.254
-   - Dirección de broadcast: 192.168.1.255
-
-##### Paso 4: Asignar subredes a departamentos
-
-- **Administración**: 192.168.1.0/26
-- **Ventas**: 192.168.1.64/26
-- **Soporte**: 192.168.1.128/26
-- **Desarrollo**: 192.168.1.192/26
+## 5.2. Protocol d'Internet
+:::tip[5.2.1. Dirección IP y máscara de subred]
+[Dirección IP y máscara de subred - PowerCert Animated Videos](https://www.youtube.com/watch?v=s_Ntt6eTn94)
 :::
 
-
-:::caution[Actividad]
-5.1.1 Subredes
+:::tip[5.2.2. Puerta de enlace predeterminada - Default gateway]
+[Default gateway - PowerCert Animated Videos](https://www.youtube.com/watch?v=pCcJFdYNamc)
 :::
+
+:::tip[5.2.3. Public & Private IP]
+[Public & private IP](https://www.youtube.com/watch?v=po8ZFG0Xc4Q)
+:::
+
+:::tip[5.2.4. Puertos]
+[Ports - PowerCert Animated Videos](https://www.youtube.com/watch?v=g2fT-g9PX9o)
+:::
+
+## 5.3. Servicios de red
+:::tip[5.3.1. Protocolo de configuración dinámica de host (DHCP)]
+[DHCP - PowerCert Animated Videos](https://www.youtube.com/watch?v=e6-TaH5bkjo)
+:::
+
+:::tip[5.3.2. Sistema de nombres de dominio - DNS]
+[DNS - PowerCert Animated Videos](https://www.youtube.com/watch?v=mpQZVYPuDGU)
+:::
+
