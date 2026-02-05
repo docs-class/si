@@ -5,20 +5,32 @@ description: "Scripting - case"
 
 La instrucción **case** equivale a una estructura de if/else anidada. Comprobamos el valor de la condición y en función de ese valor hacemos una cosa u otra. (Se utiliza sobre todo para hacer menús.)
 
-```mermaid
-graph TD
-    A[Inicio] --> B{Variable}
-    B -->|Caso 1| C[Acción 1]
-    B -->|Caso 2| D[Acción 2]
-    B -->|Caso 3| E[Acción 3]
-    B -->|Caso N| F[Acción N]
-    B -->|Default| G[Acción por defecto]
-    C --> H[Fin]
-    D --> H[Fin]
-    E --> H[Fin]
-    F --> H[Fin]
-    G --> H[Fin]
+```d2
+direction: right
+A: Inicio
+B: Variable
+B.shape: diamond
+C: Acción 1
+D: Acción 2
+E: Acción 3
+F: Acción N
+G: Acción por defecto
+H: Fin
+
+A -> B
+B -> C: Caso 1
+B -> D: Caso 2
+B -> E: Caso 3
+B -> F: Caso N
+B -> G: Default
+C -> H
+D -> H
+E -> H
+F -> H
+G -> H
+
 ```
+
 ```bash
 #!/bin/bash
 case $var in
