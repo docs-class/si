@@ -39,7 +39,7 @@ Para cumplir con sus objetivos, los servidores requieren componentes mucho más 
 * **Procesadores:** Mientras que un equipo de escritorio usa series como Intel Core, los servidores utilizan procesadores como **Intel Xeon**. Estos admiten **procesamiento múltiple** (varios procesadores en una misma placa base), tienen más núcleos y una memoria caché más grande.
 * **Memoria RAM ECC:** Los servidores utilizan memoria con **Código de Corrección de Errores (ECC)**. Esta tecnología detecta y corrige errores de procesamiento de datos en la RAM para evitar que el sistema se caiga.
 * **Almacenamiento y RAID:** Utilizan discos duros **intercambiables en caliente** bajo una configuración **RAID**. Esto permite que, si un disco falla, se pueda reemplazar sin apagar el servidor y sin pérdida de datos.
-* **Redundancia:** Incluyen componentes duplicados, como **fuentes de alimentación redundantes**, para asegurar que el servidor siga operando incluso si falla uno de los componentes de energía.
+* **Redundancia:** Incluyen componentes duplicados, como [**fuentes de alimentación redundantes**](https://www.profesionalreview.com/2022/08/06/fuente-de-alimentacion-redundante/), para asegurar que el servidor siga operando incluso si falla uno de los componentes de energía.
 
 #### Software y Sistemas Operativos
 Un servidor debe ejecutar un sistema operativo diseñado para la estabilidad y el manejo masivo de conexiones, como **Linux, Windows Server o Mac OS Server**. A diferencia de los sistemas operativos de escritorio, estos están optimizados para funcionar sin interrupciones y gestionar servicios complejos.
