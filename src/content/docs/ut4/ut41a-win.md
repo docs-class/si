@@ -45,10 +45,6 @@ Un grupo es una colección de cuentas que puedes administrar como una unidad. Lo
 
 Puedes gestionar los grupos locales desde la **Consola de administración de equipos**.
 
-:::caution[actividad]
-Gestión de usuarios y grupos
-:::
-
 ## 2. Gestión de permisos de archivos y carpetas
 
 Los permisos son esenciales para autorizar usuarios a acceder a recursos en un equipo. 
@@ -92,5 +88,6 @@ En la ventana de permisos avanzados, puedes:
  * Deshabilitar la herencia de permisos para personalizar los permisos de un archivo o carpeta.
   
 :::caution[actividad]
-Gestión de permisos de archivos y carpetas
+* Gestión de usuarios y grupos
+* Gestión de permisos de archivos y carpetas
 :::
