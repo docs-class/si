@@ -148,12 +148,17 @@ export default defineConfig({
                                             'ut4/ut41b3-linux-users',
                                         ],
                                     },
-                                    'ut4/ut41c-policies',
-        
+                                     {
+                                        label: 'Monitoreo y Políticas de seguridad',
+                                        items: [
+                                            'ut4/ut41c-policies',
+                                            'ut4/ut41c2-policies-win',
+                                        ],
+                                    },
                                 ],
                             },
                             //Scripts
-                             /* {
+                            /*   {
                                 label: '4.2 Scripting',
                                 items: [
                                     'ut4/ut42-scripting',
@@ -175,13 +180,13 @@ export default defineConfig({
                                         ],
                                     },
                                 ],
-                            },  */
+                            },   */
                             
                         ],
                     },
 
                     
-/*                     //UT5
+    /*                //UT5
                     {
                         label: "UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN",
                         // badge: { text: '25-NOV', variant: 'success' },
@@ -214,7 +219,7 @@ export default defineConfig({
                         items: [
                             'ut7/ut71-introduction',
                         ],
-                    },   */
+                    },  */
         ],
     })],
 });
