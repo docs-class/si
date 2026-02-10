@@ -39,11 +39,9 @@ Antes de trabajar con un dispositivo con Windows 10, debes iniciar sesión con u
 ![Group managment](../../../assets/ut4/groups_management.png)
 
 :::tip[Administrador de equipos]
-* Win+R y pega **compmgmt.msc** para ejecutar desde consola de administración de equipos 
-* Win+X Abre el menú de administración rápida: seleccionar "Administración de equipos"
+* **Win+R** y pega **compmgmt.msc** para ejecutar desde consola de administración de equipos 
+* **Win+X** Abre el menú de administración rápida: seleccionar "Administración de equipos"
 :::
-
-Un grupo es una colección de cuentas que puedes administrar como una unidad. Los grupos simplifican la administración de permisos en recursos.
 
 ### Grupos predeterminados en Windows 10
 - **Administradores:** tienen control total sobre el sistema.
