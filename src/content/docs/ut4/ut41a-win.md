@@ -35,7 +35,13 @@ Antes de trabajar con un dispositivo con Windows 10, debes iniciar sesión con u
 
 
 ### Gestión de grupos locales
+
 ![Group managment](../../../assets/ut4/groups_management.png)
+
+:::tip[Administrador de equipos]
+* Win+R y pega **compmgmt.msc** para ejecutar desde consola de administración de equipos 
+* Win+X Abre el menú de administración rápida: seleccionar "Administración de equipos"
+:::
 
 Un grupo es una colección de cuentas que puedes administrar como una unidad. Los grupos simplifican la administración de permisos en recursos.
 
@@ -68,7 +74,7 @@ En Windows, cuando hay conflictos de permisos, se siguen estas reglas estrictas:
  * **Denegar siempre gana:** Si perteneces a un grupo con permiso de "Lectura", pero a tu usuario específico le pusieron "Denegar lectura", no entrarás. El "Denegar" es atómico.
  * **Permisos Explícitos vs. Heredados:** Un permiso que tú pongas directamente en un archivo ("Explícito") manda sobre el que el archivo recibe de la carpeta padre ("Heredado").
  * **Acumulación:** Si el grupo "Ventas" tiene Lectura y el grupo "Marketing" tiene Escritura, y tú estás en ambos, tienes Lectura + Escritura.
-### 4. NTFS vs. Permisos de Compartición (Share)
+### 4. NTFS vs. Permisos de Compartición
  * Permisos de Compartición: Solo actúan cuando entras por la red (ej. \\Servidor\Carpeta). Suelen ser muy básicos (Leer, Cambiar, Control Total).
  * Permisos NTFS: Actúan siempre, estés sentado frente al PC o entres por red.
 
