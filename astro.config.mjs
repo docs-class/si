@@ -143,9 +143,9 @@ export default defineConfig({
                                         label: 'Gestión de usuarios - Linux',
                                         items: [
                                             'ut4/ut41b-linux',
+                                            'ut4/ut41b3-linux-users',
                                             'ut4/ut41b1-linux-permissions',
                                             'ut4/ut41b2-linux-groups',
-                                            'ut4/ut41b3-linux-users',
                                         ],
                                     },
                                      {
@@ -158,7 +158,7 @@ export default defineConfig({
                                 ],
                             },
                             //Scripts
-                            /*   {
+                           /*    {
                                 label: '4.2 Scripting',
                                 items: [
                                     'ut4/ut42-scripting',
@@ -180,13 +180,13 @@ export default defineConfig({
                                         ],
                                     },
                                 ],
-                            },   */
+                            },  */ 
                             
                         ],
                     },
-
+/*
                     
-    /*                //UT5
+                    //UT5
                     {
                         label: "UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN",
                         // badge: { text: '25-NOV', variant: 'success' },

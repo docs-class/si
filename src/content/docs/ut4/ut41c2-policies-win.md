@@ -5,10 +5,11 @@ description: "Monitoreo y políticas de seguridad en sistemas Windows."
 
 ## Seguridad en Windows
 
-1. **Abre el Editor de Directivas de Grupo Local**:  
-   - Presiona `Win + R`, escribe `gpedit.msc` y pulsa **Enter**.  
+:::tip[Editor de Directivas de Grupo Local]
+   - `Win + R`: escribe `gpedit.msc`
+:::
 
-2. **Navega a las Directivas de Contraseña**:  
+1. **Navega a las Directivas de Contraseña**:  
    `Configuración del equipo > Configuración de Windows > Configuración de seguridad > Directivas de cuenta > Directivas de contraseña`  
 
 ![gpedit](../../../assets/ut4/gpedit.jpg)

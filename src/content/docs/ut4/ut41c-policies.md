@@ -3,7 +3,7 @@ title: "Políticas de Seguridad - Linux"
 description: "Monitoreo y políticas de seguridad en sistemas Linux y Windows."
 ---
 
-## 1. Seguridad en Linux
+## Seguridad en Linux
 
 ### Política de Cuentas y Contraseñas en Ubuntu
 
