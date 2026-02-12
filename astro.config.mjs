@@ -41,7 +41,7 @@ export default defineConfig({
     integrations: [markdoc(), d2(), starlight({
         title: 'Sistemas Informáticos',
         favicon: '/images/favicon.png',
-        expressiveCode: false,
+        expressiveCode: true,
         customCss: [
             // Relative path to your custom CSS file
             './src/styles/custom.css',
