@@ -19,7 +19,48 @@ description: "Usuarios"
 | `addgroup` | Creación de grupos. |
 | `delgroup` | Elimina un grupo del sistema. |
 
-\* **`usermod`**:
+## useradd
+- **Crear un nuevo usuario sin guía**:
+  ```sh frame="none"
+  sudo useradd nombre_usuario
+  ```
+### Opciones de `useradd`
+
+| Opción                 | Descripción                                                    |
+|------------------------|----------------------------------------------------------------|
+| `-m`                   | Crear el directorio home del usuario (`/home/usuario`).        |
+| `-d /ruta/al/home`     | Especificar un directorio home personalizado.                  |
+| `-s /bin/bash`         | Definir la shell de inicio de sesión (por defecto `/bin/sh`).  |
+| `-c "Nombre Completo"` | Añadir un comentario (usualmente el nombre completo).          |
+| `-G grupo1,grupo2`     | Añadir el usuario a grupos suplementarios.                     |
+| `-u UID`               | Asignar un ID de usuario específico.                           |
+| `-g GID`               | Establecer el ID del grupo principal.                          |
+| `-e AAAA-MM-DD`        | Expirar la cuenta en la fecha indicada.                        |
+| `-L`                   | Bloquear la cuenta (impide el inicio de sesión).               |
+| `-U`                   | Crear un grupo de usuarios con el mismo nombre que el usuario. |
+
+#### Ejemplo de creación de un nuevo usuario con opciones avanzadas
+
+```sh frame="none"
+ sudo useradd \
+    -m \
+    -d /home/julia \
+    -s /bin/zsh \
+    -c "Julia Pérez, Analista de datos" \
+    -G audio,video,developers,sudo \
+    -e 2027-12-31 \
+    -L \
+    -U \
+    julia
+```
+  - **Desbloquear usuario y establecer contraseña**:
+```sh frame="none"
+    sudo usermod -U julia      # quita el bloqueo de la cuenta
+    sudo passwd -u julia       # opcional: asegura que la contraseña no esté marcada como bloqueada
+    passwd julia               # establece una nueva contraseña para el usuario
+```
+
+## **`usermod`**:
   - **Cambiar el directorio asignado al usuario y mover su información**:
     ```sh frame="none"
     sudo usermod -d /home/directorio_nuevo -m nombre_usuario
