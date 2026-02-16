@@ -47,7 +47,7 @@ description: "Monitoreo y políticas de seguridad en sistemas Linux y Windows."
 ### Visor de Eventos
 
 #### Logs de Autenticación
-  ```bash
+  ```bash frame="none"
   /var/log/auth.log (Debian/Ubuntu) o /var/log/secure (Red Hat)
   ```
 
@@ -55,6 +55,6 @@ description: "Monitoreo y políticas de seguridad en sistemas Linux y Windows."
 
 ![Gnome system Log](https://blogs.gnome.org/johannes/files/2009/03/logview-filter.png)
 
-```bash
+```bash frame="none"
 sudo apt install gnome-system-log
 ```
