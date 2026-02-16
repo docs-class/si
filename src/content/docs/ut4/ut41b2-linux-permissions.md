@@ -9,7 +9,7 @@ tableOfContents:
 ## Cómo ver los permisos
 Utiliza el comando `ls -l` para listar los archivos y ver los permisos:
 
-```bash frame="none" ins="-rw-rw-r-- 1 sysadmin sysadmin 24 Aug 1 02:35 hello.sh"
+```bash frame="none" ins="-rw-rw-r--"
 sysadmin@localhost:~$ ls -l
 -rw-rw-r-- 1 sysadmin sysadmin 24 Aug 1 02:35 hello.sh
 ```
@@ -36,7 +36,7 @@ Los permisos en Linux se representan mediante tres dígitos octales, cada uno de
    - Grupo: Lectura y ejecución (4+1 = 5)
    - Otros: Lectura (4)
 
-   ```bash
+   ```bash frame="none"
    chmod 754 archivo
    ```
 
@@ -99,11 +99,10 @@ u=rwx,g=rx,o=rx
 
 -  **Persistencia**: Para hacer que la umask sea persistente, puedes agregar el comando `umask valor` en archivos de configuración como `.bashrc` o `.profile`.
 
-##### Ejemplo de archivo `.bashrc`
+```bash 
+// .bashrc
 
-```bash
-# .bashrc
-
+...
 # Configuración de la umask
 umask 026
 
