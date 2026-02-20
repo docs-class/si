@@ -89,7 +89,7 @@ Permisos finales:          644 (110 100 100 en binario)
 
 #### umask -S
 
-El comando `umask -S` muestra la umask en formato simbólico:
+El comando `umask -S` muestra los permisos **tras aplicar** la umask:
 
 ```bash frame="none"
 sysadmin@localhost:~$ umask -S
