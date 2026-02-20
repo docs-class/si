@@ -54,7 +54,8 @@ description: "Usuarios"
     julia
 ```
 :::tip[nota]
-el caracter `\` al final de cada línea indica que el comando continúa en la siguiente línea, lo que mejora la legibilidad.
+* El caracter `\` al final de cada línea indica que el comando continúa en la siguiente línea.
+* En caso de usar una única linea deberíamos eliminar los `\` y escribir todo seguido.
 :::
 
   - **Desbloquear usuario y establecer contraseña**:
