@@ -34,7 +34,7 @@ description: "Usuarios"
 | `-c "Nombre Completo"` | Añadir un comentario (usualmente el nombre completo).          |
 | `-G grupo1,grupo2`     | Añadir el usuario a grupos suplementarios.                     |
 | `-u UID`               | Asignar un ID de usuario específico.                           |
-| `-g GID`               | Establecer el ID del grupo principal.                          |
+| `-g GID`               | Establecer el ID del grupo principal/referencia                |
 | `-e AAAA-MM-DD`        | Expirar la cuenta en la fecha indicada.                        |
 | `-L`                   | Bloquear la cuenta (impide el inicio de sesión).               |
 | `-U`                   | Crear un grupo de usuarios con el mismo nombre que el usuario. |
@@ -53,6 +53,10 @@ description: "Usuarios"
     -U \
     julia
 ```
+:::tip[nota]
+el caracter `\` al final de cada línea indica que el comando continúa en la siguiente línea, lo que mejora la legibilidad.
+:::
+
   - **Desbloquear usuario y establecer contraseña**:
 ```sh frame="none"
     sudo usermod -U julia      # quita el bloqueo de la cuenta
