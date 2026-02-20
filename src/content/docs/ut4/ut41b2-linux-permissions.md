@@ -1,12 +1,12 @@
 ---
-title: "Permisos"
+title: "Permisos / umask"
 description: "Permisos"
 tableOfContents:
   minHeadingLevel: 2
   maxHeadingLevel: 4
 ---
 
-## Cómo ver los permisos
+### Cómo ver los permisos
 Utiliza el comando `ls -l` para listar los archivos y ver los permisos:
 
 ```bash frame="none" ins="-rw-rw-r--"
@@ -14,7 +14,7 @@ sysadmin@localhost:~$ ls -l
 -rw-rw-r-- 1 sysadmin sysadmin 24 Aug 1 02:35 hello.sh
 ```
 
-## Cambiar permisos de archivos y directorios
+### Cambiar permisos de archivos y directorios
 Para modificar los permisos, utiliza el comando `chmod`:
 
 ```bash frame="none"
@@ -22,13 +22,25 @@ chmod [SET][ACTION][PERMISSIONS] archivo
 ```
 
 
-### Sistema Octal
+#### Sistema Octal
 
 Los permisos en Linux se representan mediante tres dígitos octales, cada uno de los cuales puede tener un valor de 0 a 7. Cada dígito representa los permisos para el propietario del archivo, el grupo y otros usuarios, respectivamente (UGO). Los valores octales se calculan **sumando** los siguientes permisos:
 
 - **4**: Lectura (r)
 - **2**: Escritura (w)
 - **1**: Ejecución (x)
+
+```
+Octal / binario
+0 000
+**1 001**
+**2 010**
+3 011
+**4 100**
+5 101
+6 110
+7 111
+``` 
 
 
 **Permisos 754**:
@@ -40,7 +52,7 @@ Los permisos en Linux se representan mediante tres dígitos octales, cada uno de
    chmod 754 archivo
    ```
 
-### Modo Simbólico
+#### Modo Simbólico
 
 | **SET**       | **Acción**          | **Permisos** |
 |---------------|---------------------|--------------|
@@ -64,7 +76,7 @@ chmod u-w archivo.txt  # Elimina el permiso de escritura para el usuario
 chmod go-w archivo.txt  # Elimina el permiso de escritura para el grupo y otros usuarios
 ```
 
-### Umask
+## Umask
 
 El comando **umask** en Linux se utiliza para establecer los permisos predeterminados para los archivos y directorios recién creados. Aquí tienes un resumen:
 
