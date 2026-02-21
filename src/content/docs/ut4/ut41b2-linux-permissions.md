@@ -26,22 +26,9 @@ chmod [SET][ACTION][PERMISSIONS] archivo
 
 Los permisos en Linux se representan mediante tres dígitos octales, cada uno de los cuales puede tener un valor de 0 a 7. Cada dígito representa los permisos para el propietario del archivo, el grupo y otros usuarios, respectivamente (UGO). Los valores octales se calculan **sumando** los siguientes permisos:
 
-- **4**: Lectura (r)
-- **2**: Escritura (w)
-- **1**: Ejecución (x)
-
-```
-Octal / binario
-0 000
-**1 001**
-**2 010**
-3 011
-**4 100**
-5 101
-6 110
-7 111
-``` 
-
+- **4**: Lectura (r) --> 100 en binario
+- **2**: Escritura (w) --> 010 en binario
+- **1**: Ejecución (x) --> 001 en binario
 
 **Permisos 754**:
    - Propietario: Lectura, escritura y ejecución (4+2+1 = 7)
