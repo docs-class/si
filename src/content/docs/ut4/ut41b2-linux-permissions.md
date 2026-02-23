@@ -94,6 +94,13 @@ El comando `umask -S` muestra los permisos **tras aplicar** la umask:
 sysadmin@localhost:~$ umask -S
 u=rwx,g=rx,o=rx
 ```      
+
+El comando `umask -S u=rwx,g=rx,o=rx` aplica los permisos especificados a la umask:
+
+```bash frame="none"
+sysadmin@localhost:~$ umask -S u=rwx,g=rx,o=rx
+```      
+
 #### Configurar umask permanentemente 
 
 -  **Persistencia**: Para hacer que la umask sea persistente, puedes agregar el comando `umask valor` en archivos de configuración como `.bashrc` o `.profile`.
