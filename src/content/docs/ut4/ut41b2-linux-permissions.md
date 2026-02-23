@@ -99,6 +99,7 @@ El comando `umask -S u=rwx,g=rx,o=rx` aplica los permisos especificados a la uma
 
 ```bash frame="none"
 sysadmin@localhost:~$ umask -S u=rwx,g=rx,o=rx
+umask resultante = 022
 ```      
 
 #### Configurar umask permanentemente 
