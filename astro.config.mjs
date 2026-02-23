@@ -157,32 +157,34 @@ export default defineConfig({
                                     },
                                 ],
                             },
-                            //Scripts
-                           /*    {
+                            //Scripts 
+                            // badge: { text: '05FEB26', variant: 'success' },
+                            
+                               {
                                 label: '4.2 Scripting',
                                 items: [
                                     'ut4/ut42-scripting',
-                                    'ut4/ut42-scripting-variables',
-                                    'ut4/ut42-scripting-backslash',
-                                    'ut4/ut42-scripting-arithmetics',
-                                    'ut4/ut42-scripting-parametres',
+                                    'ut4/ut42a-scripting-variables',
+                                    'ut4/ut42b-scripting-backslash',
+                                    'ut4/ut42c-scripting-arithmetics',
+                                    'ut4/ut42d-scripting-parametres',
                                     {
                                         label: 'Estructuras de Control',
                                         items: [
-                                            'ut4/ut42-scripting-if-else',
-                                            'ut4/ut42-scripting-operators',
-                                            'ut4/ut42-scripting-case',
-                                            'ut4/ut42-scripting-forin',
-                                            'ut4/ut42-scripting-for',
-                                            'ut4/ut42-scripting-while',
-                                            'ut4/ut42-scripting-break',
-                                            'ut4/ut42-scripting-files',
+                                            'ut4/ut42e1-scripting-if-else',
+                                            'ut4/ut42e2-scripting-operators',
+                                            'ut4/ut42e3-scripting-case',
+                                            'ut4/ut42e4-scripting-forin',
+                                            'ut4/ut42e5-scripting-for',
+                                            'ut4/ut42e6-scripting-while',
+                                            'ut4/ut42e7-scripting-break',
+                                            'ut4/ut42e8-scripting-files',
                                         ],
                                     },
                                 ],
-                            },  */ 
+                            }, 
                             
-                        ],
+                        ], 
                     },
 /*
                     
