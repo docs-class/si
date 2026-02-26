@@ -106,11 +106,11 @@ Para hacer que una variable de entorno persista en sesiones futuras, se puede ag
 1. Los comandos en Linux son **palabras reservadas** utilizadas por el sistema operativo para ejecutar programas a través de una terminal o línea de comandos.
 
    - **Sintaxis general:**
-     ``` frame="none"
+     ```txt frame="none"
      orden [-opciones] argumento1 argumento2
      ```
    - **Agrupación de opciones:**
-     ``` frame="none"
+     ```txt frame="none"
      ls -l -a = ls -la
      ```
 ![ls command](../../../assets/ut3/ls-command.png)

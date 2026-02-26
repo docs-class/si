@@ -1,7 +1,7 @@
 {
   "name": "si",
   "type": "module",
-  "version": "2.26.1.20",
+  "version": "2.26.2.26", //año de uso de documentación, año actual, mes, día
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -15,8 +15,8 @@
     "@astrojs/starlight": "latest",
     "@astrojs/starlight-markdoc": "^0.5.1",
     "@iconify-json/mdi": "^1.2.3",
-    "@iconify/json": "^2.2.432",
-    "astro": "^5.16.15",
+    "@iconify/json": "^2.2.443",
+    "astro": "^5.18.0",
     "astro-d2": "^0.8.1",
     "rehype-external-links": "^3.0.0",
     "rehype-katex": "^7.0.1",
