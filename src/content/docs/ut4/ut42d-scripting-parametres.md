@@ -31,9 +31,6 @@ Un argumento es un parámetros que se le pasa a una función o a un programa. Es
 
   ![Param example](../../../assets/ut4/param.jpg)
 
-   :::caution[actividad]
-  - A4.2.1 Scripts básicos (Linux)
-  :::
 
   :::tip[resources]
   - [colors & PSX customization ](https://atareao.es/como/colorear-la-linea-de-comandos/)

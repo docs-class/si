@@ -37,7 +37,11 @@ done < input_file
 
 Para leer un archivo línea por línea, usamos el comando `read` con el nombre del archivo como argumento, en este caso, `"input_file"`.  El comando `read` asigna cada línea leída a la variable `línea`. El bucle `while` continúa hasta que se hayan procesado todas las líneas del archivo. 
 
-Para mantener los espacios en blanco iniciales y finales de cada línea, establecemos el separador de campo interno (IFS) como una cadena nula. Este comportamiento es el predeterminado del comando `read`. 
+:::tip[IFS]
+`IFS` (Internal Field Separator) define cómo Bash separa palabras/campos.
+
+En `while IFS= read -r line`, poner `IFS=` evita que `read` recorte espacios al inicio o final de la línea, y ayuda a leer el contenido tal cual está en el fichero.
+:::
 
 
 ## Lectura de un fichero con For
@@ -50,3 +54,9 @@ done
 ```
 
 En este caso, el comando `cat input_file`  imprime el contenido del archivo "input_file" en la salida estándar. El bucle `for` itera sobre cada línea del archivo, asignando cada una a la variable `line`.  Luego, se imprime la línea con `echo "$line"`. 
+
+:::tip[IFS con salto de línea]
+`IFS=$'\n'` cambia el separador interno para que Bash divida por salto de línea en lugar de por espacios o tabuladores.
+
+Así, en un bucle `for`, cada iteración intenta procesar una línea completa y no cada palabra.
+:::
