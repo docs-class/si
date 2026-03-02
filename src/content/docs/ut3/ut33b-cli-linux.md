@@ -167,3 +167,7 @@ Todo programa en Linux trabaja con tres tipos de flujos principales:
 | **who**      | muestra quién está conectado al sistema.           | `who`                           |
 | **type**     | Para saber si un comando existe.                   | `type ls`                       |
 | **touch**   | Para crear un archivo vacío o actualizar la marca de tiempo de un archivo. | `touch archivo.txt` |
+
+  :::tip[resources]
+  - [colors & PSX customization ](https://atareao.es/como/colorear-la-linea-de-comandos/)
+  :::
