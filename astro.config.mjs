@@ -186,7 +186,7 @@ export default defineConfig({
                             
                         ], 
                     },
-/*
+
                     
                     //UT5
                     {
@@ -194,13 +194,13 @@ export default defineConfig({
                         // badge: { text: '25-NOV', variant: 'success' },
                         // Collapsa el grupo de forma predeterminada.
                         items: [
-                            'ut5/ut51-introduction',
+                            'ut5/ut51',
                             'ut5/ut51a-subnetting',
                             // 'ut5/ut51-services',
                             // 'ut5/ut51-ssh',
                         ],
                     },
-                    //UT6
+   /*                 //UT6
                     {
                         label: "UT6 - GESTIÓN DE RECURSOS EN RED",
                         // badge: { text: '25-NOV', variant: 'success' },

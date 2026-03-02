@@ -15,4 +15,3 @@
 ### Acceso a las unidades
 
 [Acceder a la UT1 en Castellano](https://docs-class.github.io/si/es/ut1/ut11/)
-[Acceder a la UT2 en Castellano](https://docs-class.github.io/si/es/ut2/ut21/)
