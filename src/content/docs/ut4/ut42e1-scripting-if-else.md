@@ -117,3 +117,18 @@ G -> I
 H -> I
 
 ```
+## Comprobación de Expresiones Regulares
+
+```bash "^([a-z]+)([0-9]+)$" ins="=~" frame="none"
+cadena="abc123"
+re='^([a-z]+)([0-9]+)$'
+if [[ $cadena =~ $re ]]; then
+  echo "completo: ${BASH_REMATCH[0]}"   # "abc123"
+  echo "letras:   ${BASH_REMATCH[1]}"   # "abc"
+  echo "números:  ${BASH_REMATCH[2]}"   # "123"
+fi
+```
+
+:::tip[${BASH_REMATCH[1]}]
+ Es la primera subcadena capturada por la última comparación de expresiones regulares realizada con [[ $cadena =~ $re ]]. En este caso, corresponde a la parte de letras "abc" que coincide con el primer grupo de captura ([a-z]+) en la expresión regular.
+:::
