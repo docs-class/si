@@ -35,3 +35,17 @@ do
   read -p "Introduce un número: " num
 done
 ```
+
+## do-while
+
+```bash
+#!/bin/bash
+
+# El bucle do-while se ejecuta al menos una vez hasta que la condición deje de cumplirse
+
+while
+  echo "Enter number: "
+  read n
+  [[ -z $n || $n == *[^0-9]* ]]
+do true; done
+```
