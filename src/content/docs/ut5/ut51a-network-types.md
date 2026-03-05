@@ -19,6 +19,8 @@ En su forma más básica, una **red** consiste en computadoras conectadas entre 
 | **WAN**     | **Red de Área Amplia**: Conecta redes que están geográficamente dispersas, a menudo en diferentes ciudades o países. Es utilizada por organizaciones grandes para interconectar sus distintas sedes. |
 | **VPN**     | **Red Privada Virtual**: Proporciona una conexión segura y encriptada sobre una red pública, permitiendo a los usuarios acceder a recursos como si estuvieran en una red local. |
 
+![Network dimension](../../../assets/ut5/51a-network_dimension_300x310.png)
+
 ## 3. Subredes (Subnetting)
 Una **subred** es simplemente una división de una red más grande. Una empresa puede decidir dividir su única LAN en redes más pequeñas para separar, por ejemplo, los datos del departamento de ventas de los del departamento de servicio.
 
