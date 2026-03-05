@@ -128,101 +128,127 @@ export default defineConfig({
                 ],
             },
             //UT4
+            {
+                label: 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
+                // badge: { text: '26ENE25', variant: 'success' },
+                // badge: { text: '05FEB26', variant: 'success' },
+                collapsed: true,
+                items: [
                     {
-                        label: 'UT4 - GESTIÓN DE USUARIOS Y PROCESOS. SCRIPTING',
-                        // badge: { text: '26ENE25', variant: 'success' },
-                        // badge: { text: '05FEB26', variant: 'success' },
-                        collapsed: true,
+                        label: '4.1 Gestión de usuarios',
                         items: [
+                            'ut4/ut41',
+                            'ut4/ut41a-win',
                             {
-                                label: '4.1 Gestión de usuarios',
+                                label: 'Gestión de usuarios - Linux',
                                 items: [
-                                    'ut4/ut41',
-                                    'ut4/ut41a-win',
-                                    {
-                                        label: 'Gestión de usuarios - Linux',
-                                        items: [
-                                            'ut4/ut41b-linux',
-                                            'ut4/ut41b1-linux-users',
-                                            'ut4/ut41b2-linux-permissions',
-                                            'ut4/ut41b3-linux-groups',
-                                        ],
-                                    },
-                                     {
-                                        label: 'Monitoreo y Políticas de seguridad',
-                                        items: [
-                                            'ut4/ut41c-policies',
-                                            'ut4/ut41c2-policies-win',
-                                        ],
-                                    },
+                                    'ut4/ut41b-linux',
+                                    'ut4/ut41b1-linux-users',
+                                    'ut4/ut41b2-linux-permissions',
+                                    'ut4/ut41b3-linux-groups',
                                 ],
                             },
-                            //Scripts 
-                            // badge: { text: '05FEB26', variant: 'success' },
-                            
-                               {
-                                label: '4.2 Scripting',
+                            {
+                                label: 'Monitoreo y Políticas de seguridad',
                                 items: [
-                                    'ut4/ut42-scripting',
-                                    'ut4/ut42a-scripting-variables',
-                                    'ut4/ut42b-scripting-backslash',
-                                    'ut4/ut42c-scripting-arithmetics',
-                                    'ut4/ut42d-scripting-parametres',
-                                    {
-                                        label: 'Estructuras de Control',
-                                        items: [
-                                            'ut4/ut42e1-scripting-if-else',
-                                            'ut4/ut42e2-scripting-operators',
-                                            'ut4/ut42e3-scripting-case',
-                                            'ut4/ut42e4-scripting-forin',
-                                            'ut4/ut42e5-scripting-for',
-                                            'ut4/ut42e6-scripting-while',
-                                            'ut4/ut42e7-scripting-break',
-                                            'ut4/ut42e8-scripting-files',
-                                        ],
-                                    },
+                                    'ut4/ut41c-policies',
+                                    'ut4/ut41c2-policies-win',
                                 ],
-                            }, 
-                            
-                        ], 
+                            },
+                        ],
+                    },
+                    //Scripts 
+                    // badge: { text: '05FEB26', variant: 'success' },
+
+                    {
+                        label: '4.2 Scripting',
+                        items: [
+                            'ut4/ut42-scripting',
+                            'ut4/ut42a-scripting-variables',
+                            'ut4/ut42b-scripting-backslash',
+                            'ut4/ut42c-scripting-arithmetics',
+                            'ut4/ut42d-scripting-parametres',
+                            {
+                                label: 'Estructuras de Control',
+                                items: [
+                                    'ut4/ut42e1-scripting-if-else',
+                                    'ut4/ut42e2-scripting-operators',
+                                    'ut4/ut42e3-scripting-case',
+                                    'ut4/ut42e4-scripting-forin',
+                                    'ut4/ut42e5-scripting-for',
+                                    'ut4/ut42e6-scripting-while',
+                                    'ut4/ut42e7-scripting-break',
+                                    'ut4/ut42e8-scripting-files',
+                                ],
+                            },
+                        ],
                     },
 
-                    
-                    //UT5
-   /*                 {
-                        label: "UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN",
-                        // badge: { text: '25-NOV', variant: 'success' },
-                        // Collapsa el grupo de forma predeterminada.
+                ],
+            },
+
+
+            //UT5
+            {
+                label: "UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN",
+                // badge: { text: '25-NOV', variant: 'success' },
+                // Collapsa el grupo de forma predeterminada.
+                items: [
+                    {
+                        label: ' 5.1. Introducción a la red',
                         items: [
                             'ut5/ut51',
                             'ut5/ut51a-network-types',
+                        ],
+                    },
+                    {
+                        label: '5.2. Interconexión de sistemas en red',
+                        items: [
                             'ut5/ut52a-internet-protocol',
-                            // 'ut5/ut51-services',
-                            // 'ut5/ut51-ssh',
+                            'ut5/ut52b-gateway',
+                            'ut5/ut52c-ip-type',
+                            'ut5/ut52d-ports',
                         ],
                     },
-                    //UT6
                     {
-                        label: "UT6 - GESTIÓN DE RECURSOS EN RED",
-                        // badge: { text: '25-NOV', variant: 'success' },
-                        // Collapsa el grupo de forma predeterminada.
+                        label: '5.3. Servicios de red',
                         items: [
-                            'ut6/ut61-introduction',
-                            'ut6/ut61-directory-service',
-                            'ut6/ut61-structure',
-                            'ut6/ut61-proxmox',
+                            'ut5/ut53a-dhcp',
+                            'ut5/ut53b-dns',
+                        ],
+                    },  
+                    {
+                        label: '5.4. Subnetting & ssh',
+                        items: [
+                            'ut5/ut54a-subnetting',
+                            'ut5/ut54b-ssh',
                         ],
                     },
-                    //UT7
-                    {
-                        label: "UT7 - APLICACIONES INFORMÁTICAS",
-                        // badge: { text: '25-NOV', variant: 'success' },
-        
-                        // Collapsa el grupo de forma predeterminada.
-                        items: [
-                            'ut7/ut71-introduction',
-                        ],
-                    },  */
+                    //'ut5/ut55-ssh',
+                ],
+            },
+            //UT6
+            /*                 {
+                                 label: "UT6 - GESTIÓN DE RECURSOS EN RED",
+                                 // badge: { text: '25-NOV', variant: 'success' },
+                                 // Collapsa el grupo de forma predeterminada.
+                                 items: [
+                                     'ut6/ut61-introduction',
+                                     'ut6/ut61-directory-service',
+                                     'ut6/ut61-structure',
+                                     'ut6/ut61-proxmox',
+                                 ],
+                             },
+                             //UT7
+                             {
+                                 label: "UT7 - APLICACIONES INFORMÁTICAS",
+                                 // badge: { text: '25-NOV', variant: 'success' },
+                 
+                                 // Collapsa el grupo de forma predeterminada.
+                                 items: [
+                                     'ut7/ut71-introduction',
+                                 ],
+                             },  */
         ],
     })],
 });
