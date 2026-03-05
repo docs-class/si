@@ -24,6 +24,7 @@ El proceso de resolución implica una estructura jerárquica de servidores espec
 ### Optimización mediante Memoria Caché
 Una vez que el servidor de resolución obtiene la dirección IP del servidor autorizado, la entrega a la computadora del usuario para que pueda cargar el sitio web. Es fundamental destacar que el resolutor **almacena esta dirección en su memoria caché**. Esto permite que, ante futuras consultas para el mismo dominio, el sistema responda rápidamente sin tener que repetir todo el proceso de búsqueda a través de la jerarquía de servidores.
 
+![dns](../../../assets/ut5/53b-dns.png)
 
 
 :::tip[5.3.2. Sistema de nombres de dominio - DNS]

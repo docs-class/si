@@ -18,6 +18,8 @@ Surgieron como una solución ante la escasez de las más de 4 mil millones de di
 ### El Rol de NAT (Traducción de Direcciones de Red)
 Dado que las direcciones privadas no pueden acceder directamente a Internet, el enrutador utiliza un servicio llamado **NAT**. NAT traduce la dirección IP privada del dispositivo interno a la única dirección IP pública de la red cuando se requiere enviar datos hacia afuera, y realiza el proceso inverso cuando la información regresa de Internet hacia la computadora específica en la red local.
 
+![NAT](../../../assets/ut5/52c-nat.png)
+
 ### Clasificación de las IP Privadas
 Las direcciones privadas se dividen en tres rangos o clases según el tamaño de la organización:
 *   **Clase A:** Comienza con el número 10 y se utiliza generalmente en organizaciones de gran tamaño.

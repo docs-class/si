@@ -13,6 +13,8 @@ Toda dirección IP consta de dos componentes esenciales:
 *   **ID de Red:** Identifica la red específica a la que pertenece el dispositivo.
 *   **ID de Host:** Identifica al dispositivo individual (computadora, servidor, etc.) dentro de esa red.
 
+![host](../../../assets/ut5/52a-host.png)
+
 ## 2. ¿Qué es la Máscara de Subred?
 Es un número que se asemeja a una dirección IP y su función principal es **revelar qué parte de la dirección IP pertenece a la red y qué parte al host**. Lo hace "enmascarando" la sección de red.
 
@@ -28,6 +30,8 @@ Las direcciones y máscaras se categorizan según las necesidades de la organiza
 | **Clase A** | Grandes organizaciones (ej. ISPs) | Hasta 16 millones, |
 | **Clase B** | Organizaciones medianas a grandes | Hasta 65,000 |
 | **Clase C** | Pequeñas empresas y hogares | 254 hosts utilizables |
+
+![clases](../../../assets/ut5/52a-clases.png)
 
 ## 4. Notación CIDR
 La notación **CIDR** (Enrutamiento entre Dominios sin Clases), o **notación de barra**, es una forma abreviada de escribir la máscara de subred,. Consiste en una barra diagonal seguida del número de bits "1" que tiene la máscara.

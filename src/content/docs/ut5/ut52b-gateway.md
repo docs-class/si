@@ -33,6 +33,8 @@ El protocolo **ARP (Address Resolution Protocol)** es fundamental en este proces
 *   **Si el destino es local:** La computadora envía una transmisión ARP solicitando la **dirección MAC** del equipo de destino para hablar directamente con él.
 *   **Si el destino es externo:** La computadora no pide la MAC del equipo remoto (ya que las transmisiones ARP no pueden atravesar un enrutador), sino que solicita la **dirección MAC de la puerta de enlace predeterminada**.
 *   **Entrega:** Una vez obtenida la dirección MAC del router, el equipo le envía los datos a él, y el router se encarga de retransmitirlos hacia la red de destino.
+*   
+![gateway](../../../assets/ut5/52b-gateway.png)
   
 :::tip[5.2.2. Puerta de enlace predeterminada - Default gateway]
 [Default gateway - PowerCert Animated Videos](https://www.youtube.com/watch?v=pCcJFdYNamc)

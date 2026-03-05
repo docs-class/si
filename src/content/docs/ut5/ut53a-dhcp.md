@@ -24,6 +24,8 @@ Existen casos donde se requiere que un dispositivo mantenga siempre la misma dir
 ### Implementación del Servicio
 El DHCP es un servicio que puede ejecutarse en servidores dedicados (como Microsoft o Linux), pero también es una función integrada en la gran mayoría de los **enrutadores (routers)**, ya sean para uso doméstico, pequeñas oficinas o entornos empresariales.
 
+![dhcp](../../../assets/ut5/53a-dhcp.png)
+
 :::tip[5.3.1. Protocolo de configuración dinámica de host (DHCP)]
 [DHCP - PowerCert Animated Videos](https://www.youtube.com/watch?v=e6-TaH5bkjo)
 :::
