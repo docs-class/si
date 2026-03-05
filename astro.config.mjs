@@ -186,10 +186,8 @@ export default defineConfig({
 
                 ],
             },
-
-
             //UT5
-            {
+ /*            {
                 label: "UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN",
                 // badge: { text: '25-NOV', variant: 'success' },
                 // Collapsa el grupo de forma predeterminada.
@@ -216,7 +214,7 @@ export default defineConfig({
                             'ut5/ut53a-dhcp',
                             'ut5/ut53b-dns',
                         ],
-                    },  
+                    },
                     {
                         label: '5.4. Subnetting & ssh',
                         items: [
@@ -228,27 +226,27 @@ export default defineConfig({
                 ],
             },
             //UT6
-            /*                 {
-                                 label: "UT6 - GESTIÓN DE RECURSOS EN RED",
-                                 // badge: { text: '25-NOV', variant: 'success' },
-                                 // Collapsa el grupo de forma predeterminada.
-                                 items: [
-                                     'ut6/ut61-introduction',
-                                     'ut6/ut61-directory-service',
-                                     'ut6/ut61-structure',
-                                     'ut6/ut61-proxmox',
-                                 ],
-                             },
-                             //UT7
-                             {
-                                 label: "UT7 - APLICACIONES INFORMÁTICAS",
-                                 // badge: { text: '25-NOV', variant: 'success' },
-                 
-                                 // Collapsa el grupo de forma predeterminada.
-                                 items: [
-                                     'ut7/ut71-introduction',
-                                 ],
-                             },  */
+            {
+                label: "UT6 - GESTIÓN DE RECURSOS EN RED",
+                // badge: { text: '25-NOV', variant: 'success' },
+                // Collapsa el grupo de forma predeterminada.
+                items: [
+                    'ut6/ut61-introduction',
+                    'ut6/ut61-directory-service',
+                    'ut6/ut61-structure',
+                    'ut6/ut61-proxmox',
+                ],
+            },
+            //UT7
+            {
+                label: "UT7 - APLICACIONES INFORMÁTICAS",
+                // badge: { text: '25-NOV', variant: 'success' },
+
+                // Collapsa el grupo de forma predeterminada.
+                items: [
+                    'ut7/ut71-introduction',
+                ],
+            }, */
         ],
     })],
 });

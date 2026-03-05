@@ -1,8 +1,8 @@
 {
   "name": "si",
   "type": "module",
-  "version": "2.26.2.27",
-  "description": "año de uso de documentación, año actual, mes, día",
+  "version": "2.26.3",
+  "description": "año de uso de documentación, año actual, mes",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
