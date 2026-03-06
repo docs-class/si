@@ -27,7 +27,7 @@ Las direcciones privadas se dividen en tres rangos o clases según el tamaño de
 *   **Clase C:** Comienza con **192.168**; es el rango más popular y el que se encuentra comúnmente en hogares y pequeñas empresas.
 
 ### Identificación y Seguridad
-Para conocer la dirección IP privada en Windows se utiliza el comando `ipconfig`, mientras que en Mac o Linux se emplea `ifconfig`. Para conocer la dirección pública, es necesario acceder a sitios web externos como *whatsmyipaddress.com*. En términos de seguridad, las IP privadas son intrínsecamente más seguras al estar ocultas del tráfico externo de Internet, aunque al navegar, la IP pública sigue quedando expuesta, por lo que se recomienda el uso de herramientas de privacidad adicionales.
+Para conocer la dirección IP privada en Windows se utiliza el comando `ipconfig`, mientras que en Mac o Linux se emplea `ifconfig`. En Linux se recomienda usar el comando ip (por ejemplo, `ip addr show`; ifconfig puede no estar instalado por defecto). Para conocer la dirección pública, es necesario acceder a sitios web externos como *whatsmyipaddress.com*. En términos de seguridad, las IP privadas son intrínsecamente más seguras al estar ocultas del tráfico externo de Internet, aunque al navegar, la IP pública sigue quedando expuesta, por lo que se recomienda el uso de herramientas de privacidad adicionales.
 
 :::tip[5.2.3. Public & Private IP]
 [Public & private IP](https://www.youtube.com/watch?v=po8ZFG0Xc4Q)

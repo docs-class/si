@@ -20,3 +20,5 @@ description: "Protocolo SSH"
   - El **tunneling** es una técnica utilizada para conectar con un servidor remoto mediante SSH usando diferentes puertos de conexión.  
   - Su objetivo habitual es **evitar** sistemas de seguridad basados en puertos.  
   - En este caso hablaremos de **local port forwarding**.  
+
+![SSH](../../../assets/ut5/54a-ssh.png)
