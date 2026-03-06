@@ -43,7 +43,7 @@ bin:*:19993:0:99999:7:::
 sys:*:19993:0:99999:7:::
 ...
 polkitd:!*:19993::::::
-profesor:$y$j9T$TpmOAfr8WB8605QUHuH.1/$dtMUrLIFbC.ft1eYR8hhxAgFNSb.brMXOFxMCXecrqY2:20034:0:99999:7:::
+profesor:$y$j9T$TpmOAfr8WB8605QUHuH.1/$dtMUrLCXecrqY2:20034:0:99999:7:::
 ```
 #### Campos del archivo /etc/shadow
 1. **Nombre de usuario**: El nombre de la cuenta de usuario.
