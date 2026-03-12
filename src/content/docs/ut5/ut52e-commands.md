@@ -97,18 +97,6 @@ netstat -an         # todas las conexiones con IPs numéricas
 netstat -b          # (Windows, requiere admin) muestra el proceso asociado
 netstat -tulnp      # (Linux) puertos TCP/UDP en escucha con proceso
 ```
-
-## 8. Resumen de comandos
-
-| Comando | Sistema | Función principal |
-|---------|---------|-------------------|
-| `ipconfig` / `ip addr` | Win / Linux | Ver configuración IP del adaptador |
-| `ping` | Ambos | Comprobar conectividad y latencia |
-| `tracert` / `traceroute` | Win / Linux | Ver la ruta hasta el destino |
-| `nslookup` | Ambos | Probar resolución de nombres DNS |
-| `arp -a` | Ambos | Ver tabla ARP (IP ↔ MAC) |
-| `netstat -an` | Ambos | Ver conexiones activas y puertos |
-
 :::tip[Flujo de diagnóstico recomendado]
 1. `ipconfig` → ¿tengo IP correcta?
 2. `ping 192.168.1.1` → ¿llego al gateway?
