@@ -187,7 +187,7 @@ export default defineConfig({
                 ],
             },
             //UT5
- /*            {
+             {
                 label: "UT5 - SISTEMAS INFORMÁTICOS EN RED. CONFIGURACIÓN Y EXPLOTACIÓN",
                 // badge: { text: '25-NOV', variant: 'success' },
                 // Collapsa el grupo de forma predeterminada.
@@ -226,7 +226,7 @@ export default defineConfig({
                 ],
             },
             //UT6
-            {
+ /*           {
                 label: "UT6 - GESTIÓN DE RECURSOS EN RED",
                 // badge: { text: '25-NOV', variant: 'success' },
                 // Collapsa el grupo de forma predeterminada.
