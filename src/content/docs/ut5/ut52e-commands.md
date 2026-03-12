@@ -65,6 +65,17 @@ traceroute google.com   # Linux
 
 Cada línea corresponde a un router intermediario con su IP y latencia. Un `* * *` indica que ese router no responde a sondas ICMP (no significa necesariamente un fallo).
 
+:::note[¿Qué son las sondas ICMP?]
+**ICMP (Internet Control Message Protocol)** es un protocolo auxiliar de la red que se usa para enviar mensajes de control y diagnóstico, no datos de usuario.
+
+`tracert` funciona enviando paquetes ICMP especiales con un **TTL (Time To Live)** que va aumentando de 1 en 1. Cada router que recibe un paquete con TTL=0 lo descarta y devuelve un mensaje ICMP de respuesta — así `tracert` sabe la IP y latencia de cada salto.
+
+Cuando un router tiene configurado un firewall que **bloquea o ignora** esos mensajes ICMP, no responde y aparecen los `* * *`. El paquete sigue circulando hacia el destino, pero ese router intermediario queda invisible para el diagnóstico.
+
+`ping` también usa ICMP: envía un *Echo Request* y espera un *Echo Reply*.
+:::
+
+
 ## 5. `nslookup` — Resolución DNS
 
 Consulta el servidor DNS para traducir un nombre a IP, o viceversa.
