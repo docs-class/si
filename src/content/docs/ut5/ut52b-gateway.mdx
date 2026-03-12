@@ -28,7 +28,7 @@ Para determinar si un destino es local o externo, el dispositivo utiliza la **di
     *   Si los octetos de red coinciden (ej. ambos empiezan con 192.168.0), están en la **misma red**.
     *   Si los octetos de red son diferentes, el equipo detecta que el destino está en una **red diferente**.
 
-#### Ejemplo visual
+#### Ejemplo
 
 Supón que tu equipo tiene la IP `192.168.1.10` con máscara `255.255.255.0` (`/24`). La porción de red es `192.168.1`.
 
@@ -56,7 +56,7 @@ red_local: Red local (192.168.1.0/24) {
   impresora: Impresora\n192.168.1.50
   portatil: Portátil\n192.168.1.20
   
-  switch: Switch\n192.168.1.x {
+  switch: Switch {
     shape: rectangle
   }
   
