@@ -7,6 +7,8 @@ tableOfContents:
   maxHeadingLevel: 4
 ---
 
+import { Steps } from '@astrojs/starlight/components';
+
 ## 1. ¿Qué es una Puerta de Enlace Predeterminada?
 En términos sencillos, es un dispositivo que **reenvía datos de una red a otra**. Actúa como el punto de acceso o "puerta de salida" para que los dispositivos de una red local puedan comunicarse con dispositivos en redes externas, como Internet.
 
@@ -81,7 +83,37 @@ El protocolo **ARP (Address Resolution Protocol)** es fundamental en este proces
 *   **Si el destino es local:** La computadora envía una transmisión ARP solicitando la **dirección MAC** del equipo de destino para hablar directamente con él.
 *   **Si el destino es externo:** La computadora no pide la MAC del equipo remoto (ya que las transmisiones ARP no pueden atravesar un enrutador), sino que solicita la **dirección MAC de la puerta de enlace predeterminada**.
 *   **Entrega:** Una vez obtenida la dirección MAC del router, el equipo le envía los datos a él, y el router se encarga de retransmitirlos hacia la red de destino.
-*   
+
+#### Ejemplo de petición ARP
+
+Supón que el PC (`192.168.1.10`) quiere comunicarse con la impresora (`192.168.1.50`). No conoce su dirección MAC, así que lanza una petición ARP en broadcast:
+
+<Steps>
+
+1. **ARP Request** — el PC pregunta a toda la red:
+   ```
+   ¿Quién tiene la IP 192.168.1.50? Contacte con 192.168.1.10
+   Origen:  IP 192.168.1.10  |  MAC aa:bb:cc:11:22:33
+   Destino: IP 192.168.1.50  |  MAC ff:ff:ff:ff:ff:ff  ← broadcast
+   ```
+
+2. **ARP Reply** — solo la impresora responde, en unicast:
+   ```
+   192.168.1.50 está en MAC dd:ee:ff:44:55:66
+   Origen:  IP 192.168.1.50  |  MAC dd:ee:ff:44:55:66
+   Destino: IP 192.168.1.10  |  MAC aa:bb:cc:11:22:33
+   ```
+
+3. El PC guarda la entrada en su **tabla ARP** (caché) para no repetir la solicitud:
+   ```
+   192.168.1.50  →  dd:ee:ff:44:55:66
+   ```
+
+</Steps>
+
+:::note[Destino externo]
+Si el PC quiere llegar a `93.184.216.34` (externo), el paso 1 cambia: en lugar de pedir la MAC de `93.184.216.34`, pregunta por la MAC del **router** (`192.168.1.1`), ya que es el que debe reenviar el tráfico fuera de la red local.
+:::
 ![gateway](../../../assets/ut5/52b-gateway.png)
   
 :::tip[5.2.2. Puerta de enlace predeterminada - Default gateway]
