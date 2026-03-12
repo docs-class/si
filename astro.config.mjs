@@ -218,7 +218,7 @@ export default defineConfig({
                     {
                         label: '5.4. Subnetting & ssh',
                         items: [
-                         //   'ut5/ut54a-subnetting',
+                            'ut5/ut54a-subnetting',
                             'ut5/ut54b-ssh',
                         ],
                     },

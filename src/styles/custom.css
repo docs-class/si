@@ -20,3 +20,8 @@ p:has(img) {
   /* align-items: center; This is an optional but very useful property to vertically center the image and text */
   justify-content: center;
 }
+
+.d2-gateway-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
