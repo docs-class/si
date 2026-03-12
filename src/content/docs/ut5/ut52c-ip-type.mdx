@@ -1,0 +1,83 @@
+---
+title: "Ip Pública y Privada"
+description: "Ip Pública y Privada"
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 4
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+### Definición de Dirección IP
+- **Identificador numérico** asignado a cada dispositivo en una red para permitir la comunicación.
+- En **IPv4** existen dos tipos principales: **pública** y **privada**, con funciones distintas.
+
+### Direcciones IP Públicas
+- Asignadas por el **ISP** (Proveedor de Servicios de Internet) al router o módem.
+- **Únicas a nivel mundial**: no existen duplicados.
+- Registradas oficialmente en Internet — necesarias para acceder a la web.
+- Son rastreables externamente, por lo que se consideran menos seguras.
+
+### Direcciones IP Privadas
+- Surgieron para paliar la **escasez de direcciones IPv4** (solo ~4.300 millones).
+- **No se registran en Internet**: solo tienen validez dentro de la red local.
+- Asignadas automáticamente por el **DHCP** del router — son gratuitas. También pueden configurarse manualmente.
+- **No son únicas globalmente**: la misma IP privada puede coexistir en millones de redes distintas.
+
+### El Rol de NAT (Traducción de Direcciones de Red)
+- Las IP privadas no pueden salir directamente a Internet: el **router** usa **NAT** como intermediario.
+- NAT **traduce** la IP privada del dispositivo a la IP pública al enviar datos al exterior.
+- Al recibir la respuesta, realiza el proceso inverso y la entrega al dispositivo correcto de la red local.
+
+![NAT](../../../assets/ut5/52c-nat.png)
+
+#### Ejemplo de NAT en acción
+
+Supón que tienes en casa tres dispositivos conectados al router:
+
+| Dispositivo | IP privada | Puerto origen |
+|-------------|-----------|--------------|
+| PC | `192.168.1.10` | 51000 |
+| Móvil | `192.168.1.11` | 51001 |
+| Tablet | `192.168.1.12` | 51002 |
+
+El router tiene asignada la IP pública `83.45.12.200` por el ISP.
+
+<Steps>
+
+1. **El PC solicita `google.com`** — genera un paquete con IP origen `192.168.1.10:51000` e IP destino `google.com`.
+
+2. **El router aplica NAT (salida)** — sustituye la IP privada por la pública antes de enviar el paquete a Internet:
+   ```
+   192.168.1.10:51000  ──NAT──▶  83.45.12.200:51000  ──▶  google.com
+   ```
+   El router guarda esta traducción en su **tabla NAT**.
+
+3. **Google responde** — envía la respuesta a la IP pública `83.45.12.200:51000`.
+
+4. **El router aplica NAT (entrada)** — consulta su tabla NAT y reenvía la respuesta al dispositivo correcto:
+   ```
+   83.45.12.200:51000  ──NAT──▶  192.168.1.10:51000
+   ```
+
+</Steps>
+
+Desde fuera de la red, los tres dispositivos son **indistinguibles**: todos aparecen con la misma IP pública.
+
+### Clasificación de las IP Privadas
+
+| Clase | Rango | Uso típico |
+|-------|-------|------------|
+| **A** | `10.0.0.0` – `10.255.255.255` | Grandes organizaciones |
+| **B** | `172.16.0.0` – `172.31.255.255` | Organizaciones medianas |
+| **C** | `192.168.0.0` – `192.168.255.255` | Hogares y pequeñas empresas |
+
+### Identificación y Seguridad
+- **IP privada**: `ipconfig` (Windows) · `ip addr show` (Linux)
+- **IP pública**: consultarla en sitios externos como *whatsmyipaddress.com*
+- Las IP privadas son más seguras al estar ocultas del tráfico externo.
+- Al navegar, la **IP pública queda expuesta** — se recomienda VPN para mayor privacidad.
+
+:::tip[5.2.3. Public & Private IP]
+[Public & private IP](https://www.youtube.com/watch?v=po8ZFG0Xc4Q)
+:::
