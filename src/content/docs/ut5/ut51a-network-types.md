@@ -21,6 +21,37 @@ En su forma más básica, una **red** consiste en computadoras conectadas entre 
 
 ![Network dimension](../../../assets/ut5/51a-network_dimension_300x310.png)
 
+## 2. Redes de área local cableadas
+
+Una **LAN cableada** conecta los dispositivos de un mismo espacio físico mediante cables de red. Es la opción más habitual en entornos profesionales por su estabilidad y velocidad.
+
+### Tipos de cable
+
+| Tipo | Velocidad máx. | Distancia máx. | Uso habitual |
+|------|---------------|---------------|-------------|
+| **Cat 5e** | 1 Gbps | 100 m | Instalaciones domésticas o de bajo coste |
+| **Cat 6** | 10 Gbps | 55 m (a 10G) / 100 m (a 1G) | Oficinas y centros de datos |
+| **Cat 6A** | 10 Gbps | 100 m | Infraestructuras empresariales |
+| **Fibra óptica** | 100 Gbps+ | Km (depende del tipo) | Conexión entre edificios o CPDs |
+
+El conector estándar para cable de cobre es el **RJ-45**. Existen dos estándares de crimpado: **T-568A** y **T-568B**; en una misma instalación hay que usar siempre el mismo.
+
+### Topología en estrella
+
+La topología dominante en redes locales modernas es la **estrella**: todos los equipos se conectan a un **switch** central.
+
+```
+   PC-A ──┐
+   PC-B ──┤── [Switch] ── [Router] ── Internet
+   PC-C ──┘
+```
+
+El switch trabaja en **capa 2** (MAC) y reenvía las tramas solo al puerto destino, evitando colisiones y mejorando el rendimiento respecto al hub.
+
+:::tip[5.1 Redes cableadas]
+[Network Cables - PowerCert Animated Videos](https://www.youtube.com/watch?v=_NX99ad2FUA)
+:::
+
 ## 3. Subredes (Subnetting)
 Una **subred** es simplemente una división de una red más grande. Una empresa puede decidir dividir su única LAN en redes más pequeñas para separar, por ejemplo, los datos del departamento de ventas de los del departamento de servicio.
 

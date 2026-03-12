@@ -197,6 +197,7 @@ export default defineConfig({
                         items: [
                             'ut5/ut51',
                             'ut5/ut51a-network-types',
+                            'ut5/ut51b-wireless',
                         ],
                     },
                     {
@@ -206,6 +207,7 @@ export default defineConfig({
                             'ut5/ut52b-gateway',
                             'ut5/ut52c-ip-type',
                             'ut5/ut52d-ports',
+                            'ut5/ut52e-commands',
                         ],
                     },
                     {
